@@ -1,0 +1,28 @@
+# 实体重要性分析报告
+# 格式: 实体|重要性|置信度|分层|分流|因果|唯一|转折|storyScore|storyValue|呈现价值|提及|章节
+# 分层: core=核心 / supporting=支撑 / candidate=候选 / archived=归档
+# 分流: main=主表 / staging=暂存区 / archive=归档
+# Importance = 0.7 × storyValue + 0.3 × productionValue
+# storyValue: 三支柱 storyScore(0-6) 查表/归一化后的故事评分
+# 置信度: 基于出现次数、位置特征、分布广度、语义段落、基础统计量
+# 三支柱: 因果必要性(行为驱动+不可替代) + 信息唯一性(语义相似度反向) + 状态转折性(情感+关系+转折词)
+
+=== CHARACTER (0条) ===
+实体|重要性|置信度|分层|分流|因果|唯一|转折|storyScore|storyValue|呈现价值|提及|章节
+[分层统计] core=0 supporting=0 candidate=0 archived=0
+[分流统计] main=0 staging=0 archive=0
+
+=== LOCATION (0条) ===
+实体|重要性|置信度|分层|分流|因果|唯一|转折|storyScore|storyValue|呈现价值|提及|章节
+[分层统计] core=0 supporting=0 candidate=0 archived=0
+[分流统计] main=0 staging=0 archive=0
+
+=== ITEM (0条) ===
+实体|重要性|置信度|分层|分流|因果|唯一|转折|storyScore|storyValue|呈现价值|提及|章节
+[分层统计] core=0 supporting=0 candidate=0 archived=0
+[分流统计] main=0 staging=0 archive=0
+
+=== EVENT (0条) ===
+实体|重要性|置信度|分层|分流|因果|唯一|转折|storyScore|storyValue|呈现价值|提及|章节
+[分层统计] core=0 supporting=0 candidate=0 archived=0
+[分流统计] main=0 staging=0 archive=0

@@ -1,0 +1,224 @@
+[
+  {
+    "name": "3212星",
+    "fields": {
+      "time": "",
+      "layout": "",
+      "lighting": "",
+      "atmosphere": "",
+      "environment": "",
+      "actionContext": ""
+    },
+    "aliases": [
+      "无名星"
+    ],
+    "confidence": 0,
+    "entityType": "location",
+    "needsReview": true,
+    "missingFields": [
+      "environment",
+      "layout",
+      "atmosphere",
+      "lighting",
+      "time",
+      "actionContext"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "3212预备学校",
+    "fields": {
+      "time": "",
+      "layout": "",
+      "lighting": "",
+      "atmosphere": "",
+      "environment": "",
+      "actionContext": ""
+    },
+    "aliases": [
+      "3212学校"
+    ],
+    "confidence": 0,
+    "entityType": "location",
+    "needsReview": true,
+    "missingFields": [
+      "environment",
+      "layout",
+      "atmosphere",
+      "lighting",
+      "time",
+      "actionContext"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "达摩克利斯学院",
+    "fields": {
+      "time": "",
+      "layout": "",
+      "lighting": "",
+      "atmosphere": "",
+      "environment": "",
+      "actionContext": ""
+    },
+    "aliases": [
+      "达摩克利斯军事学院"
+    ],
+    "confidence": 0,
+    "entityType": "location",
+    "needsReview": true,
+    "missingFields": [
+      "environment",
+      "layout",
+      "atmosphere",
+      "lighting",
+      "time",
+      "actionContext"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "垃圾场",
+    "fields": {
+      "time": "",
+      "layout": "",
+      "lighting": "",
+      "atmosphere": "",
+      "environment": "",
+      "actionContext": ""
+    },
+    "aliases": [
+      "垃圾区"
+    ],
+    "confidence": 0,
+    "entityType": "location",
+    "needsReview": true,
+    "missingFields": [
+      "environment",
+      "layout",
+      "atmosphere",
+      "lighting",
+      "time",
+      "actionContext"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "交易市场",
+    "fields": {
+      "time": "",
+      "layout": "",
+      "lighting": "",
+      "atmosphere": "",
+      "environment": "",
+      "actionContext": ""
+    },
+    "aliases": [
+      "集市"
+    ],
+    "confidence": 0,
+    "entityType": "location",
+    "needsReview": true,
+    "missingFields": [
+      "environment",
+      "layout",
+      "atmosphere",
+      "lighting",
+      "time",
+      "actionContext"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "平海学院",
+    "fields": {
+      "time": "",
+      "layout": "",
+      "lighting": "",
+      "atmosphere": "",
+      "environment": "",
+      "actionContext": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "location",
+    "needsReview": true,
+    "missingFields": [
+      "environment",
+      "layout",
+      "atmosphere",
+      "lighting",
+      "time",
+      "actionContext"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "地下黑场",
+    "fields": {
+      "time": "",
+      "layout": "",
+      "lighting": "",
+      "atmosphere": "",
+      "environment": "",
+      "actionContext": ""
+    },
+    "aliases": [
+      "地下机甲格斗场"
+    ],
+    "confidence": 0,
+    "entityType": "location",
+    "needsReview": true,
+    "missingFields": [
+      "environment",
+      "layout",
+      "atmosphere",
+      "lighting",
+      "time",
+      "actionContext"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "帝国军事学院",
+    "fields": {
+      "time": "",
+      "layout": "",
+      "lighting": "",
+      "atmosphere": "",
+      "environment": "",
+      "actionContext": ""
+    },
+    "aliases": [
+      "帝都军事学院"
+    ],
+    "confidence": 0,
+    "entityType": "location",
+    "needsReview": true,
+    "missingFields": [
+      "environment",
+      "layout",
+      "atmosphere",
+      "lighting",
+      "time",
+      "actionContext"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  }
+]

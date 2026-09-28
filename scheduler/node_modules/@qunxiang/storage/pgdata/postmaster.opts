@@ -1,0 +1,1 @@
+D:/YH/QunXiangTest/node_modules/.pnpm/@embedded-postgres+windows-x64@18.4.0-beta.17/node_modules/@embedded-postgres/windows-x64/native/bin/postgres.exe "-D" "D:\YH\QunXiangTest\storage\pgdata" "-p" "5432"

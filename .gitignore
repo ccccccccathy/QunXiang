@@ -1,98 +1,51 @@
-# Dependencies
-node_modules/
-.pnpm/
+# ============================================================
+# 测试 fork 专用 .gitignore
+# 目的：把测试进度与缓存数据全部入库上传（node_modules、
+# storage/objects、api/output、pgdata、日志等不再忽略）。
+#
+# 以下条目永久保留排除 —— 涉及密钥与安全，绝不入库：
+#   - 所有 .env 文件（含 JWT_SECRET / KEY_VAULTS_SECRET / 数据库密码）
+#   - 所有 *.encrypted（网页保存的模型 API Key 密文，
+#     与 .env 中的 KEY_VAULTS_SECRET 配对即可解出明文 Key）
+# ============================================================
 
-# Build outputs
-dist/
-build/
-*.tsbuildinfo
-
-# 不要把各包 src 下的 tsc 编译产物提交进来
-# （各包 main 指向 src 源码、走 tsx 即时编译，无需 .js/.d.ts/.map）
-**/src/**/*.js
-**/src/**/*.d.ts
-**/src/**/*.js.map
-**/src/**/*.d.ts.map
-
-# Logs
-*.log
-pnpm-debug.log*
-logs/
-
-# Database
-*.db
-*.db-journal
-*.db-shm
-*.db-wal
-prisma/dev.db
-prisma/dev.db-journal
-prisma/prisma/
-*.db.bak*
-
-# Environment files
+# ── 安全红线（不可上传）──
 .env
 .env.local
 .env.*.local
 .env.docker
+.env.production
 api.env
 !.env.example
-
-# Deployment secrets
 .db-password
-
-# Encrypted config (contains API keys)
 .qunxiang-config.encrypted
 .qunxiang-image-config.encrypted
-# 兼容旧版本地配置，禁止误提交。
 .novel-agent-config.encrypted
 .novel-agent-image-config.encrypted
 
-# Claude Code
+# ── 工具元数据（与测试数据无关）──
 .claude/
 .codebuddy/
 .omc/
 .worktrees/
-
-# Other AI/tool metadata (auto-generated, not project content)
 .qoder/
 .workbuddy/
-
-# IDE
 .idea/
 .vscode/
 .obsidian/
+.zcode/
 
-# OS
+# ── 系统垃圾文件 ──
 .DS_Store
 Thumbs.db
 
-# Test/Debug files
-test_*.bat
-test_*.mjs
-startup_log*.txt
-test_results.txt
-test/*
-# vitest 全局测试库防护需入库（根 vitest.config.ts setupFiles 引用）
-!test/ensure-test-db.ts
+# ── pnpm 工作区软链回环（不可上传）──
+# Windows 下 node_modules/@qunxiang/* 是指向各工作区包的 junction，
+# 其内部的 node_modules 又会链接回其他 @qunxiang 包，形成无限循环，
+# git 无法遍历（路径超长）。排除链接包内部的 node_modules 即可切断回环；
+# 链接包自身的文件仍可正常入库一份。
+**/node_modules/@qunxiang/*/node_modules/
 
-# Uploads and runtime data
-storage/uploads/
-storage/objects/
-storage/pgdata/
-storage/dispatcher.log
-
-# Pipeline run output (contains verbatim excerpts of source novels — never commit)
-output/
-
-# Intermediate prescan output (backend-only, not user-facing)
-.intermediate/
-
-
-# IDE session files
-.zcode/
-# 本地验证临时产物（嵌入式测试库、EXPLAIN 造数脚本等）
-.tmp-*
-
-.mimosa/
-
-scripts/_tmp-*
+# pnpm 内部回退链接目录，其中大量链接已失效（指向不存在的目标），
+# git 无法打开，且无实际数据价值
+**/node_modules/.pnpm/node_modules/

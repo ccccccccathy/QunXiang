@@ -1,0 +1,3650 @@
+[
+  {
+    "name": "破云翅改造图纸",
+    "tier": "candidate",
+    "fields": {
+      "usage": "把画满的图纸卷好递给店主（第22章）；店主把图纸递给卫三（第24章）；他那天去进货才打开卫三的图纸（第24章）",
+      "material": "把画满的图纸卷好递给店主（第22章）；卫三将图纸放在店主能看到的地方（第22章）；而是捧着她的图纸（第24章）；店主把图纸递给卫三（第24章）；他那天去进货才打开卫三的图纸（第24章）；她指着旁边堆着的好几卷图纸：“老板你也可以改（第24章）；图纸卖给你（第24章）；一手把图纸收起来（第24章）；卫三从图纸抬头：“嗯（第32章）；收拾图纸（第38章）；卫三抱着图纸起身（第38章）; 把画满的图纸卷好递给店主（第22章）；卫三将图纸放在店主能看到的地方（第22章）；而是捧着她的图纸（第24章）；店主把图纸递给卫三（第24章）；设计图纸这种东西不要随便给人（第24章）；他那天去进货才打开卫三的图纸（第24章）；她指着旁边堆着的好几卷图纸：“老板你也可以改（第24章）；图纸卖给你（第24章）；一手把图纸收起来（第24章）；卫三靠着设计图纸赚回来一点钱（第24章）；卫三从图纸抬头：“嗯（第32章）；收拾图纸（第38章）；卫三抱着图纸起身（第38章）",
+      "condition": "",
+      "ownership": "把画满的图纸卷好递给店主（第22章）；店主把图纸递给卫三（第24章）",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [
+      "图纸",
+      "设计图纸"
+    ],
+    "confidence": 0.65,
+    "entityType": "item",
+    "needsReview": true,
+    "visualFields": {
+      "usage": "卷成卷收纳，也可展开平铺查看标注（第22章）",
+      "material": "纸质，可卷起，表面画满设计图和文字（第22章）",
+      "condition": "纸质完整，可反复卷起展开",
+      "ownership": "图纸为卫三设计（第22章）；店主曾持于手中查看（第24章）",
+      "colorShape": "多张长方形纸面，卷成筒状或展开",
+      "visualEffects": ""
+    },
+    "llmSupplement": "浅色纸面，长方形大幅面，无明显破损，无特殊光效",
+    "missingFields": [
+      "colorShape",
+      "condition",
+      "visualEffects"
+    ],
+    "visualDetails": {
+      "scale": "可单人或双臂环抱成卷，幅面较大",
+      "usage": "展开平铺查看设计尺寸，或卷起收纳",
+      "effects": "无特殊光效",
+      "condition": "完整无破损",
+      "ownership": "卫三设计，交由店主查看",
+      "colorShape": "浅色纸面，长方形纸张，可卷成筒状",
+      "materialTexture": "纸质，表面覆满手绘线条与文字"
+    },
+    "inferredFields": [
+      "colorShape",
+      "condition"
+    ],
+    "sourceCoverage": "strong",
+    "importanceScore": 0.456,
+    "completionStatus": "llm_completed",
+    "evidenceSnippets": [
+      {
+        "text": "”凌晨四点半卫三从工作间出来，把画满的图纸卷好递给店主，“还有一些新增加的零件，也写在上面。",
+        "fields": [
+          "material",
+          "usage",
+          "ownership"
+        ],
+        "chapterIndex": 22,
+        "chapterTitle": "第22章",
+        "matchedNames": [
+          "图纸"
+        ]
+      },
+      {
+        "text": "卫三将图纸放在店主能看到的地方，转身离开黑厂。",
+        "fields": [
+          "material"
+        ],
+        "chapterIndex": 22,
+        "chapterTitle": "第22章",
+        "matchedNames": [
+          "图纸"
+        ]
+      },
+      {
+        "text": "这次卫三照样绕了一大圈才去黑厂, 店主今天没吃面, 而是捧着她的图纸, 站在店门口等她。",
+        "fields": [
+          "material"
+        ],
+        "chapterIndex": 24,
+        "chapterTitle": "第24章",
+        "matchedNames": [
+          "图纸"
+        ]
+      },
+      {
+        "text": "”店主把图纸递给卫三, 犹豫后提醒，“设计图纸这种东西不要随便给人。",
+        "fields": [
+          "material",
+          "usage",
+          "ownership"
+        ],
+        "chapterIndex": 24,
+        "chapterTitle": "第24章",
+        "matchedNames": [
+          "图纸"
+        ],
+        "otherMatchedNames": [
+          "设计图纸"
+        ]
+      },
+      {
+        "text": "他那天去进货才打开卫三的图纸，结果发现上面不光有羽片的模型大小，还有其他的设计。",
+        "fields": [
+          "material",
+          "usage"
+        ],
+        "chapterIndex": 24,
+        "chapterTitle": "第24章",
+        "matchedNames": [
+          "图纸"
+        ]
+      },
+      {
+        "text": "卫三心中安慰自己好歹过了一把改造机甲的手瘾，她指着旁边堆着的好几卷图纸：“老板你也可以改，图纸卖给你，五十万星币怎么样？",
+        "fields": [
+          "material"
+        ],
+        "chapterIndex": 24,
+        "chapterTitle": "第24章",
+        "matchedNames": [
+          "图纸"
+        ],
+        "otherMatchedNames": [
+          "改造机甲",
+          "机甲"
+        ]
+      },
+      {
+        "text": "”店主刷钱给她，一手把图纸收起来，这个人可能不愿意暴露自己的身份。",
+        "fields": [
+          "material"
+        ],
+        "chapterIndex": 24,
+        "chapterTitle": "第24章",
+        "matchedNames": [
+          "图纸"
+        ]
+      },
+      {
+        "text": "卫三从图纸抬头：“嗯。",
+        "fields": [
+          "material"
+        ],
+        "chapterIndex": 32,
+        "chapterTitle": "第32章",
+        "matchedNames": [
+          "图纸"
+        ]
+      },
+      {
+        "text": "”卫三蹲在地上，收拾图纸，“要把价钱控制在合理范围内，还不能减少机甲攻击力，我做起来一直很难。",
+        "fields": [
+          "material"
+        ],
+        "chapterIndex": 38,
+        "chapterTitle": "第38章",
+        "matchedNames": [
+          "图纸"
+        ],
+        "otherMatchedNames": [
+          "机甲"
+        ]
+      },
+      {
+        "text": "”卫三抱着图纸起身，“老板你问这个干什么？",
+        "fields": [
+          "material"
+        ],
+        "chapterIndex": 38,
+        "chapterTitle": "第38章",
+        "matchedNames": [
+          "图纸"
+        ]
+      },
+      {
+        "text": "”店主把图纸递给卫三, 犹豫后提醒，“设计图纸这种东西不要随便给人。",
+        "fields": [
+          "material",
+          "usage",
+          "ownership"
+        ],
+        "chapterIndex": 24,
+        "chapterTitle": "第24章",
+        "matchedNames": [
+          "设计图纸",
+          "图纸"
+        ]
+      },
+      {
+        "text": "卫三靠着设计图纸赚回来一点钱，心理总算平衡一些，晚上睡觉都香了一点。",
+        "fields": [
+          "material"
+        ],
+        "chapterIndex": 24,
+        "chapterTitle": "第24章",
+        "matchedNames": [
+          "设计图纸",
+          "图纸"
+        ]
+      }
+    ],
+    "finalDescription": "一沓或数卷设计图纸，浅色纸面上布满手绘线条与零件尺寸标注。纸张可卷成筒状收纳，摊开后为长方形大幅面。整体素净，无明显色彩或光效，带有工程手稿质感。",
+    "summarizedFields": [
+      "material",
+      "usage",
+      "ownership"
+    ],
+    "descriptionSource": "mixed",
+    "sourceDescription": "把画满的图纸卷好递给店主; 卫三将图纸放在店主能看到的地方; 而是捧着她的图纸; 店主把图纸递给卫三; 他那天去进货才打开卫三的图纸; 她指着旁边堆着的好几卷图纸：“老板你也可以改; 图纸卖给你; 一手把图纸收起来; 卫三从图纸抬头：“嗯; 收拾图纸; 卫三抱着图纸起身; 设计图纸这种东西不要随便给人; 卫三靠着设计图纸赚回来一点钱; 把画满的图纸卷好递给店主（第22章）；卫三将图纸放在店主能看到的地方（第22章）；而是捧着她的图纸（第24章）；店主把图纸递给卫三（第24章）；他那天去进货才打开卫三的图纸（第24章）；她指着旁边堆着的好几卷图纸：“老板你也可以改（第24章）；图纸卖给你（第24章）；一手把图纸收起来（第24章）；卫三从图纸抬头：“嗯（第32章）；收拾图纸（第38章）；卫三抱着图纸起身（第38章）; 把画满的图纸卷好递给店主（第22章）；卫三将图纸放在店主能看到的地方（第22章）；而是捧着她的图纸（第24章）；店主把图纸递给卫三（第24章）；设计图纸这种东西不要随便给人（第24章）；他那天去进货才打开卫三的图纸（第24章）；她指着旁边堆着的好几卷图纸：“老板你也可以改（第24章）；图纸卖给你（第24章）；一手把图纸收起来（第24章）；卫三靠着设计图纸赚回来一点钱（第24章）；卫三从图纸抬头：“嗯（第32章）；收拾图纸（第38章）；卫三抱着图纸起身（第38章）; 把画满的图纸卷好递给店主（第22章）；店主把图纸递给卫三（第24章）；他那天去进货才打开卫三的图纸（第24章）; 把画满的图纸卷好递给店主（第22章）；店主把图纸递给卫三（第24章）",
+    "enhancedDescription": "一沓或数卷设计图纸，浅色纸面上布满手绘线条与零件尺寸标注。纸张可卷成筒状收纳，摊开后为长方形大幅面。整体素净，无明显色彩或光效，带有工程手稿质感。",
+    "supplementDescription": "浅色纸面，长方形大幅面，无明显破损，无特殊光效"
+  },
+  {
+    "name": "三轮车",
+    "tier": "supporting",
+    "fields": {
+      "usage": "",
+      "material": "这一个月卫三用收集起来的垃圾废铁做了一辆三轮车（第1章）；他一眼就看出这车是用各种零碎金属拼接出来的（第2章）",
+      "condition": "她把破旧大袋子放在后面（第1章）",
+      "ownership": "背后突然有个小孩声音响起（第2章）",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [
+      "破三轮"
+    ],
+    "confidence": 0.57,
+    "entityType": "item",
+    "needsReview": true,
+    "visualFields": {
+      "usage": "骑行代步，后部载物",
+      "material": "这一个月卫三用收集起来的垃圾废铁做了一辆三轮车（第1章）；他一眼就看出这车是用各种零碎金属拼接出来的（第2章）",
+      "condition": "她把破旧大袋子放在后面（第1章）",
+      "ownership": "卫三自制并使用（第1章）",
+      "colorShape": "三轮结构，金属外露，颜色杂驳",
+      "visualEffects": ""
+    },
+    "llmSupplement": "车身灰暗杂色，金属外露，无特殊光效",
+    "missingFields": [
+      "colorShape",
+      "usage",
+      "visualEffects"
+    ],
+    "visualDetails": {
+      "scale": "一人骑乘大小，车后带载物空间",
+      "effects": "无特殊光效",
+      "condition": "旧金属拼接，简陋陈旧",
+      "ownership": "卫三自制并使用",
+      "colorShape": "三轮车形，颜色灰暗杂驳",
+      "materialTexture": "废铁与零碎金属拼接，焊缝明显"
+    },
+    "inferredFields": [
+      "colorShape",
+      "usage"
+    ],
+    "sourceCoverage": "strong",
+    "importanceScore": 0.425,
+    "completionStatus": "llm_completed",
+    "evidenceSnippets": [
+      {
+        "text": "这一个月卫三用收集起来的垃圾废铁做了一辆三轮车，她把破旧大袋子放在后面，一路哐当骑过去，垃圾飞车凌晨两点准时倾倒，四点过去，是为了躲避成人。",
+        "fields": [
+          "material",
+          "condition"
+        ],
+        "chapterIndex": 1,
+        "chapterTitle": "第1章",
+        "matchedNames": [
+          "三轮车"
+        ],
+        "otherMatchedNames": [
+          "垃圾飞车"
+        ]
+      },
+      {
+        "text": "卫三慢慢溜着三轮车看广告，背后突然有个小孩声音响起，她开始以为不是和自己说话，直到一个白净小胖子挡在她车面前，仰着下巴重新问了一遍。",
+        "fields": [
+          "ownership"
+        ],
+        "chapterIndex": 2,
+        "chapterTitle": "第2章",
+        "matchedNames": [
+          "三轮车"
+        ]
+      },
+      {
+        "text": "小胖子目光落在三轮车的焊接处，他一眼就看出这车是用各种零碎金属拼接出来的，材料很烂，但手艺很好，几乎能称得上艺术。",
+        "fields": [
+          "material"
+        ],
+        "chapterIndex": 2,
+        "chapterTitle": "第2章",
+        "matchedNames": [
+          "三轮车"
+        ]
+      }
+    ],
+    "finalDescription": "灰色杂驳的三轮车由废铁和零碎金属拼焊而成，焊缝清晰，车身陈旧简陋。后面载着破旧大袋子，整体是三轮结构，适合代步与搬运。",
+    "summarizedFields": [
+      "ownership"
+    ],
+    "descriptionSource": "mixed",
+    "sourceDescription": "这一个月卫三用收集起来的垃圾废铁做了一辆三轮车; 他一眼就看出这车是用各种零碎金属拼接出来的; 她把破旧大袋子放在后面; 背后突然有个小孩声音响起; 这一个月卫三用收集起来的垃圾废铁做了一辆三轮车（第1章）；他一眼就看出这车是用各种零碎金属拼接出来的（第2章）; 她把破旧大袋子放在后面（第1章）; 背后突然有个小孩声音响起（第2章）",
+    "enhancedDescription": "灰色杂驳的三轮车由废铁和零碎金属拼焊而成，焊缝清晰，车身陈旧简陋。后面载着破旧大袋子，整体是三轮结构，适合代步与搬运。",
+    "supplementDescription": "车身灰暗杂色，金属外露，无特殊光效"
+  },
+  {
+    "name": "泰吴德的机甲",
+    "tier": "candidate",
+    "fields": {
+      "usage": "",
+      "material": "",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [
+      "检测分解仪"
+    ],
+    "confidence": 0,
+    "entityType": "item",
+    "needsReview": true,
+    "visualFields": {
+      "usage": "观赏展示，或作为检测分解仪测试光脑设计的机甲性能",
+      "material": "合金外壳，关节处有金属游金",
+      "condition": "引擎曾损坏后经改造，外壳较硬，关节有游金",
+      "ownership": "泰吴德家与应成河实验室所用",
+      "colorShape": "大型人形观赏型机甲，无武器挂载",
+      "visualEffects": "无特殊光效"
+    },
+    "llmSupplement": "冷灰合金机甲，无武器挂载，关节游金，无特殊光效",
+    "missingFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "visualDetails": {
+      "scale": "大型机甲或仪器",
+      "effects": "无特殊光效",
+      "condition": "修理改造后无明显破损",
+      "ownership": "泰吴德家与应成河实验室",
+      "colorShape": "人形机体，冷灰色",
+      "materialTexture": "冷硬合金外壳，关节游金"
+    },
+    "inferredFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "none",
+    "importanceScore": 0.381,
+    "completionStatus": "llm_inferred",
+    "evidenceSnippets": [],
+    "finalDescription": "大型机甲机体呈人形或观赏型，冷灰合金外壳，关节处可见游金材质。机体无武器挂载，外表整洁；作为检测分解仪时则呈精密实验室仪器结构，整体冷硬克制，无特殊光效。",
+    "summarizedFields": [],
+    "descriptionSource": "mixed",
+    "sourceDescription": "",
+    "enhancedDescription": "大型机甲机体呈人形或观赏型，冷灰合金外壳，关节处可见游金材质。机体无武器挂载，外表整洁；作为检测分解仪时则呈精密实验室仪器结构，整体冷硬克制，无特殊光效。",
+    "supplementDescription": "冷灰合金机甲，无武器挂载，关节游金，无特殊光效"
+  },
+  {
+    "name": "S级机甲",
+    "tier": "candidate",
+    "fields": {
+      "usage": "",
+      "material": "",
+      "condition": "",
+      "ownership": "卫三刚想再用手中的光刀（第25章）",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [
+      "A级机甲",
+      "光刀",
+      "死神的机甲",
+      "应成河的飞行器"
+    ],
+    "confidence": 0.19,
+    "entityType": "item",
+    "needsReview": true,
+    "visualFields": {
+      "usage": "单兵作战机甲，光刀用于近战；可收纳于随身机甲项链",
+      "material": "高强度合金外壳，光刀为明亮近战刀刃（第25章）",
+      "condition": "部分关节换装S级零件，飞行器前玻璃有碎裂痕迹",
+      "ownership": "卫三刚想再用手中的光刀（第25章）",
+      "colorShape": "多型号大型人形机甲；光刀呈明亮能量光刃（第25章）",
+      "visualEffects": "光刀由灰晶供能时发出明亮光刃"
+    },
+    "llmSupplement": "大型合金机体，光刀明亮，飞行器玻璃碎裂，无额外色彩",
+    "missingFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects"
+    ],
+    "visualDetails": {
+      "scale": "大型单兵机甲",
+      "effects": "光刀发光刃",
+      "condition": "部分飞行器前玻璃碎裂，关节可换S级零件",
+      "ownership": "军方或家族所有，光刀曾被卫三使用",
+      "colorShape": "大型人形机甲，光刀明亮",
+      "materialTexture": "高强度合金，光刀为能量或灰晶刃"
+    },
+    "inferredFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects"
+    ],
+    "sourceCoverage": "partial",
+    "importanceScore": 0.381,
+    "completionStatus": "llm_completed",
+    "evidenceSnippets": [
+      {
+        "text": "卫三刚想再用手中的光刀，结果对方直接两发子弹打过来，目标直指光刀。",
+        "fields": [
+          "ownership"
+        ],
+        "chapterIndex": 25,
+        "chapterTitle": "第25章",
+        "matchedNames": [
+          "光刀"
+        ]
+      }
+    ],
+    "finalDescription": "顶级大型机甲，外壳为高强度合金，整体冷硬。近战武器光刀为明亮能量刀刃，由灰晶供能时可发出光刃。机体可收纳于随身机甲项链，部分为白色或重型机型。飞行器前玻璃有碎裂痕迹，关节处可使用S级零件。",
+    "summarizedFields": [],
+    "descriptionSource": "mixed",
+    "sourceDescription": "卫三刚想再用手中的光刀; 卫三刚想再用手中的光刀（第25章）",
+    "enhancedDescription": "顶级大型机甲，外壳为高强度合金，整体冷硬。近战武器光刀为明亮能量刀刃，由灰晶供能时可发出光刃。机体可收纳于随身机甲项链，部分为白色或重型机型。飞行器前玻璃有碎裂痕迹，关节处可使用S级零件。",
+    "supplementDescription": "大型合金机体，光刀明亮，飞行器玻璃碎裂，无额外色彩"
+  },
+  {
+    "name": "起岸西的轻型机甲",
+    "tier": "candidate",
+    "fields": {
+      "usage": "",
+      "material": "",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [
+      "轻型机甲",
+      "起岸西的机甲",
+      "旧光脑"
+    ],
+    "confidence": 0,
+    "entityType": "item",
+    "needsReview": true,
+    "visualFields": {
+      "usage": "高速机动单兵机甲；改造时平放安装黑弩和破云翅",
+      "material": "黑色金属外壳复合材料",
+      "condition": "机甲改造中平放在操作台上，旧光脑已损坏",
+      "ownership": "归属起岸西；旧光脑为卫三所有",
+      "colorShape": "黑色轻型人形机甲；旧光脑为小型手持设备",
+      "visualEffects": "无特殊光效"
+    },
+    "llmSupplement": "哑光黑色轻型机甲，无特殊光效，旧光脑为小型手持设备",
+    "missingFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "visualDetails": {
+      "scale": "轻型机甲约数米高；旧光脑手持尺寸",
+      "effects": "无特殊光效",
+      "condition": "机甲完整待改造；旧光脑损坏",
+      "ownership": "起岸西与卫三",
+      "colorShape": "黑色人形轻型机甲，旧光脑小型旧损",
+      "materialTexture": "黑色哑光金属外壳"
+    },
+    "inferredFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "none",
+    "importanceScore": 0.381,
+    "completionStatus": "llm_inferred",
+    "evidenceSnippets": [],
+    "finalDescription": "黑色轻型机甲整体为哑光黑色金属外壳，线条简洁，机体偏轻。改造时可平放在操作台上，准备加装黑弩与破云翅。另有一台旧光脑，外壳陈旧、破损，尺寸约可手持。",
+    "summarizedFields": [],
+    "descriptionSource": "mixed",
+    "sourceDescription": "",
+    "enhancedDescription": "黑色轻型机甲整体为哑光黑色金属外壳，线条简洁，机体偏轻。改造时可平放在操作台上，准备加装黑弩与破云翅。另有一台旧光脑，外壳陈旧、破损，尺寸约可手持。",
+    "supplementDescription": "哑光黑色轻型机甲，无特殊光效，旧光脑为小型手持设备"
+  },
+  {
+    "name": "卫三的黑色机甲",
+    "tier": "candidate",
+    "fields": {
+      "usage": "",
+      "material": "",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [
+      "中型机甲",
+      "学校发的中型机甲"
+    ],
+    "confidence": 0,
+    "entityType": "item",
+    "needsReview": true,
+    "visualFields": {
+      "usage": "配有一条破旧鞭形武器",
+      "material": "合金金属外壳",
+      "condition": "外壳东凹西缺，有破损",
+      "ownership": "学校配发，卫三使用",
+      "colorShape": "通体黑色，中型机甲轮廓",
+      "visualEffects": ""
+    },
+    "llmSupplement": "黑色中型机甲，金属外壳东凹西缺，配一条破旧鞭形武器",
+    "missingFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "visualDetails": {
+      "scale": "中型规格",
+      "usage": "配备一条破旧长鞭",
+      "condition": "外壳多处凹陷、缺口，整体破旧",
+      "ownership": "学校配发，卫三使用",
+      "colorShape": "通体黑色，中型机甲轮廓",
+      "materialTexture": "合金金属外壳"
+    },
+    "inferredFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "ownership"
+    ],
+    "sourceCoverage": "none",
+    "importanceScore": 0.381,
+    "completionStatus": "llm_inferred",
+    "evidenceSnippets": [],
+    "finalDescription": "通体黑色的中型机甲，合金外壳已显陈旧，表面多处凹陷与缺口，配有一条破旧长鞭，整体未经过改造，充满使用痕迹。",
+    "summarizedFields": [],
+    "descriptionSource": "mixed",
+    "sourceDescription": "",
+    "enhancedDescription": "通体黑色的中型机甲，合金外壳已显陈旧，表面多处凹陷与缺口，配有一条破旧长鞭，整体未经过改造，充满使用痕迹。",
+    "supplementDescription": "黑色中型机甲，金属外壳东凹西缺，配一条破旧鞭形武器"
+  },
+  {
+    "name": "血滴",
+    "tier": "candidate",
+    "fields": {
+      "usage": "",
+      "material": "",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [
+      "血红色机甲"
+    ],
+    "confidence": 0,
+    "entityType": "item",
+    "needsReview": true,
+    "visualFields": {
+      "usage": "右臂炮膛口，左臂光刀",
+      "material": "合金金属外壳",
+      "condition": "外观完整，状态接近完美",
+      "ownership": "原属项明化，现由卫三使用",
+      "colorShape": "血红色机甲，右臂设炮膛口，左臂配备光刀",
+      "visualEffects": "左臂光刀为光刃形态"
+    },
+    "llmSupplement": "血红色机甲，合金外壳完整，右臂炮膛口，左臂光刀为光刃形态",
+    "missingFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "visualDetails": {
+      "scale": "中型至大型机甲",
+      "usage": "装备炮膛口与光刀",
+      "effects": "左臂光刀为光刃形态",
+      "condition": "外观完整，接近全新",
+      "ownership": "项明化旧物，现归卫三使用",
+      "colorShape": "血红色机体，右臂有炮膛口，左臂光刀",
+      "materialTexture": "合金金属外壳"
+    },
+    "inferredFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "none",
+    "importanceScore": 0.231,
+    "completionStatus": "llm_inferred",
+    "evidenceSnippets": [],
+    "finalDescription": "血红色机甲，机体线条精悍，右臂设有一圈炮膛口，左臂装备一柄光刀，周身状态完整，光刀为光刃形态，整体外观醒目。",
+    "summarizedFields": [],
+    "descriptionSource": "mixed",
+    "sourceDescription": "",
+    "enhancedDescription": "血红色机甲，机体线条精悍，右臂设有一圈炮膛口，左臂装备一柄光刀，周身状态完整，光刀为光刃形态，整体外观醒目。",
+    "supplementDescription": "血红色机甲，合金外壳完整，右臂炮膛口，左臂光刀为光刃形态"
+  },
+  {
+    "name": "黑卡",
+    "tier": "supporting",
+    "fields": {
+      "usage": "老常打开那台机器上的地图（第13章）",
+      "material": "",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [],
+    "confidence": 0.19,
+    "entityType": "item",
+    "needsReview": true,
+    "visualFields": {
+      "usage": "老常打开那台机器上的地图（第13章）",
+      "material": "卡面材质，表面光滑",
+      "condition": "表面完整无破损",
+      "ownership": "卫三持有",
+      "colorShape": "黑色矩形卡片",
+      "visualEffects": ""
+    },
+    "llmSupplement": "黑色矩形卡片，表面光滑完整，持卡人为卫三",
+    "missingFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "visualEffects",
+      "ownership"
+    ],
+    "visualDetails": {
+      "scale": "标准卡尺寸",
+      "condition": "表面完好，无明显破损",
+      "ownership": "卫三持有",
+      "colorShape": "黑色标准矩形卡片",
+      "materialTexture": "卡面光滑"
+    },
+    "inferredFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "ownership"
+    ],
+    "sourceCoverage": "partial",
+    "importanceScore": 0.35,
+    "completionStatus": "llm_completed",
+    "evidenceSnippets": [
+      {
+        "text": "”老常打开那台机器上的地图，“地下一层是L0活动区域，你的黑卡现在只能进这里，这一层有免费休息室和饮食区，等以后你能去地下几层，那里有商城，积分可以当钱花。",
+        "fields": [
+          "usage"
+        ],
+        "chapterIndex": 13,
+        "chapterTitle": "第13章",
+        "matchedNames": [
+          "黑卡"
+        ]
+      }
+    ],
+    "finalDescription": "通体黑色的标准矩形卡片，卡面光滑无破损，外表简洁，无明显额外装饰。",
+    "summarizedFields": [],
+    "descriptionSource": "mixed",
+    "sourceDescription": "老常打开那台机器上的地图; 老常打开那台机器上的地图（第13章）",
+    "enhancedDescription": "通体黑色的标准矩形卡片，卡面光滑无破损，外表简洁，无明显额外装饰。",
+    "supplementDescription": "黑色矩形卡片，表面光滑完整，持卡人为卫三"
+  },
+  {
+    "name": "高浓度营养液",
+    "tier": "candidate",
+    "fields": {
+      "usage": "",
+      "material": "卫三蹲在一个木盒子前（第1章）",
+      "condition": "不由倒吸一口气——全是崭新的营养液（第1章）",
+      "ownership": "每天随身带着几瓶（第11章）",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [
+      "营养液"
+    ],
+    "confidence": 0.57,
+    "entityType": "item",
+    "needsReview": true,
+    "visualFields": {
+      "usage": "即饮型液体营养液",
+      "material": "卫三蹲在一个木盒子前（第1章）",
+      "condition": "不由倒吸一口气——全是崭新的营养液（第1章）",
+      "ownership": "每天随身带着几瓶（第11章）",
+      "colorShape": "瓶装液体，色泽因口味可能不同",
+      "visualEffects": ""
+    },
+    "llmSupplement": "瓶装液体营养液，便携小瓶，色泽因口味可能不同，无特殊光效",
+    "missingFields": [
+      "colorShape",
+      "usage",
+      "visualEffects"
+    ],
+    "visualDetails": {
+      "scale": "便携小瓶装",
+      "usage": "即饮营养补充液",
+      "condition": "崭新完好",
+      "ownership": "卫三所有",
+      "colorShape": "瓶装液体，色泽因口味略有差异",
+      "materialTexture": "瓶装液体"
+    },
+    "inferredFields": [
+      "colorShape",
+      "usage"
+    ],
+    "sourceCoverage": "strong",
+    "importanceScore": 0.2685,
+    "completionStatus": "llm_completed",
+    "evidenceSnippets": [
+      {
+        "text": "卫三从口袋摸出一把自己做的手电筒，照在箱子上，伸手扯掉封条，不由倒吸一口气——全是崭新的营养液。",
+        "fields": [
+          "condition"
+        ],
+        "chapterIndex": 1,
+        "chapterTitle": "第1章",
+        "matchedNames": [
+          "营养液"
+        ]
+      },
+      {
+        "text": "回到住处，卫三蹲在一个木盒子前，手拂过一排营养液，顿时感觉自己富有至极。",
+        "fields": [
+          "material"
+        ],
+        "chapterIndex": 1,
+        "chapterTitle": "第1章",
+        "matchedNames": [
+          "营养液"
+        ]
+      },
+      {
+        "text": "报名日期间，卫三看得废寝忘食，每天饿到头晕才会想起来要吃东西，她干脆直接买了一大箱营养液，每天随身带着几瓶。",
+        "fields": [
+          "ownership"
+        ],
+        "chapterIndex": 11,
+        "chapterTitle": "第11章",
+        "matchedNames": [
+          "营养液"
+        ]
+      }
+    ],
+    "finalDescription": "便携小瓶装营养液，瓶内为液体，色泽可能因口味略有差异，外观崭新，无额外装饰。",
+    "summarizedFields": [],
+    "descriptionSource": "mixed",
+    "sourceDescription": "卫三蹲在一个木盒子前; 不由倒吸一口气——全是崭新的营养液; 每天随身带着几瓶; 卫三蹲在一个木盒子前（第1章）; 不由倒吸一口气——全是崭新的营养液（第1章）; 每天随身带着几瓶（第11章）",
+    "enhancedDescription": "便携小瓶装营养液，瓶内为液体，色泽可能因口味略有差异，外观崭新，无额外装饰。",
+    "supplementDescription": "瓶装液体营养液，便携小瓶，色泽因口味可能不同，无特殊光效"
+  },
+  {
+    "name": "机甲项链",
+    "tier": "candidate",
+    "fields": {
+      "usage": "",
+      "material": "",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [
+      "A级机甲",
+      "血红色机甲"
+    ],
+    "confidence": 0,
+    "entityType": "item",
+    "needsReview": true,
+    "visualFields": {
+      "usage": "链坠可收纳机甲",
+      "material": "金属链坠",
+      "condition": "完好无破损",
+      "ownership": "卫三持有，原属项明化",
+      "colorShape": "普通项链外观，带链坠",
+      "visualEffects": ""
+    },
+    "llmSupplement": "金属项链，普通外观，带可收纳机甲的链坠，无特殊光效",
+    "missingFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "visualDetails": {
+      "scale": "随身饰品尺寸",
+      "usage": "用于收纳机甲",
+      "condition": "完好",
+      "ownership": "卫三持有，原为项明化所有",
+      "colorShape": "项链款式普通，挂有链坠",
+      "materialTexture": "金属质链路链坠"
+    },
+    "inferredFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "ownership"
+    ],
+    "sourceCoverage": "none",
+    "importanceScore": 0.306,
+    "completionStatus": "llm_inferred",
+    "evidenceSnippets": [],
+    "finalDescription": "一条外观与普通学生项链相近的随身项链，金属链坠可收纳机甲，整体低调，无多余装饰。",
+    "summarizedFields": [],
+    "descriptionSource": "mixed",
+    "sourceDescription": "",
+    "enhancedDescription": "一条外观与普通学生项链相近的随身项链，金属链坠可收纳机甲，整体低调，无多余装饰。",
+    "supplementDescription": "金属项链，普通外观，带可收纳机甲的链坠，无特殊光效"
+  },
+  {
+    "name": "鞭子",
+    "tier": "candidate",
+    "fields": {
+      "usage": "",
+      "material": "",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [
+      "机甲长鞭"
+    ],
+    "confidence": 0,
+    "entityType": "item",
+    "needsReview": true,
+    "visualFields": {
+      "usage": "机甲配备的鞭形武器",
+      "material": "金属鞭节",
+      "condition": "接口部分有断裂痕迹",
+      "ownership": "属机甲配件，卫三使用",
+      "colorShape": "长鞭形武器，鞭身细长",
+      "visualEffects": ""
+    },
+    "llmSupplement": "金属长鞭，鞭身细长分节，接口有断裂，属机甲武器",
+    "missingFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "visualDetails": {
+      "scale": "长度适应机甲手臂",
+      "usage": "用于缠绕、抽击的机甲武器",
+      "condition": "接口部分有断裂痕迹",
+      "ownership": "机甲配备，卫三使用",
+      "colorShape": "细长鞭形，鞭身分节",
+      "materialTexture": "金属鞭节"
+    },
+    "inferredFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "ownership"
+    ],
+    "sourceCoverage": "none",
+    "importanceScore": 0.306,
+    "completionStatus": "llm_inferred",
+    "evidenceSnippets": [],
+    "finalDescription": "一条机甲用长鞭形武器，鞭身细长分节，局部接口有断裂痕迹，整体带有使用损耗。",
+    "summarizedFields": [],
+    "descriptionSource": "mixed",
+    "sourceDescription": "",
+    "enhancedDescription": "一条机甲用长鞭形武器，鞭身细长分节，局部接口有断裂痕迹，整体带有使用损耗。",
+    "supplementDescription": "金属长鞭，鞭身细长分节，接口有断裂，属机甲武器"
+  },
+  {
+    "name": "模拟舱",
+    "tier": "candidate",
+    "fields": {
+      "usage": "学校之所以用模拟舱是因为要选拔出来射击者（第35章）",
+      "material": "",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [],
+    "confidence": 0.19,
+    "entityType": "item",
+    "needsReview": true,
+    "visualFields": {
+      "usage": "学校之所以用模拟舱是因为要选拔出来射击者（第35章）",
+      "material": "合金外壳，舱盖为透明材质",
+      "condition": "外观完好",
+      "ownership": "学校训练设施",
+      "colorShape": "封闭式卧舱，带透明弧形舱盖",
+      "visualEffects": "启动时舱内泛起模拟场景光"
+    },
+    "llmSupplement": "合金舱体搭配透明弧形舱盖，内设躺卧座椅，启动时舱内透出模拟光线，学校统一配置",
+    "missingFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "visualEffects",
+      "ownership"
+    ],
+    "visualDetails": {
+      "scale": "单人训练舱",
+      "usage": "学生躺入进行模拟训练",
+      "effects": "启动时舱内透出模拟环境光线",
+      "condition": "完好",
+      "ownership": "学校统一训练设备",
+      "colorShape": "封闭式卧舱，弧形透明舱盖",
+      "materialTexture": "合金舱体，透明舱盖"
+    },
+    "inferredFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "partial",
+    "importanceScore": 0.306,
+    "completionStatus": "llm_completed",
+    "evidenceSnippets": [
+      {
+        "text": "学校之所以用模拟舱是因为要选拔出来射击者，学生难免会受伤，如果成绩好，但最后受伤严重，躺治疗舱也需要一段时间才能治疗好，耽误训练时间。",
+        "fields": [
+          "usage"
+        ],
+        "chapterIndex": 35,
+        "chapterTitle": "第35章",
+        "matchedNames": [
+          "模拟舱"
+        ],
+        "otherMatchedNames": [
+          "治疗舱"
+        ]
+      }
+    ],
+    "finalDescription": "封闭式单人训练舱，合金外壳搭配透明弧形舱盖，内部设有可躺卧的座椅和环绕显示设备。整体外观完好，启动时舱内透出模拟环境的光线，属于学校统一配置的训练设施。",
+    "summarizedFields": [],
+    "descriptionSource": "mixed",
+    "sourceDescription": "学校之所以用模拟舱是因为要选拔出来射击者; 学校之所以用模拟舱是因为要选拔出来射击者（第35章）",
+    "enhancedDescription": "封闭式单人训练舱，合金外壳搭配透明弧形舱盖，内部设有可躺卧的座椅和环绕显示设备。整体外观完好，启动时舱内透出模拟环境的光线，属于学校统一配置的训练设施。",
+    "supplementDescription": "合金舱体搭配透明弧形舱盖，内设躺卧座椅，启动时舱内透出模拟光线，学校统一配置"
+  },
+  {
+    "name": "烤串",
+    "tier": "candidate",
+    "fields": {
+      "usage": "卫三转到泰吴德面前：“我看你拿着烤串半天（第6章）",
+      "material": "",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [],
+    "confidence": 0.19,
+    "entityType": "item",
+    "needsReview": true,
+    "visualFields": {
+      "usage": "卫三转到泰吴德面前：“我看你拿着烤串半天（第6章）",
+      "material": "细长签条串起块状烤肉",
+      "condition": "刚烤好，表面油亮",
+      "ownership": "安全区小摊售卖的食物",
+      "colorShape": "肉块焦黄微褐，签身细长",
+      "visualEffects": "热气与油光"
+    },
+    "llmSupplement": "细长签条串起烤肉，表面焦黄微褐、油亮冒热气，来自安全区小摊",
+    "missingFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "visualEffects",
+      "ownership"
+    ],
+    "visualDetails": {
+      "scale": "手持大小",
+      "usage": "手持食用",
+      "effects": "热气微升，油光明显",
+      "condition": "热食，表面焦香油润",
+      "ownership": "安全区小摊售卖",
+      "colorShape": "细长签串串起块状肉",
+      "materialTexture": "烤肉表皮油亮，签条细直"
+    },
+    "inferredFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "partial",
+    "importanceScore": 0.306,
+    "completionStatus": "llm_completed",
+    "evidenceSnippets": [
+      {
+        "text": "卫三转到泰吴德面前：“我看你拿着烤串半天，怎么不吃？",
+        "fields": [
+          "usage"
+        ],
+        "chapterIndex": 6,
+        "chapterTitle": "第6章",
+        "matchedNames": [
+          "烤串"
+        ]
+      }
+    ],
+    "finalDescription": "一串手持大小的烤串，细长签条串起块状烤肉，肉块表面焦黄微褐，带着烤制后的油亮光泽，刚离火时还冒着热气，是安全区小摊上的即食烧烤。",
+    "summarizedFields": [],
+    "descriptionSource": "mixed",
+    "sourceDescription": "卫三转到泰吴德面前：“我看你拿着烤串半天; 卫三转到泰吴德面前：“我看你拿着烤串半天（第6章）",
+    "enhancedDescription": "一串手持大小的烤串，细长签条串起块状烤肉，肉块表面焦黄微褐，带着烤制后的油亮光泽，刚离火时还冒着热气，是安全区小摊上的即食烧烤。",
+    "supplementDescription": "细长签条串起烤肉，表面焦黄微褐、油亮冒热气，来自安全区小摊"
+  },
+  {
+    "name": "匕首",
+    "tier": "candidate",
+    "fields": {
+      "usage": "卫三单手握着匕首（第6章）；另一只握着匕首的手在它脖子一划（第6章）",
+      "material": "",
+      "condition": "这452片锋利羽毛便如同匕首（第22章）",
+      "ownership": "每个人手中只有一把匕首（第6章）",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [],
+    "confidence": 0.65,
+    "entityType": "item",
+    "needsReview": true,
+    "visualFields": {
+      "usage": "卫三单手握着匕首（第6章）；另一只握着匕首的手在它脖子一划（第6章）",
+      "material": "金属刀身，刀柄带防滑纹路",
+      "condition": "这452片锋利羽毛便如同匕首（第22章）",
+      "ownership": "每个人手中只有一把匕首（第6章）",
+      "colorShape": "短直刀，刃身窄长",
+      "visualEffects": "刃面泛冷色金属光泽"
+    },
+    "llmSupplement": "金属刀身窄长，刀柄带防滑纹路，刃面冷色金属光泽",
+    "missingFields": [
+      "material",
+      "colorShape",
+      "visualEffects"
+    ],
+    "visualDetails": {
+      "scale": "单手握持尺寸",
+      "usage": "用于近身切割与狩猎",
+      "effects": "刃面冷光",
+      "condition": "刃口锋利",
+      "ownership": "学院期末测试统一配发，人手一把",
+      "colorShape": "窄长短直刀",
+      "materialTexture": "金属刀身，刀柄防滑握纹"
+    },
+    "inferredFields": [
+      "material",
+      "colorShape",
+      "visualEffects"
+    ],
+    "sourceCoverage": "strong",
+    "importanceScore": 0.306,
+    "completionStatus": "llm_completed",
+    "evidenceSnippets": [
+      {
+        "text": "老师每学期末经过商讨之后，会划分一段距离范围，让学生狩猎，每个人手中只有一把匕首，是死是活全靠实力。",
+        "fields": [
+          "ownership"
+        ],
+        "chapterIndex": 6,
+        "chapterTitle": "第6章",
+        "matchedNames": [
+          "匕首"
+        ]
+      },
+      {
+        "text": "卫三单手握着匕首，快步穿过一片荆棘，植物上的刺不断划破训练服。",
+        "fields": [
+          "usage"
+        ],
+        "chapterIndex": 6,
+        "chapterTitle": "第6章",
+        "matchedNames": [
+          "匕首"
+        ]
+      },
+      {
+        "text": "卫三滑进花豹腹下后，直接滚出旁边，反身骑在花豹身上，一只手抓住它的头，另一只握着匕首的手在它脖子一划。",
+        "fields": [
+          "usage"
+        ],
+        "chapterIndex": 6,
+        "chapterTitle": "第6章",
+        "matchedNames": [
+          "匕首"
+        ]
+      },
+      {
+        "text": "破云翅由452片混合游金羽毛构成，表面极为锋利，厉害的人自然不会只用来飞，如果近战，只要操控者运用得当，这452片锋利羽毛便如同匕首，可攻击对手。",
+        "fields": [
+          "condition"
+        ],
+        "chapterIndex": 22,
+        "chapterTitle": "第22章",
+        "matchedNames": [
+          "匕首"
+        ],
+        "otherMatchedNames": [
+          "混合游金羽毛",
+          "破云翅",
+          "游金"
+        ]
+      }
+    ],
+    "finalDescription": "一柄单手握持的制式短刃，金属刀身窄长，刃口锋利，刀柄带防滑纹路。整体造型简洁，刃面泛着冷色金属光泽，作为学院狩猎测试统一配发的武器，人手一把。",
+    "summarizedFields": [],
+    "descriptionSource": "mixed",
+    "sourceDescription": "这452片锋利羽毛便如同匕首; 卫三单手握着匕首; 另一只握着匕首的手在它脖子一划; 每个人手中只有一把匕首; 这452片锋利羽毛便如同匕首（第22章）; 卫三单手握着匕首（第6章）；另一只握着匕首的手在它脖子一划（第6章）; 每个人手中只有一把匕首（第6章）",
+    "enhancedDescription": "一柄单手握持的制式短刃，金属刀身窄长，刃口锋利，刀柄带防滑纹路。整体造型简洁，刃面泛着冷色金属光泽，作为学院狩猎测试统一配发的武器，人手一把。",
+    "supplementDescription": "金属刀身窄长，刀柄带防滑纹路，刃面冷色金属光泽"
+  },
+  {
+    "name": "一对弯刀",
+    "tier": "candidate",
+    "fields": {
+      "usage": "",
+      "material": "",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [
+      "双链弯刀"
+    ],
+    "confidence": 0,
+    "entityType": "item",
+    "needsReview": true,
+    "visualFields": {
+      "usage": "装配于机甲，单把旋转成圆盾，用于近战与防御",
+      "material": "合金刀身，带机械折叠结构",
+      "condition": "崭新完好",
+      "ownership": "卫三购买的机甲武器",
+      "colorShape": "一对弧形弯刀，单把可旋转展开成圆盾",
+      "visualEffects": "旋转展开时形成圆盾轮廓"
+    },
+    "llmSupplement": "合金弧形刀身、机械折叠结构、可旋转展开为圆盾以及崭新状态；归属卫三",
+    "missingFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "visualDetails": {
+      "scale": "机甲用大型近战武器",
+      "usage": "单把可旋转成圆盾，格挡炮弹，也可斩击",
+      "effects": "旋转展开时刀片层叠为圆盾",
+      "condition": "崭新完好",
+      "ownership": "卫三购得",
+      "colorShape": "对称弧形弯刀，可展开成圆盾",
+      "materialTexture": "合金刀身，机械折叠结构"
+    },
+    "inferredFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "none",
+    "importanceScore": 0.2685,
+    "completionStatus": "llm_inferred",
+    "evidenceSnippets": [],
+    "finalDescription": "一对机甲用大型弯刀，两把对称，合金刀身呈弧形，刀背带有机械折叠结构。单把刀身可高速旋转展开成圆盾，用于格挡炮弹；整体崭新，金属质感强烈，属于卫三购置的机甲近战武器。",
+    "summarizedFields": [],
+    "descriptionSource": "mixed",
+    "sourceDescription": "",
+    "enhancedDescription": "一对机甲用大型弯刀，两把对称，合金刀身呈弧形，刀背带有机械折叠结构。单把刀身可高速旋转展开成圆盾，用于格挡炮弹；整体崭新，金属质感强烈，属于卫三购置的机甲近战武器。",
+    "supplementDescription": "合金弧形刀身、机械折叠结构、可旋转展开为圆盾以及崭新状态；归属卫三"
+  },
+  {
+    "name": "学校发的中型机甲",
+    "tier": "candidate",
+    "fields": {
+      "usage": "",
+      "material": "",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [
+      "中型机甲",
+      "卫三的黑色机甲"
+    ],
+    "confidence": 0,
+    "entityType": "item",
+    "needsReview": true,
+    "visualFields": {
+      "usage": "供学生驾驶训练",
+      "material": "黑色金属装甲",
+      "condition": "机体整备完好",
+      "ownership": "达摩克利斯军校配发",
+      "colorShape": "黑色中型人形机甲，轮廓方正",
+      "visualEffects": "关节与舱门处透出冷色指示光"
+    },
+    "llmSupplement": "黑色涂装、哑光金属装甲、方正人形轮廓及关节冷色指示光；归属军校",
+    "missingFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "visualDetails": {
+      "scale": "中型机体",
+      "usage": "供学生驾驶训练",
+      "effects": "关节处有冷色指示光",
+      "condition": "整备完好",
+      "ownership": "军校统一配发",
+      "colorShape": "中型人形机甲，黑色涂装",
+      "materialTexture": "黑色金属装甲，哑光质感"
+    },
+    "inferredFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "none",
+    "importanceScore": 0.2685,
+    "completionStatus": "llm_inferred",
+    "evidenceSnippets": [],
+    "finalDescription": "一台黑色涂装的中型人形机甲，金属装甲覆盖全身，表面呈哑光质感。机体整备完好，关节与舱门处透出冷色指示光，属于达摩克利斯军校统一配发给学生的制式训练机甲。",
+    "summarizedFields": [],
+    "descriptionSource": "mixed",
+    "sourceDescription": "",
+    "enhancedDescription": "一台黑色涂装的中型人形机甲，金属装甲覆盖全身，表面呈哑光质感。机体整备完好，关节与舱门处透出冷色指示光，属于达摩克利斯军校统一配发给学生的制式训练机甲。",
+    "supplementDescription": "黑色涂装、哑光金属装甲、方正人形轮廓及关节冷色指示光；归属军校"
+  },
+  {
+    "name": "黑厂原始机甲",
+    "tier": "candidate",
+    "fields": {
+      "usage": "",
+      "material": "",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "item",
+    "needsReview": true,
+    "visualFields": {
+      "usage": "仅靠双拳近身搏斗",
+      "material": "金属装甲，素体造型",
+      "condition": "素体状态，带使用磨损",
+      "ownership": "黑厂提供",
+      "colorShape": "无外挂武器的人形机甲，双臂末端为铁拳",
+      "visualEffects": "动力关节处有基础指示光"
+    },
+    "llmSupplement": "金属素体、铁拳造型、使用磨损及关节基础指示光；归属黑厂",
+    "missingFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "visualDetails": {
+      "scale": "标准人形机甲",
+      "usage": "近身搏斗，参加擂台赛",
+      "effects": "动力关节处透出基础指示光",
+      "condition": "有使用磨损",
+      "ownership": "黑厂提供，卫三驾驶",
+      "colorShape": "原始人形机甲，双臂为铁拳",
+      "materialTexture": "金属装甲素体，无外部武器"
+    },
+    "inferredFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "none",
+    "importanceScore": 0.231,
+    "completionStatus": "llm_inferred",
+    "evidenceSnippets": [],
+    "finalDescription": "一台原始制式人形机甲，金属素体造型简朴，无外挂武器，仅以双臂铁拳作为攻击手段。机身带有使用后的磨损痕迹，动力关节处可见基础指示光，由黑厂提供，用于擂台比赛。",
+    "summarizedFields": [],
+    "descriptionSource": "mixed",
+    "sourceDescription": "",
+    "enhancedDescription": "一台原始制式人形机甲，金属素体造型简朴，无外挂武器，仅以双臂铁拳作为攻击手段。机身带有使用后的磨损痕迹，动力关节处可见基础指示光，由黑厂提供，用于擂台比赛。",
+    "supplementDescription": "金属素体、铁拳造型、使用磨损及关节基础指示光；归属黑厂"
+  },
+  {
+    "name": "光幕",
+    "tier": "candidate",
+    "fields": {
+      "usage": "",
+      "material": "",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "item",
+    "needsReview": true,
+    "visualFields": {
+      "usage": "架设于操场和北望楼等区域，用于直播比赛画面",
+      "material": "半透明发光材质，表面呈屏幕质感",
+      "condition": "完好，画面清晰",
+      "ownership": "公共直播显示设备",
+      "colorShape": "宽幅矩形光屏，泛淡白或淡蓝色光泽",
+      "visualEffects": "表面散发柔和的淡色光晕，显示动态影像"
+    },
+    "llmSupplement": "光幕为大型半透明发光屏幕，整体呈宽幅矩形，表面泛淡白或淡蓝色光泽；画面清晰，播放动态直播影像时散出柔和光晕",
+    "missingFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "visualDetails": {
+      "scale": "大型户外显示屏幕，适合远距离观看",
+      "usage": "用于直播赫菲斯托斯大赛画面，供学生观看",
+      "effects": "表面散发柔和淡色光晕，播放动态比赛影像",
+      "condition": "完好，显示画面清晰",
+      "ownership": "公共直播显示设备",
+      "colorShape": "宽幅矩形光屏，整体泛淡白或淡蓝色光泽",
+      "materialTexture": "半透明发光屏幕质感，表面平整"
+    },
+    "inferredFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "none",
+    "importanceScore": 0.231,
+    "completionStatus": "llm_inferred",
+    "evidenceSnippets": [],
+    "finalDescription": "光幕为大型半透明显示屏幕，呈宽幅矩形，表面泛着淡白或淡蓝色光泽。屏幕画面清晰，播放直播时散发柔和的淡色光晕，架设于操场和北望楼等开阔区域，供众多学生远距离观看比赛。",
+    "summarizedFields": [],
+    "descriptionSource": "mixed",
+    "sourceDescription": "",
+    "enhancedDescription": "光幕为大型半透明显示屏幕，呈宽幅矩形，表面泛着淡白或淡蓝色光泽。屏幕画面清晰，播放直播时散发柔和的淡色光晕，架设于操场和北望楼等开阔区域，供众多学生远距离观看比赛。",
+    "supplementDescription": "光幕为大型半透明发光屏幕，整体呈宽幅矩形，表面泛淡白或淡蓝色光泽；画面清晰，播放动态直播影像时散出柔和光晕"
+  },
+  {
+    "name": "破云翅",
+    "tier": "candidate",
+    "fields": {
+      "usage": "",
+      "material": "用来支撑骨架（第22章）；纸条卫三没看见（第22章）；对面的钢板上顿时布满细小锋利的袖箭（第24章）；试练区的起岸西已经操控破云翅甩在钢板上（第24章）",
+      "condition": "对面的钢板上顿时布满细小锋利的袖箭（第24章）",
+      "ownership": "",
+      "colorShape": "而她要的破云翅羽片是白金色（第24章）；如果你想配破云翅的白金色（第24章）",
+      "visualEffects": ""
+    },
+    "aliases": [],
+    "confidence": 0.65,
+    "entityType": "item",
+    "needsReview": true,
+    "visualFields": {
+      "usage": "可扇动释放密集袖箭，也可甩击钢板（第24章）",
+      "material": "薄片状金属羽片，边缘锋利（第22章）",
+      "condition": "由324片大小不等的羽片组成，底部较大、向外渐小（第22章）",
+      "ownership": "起岸西轻型机甲所配翼装武器（第24章）",
+      "colorShape": "羽片呈白金色（第24章）",
+      "visualEffects": "密集细小袖箭布满目标表面（第24章）"
+    },
+    "llmSupplement": "破云翅整体呈展开羽翼状，白金色金属羽片薄而锋利，羽片大小不一，底部较大、向外渐小；使用时可释放密集细小袖箭，命中后目标表面布满细密箭支",
+    "missingFields": [
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "visualDetails": {
+      "scale": "展开后覆盖机甲翼部，羽片数量多",
+      "usage": "翼装武器，扇动释放袖箭，亦可甩击目标",
+      "effects": "释放密集细小袖箭，命中后目标表面布满痕迹",
+      "condition": "羽片结构完整，由324片组成，底部大、向外渐小",
+      "ownership": "起岸西的轻型机甲",
+      "colorShape": "白金色羽翼状装备，羽片大小不一",
+      "materialTexture": "薄而锋利的金属羽片，表面光滑"
+    },
+    "inferredFields": [
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "strong",
+    "importanceScore": 0.231,
+    "completionStatus": "llm_completed",
+    "evidenceSnippets": [
+      {
+        "text": "破云翅的452块羽片被她改成大小不等324片，羽翅底部羽片大，用来支撑骨架，越往外扩散越小，同时发射装置零散分在羽片上，在挥动翅膀时才能借机合拢，每只翅膀每次可射出五十根小箭，一共十发。",
+        "fields": [
+          "material"
+        ],
+        "chapterIndex": 22,
+        "chapterTitle": "第22章",
+        "matchedNames": [
+          "破云翅"
+        ]
+      },
+      {
+        "text": "纸条卫三没看见，她今天没再回寝室，晚上一到，直接翻墙出去，准备把破云翅的主结构搭好。",
+        "fields": [
+          "material"
+        ],
+        "chapterIndex": 22,
+        "chapterTitle": "第22章",
+        "matchedNames": [
+          "破云翅"
+        ]
+      },
+      {
+        "text": "黑厂的机甲是全黑色，而她要的破云翅羽片是白金色，搭在一起不太好看，不如把机甲涂色也改成白金色。",
+        "fields": [
+          "colorShape"
+        ],
+        "chapterIndex": 24,
+        "chapterTitle": "第24章",
+        "matchedNames": [
+          "破云翅"
+        ],
+        "otherMatchedNames": [
+          "机甲"
+        ]
+      },
+      {
+        "text": "“如果你想配破云翅的白金色，价格不菲。",
+        "fields": [
+          "colorShape"
+        ],
+        "chapterIndex": 24,
+        "chapterTitle": "第24章",
+        "matchedNames": [
+          "破云翅"
+        ]
+      },
+      {
+        "text": "机甲舱内起岸西手指在操控面板上快速移动，众人只见到破云翅轻轻一扇，对面的钢板上顿时布满细小锋利的袖箭。",
+        "fields": [
+          "material",
+          "condition"
+        ],
+        "chapterIndex": 24,
+        "chapterTitle": "第24章",
+        "matchedNames": [
+          "破云翅"
+        ],
+        "otherMatchedNames": [
+          "机甲"
+        ]
+      },
+      {
+        "text": "众人心中一跳，试练区的起岸西已经操控破云翅甩在钢板上，留下深深的痕迹。",
+        "fields": [
+          "material"
+        ],
+        "chapterIndex": 24,
+        "chapterTitle": "第24章",
+        "matchedNames": [
+          "破云翅"
+        ]
+      }
+    ],
+    "finalDescription": "破云翅为白金色翼装武器，由大量薄而锋利的金属羽片层叠构成。羽片大小不等，底部较大、向外渐小，整体呈展开羽翼状。使用时羽翼扇动可放出密集细小的袖箭，也可直接甩击目标，命中后留下细密锐利痕迹。",
+    "summarizedFields": [
+      "material",
+      "colorShape",
+      "condition"
+    ],
+    "descriptionSource": "mixed",
+    "sourceDescription": "用来支撑骨架; 纸条卫三没看见; 对面的钢板上顿时布满细小锋利的袖箭; 试练区的起岸西已经操控破云翅甩在钢板上; 而她要的破云翅羽片是白金色; 如果你想配破云翅的白金色; 用来支撑骨架（第22章）；纸条卫三没看见（第22章）；对面的钢板上顿时布满细小锋利的袖箭（第24章）；试练区的起岸西已经操控破云翅甩在钢板上（第24章）; 而她要的破云翅羽片是白金色（第24章）；如果你想配破云翅的白金色（第24章）; 对面的钢板上顿时布满细小锋利的袖箭（第24章）",
+    "enhancedDescription": "破云翅为白金色翼装武器，由大量薄而锋利的金属羽片层叠构成。羽片大小不等，底部较大、向外渐小，整体呈展开羽翼状。使用时羽翼扇动可放出密集细小的袖箭，也可直接甩击目标，命中后留下细密锐利痕迹。",
+    "supplementDescription": "破云翅整体呈展开羽翼状，白金色金属羽片薄而锋利，羽片大小不一，底部较大、向外渐小；使用时可释放密集细小袖箭，命中后目标表面布满细密箭支"
+  },
+  {
+    "name": "离子炮",
+    "tier": "candidate",
+    "fields": {
+      "usage": "实则打开离子炮（第16章）；并打开离子炮对准手臂（第34章）",
+      "material": "",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [],
+    "confidence": 0.27,
+    "entityType": "item",
+    "needsReview": true,
+    "visualFields": {
+      "usage": "实则打开离子炮（第16章）；并打开离子炮对准手臂（第34章）",
+      "material": "金属质感的炮形装置",
+      "condition": "可拆卸，结构完整",
+      "ownership": "多台机甲的可拆卸肩载武器",
+      "colorShape": "炮管状，前端炮口明显",
+      "visualEffects": "连续射击时弹道密集急促"
+    },
+    "llmSupplement": "离子炮为金属炮形装置，炮口明显，结构硬朗，尺寸偏大；连续射击时弹道急促密集，可拆卸装配在机甲肩部",
+    "missingFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "visualEffects",
+      "ownership"
+    ],
+    "visualDetails": {
+      "scale": "机甲肩载级，尺寸较大",
+      "usage": "肩载远攻武器，可连续射击，也可作为钝器",
+      "effects": "射击急促密集，弹道快速",
+      "condition": "可拆卸更换，完好时火力完整",
+      "ownership": "多台机甲配置，非单一归属",
+      "colorShape": "炮管状，前端有圆形炮口",
+      "materialTexture": "金属质感炮身，结构硬朗"
+    },
+    "inferredFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "partial",
+    "importanceScore": 0.231,
+    "completionStatus": "llm_completed",
+    "evidenceSnippets": [
+      {
+        "text": "”疤痕打出了火气，手下也没了轻重，他原先是L1级的近战高手，很少用远攻，尤其擂台地方有限，这一下他假意用钢爪，实则打开离子炮，直直对准卫三。",
+        "fields": [
+          "usage"
+        ],
+        "chapterIndex": 16,
+        "chapterTitle": "第16章",
+        "matchedNames": [
+          "离子炮"
+        ],
+        "otherMatchedNames": [
+          "钢爪"
+        ]
+      },
+      {
+        "text": "死神将扯断的手臂扔在地上，疯狂吼叫，并打开离子炮对准手臂，打了个稀巴烂。",
+        "fields": [
+          "usage"
+        ],
+        "chapterIndex": 34,
+        "chapterTitle": "第34章",
+        "matchedNames": [
+          "离子炮"
+        ]
+      }
+    ],
+    "finalDescription": "离子炮为机甲用肩载炮形武器，金属质感结构，炮口明显，前端呈圆管状。整体尺寸较大，可拆卸更换，射击时弹道急促密集，也可被当作钝器击打目标。",
+    "summarizedFields": [],
+    "descriptionSource": "mixed",
+    "sourceDescription": "实则打开离子炮; 并打开离子炮对准手臂; 实则打开离子炮（第16章）；并打开离子炮对准手臂（第34章）",
+    "enhancedDescription": "离子炮为机甲用肩载炮形武器，金属质感结构，炮口明显，前端呈圆管状。整体尺寸较大，可拆卸更换，射击时弹道急促密集，也可被当作钝器击打目标。",
+    "supplementDescription": "离子炮为金属炮形装置，炮口明显，结构硬朗，尺寸偏大；连续射击时弹道急促密集，可拆卸装配在机甲肩部"
+  },
+  {
+    "name": "设计图纸",
+    "tier": "candidate",
+    "fields": {
+      "usage": "把画满的图纸卷好递给店主（第22章）；店主把图纸递给卫三（第24章）；他那天去进货才打开卫三的图纸（第24章）",
+      "material": "把画满的图纸卷好递给店主（第22章）；卫三将图纸放在店主能看到的地方（第22章）；而是捧着她的图纸（第24章）；店主把图纸递给卫三（第24章）；他那天去进货才打开卫三的图纸（第24章）；她指着旁边堆着的好几卷图纸：“老板你也可以改（第24章）；图纸卖给你（第24章）；一手把图纸收起来（第24章）；卫三从图纸抬头：“嗯（第32章）；收拾图纸（第38章）；卫三抱着图纸起身（第38章）; 把画满的图纸卷好递给店主（第22章）；卫三将图纸放在店主能看到的地方（第22章）；而是捧着她的图纸（第24章）；店主把图纸递给卫三（第24章）；设计图纸这种东西不要随便给人（第24章）；他那天去进货才打开卫三的图纸（第24章）；她指着旁边堆着的好几卷图纸：“老板你也可以改（第24章）；图纸卖给你（第24章）；一手把图纸收起来（第24章）；卫三靠着设计图纸赚回来一点钱（第24章）；卫三从图纸抬头：“嗯（第32章）；收拾图纸（第38章）；卫三抱着图纸起身（第38章）",
+      "condition": "",
+      "ownership": "把画满的图纸卷好递给店主（第22章）；店主把图纸递给卫三（第24章）",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [
+      "图纸",
+      "破云翅改造图纸"
+    ],
+    "confidence": 0.65,
+    "entityType": "item",
+    "needsReview": true,
+    "visualFields": {
+      "usage": "用于记录破云翅羽片模型大小及其他机甲改造设计（第24章）",
+      "material": "纸质图纸，可卷成卷（第22章）；表面绘满设计图样与标注（第24章）",
+      "condition": "多卷图纸，保存完整（第24章）",
+      "ownership": "卫三绘制，后卖给黑厂店主（第24章）",
+      "colorShape": "成卷纸页，展开后可见密集图样与文字（第24章）",
+      "visualEffects": "无特殊光效"
+    },
+    "llmSupplement": "设计图纸为纸质卷轴状，展开后布满密集的设计图样与文字标注；纸面平整完好，无特殊光效，多卷堆叠时体积明显",
+    "missingFields": [
+      "colorShape",
+      "condition",
+      "visualEffects"
+    ],
+    "visualDetails": {
+      "scale": "多卷，可堆放或环抱携带",
+      "usage": "记载机甲改造设计，供加工参考",
+      "effects": "无特殊光效",
+      "condition": "结构完好，可展开阅读",
+      "ownership": "卫三绘制，交易后归黑厂店主",
+      "colorShape": "卷轴状纸页，展开后布满图样和文字",
+      "materialTexture": "纸质，表面有绘制痕迹"
+    },
+    "inferredFields": [
+      "colorShape",
+      "condition",
+      "visualEffects"
+    ],
+    "sourceCoverage": "strong",
+    "importanceScore": 0.231,
+    "completionStatus": "llm_completed",
+    "evidenceSnippets": [
+      {
+        "text": "”凌晨四点半卫三从工作间出来，把画满的图纸卷好递给店主，“还有一些新增加的零件，也写在上面。",
+        "fields": [
+          "material",
+          "usage",
+          "ownership"
+        ],
+        "chapterIndex": 22,
+        "chapterTitle": "第22章",
+        "matchedNames": [
+          "图纸"
+        ]
+      },
+      {
+        "text": "卫三将图纸放在店主能看到的地方，转身离开黑厂。",
+        "fields": [
+          "material"
+        ],
+        "chapterIndex": 22,
+        "chapterTitle": "第22章",
+        "matchedNames": [
+          "图纸"
+        ]
+      },
+      {
+        "text": "这次卫三照样绕了一大圈才去黑厂, 店主今天没吃面, 而是捧着她的图纸, 站在店门口等她。",
+        "fields": [
+          "material"
+        ],
+        "chapterIndex": 24,
+        "chapterTitle": "第24章",
+        "matchedNames": [
+          "图纸"
+        ]
+      },
+      {
+        "text": "”店主把图纸递给卫三, 犹豫后提醒，“设计图纸这种东西不要随便给人。",
+        "fields": [
+          "material",
+          "usage",
+          "ownership"
+        ],
+        "chapterIndex": 24,
+        "chapterTitle": "第24章",
+        "matchedNames": [
+          "图纸"
+        ],
+        "otherMatchedNames": [
+          "设计图纸"
+        ]
+      },
+      {
+        "text": "他那天去进货才打开卫三的图纸，结果发现上面不光有羽片的模型大小，还有其他的设计。",
+        "fields": [
+          "material",
+          "usage"
+        ],
+        "chapterIndex": 24,
+        "chapterTitle": "第24章",
+        "matchedNames": [
+          "图纸"
+        ]
+      },
+      {
+        "text": "卫三心中安慰自己好歹过了一把改造机甲的手瘾，她指着旁边堆着的好几卷图纸：“老板你也可以改，图纸卖给你，五十万星币怎么样？",
+        "fields": [
+          "material"
+        ],
+        "chapterIndex": 24,
+        "chapterTitle": "第24章",
+        "matchedNames": [
+          "图纸"
+        ],
+        "otherMatchedNames": [
+          "改造机甲",
+          "机甲"
+        ]
+      },
+      {
+        "text": "”店主刷钱给她，一手把图纸收起来，这个人可能不愿意暴露自己的身份。",
+        "fields": [
+          "material"
+        ],
+        "chapterIndex": 24,
+        "chapterTitle": "第24章",
+        "matchedNames": [
+          "图纸"
+        ]
+      },
+      {
+        "text": "卫三从图纸抬头：“嗯。",
+        "fields": [
+          "material"
+        ],
+        "chapterIndex": 32,
+        "chapterTitle": "第32章",
+        "matchedNames": [
+          "图纸"
+        ]
+      },
+      {
+        "text": "”卫三蹲在地上，收拾图纸，“要把价钱控制在合理范围内，还不能减少机甲攻击力，我做起来一直很难。",
+        "fields": [
+          "material"
+        ],
+        "chapterIndex": 38,
+        "chapterTitle": "第38章",
+        "matchedNames": [
+          "图纸"
+        ],
+        "otherMatchedNames": [
+          "机甲"
+        ]
+      },
+      {
+        "text": "”卫三抱着图纸起身，“老板你问这个干什么？",
+        "fields": [
+          "material"
+        ],
+        "chapterIndex": 38,
+        "chapterTitle": "第38章",
+        "matchedNames": [
+          "图纸"
+        ]
+      },
+      {
+        "text": "”店主把图纸递给卫三, 犹豫后提醒，“设计图纸这种东西不要随便给人。",
+        "fields": [
+          "material",
+          "usage",
+          "ownership"
+        ],
+        "chapterIndex": 24,
+        "chapterTitle": "第24章",
+        "matchedNames": [
+          "设计图纸",
+          "图纸"
+        ]
+      },
+      {
+        "text": "卫三靠着设计图纸赚回来一点钱，心理总算平衡一些，晚上睡觉都香了一点。",
+        "fields": [
+          "material"
+        ],
+        "chapterIndex": 24,
+        "chapterTitle": "第24章",
+        "matchedNames": [
+          "设计图纸",
+          "图纸"
+        ]
+      }
+    ],
+    "finalDescription": "设计图纸为纸质材料，常被卷成卷或平铺展示。纸面密集绘有破云翅羽片模型大小、零件标注和其他机甲改造图样，卷数较多，便于携带和翻阅。整体无特殊光效，是记录改造方案的技术图卷。",
+    "summarizedFields": [
+      "material",
+      "usage",
+      "ownership"
+    ],
+    "descriptionSource": "mixed",
+    "sourceDescription": "把画满的图纸卷好递给店主; 卫三将图纸放在店主能看到的地方; 而是捧着她的图纸; 店主把图纸递给卫三; 他那天去进货才打开卫三的图纸; 她指着旁边堆着的好几卷图纸：“老板你也可以改; 图纸卖给你; 一手把图纸收起来; 卫三从图纸抬头：“嗯; 收拾图纸; 卫三抱着图纸起身; 设计图纸这种东西不要随便给人; 卫三靠着设计图纸赚回来一点钱; 把画满的图纸卷好递给店主（第22章）；卫三将图纸放在店主能看到的地方（第22章）；而是捧着她的图纸（第24章）；店主把图纸递给卫三（第24章）；他那天去进货才打开卫三的图纸（第24章）；她指着旁边堆着的好几卷图纸：“老板你也可以改（第24章）；图纸卖给你（第24章）；一手把图纸收起来（第24章）；卫三从图纸抬头：“嗯（第32章）；收拾图纸（第38章）；卫三抱着图纸起身（第38章）; 把画满的图纸卷好递给店主（第22章）；卫三将图纸放在店主能看到的地方（第22章）；而是捧着她的图纸（第24章）；店主把图纸递给卫三（第24章）；设计图纸这种东西不要随便给人（第24章）；他那天去进货才打开卫三的图纸（第24章）；她指着旁边堆着的好几卷图纸：“老板你也可以改（第24章）；图纸卖给你（第24章）；一手把图纸收起来（第24章）；卫三靠着设计图纸赚回来一点钱（第24章）；卫三从图纸抬头：“嗯（第32章）；收拾图纸（第38章）；卫三抱着图纸起身（第38章）; 把画满的图纸卷好递给店主（第22章）；店主把图纸递给卫三（第24章）；他那天去进货才打开卫三的图纸（第24章）; 把画满的图纸卷好递给店主（第22章）；店主把图纸递给卫三（第24章）",
+    "enhancedDescription": "设计图纸为纸质材料，常被卷成卷或平铺展示。纸面密集绘有破云翅羽片模型大小、零件标注和其他机甲改造图样，卷数较多，便于携带和翻阅。整体无特殊光效，是记录改造方案的技术图卷。",
+    "supplementDescription": "设计图纸为纸质卷轴状，展开后布满密集的设计图样与文字标注；纸面平整完好，无特殊光效，多卷堆叠时体积明显"
+  },
+  {
+    "name": "白金机甲",
+    "tier": "candidate",
+    "fields": {
+      "usage": "",
+      "material": "",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [
+      "改造机甲"
+    ],
+    "confidence": 0,
+    "entityType": "item",
+    "needsReview": true,
+    "visualFields": {
+      "usage": "战斗用机甲，搭配破云翅与描金弩",
+      "material": "金属机身，表面覆有白金色涂装",
+      "condition": "改造完成后结构完整，外观崭新",
+      "ownership": "卫三改造的A级机甲",
+      "colorShape": "整体呈白金色，外装甲轮廓分明",
+      "visualEffects": "涂装表面有金属光泽"
+    },
+    "llmSupplement": "白金机甲机身覆盖白金色涂装，表面光滑，外装甲线条明朗；整机结构完整高大，与同色破云翅和描金弩搭配时整体呈白金色调",
+    "missingFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "visualDetails": {
+      "scale": "机甲体型，可容纳驾驶员",
+      "usage": "战斗用，可配备破云翅与描金弩",
+      "effects": "金属涂装在光照下有光泽",
+      "condition": "改造后完整，外观崭新",
+      "ownership": "卫三改造的A级机甲",
+      "colorShape": "白金色涂装覆盖机身，外装甲轮廓清晰",
+      "materialTexture": "金属机身，表面涂装光滑"
+    },
+    "inferredFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "none",
+    "importanceScore": 0.231,
+    "completionStatus": "llm_inferred",
+    "evidenceSnippets": [],
+    "finalDescription": "白金机甲是一台以黑色原型机为基础改造的A级机甲，机身覆盖白金色涂装，表面光滑，外装甲线条清晰。整体体型高大，改造后结构完整，外观崭新，常与白金色破云翅和描金弩搭配，视觉上攻击感与装饰感并存。",
+    "summarizedFields": [],
+    "descriptionSource": "mixed",
+    "sourceDescription": "",
+    "enhancedDescription": "白金机甲是一台以黑色原型机为基础改造的A级机甲，机身覆盖白金色涂装，表面光滑，外装甲线条清晰。整体体型高大，改造后结构完整，外观崭新，常与白金色破云翅和描金弩搭配，视觉上攻击感与装饰感并存。",
+    "supplementDescription": "白金机甲机身覆盖白金色涂装，表面光滑，外装甲线条明朗；整机结构完整高大，与同色破云翅和描金弩搭配时整体呈白金色调"
+  },
+  {
+    "name": "弩箭",
+    "tier": "candidate",
+    "fields": {
+      "usage": "",
+      "material": "",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "item",
+    "needsReview": true,
+    "visualFields": {
+      "usage": "轻型机甲远程武器，可连续射出密集箭矢",
+      "material": "金属箭矢，细长尖锐",
+      "condition": "箭矢完整，可连续发射",
+      "ownership": "丁和美与起岸西等轻型机甲配置",
+      "colorShape": "长条箭形，前端锋利",
+      "visualEffects": "箭矢密集飞射，命中后可穿透目标"
+    },
+    "llmSupplement": "弩箭箭身细长，金属材质，头部尖锐；多支箭矢可连续高速射出，形成密集弹幕，击中目标后能穿透",
+    "missingFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "visualDetails": {
+      "scale": "轻型机甲用，单支尺寸不大",
+      "usage": "远程射击，连续发射密集攻击",
+      "effects": "箭矢高速密集射出，可击穿目标",
+      "condition": "箭矢完整可用",
+      "ownership": "轻型机甲，使用者包括丁和美、起岸西",
+      "colorShape": "细长箭形，头部尖锐",
+      "materialTexture": "金属箭身，表面光滑坚硬"
+    },
+    "inferredFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "none",
+    "importanceScore": 0.231,
+    "completionStatus": "llm_inferred",
+    "evidenceSnippets": [],
+    "finalDescription": "弩箭为轻型机甲使用的远程射击武器，箭身细长，金属材质，头部尖锐。多支箭矢可连续高速射出，形成密集攻击，命中后可穿透目标。整体为轻量化设计，适合快速射击。",
+    "summarizedFields": [],
+    "descriptionSource": "mixed",
+    "sourceDescription": "",
+    "enhancedDescription": "弩箭为轻型机甲使用的远程射击武器，箭身细长，金属材质，头部尖锐。多支箭矢可连续高速射出，形成密集攻击，命中后可穿透目标。整体为轻量化设计，适合快速射击。",
+    "supplementDescription": "弩箭箭身细长，金属材质，头部尖锐；多支箭矢可连续高速射出，形成密集弹幕，击中目标后能穿透"
+  },
+  {
+    "name": "描金弩",
+    "tier": "candidate",
+    "fields": {
+      "usage": "",
+      "material": "",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "item",
+    "needsReview": true,
+    "visualFields": {
+      "usage": "固定于机甲手臂作为远程武器，可发射弩箭或能量弹",
+      "material": "黑色金属弩身，表面可见金色描边纹样",
+      "condition": "整体结构完好，金属表面无锈蚀，连接部位紧密",
+      "ownership": "由卫三拼接并安装于轻型机甲臂部",
+      "colorShape": "通体以黑色为底，弩臂两侧带金色描边，轮廓与机甲前臂适配，线条硬朗",
+      "visualEffects": "击发时弩身或弹药带淡金色微光"
+    },
+    "llmSupplement": "黑色金属弩身表面带金色描边纹样，弩臂与机甲前臂等长；安装后结构紧实，击发时泛淡金色微光",
+    "missingFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "visualDetails": {
+      "scale": "与轻型机甲前臂等长，尺寸适配机甲手臂",
+      "usage": "挂载于机甲臂部，远程发射弩箭或能量束",
+      "effects": "金色描边与发射时微光呼应",
+      "condition": "完好，无破损，结构紧实",
+      "ownership": "轻型机甲配件，由卫三改装",
+      "colorShape": "黑色基底与金色描边相间，弩臂横向展开，形状紧凑",
+      "materialTexture": "哑光金属质地，弩身有冷硬金属感，描金部分为亮面金色"
+    },
+    "inferredFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "none",
+    "importanceScore": 0.231,
+    "completionStatus": "llm_inferred",
+    "evidenceSnippets": [],
+    "finalDescription": "描金弩为机甲手臂搭载的远程武器，由黑弩改造而来。弩身以黑色金属为底，表面带金色描边纹样，轮廓与轻型机甲前臂适配，线条硬朗。整体结构完好，使用时固定于臂部，可发射弩箭或能量弹药，击发时带淡金色微光。",
+    "summarizedFields": [],
+    "descriptionSource": "mixed",
+    "sourceDescription": "",
+    "enhancedDescription": "描金弩为机甲手臂搭载的远程武器，由黑弩改造而来。弩身以黑色金属为底，表面带金色描边纹样，轮廓与轻型机甲前臂适配，线条硬朗。整体结构完好，使用时固定于臂部，可发射弩箭或能量弹药，击发时带淡金色微光。",
+    "supplementDescription": "黑色金属弩身表面带金色描边纹样，弩臂与机甲前臂等长；安装后结构紧实，击发时泛淡金色微光"
+  },
+  {
+    "name": "治疗舱",
+    "tier": "candidate",
+    "fields": {
+      "usage": "",
+      "material": "下一秒李皮走了过来（第4章）；李皮撩起眼皮（第5章）；卫三想着都是皮外伤（第35章）",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "卫三快速进入边缘森林（第6章）",
+      "visualEffects": ""
+    },
+    "aliases": [],
+    "confidence": 0.53,
+    "entityType": "item",
+    "needsReview": true,
+    "visualFields": {
+      "usage": "伤者平躺于舱内，透明舱盖可合闭进行愈合",
+      "material": "下一秒李皮走了过来（第4章）；李皮撩起眼皮（第5章）；卫三想着都是皮外伤（第35章）",
+      "condition": "舱体外观完好，舱盖透明无裂痕",
+      "ownership": "3212学院医务室及李皮治疗用设备",
+      "colorShape": "卫三快速进入边缘森林（第6章）",
+      "visualEffects": "运行时常亮淡蓝色或淡绿色指示光带"
+    },
+    "llmSupplement": "舱体外壳为冷银色金属质感，舱盖为半透明弧形；运行时内部透出柔和淡色光，控制面板带淡蓝或淡绿指示光带",
+    "missingFields": [
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "visualDetails": {
+      "scale": "单人平躺尺寸，略大于人体长度",
+      "usage": "舱盖可开合，伤者躺入后封闭，内部液体或光场进行修复",
+      "effects": "运行时控制面板亮起淡蓝或淡绿光带",
+      "condition": "外观整洁完好，无破损",
+      "ownership": "学院医务室及李皮的治疗设备",
+      "colorShape": "长方体单人舱，舱盖呈弧形透明，内部为浅色治疗腔",
+      "materialTexture": "外壳带冷银色金属质感，舱盖为半透明高强度透光材质"
+    },
+    "inferredFields": [
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "partial",
+    "importanceScore": 0.231,
+    "completionStatus": "llm_completed",
+    "evidenceSnippets": [
+      {
+        "text": "果然，下一秒李皮走了过来，伸出一根手指用力戳她肩膀：“隔壁班四个人被你弄到医疗室，躺治疗舱躺了半个小时，本来我很开心。",
+        "fields": [
+          "material"
+        ],
+        "chapterIndex": 4,
+        "chapterTitle": "第4章",
+        "matchedNames": [
+          "治疗舱"
+        ]
+      },
+      {
+        "text": "”李皮撩起眼皮，“你在治疗舱泡了四个小时，一共七千星币。",
+        "fields": [
+          "material"
+        ],
+        "chapterIndex": 5,
+        "chapterTitle": "第5章",
+        "matchedNames": [
+          "治疗舱"
+        ]
+      },
+      {
+        "text": "卫三快速进入边缘森林，她向来惜命，十六次期末考试，基本上靠着各种走位避免受重伤，她穷，躺不起治疗舱。",
+        "fields": [
+          "colorShape"
+        ],
+        "chapterIndex": 6,
+        "chapterTitle": "第6章",
+        "matchedNames": [
+          "治疗舱"
+        ]
+      },
+      {
+        "text": "卫三想着都是皮外伤, 便懒得去躺治疗舱, 一来要花钱, 二来她不喜欢躺在里面的感觉。",
+        "fields": [
+          "material"
+        ],
+        "chapterIndex": 35,
+        "chapterTitle": "第35章",
+        "matchedNames": [
+          "治疗舱"
+        ]
+      }
+    ],
+    "finalDescription": "治疗舱为可容纳单人的封闭式医疗舱，外壳呈冷银色金属质感，上方或侧面设弧形透明舱盖，内部空间浅色整洁。伤者平躺其中后舱盖闭合，舱内可见柔和光线或液体感，控制面板运行时亮起淡蓝或淡绿光带。整体外观完好，常用于学院医务室及李皮的治疗室。",
+    "summarizedFields": [],
+    "descriptionSource": "mixed",
+    "sourceDescription": "下一秒李皮走了过来; 李皮撩起眼皮; 卫三想着都是皮外伤; 卫三快速进入边缘森林; 下一秒李皮走了过来（第4章）；李皮撩起眼皮（第5章）；卫三想着都是皮外伤（第35章）; 卫三快速进入边缘森林（第6章）",
+    "enhancedDescription": "治疗舱为可容纳单人的封闭式医疗舱，外壳呈冷银色金属质感，上方或侧面设弧形透明舱盖，内部空间浅色整洁。伤者平躺其中后舱盖闭合，舱内可见柔和光线或液体感，控制面板运行时亮起淡蓝或淡绿光带。整体外观完好，常用于学院医务室及李皮的治疗室。",
+    "supplementDescription": "舱体外壳为冷银色金属质感，舱盖为半透明弧形；运行时内部透出柔和淡色光，控制面板带淡蓝或淡绿指示光带"
+  },
+  {
+    "name": "黑弩",
+    "tier": "candidate",
+    "fields": {
+      "usage": "",
+      "material": "",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "item",
+    "needsReview": true,
+    "visualFields": {
+      "usage": "装载于轻型机甲臂部或背部，作为远程武器发射弩箭",
+      "material": "黑色金属弩身",
+      "condition": "组装完成，结构完好",
+      "ownership": "起岸西的轻型机甲远程武器，由卫三拼接安装",
+      "colorShape": "整体黑色，弩臂横展，结构紧凑",
+      "visualEffects": "发射时可带暗色或淡色能量流光"
+    },
+    "llmSupplement": "通体黑色金属弩身，弩臂横展，体积大于手持弩，与轻型机甲臂部或背部挂点适配；发射时带暗色流光",
+    "missingFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "visualDetails": {
+      "scale": "体积适配轻型机甲，比手持弩更大",
+      "usage": "机载远程武器，可搭配破云翅挂载",
+      "effects": "箭矢或能量射出时带一道暗色或淡色流光",
+      "condition": "完好，无明显破损",
+      "ownership": "轻型机甲配件，属起岸西轻型机甲",
+      "colorShape": "黑色弩身，横展弩臂，机匣方正",
+      "materialTexture": "哑光黑色金属，质感冷硬"
+    },
+    "inferredFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "none",
+    "importanceScore": 0.231,
+    "completionStatus": "llm_inferred",
+    "evidenceSnippets": [],
+    "finalDescription": "黑弩为轻型机甲搭载的远程武器，整体呈黑色金属质感，弩臂横向展开，机匣结构紧凑。体积适配轻型机甲，常与破云翅搭配挂载，由卫三组装后安装于起岸西的轻型机甲上。外观完好，使用时发射弩箭，带一道短促流光。",
+    "summarizedFields": [],
+    "descriptionSource": "mixed",
+    "sourceDescription": "",
+    "enhancedDescription": "黑弩为轻型机甲搭载的远程武器，整体呈黑色金属质感，弩臂横向展开，机匣结构紧凑。体积适配轻型机甲，常与破云翅搭配挂载，由卫三组装后安装于起岸西的轻型机甲上。外观完好，使用时发射弩箭，带一道短促流光。",
+    "supplementDescription": "通体黑色金属弩身，弩臂横展，体积大于手持弩，与轻型机甲臂部或背部挂点适配；发射时带暗色流光"
+  },
+  {
+    "name": "机甲",
+    "tier": "candidate",
+    "fields": {
+      "usage": "卫三打开舱门跳下来（第7章）；拿着扳手对准泰吴德：“吵死了（第7章）；机甲舱突然打开（第8章）；卫三打开机甲（第13章）；直接传递给她（第14章）；戴着银色面具（第16章）；店主问了一个藏在心中很久的问题：“你是怎么在擂台上拆他们机甲的（第21章）；打开右臂炮膛口（第36章）；起岸西已经近身用手拔出那根箭（第39章）",
+      "material": "原来这是一种机甲专用金属（第2章）；我李皮带了这么多届学生（第4章）；李皮撩起眼皮看了她一会：“确实是战斗型机甲（第7章）；李皮正色看着卫三：“假如……你能进五大军校（第7章）；李皮点头（第7章）；李皮指了指那架灰绿色机甲（第8章）；李皮介绍完后（第8章）；众人还以为李皮是在安慰（第8章）；刚才李皮说的每个按键作用都熟记在心（第8章）；回头对李皮道：“老师（第8章）；李皮和卫三回到训练场中（第8章）；李皮看着开始走动的机甲（第8章）；李皮叹气：“我看她身体一直没跟上营养（第8章）；他问的是昨天卫三控制机甲在A4纸上剪出一朵花的操作（第8章）；但要在A4纸上剪花这操作（第8章）；纸又太薄（第8章）；李皮跳上机甲舱（第9章）；一拳打在训练场中竖起的钢板上（第9章）；这钢板是特质的（第9章）；原先机甲压根不能对钢板造成这么大的伤害（第9章）；你看那块钢板（第9章）；不像我们机甲单兵皮糙肉厚的（第11章）；被无辜牵连的学生甩不掉这个牛皮糖（第15章）；应成河还举着硬纸壳（第32章）；便如同小石子入海（第33章）；穿着黑色丝绸睡衣的中年男人靠在椅子上（第35章）；但还有其他的晶体（第35章）；金色晶体适合用在S级重型机甲上（第35章）；子弹居然穿不破异狼眼皮（第36章）；似乎同样金属化了（第36章）；机甲和金属化狼头相撞（第36章）",
+      "condition": "崭新的黑色机甲躲也不躲（第14章）；拖着已经残缺的机甲（第18章）；用一把磨得锋利的机甲片当刀用（第21章）；连嘴边的血迹都没有擦（第34章）；有效防止关节磨损（第35章）",
+      "ownership": "填好后交给我（第12章）；更不用提有些顶级世家有属于自己的机甲（第12章）；开始熟悉属于自己的机甲（第12章）；这家店店主属于有技术的人（第13章）；背后的粉色猛男急忙刹住脚步（第14章）；直接传递给她（第14章）；背后都有一个专属机甲师（第17章）；在他心中卫三背后是有高人的（第19章）；但他从来没有见过这么丑的机甲：背后鼓起一坨像背了龟壳（第20章）；卫三趁机将刚才拆下的防御甲握在手中（第21章）；第二天一大早在地下二层把机甲交给起岸西（第24章）；选手便有机会被背后各种势力招揽（第28章）；似乎在护着背后两架机甲（第29章）；背后两架机甲则手忙脚乱对付着围过来的小蜘蛛（第29章）；背后两架机甲也打不过那些蜘蛛（第29章）；接连败在两个新L3级手中（第38章）",
+      "colorShape": "再做成项链形状（第12章）；相同黑色机甲互相纠打在一起（第13章）；对面也有一台黑色机甲走过来（第13章）；崭新的黑色机甲躲也不躲（第14章）；手臂用劲将同样的黑色机甲摔出擂台（第14章）；连颜色都换了一种（第16章）；台上黑色机甲里面跳出一个修长身影（第16章）；戴着银色面具（第16章）；两架同样没有进行过改造的黑色机甲站在擂台上（第17章）；什么颜色都搭在机甲身上（第21章）；黑厂的机甲是全黑色（第24章）；不如把机甲涂色也改成白金色（第24章）；训练场的灯光照在白金色机甲身上（第24章）；白色机甲径直对上巨大灰色蜘蛛（第29章）；白色机甲会输（第29章）；现在只看是白色机甲还是另外两架机甲先输了（第29章）；白色机甲动作只停顿了一秒（第29章）；白色机甲的人冲那台机甲内的人厉声喊道（第29章）；但只剩下一架白色机甲（第29章）；操场上的人只看得见白色机甲护着后方指挥（第29章）；女人含着一根细长烟（第34章）；穿着黑色丝绸睡衣的中年男人靠在椅子上（第35章）；金色晶体适合用在S级重型机甲上（第35章）；她想起之前在3212星废弃大楼见到的那家银色机甲（第35章）；颜色完全不同（第39章）",
+      "visualEffects": "细碎而耀眼的光芒让周围的人不自觉将目光投过来（第24章）"
+    },
+    "aliases": [],
+    "confidence": 1,
+    "entityType": "item",
+    "needsReview": false,
+    "visualFields": {
+      "usage": "机甲舱门可开启，内部有操作室（第7章；第8章）；右臂配有可打开的炮膛口（第36章）",
+      "material": "机甲采用专用金属材质，机身具冷硬金属质感与厚重装甲板（第2章）",
+      "condition": "崭新黑色机甲（第14章）；残缺破损的机甲（第18章）；拆卸下的机甲片边缘磨得锋利（第21章）",
+      "ownership": "填好后交给我（第12章）; 更不用提有些顶级世家有属于自己的机甲（第12章）; 开始熟悉属于自己的机甲（第12章）; 这家店店主属于有技术的人（第13章）; 背后的粉色猛男急忙刹住脚步（第14章）; 直接传递给她（第14章）",
+      "colorShape": "训练场灰绿色机甲（第8章）；全黑色涂装机甲（第24章）；白金色涂装在灯光下泛光（第24章）；白色机体（第29章）；部分机体背部有鼓起结构（第20章）",
+      "visualEffects": "细碎而耀眼的光芒让周围的人不自觉将目光投过来（第24章）"
+    },
+    "llmSupplement": "",
+    "missingFields": [],
+    "visualDetails": {
+      "scale": "人形驾驶载具，高度数米，座舱可容一人操作",
+      "usage": "舱门开合进入内部操作室，右臂炮膛口可开合，可搭载远程或近战武器",
+      "effects": "白金色装甲在训练场灯光下泛细碎耀眼反光",
+      "condition": "从崭新到残缺破损均有，部件可被拆解改装",
+      "ownership": "训练场停放灰绿色教学机（第8章）；部分机体由世家或个人专属",
+      "colorShape": "大型人形机体，涂装多样，装甲板覆盖关节，线条硬朗",
+      "materialTexture": "冷硬金属装甲，部分涂装为黑色、白金色、白色或灰绿色"
+    },
+    "inferredFields": [],
+    "sourceCoverage": "strong",
+    "importanceScore": 0.119,
+    "completionStatus": "llm_completed",
+    "evidenceSnippets": [
+      {
+        "text": "第一个先查的是游金，原来这是一种机甲专用金属，延展性和抵御性极强，从发现开始便一直用于军工，后应用到机甲上，也是近百年来才向民众开放交易渠道。",
+        "fields": [
+          "material"
+        ],
+        "chapterIndex": 2,
+        "chapterTitle": "第2章",
+        "matchedNames": [
+          "机甲"
+        ],
+        "otherMatchedNames": [
+          "游金"
+        ]
+      },
+      {
+        "text": "“我李皮带了这么多届学生，你们这届绝对是最差劲的，打个群架就慌了神，以后用机甲怎么办？",
+        "fields": [
+          "material"
+        ],
+        "chapterIndex": 4,
+        "chapterTitle": "第4章",
+        "matchedNames": [
+          "机甲"
+        ]
+      },
+      {
+        "text": "感受了一遍机甲，卫三打开舱门跳下来，拿着扳手对准泰吴德：“吵死了，闭嘴。",
+        "fields": [
+          "usage"
+        ],
+        "chapterIndex": 7,
+        "chapterTitle": "第7章",
+        "matchedNames": [
+          "机甲"
+        ]
+      },
+      {
+        "text": "李皮撩起眼皮看了她一会：“确实是战斗型机甲。",
+        "fields": [
+          "material"
+        ],
+        "chapterIndex": 7,
+        "chapterTitle": "第7章",
+        "matchedNames": [
+          "机甲"
+        ]
+      },
+      {
+        "text": "李皮正色看着卫三：“假如……你能进五大军校，这个机甲对你而言，没有什么太大的帮助。",
+        "fields": [
+          "material"
+        ],
+        "chapterIndex": 7,
+        "chapterTitle": "第7章",
+        "matchedNames": [
+          "机甲"
+        ]
+      },
+      {
+        "text": "李皮点头，随后又问：“我听说你帮泰家修好了机甲？",
+        "fields": [
+          "material"
+        ],
+        "chapterIndex": 7,
+        "chapterTitle": "第7章",
+        "matchedNames": [
+          "机甲"
+        ]
+      },
+      {
+        "text": "”李皮指了指那架灰绿色机甲，介绍外部机甲几个部位，随后又打开光脑，将机甲内部操作室投影出来。",
+        "fields": [
+          "material"
+        ],
+        "chapterIndex": 8,
+        "chapterTitle": "第8章",
+        "matchedNames": [
+          "机甲"
+        ],
+        "otherMatchedNames": [
+          "光脑"
+        ]
+      },
+      {
+        "text": "”李皮介绍完后，不知道点了什么，机甲舱突然打开，“说再多不如你们自己去体会，现在按照学号一个一个来，每人十五分钟实操时间，108009号上来。",
+        "fields": [
+          "material",
+          "usage"
+        ],
+        "chapterIndex": 8,
+        "chapterTitle": "第8章",
+        "matchedNames": [
+          "机甲"
+        ]
+      },
+      {
+        "text": "众人还以为李皮是在安慰，结果学生陆陆续续上去，下来的人个个像冲刺跑了十几公里一样，满身大汗，偏偏机甲基本上没怎么动过。",
+        "fields": [
+          "material"
+        ],
+        "chapterIndex": 8,
+        "chapterTitle": "第8章",
+        "matchedNames": [
+          "机甲"
+        ]
+      },
+      {
+        "text": "卫三坐在驾驶座上，戴好头盔，两边太阳穴顿时能感受到电流穿过，她扫过面前的操控板，刚才李皮说的每个按键作用都熟记在心，她试探按了一遍，机甲偶尔会张开手臂转化成刀刺或炮弹筒。",
+        "fields": [
+          "material"
+        ],
+        "chapterIndex": 8,
+        "chapterTitle": "第8章",
+        "matchedNames": [
+          "机甲"
+        ]
+      },
+      {
+        "text": "卫三昏昏沉沉爬出来，扭头看着倒地的机甲，回头对李皮道：“老师，抱歉。",
+        "fields": [
+          "material"
+        ],
+        "chapterIndex": 8,
+        "chapterTitle": "第8章",
+        "matchedNames": [
+          "机甲"
+        ]
+      },
+      {
+        "text": "李皮和卫三回到训练场中，所有学生早已经到齐了，都想再看看卫三操控机甲。",
+        "fields": [
+          "material"
+        ],
+        "chapterIndex": 8,
+        "chapterTitle": "第8章",
+        "matchedNames": [
+          "机甲"
+        ]
+      },
+      {
+        "text": "李皮看着开始走动的机甲，面色复杂。",
+        "fields": [
+          "material"
+        ],
+        "chapterIndex": 8,
+        "chapterTitle": "第8章",
+        "matchedNames": [
+          "机甲"
+        ]
+      },
+      {
+        "text": "李皮叹气：“我看她身体一直没跟上营养，今天机甲实操，刚上去人就晕了，吃饱了饭才动得了。",
+        "fields": [
+          "material"
+        ],
+        "chapterIndex": 8,
+        "chapterTitle": "第8章",
+        "matchedNames": [
+          "机甲"
+        ]
+      },
+      {
+        "text": "他问的是昨天卫三控制机甲在A4纸上剪出一朵花的操作。",
+        "fields": [
+          "material"
+        ],
+        "chapterIndex": 8,
+        "chapterTitle": "第8章",
+        "matchedNames": [
+          "机甲"
+        ]
+      },
+      {
+        "text": "但要在A4纸上剪花这操作，泰吴德做不到，机甲手太大，纸又太薄。",
+        "fields": [
+          "material"
+        ],
+        "chapterIndex": 8,
+        "chapterTitle": "第8章",
+        "matchedNames": [
+          "机甲"
+        ]
+      },
+      {
+        "text": "李皮跳上机甲舱，进去重新试了试，一拳打在训练场中竖起的钢板上，顿时凹出一个坑。",
+        "fields": [
+          "material"
+        ],
+        "chapterIndex": 9,
+        "chapterTitle": "第9章",
+        "matchedNames": [
+          "机甲"
+        ]
+      },
+      {
+        "text": "“这……”老师们眼露惊色，这钢板是特质的，刚采购没几年，原先机甲压根不能对钢板造成这么大的伤害，最多留下浅浅的痕迹。",
+        "fields": [
+          "material"
+        ],
+        "chapterIndex": 9,
+        "chapterTitle": "第9章",
+        "matchedNames": [
+          "机甲"
+        ]
+      },
+      {
+        "text": "“这机甲攻击数据变强了，你看那块钢板。",
+        "fields": [
+          "material"
+        ],
+        "chapterIndex": 9,
+        "chapterTitle": "第9章",
+        "matchedNames": [
+          "机甲"
+        ]
+      },
+      {
+        "text": "“毕竟指挥在哪都是宝贝，不像我们机甲单兵皮糙肉厚的。",
+        "fields": [
+          "material"
+        ],
+        "chapterIndex": 11,
+        "chapterTitle": "第11章",
+        "matchedNames": [
+          "机甲"
+        ]
+      },
+      {
+        "text": "“填好后交给我，待会我们直接去机甲场，老师在那边等着我们。",
+        "fields": [
+          "ownership"
+        ],
+        "chapterIndex": 12,
+        "chapterTitle": "第12章",
+        "matchedNames": [
+          "机甲"
+        ]
+      },
+      {
+        "text": "箱子内全是项链，更准确地说是每一条项链内都有一架机甲，采用空间折叠技术，将机甲收纳进特殊材质内，变成一个硬币大小的圆珠，再做成项链形状，方便携带。",
+        "fields": [
+          "colorShape"
+        ],
+        "chapterIndex": 12,
+        "chapterTitle": "第12章",
+        "matchedNames": [
+          "机甲"
+        ]
+      },
+      {
+        "text": "军校的学生绝大多数从上学起便开始练习机甲，更不用提有些顶级世家有属于自己的机甲，自己的训练场，而众所周知无名星资源匮乏，根本没有机会接触到A级机甲，更不用提区别三种机甲类型。",
+        "fields": [
+          "ownership"
+        ],
+        "chapterIndex": 12,
+        "chapterTitle": "第12章",
+        "matchedNames": [
+          "机甲"
+        ],
+        "otherMatchedNames": [
+          "A级机甲"
+        ]
+      },
+      {
+        "text": "卫三一直练习收放机甲，认真地完成老师布置的作业，但有很多同学已经进了机甲舱，开始熟悉属于自己的机甲。",
+        "fields": [
+          "ownership"
+        ],
+        "chapterIndex": 12,
+        "chapterTitle": "第12章",
+        "matchedNames": [
+          "机甲"
+        ]
+      },
+      {
+        "text": "她被骂半天才明白过来，这家店店主属于有技术的人，有很多机甲师都想当他徒弟。",
+        "fields": [
+          "ownership"
+        ],
+        "chapterIndex": 13,
+        "chapterTitle": "第13章",
+        "matchedNames": [
+          "机甲"
+        ]
+      },
+      {
+        "text": "相同黑色机甲互相纠打在一起，轰然倒地，更靠近地面的那位单手撑地，屈膝借倒下冲力攻击对方，下一秒对方伸手挡下，却不料这只是一个幌子，地上那人趁机操控机甲，从旁边撤开，翻身压制，一个手刀劈在对方头上。",
+        "fields": [
+          "colorShape"
+        ],
+        "chapterIndex": 13,
+        "chapterTitle": "第13章",
+        "matchedNames": [
+          "机甲"
+        ]
+      },
+      {
+        "text": "卫三打开机甲，控制机甲走进比赛场区，对面也有一台黑色机甲走过来，应该就是粉色猛男。",
+        "fields": [
+          "usage",
+          "colorShape"
+        ],
+        "chapterIndex": 13,
+        "chapterTitle": "第13章",
+        "matchedNames": [
+          "机甲"
+        ]
+      },
+      {
+        "text": "卫三继续埋头跑，不断调试适应机甲，一直到感觉自己和机甲能够统一之后，她才骤然停下，背后的粉色猛男急忙刹住脚步，又是一拳挥来。",
+        "fields": [
+          "ownership"
+        ],
+        "chapterIndex": 14,
+        "chapterTitle": "第14章",
+        "matchedNames": [
+          "机甲"
+        ]
+      },
+      {
+        "text": "崭新的黑色机甲躲也不躲，抬手接住这一拳，同时腰腹发力，手臂用劲将同样的黑色机甲摔出擂台。",
+        "fields": [
+          "colorShape",
+          "condition"
+        ],
+        "chapterIndex": 14,
+        "chapterTitle": "第14章",
+        "matchedNames": [
+          "机甲"
+        ]
+      },
+      {
+        "text": "卫三环顾四周，下意识伸手感受吹过来的风，沙漠上那股热风顺着机甲的手，直接传递给她。",
+        "fields": [
+          "usage",
+          "ownership"
+        ],
+        "chapterIndex": 14,
+        "chapterTitle": "第14章",
+        "matchedNames": [
+          "机甲"
+        ]
+      },
+      {
+        "text": "一开始当然没人敢，但卫三不要脸，陈慈一把火力对准她，她就开始操控机甲蹭到其他同学身边，被无辜牵连的学生甩不掉这个牛皮糖，只能咬牙跟着动手反击。",
+        "fields": [
+          "material"
+        ],
+        "chapterIndex": 15,
+        "chapterTitle": "第15章",
+        "matchedNames": [
+          "机甲"
+        ]
+      },
+      {
+        "text": "卫三起身，进入机甲，再走向085擂台，对手也差不多这个时间走上擂台，他的机甲做过改造，连颜色都换了一种。",
+        "fields": [
+          "colorShape"
+        ],
+        "chapterIndex": 16,
+        "chapterTitle": "第16章",
+        "matchedNames": [
+          "机甲"
+        ]
+      },
+      {
+        "text": "台上黑色机甲里面跳出一个修长身影，戴着银色面具，看不清脸，他收了机甲，准备下一场比赛，路过旁边擂台时，目光在卫三身上停留了几秒。",
+        "fields": [
+          "colorShape",
+          "usage"
+        ],
+        "chapterIndex": 16,
+        "chapterTitle": "第16章",
+        "matchedNames": [
+          "机甲"
+        ]
+      },
+      {
+        "text": "两架同样没有进行过改造的黑色机甲站在擂台上，不过卫三是中型机甲，还多了一条破鞭子，起岸西是轻型机甲。",
+        "fields": [
+          "colorShape"
+        ],
+        "chapterIndex": 17,
+        "chapterTitle": "第17章",
+        "matchedNames": [
+          "机甲"
+        ],
+        "otherMatchedNames": [
+          "轻型机甲",
+          "中型机甲",
+          "鞭子",
+          "破鞭子"
+        ]
+      },
+      {
+        "text": "卫三我跟你说，他们每一架都是由无数金钱堆积出来的，背后都有一个专属机甲师。",
+        "fields": [
+          "ownership"
+        ],
+        "chapterIndex": 17,
+        "chapterTitle": "第17章",
+        "matchedNames": [
+          "机甲"
+        ]
+      },
+      {
+        "text": "卫三心中默数着击中红鱼的数量，拖着已经残缺的机甲，努力躲着大鱼攻击。",
+        "fields": [
+          "condition"
+        ],
+        "chapterIndex": 18,
+        "chapterTitle": "第18章",
+        "matchedNames": [
+          "机甲"
+        ]
+      },
+      {
+        "text": "”金珂抬头抽空说了一句，在他心中卫三背后是有高人的，会搞机甲又能打架很正常嘛。",
+        "fields": [
+          "ownership"
+        ],
+        "chapterIndex": 19,
+        "chapterTitle": "第19章",
+        "matchedNames": [
+          "机甲"
+        ]
+      },
+      {
+        "text": "设计版块以前不是没点进来过，但他从来没有见过这么丑的机甲：背后鼓起一坨像背了龟壳，且四肢过短，腹部还有奇奇怪怪的东西，感觉设计者把什么乱七八糟的东西都往上加了。",
+        "fields": [
+          "ownership"
+        ],
+        "chapterIndex": 20,
+        "chapterTitle": "第20章",
+        "matchedNames": [
+          "机甲"
+        ]
+      },
+      {
+        "text": "两人或打或退，卫三趁机将刚才拆下的防御甲握在手中，以甲为刀，近身而战，最终防御甲刺中对方引擎，导致他机甲损坏而输了比赛。",
+        "fields": [
+          "ownership"
+        ],
+        "chapterIndex": 21,
+        "chapterTitle": "第21章",
+        "matchedNames": [
+          "机甲"
+        ]
+      },
+      {
+        "text": "走之前，店主问了一个藏在心中很久的问题：“你是怎么在擂台上拆他们机甲的？",
+        "fields": [
+          "usage"
+        ],
+        "chapterIndex": 21,
+        "chapterTitle": "第21章",
+        "matchedNames": [
+          "机甲"
+        ]
+      },
+      {
+        "text": "机甲进行涂色再正常不过，但这种东一块西一块，什么颜色都搭在机甲身上，他们还从来没见过。",
+        "fields": [
+          "colorShape"
+        ],
+        "chapterIndex": 21,
+        "chapterTitle": "第21章",
+        "matchedNames": [
+          "机甲"
+        ]
+      },
+      {
+        "text": "这个叫向生活低头的人光刀不用光刀，用一把磨得锋利的机甲片当刀用，光刀用特殊材质制成，不用时完全可以收在掌心，用时只要机甲内的灰晶提供能量，而她用的那把‘刀’压根收不回去，竖嵌在机甲手臂后，看起来奇怪又笨拙。",
+        "fields": [
+          "condition"
+        ],
+        "chapterIndex": 21,
+        "chapterTitle": "第21章",
+        "matchedNames": [
+          "机甲"
+        ],
+        "otherMatchedNames": [
+          "光刀",
+          "灰晶"
+        ]
+      },
+      {
+        "text": "黑厂的机甲是全黑色，而她要的破云翅羽片是白金色，搭在一起不太好看，不如把机甲涂色也改成白金色。",
+        "fields": [
+          "colorShape"
+        ],
+        "chapterIndex": 24,
+        "chapterTitle": "第24章",
+        "matchedNames": [
+          "机甲"
+        ],
+        "otherMatchedNames": [
+          "破云翅"
+        ]
+      },
+      {
+        "text": "第二天一大早在地下二层把机甲交给起岸西，对方接过机甲没有立刻试，先礼貌说了一声感谢。",
+        "fields": [
+          "ownership"
+        ],
+        "chapterIndex": 24,
+        "chapterTitle": "第24章",
+        "matchedNames": [
+          "机甲"
+        ]
+      },
+      {
+        "text": "一架通身白金的机甲骤然放出两只破云翅，腾空飞起，训练场的灯光照在白金色机甲身上，细碎而耀眼的光芒让周围的人不自觉将目光投过来。",
+        "fields": [
+          "colorShape",
+          "visualEffects"
+        ],
+        "chapterIndex": 24,
+        "chapterTitle": "第24章",
+        "matchedNames": [
+          "机甲"
+        ],
+        "otherMatchedNames": [
+          "破云翅"
+        ]
+      },
+      {
+        "text": "只要进入积分榜前两百名，选手便有机会被背后各种势力招揽，找到靠山，以后机甲开销不用自己出。",
+        "fields": [
+          "ownership"
+        ],
+        "chapterIndex": 28,
+        "chapterTitle": "第28章",
+        "matchedNames": [
+          "机甲"
+        ]
+      },
+      {
+        "text": "巨大光幕上是三架机甲，其中一架白色中型机甲格外狼狈，似乎在护着背后两架机甲，对面是一头巨大灰色蜘蛛, 周围还有数只小型蜘蛛。",
+        "fields": [
+          "ownership"
+        ],
+        "chapterIndex": 29,
+        "chapterTitle": "第29章",
+        "matchedNames": [
+          "机甲"
+        ],
+        "otherMatchedNames": [
+          "中型机甲",
+          "光幕",
+          "白色中型机甲"
+        ]
+      },
+      {
+        "text": "白色机甲径直对上巨大灰色蜘蛛, 背后两架机甲则手忙脚乱对付着围过来的小蜘蛛。",
+        "fields": [
+          "colorShape",
+          "ownership"
+        ],
+        "chapterIndex": 29,
+        "chapterTitle": "第29章",
+        "matchedNames": [
+          "机甲"
+        ]
+      },
+      {
+        "text": "卫三下意识拧眉，在她看来，白色机甲会输，背后两架机甲也打不过那些蜘蛛，现在只看是白色机甲还是另外两架机甲先输了。",
+        "fields": [
+          "colorShape",
+          "ownership"
+        ],
+        "chapterIndex": 29,
+        "chapterTitle": "第29章",
+        "matchedNames": [
+          "机甲"
+        ]
+      },
+      {
+        "text": "出乎意料，白色机甲动作只停顿了一秒，随即抽出光刀，毫不犹豫砍断巨蛛螯肢，机甲就这么拖着断裂的螯肢，继续挥刀，从口器处往前，一直划穿巨蛛腹部才停止。",
+        "fields": [
+          "colorShape"
+        ],
+        "chapterIndex": 29,
+        "chapterTitle": "第29章",
+        "matchedNames": [
+          "机甲"
+        ],
+        "otherMatchedNames": [
+          "光刀"
+        ]
+      },
+      {
+        "text": "”白色机甲的人冲那台机甲内的人厉声喊道。",
+        "fields": [
+          "colorShape"
+        ],
+        "chapterIndex": 29,
+        "chapterTitle": "第29章",
+        "matchedNames": [
+          "机甲"
+        ]
+      },
+      {
+        "text": "周末下午这场比赛已经接近尾声，原本有三个机甲单兵，但只剩下一架白色机甲。",
+        "fields": [
+          "colorShape"
+        ],
+        "chapterIndex": 29,
+        "chapterTitle": "第29章",
+        "matchedNames": [
+          "机甲"
+        ]
+      },
+      {
+        "text": "光幕中赛场内传来一道机器女声，操场上的人只看得见白色机甲护着后方指挥，不断斩杀幼蛛，甚至连伤感的时间都没有。",
+        "fields": [
+          "colorShape"
+        ],
+        "chapterIndex": 29,
+        "chapterTitle": "第29章",
+        "matchedNames": [
+          "机甲"
+        ],
+        "otherMatchedNames": [
+          "光幕"
+        ]
+      },
+      {
+        "text": "”应成河还举着硬纸壳，他是机甲师，很容易看出机甲单兵和机甲之间的契合度。",
+        "fields": [
+          "material"
+        ],
+        "chapterIndex": 32,
+        "chapterTitle": "第32章",
+        "matchedNames": [
+          "机甲"
+        ]
+      },
+      {
+        "text": "L3打一场五十万星币，完全可供正常人生活富余一段时间，但如果用来搞机甲，便如同小石子入海，掀不起一点波澜。",
+        "fields": [
+          "material"
+        ],
+        "chapterIndex": 33,
+        "chapterTitle": "第33章",
+        "matchedNames": [
+          "机甲"
+        ]
+      },
+      {
+        "text": "女人含着一根细长烟, 随后伸出食指和中指夹烟，吐出一道烟圈：“机甲内部关节零件全部换成S级，目前积分榜以下没有人能打败我弟弟。",
+        "fields": [
+          "colorShape"
+        ],
+        "chapterIndex": 34,
+        "chapterTitle": "第34章",
+        "matchedNames": [
+          "机甲"
+        ]
+      },
+      {
+        "text": "卫三被打出了真火，连嘴边的血迹都没有擦，直接操控机甲翻身而起，飞踢他脑袋。",
+        "fields": [
+          "condition"
+        ],
+        "chapterIndex": 34,
+        "chapterTitle": "第34章",
+        "matchedNames": [
+          "机甲"
+        ]
+      },
+      {
+        "text": "”穿着黑色丝绸睡衣的中年男人靠在椅子上, 抬手示意旁边的人, “她机甲掌心有什么东西？",
+        "fields": [
+          "material",
+          "colorShape"
+        ],
+        "chapterIndex": 35,
+        "chapterTitle": "第35章",
+        "matchedNames": [
+          "机甲"
+        ]
+      },
+      {
+        "text": "”应成河解释道，“但还有其他的晶体，金色晶体适合用在S级重型机甲上，有效防止关节磨损。",
+        "fields": [
+          "material",
+          "colorShape",
+          "condition"
+        ],
+        "chapterIndex": 35,
+        "chapterTitle": "第35章",
+        "matchedNames": [
+          "机甲"
+        ]
+      },
+      {
+        "text": "只是一个关节，甚至不一定是S级用的材质，便让卫三念了这么长时间，她想起之前在3212星废弃大楼见到的那家银色机甲。",
+        "fields": [
+          "colorShape"
+        ],
+        "chapterIndex": 35,
+        "chapterTitle": "第35章",
+        "matchedNames": [
+          "机甲"
+        ]
+      },
+      {
+        "text": "机甲舱内的卫三愣了愣，随后落地，打开右臂炮膛口，对准垂尾异狼的眼睛，未料它冲过来时闭上眼睛，子弹居然穿不破异狼眼皮，似乎同样金属化了。",
+        "fields": [
+          "usage",
+          "material"
+        ],
+        "chapterIndex": 36,
+        "chapterTitle": "第36章",
+        "matchedNames": [
+          "机甲"
+        ]
+      },
+      {
+        "text": "来不及多想，垂尾异狼已然逼近，卫三躲开它一爪，没有硬来，转身踢在它脑袋上，机甲和金属化狼头相撞，发出刺耳的声音。",
+        "fields": [
+          "material"
+        ],
+        "chapterIndex": 36,
+        "chapterTitle": "第36章",
+        "matchedNames": [
+          "机甲"
+        ]
+      },
+      {
+        "text": "死神不甘心，显然无法相信自己机甲改造后，接连败在两个新L3级手中，跪在擂台上，还想偷袭起岸西。",
+        "fields": [
+          "ownership"
+        ],
+        "chapterIndex": 38,
+        "chapterTitle": "第38章",
+        "matchedNames": [
+          "机甲"
+        ]
+      },
+      {
+        "text": "这台机甲完完全全的原生态，没有经过任何涂色，加上卫三用的材料零件都是分别找店主进来的，颜色完全不同，机甲身上灰扑扑还分程度，这灰一点，那暗一点。",
+        "fields": [
+          "colorShape"
+        ],
+        "chapterIndex": 39,
+        "chapterTitle": "第39章",
+        "matchedNames": [
+          "机甲"
+        ]
+      },
+      {
+        "text": "射中喉咙的窒息感，瞬间通过机甲传到机甲舱内的人，还未清除这种感觉，起岸西已经近身用手拔出那根箭，再一次将箭送进机甲体内，直接破坏了机甲舱。",
+        "fields": [
+          "usage"
+        ],
+        "chapterIndex": 39,
+        "chapterTitle": "第39章",
+        "matchedNames": [
+          "机甲"
+        ]
+      }
+    ],
+    "finalDescription": "机甲为大型人形战斗载具，机身采用冷硬金属材质，外部为厚重装甲板。外观涂装多样，可见灰绿色训练机、全黑色机体、白金色机体和白色机体；白金色装甲在训练场灯光下泛细碎耀眼的金属反光。机甲舱门可开启，内部为单人操作室，右臂设有可开合的炮膛口。机体状态从崭新到战斗后残缺破损均有，外部部件可被拆解改装，部分机体背部有鼓起结构，整体线条硬朗。",
+    "summarizedFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage"
+    ],
+    "descriptionSource": "llm",
+    "sourceDescription": "原来这是一种机甲专用金属; 我李皮带了这么多届学生; 李皮撩起眼皮看了她一会：“确实是战斗型机甲; 李皮正色看着卫三：“假如……你能进五大军校; 李皮点头; 李皮指了指那架灰绿色机甲; 李皮介绍完后; 众人还以为李皮是在安慰; 刚才李皮说的每个按键作用都熟记在心; 回头对李皮道：“老师; 李皮和卫三回到训练场中; 李皮看着开始走动的机甲; 李皮叹气：“我看她身体一直没跟上营养; 他问的是昨天卫三控制机甲在A4纸上剪出一朵花的操作; 但要在A4纸上剪花这操作; 纸又太薄; 李皮跳上机甲舱; 一拳打在训练场中竖起的钢板上; 这钢板是特质的; 原先机甲压根不能对钢板造成这么大的伤害; 你看那块钢板; 不像我们机甲单兵皮糙肉厚的; 被无辜牵连的学生甩不掉这个牛皮糖; 应成河还举着硬纸壳; 便如同小石子入海; 穿着黑色丝绸睡衣的中年男人靠在椅子上; 但还有其他的晶体; 金色晶体适合用在S级重型机甲上; 子弹居然穿不破异狼眼皮; 似乎同样金属化了; 机甲和金属化狼头相撞; 再做成项链形状; 相同黑色机甲互相纠打在一起; 对面也有一台黑色机甲走过来; 崭新的黑色机甲躲也不躲; 手臂用劲将同样的黑色机甲摔出擂台; 连颜色都换了一种; 台上黑色机甲里面跳出一个修长身影; 戴着银色面具; 两架同样没有进行过改造的黑色机甲站在擂台上; 什么颜色都搭在机甲身上; 黑厂的机甲是全黑色; 不如把机甲涂色也改成白金色; 训练场的灯光照在白金色机甲身上; 白色机甲径直对上巨大灰色蜘蛛; 白色机甲会输; 现在只看是白色机甲还是另外两架机甲先输了; 白色机甲动作只停顿了一秒; 白色机甲的人冲那台机甲内的人厉声喊道; 但只剩下一架白色机甲; 操场上的人只看得见白色机甲护着后方指挥; 女人含着一根细长烟; 她想起之前在3212星废弃大楼见到的那家银色机甲; 颜色完全不同; 拖着已经残缺的机甲; 用一把磨得锋利的机甲片当刀用; 连嘴边的血迹都没有擦; 有效防止关节磨损; 卫三打开舱门跳下来; 拿着扳手对准泰吴德：“吵死了; 机甲舱突然打开; 卫三打开机甲; 直接传递给她; 店主问了一个藏在心中很久的问题：“你是怎么在擂台上拆他们机甲的; 打开右臂炮膛口; 起岸西已经近身用手拔出那根箭; 细碎而耀眼的光芒让周围的人不自觉将目光投过来; 填好后交给我; 更不用提有些顶级世家有属于自己的机甲; 开始熟悉属于自己的机甲; 这家店店主属于有技术的人; 背后的粉色猛男急忙刹住脚步; 背后都有一个专属机甲师; 在他心中卫三背后是有高人的; 但他从来没有见过这么丑的机甲：背后鼓起一坨像背了龟壳; 卫三趁机将刚才拆下的防御甲握在手中; 第二天一大早在地下二层把机甲交给起岸西; 选手便有机会被背后各种势力招揽; 似乎在护着背后两架机甲; 背后两架机甲则手忙脚乱对付着围过来的小蜘蛛; 背后两架机甲也打不过那些蜘蛛; 接连败在两个新L3级手中; 原来这是一种机甲专用金属（第2章）；我李皮带了这么多届学生（第4章）；李皮撩起眼皮看了她一会：“确实是战斗型机甲（第7章）；李皮正色看着卫三：“假如……你能进五大军校（第7章）；李皮点头（第7章）；李皮指了指那架灰绿色机甲（第8章）；李皮介绍完后（第8章）；众人还以为李皮是在安慰（第8章）；刚才李皮说的每个按键作用都熟记在心（第8章）；回头对李皮道：“老师（第8章）；李皮和卫三回到训练场中（第8章）；李皮看着开始走动的机甲（第8章）；李皮叹气：“我看她身体一直没跟上营养（第8章）；他问的是昨天卫三控制机甲在A4纸上剪出一朵花的操作（第8章）；但要在A4纸上剪花这操作（第8章）；纸又太薄（第8章）；李皮跳上机甲舱（第9章）；一拳打在训练场中竖起的钢板上（第9章）；这钢板是特质的（第9章）；原先机甲压根不能对钢板造成这么大的伤害（第9章）；你看那块钢板（第9章）；不像我们机甲单兵皮糙肉厚的（第11章）；被无辜牵连的学生甩不掉这个牛皮糖（第15章）；应成河还举着硬纸壳（第32章）；便如同小石子入海（第33章）；穿着黑色丝绸睡衣的中年男人靠在椅子上（第35章）；但还有其他的晶体（第35章）；金色晶体适合用在S级重型机甲上（第35章）；子弹居然穿不破异狼眼皮（第36章）；似乎同样金属化了（第36章）；机甲和金属化狼头相撞（第36章）; 再做成项链形状（第12章）；相同黑色机甲互相纠打在一起（第13章）；对面也有一台黑色机甲走过来（第13章）；崭新的黑色机甲躲也不躲（第14章）；手臂用劲将同样的黑色机甲摔出擂台（第14章）；连颜色都换了一种（第16章）；台上黑色机甲里面跳出一个修长身影（第16章）；戴着银色面具（第16章）；两架同样没有进行过改造的黑色机甲站在擂台上（第17章）；什么颜色都搭在机甲身上（第21章）；黑厂的机甲是全黑色（第24章）；不如把机甲涂色也改成白金色（第24章）；训练场的灯光照在白金色机甲身上（第24章）；白色机甲径直对上巨大灰色蜘蛛（第29章）；白色机甲会输（第29章）；现在只看是白色机甲还是另外两架机甲先输了（第29章）；白色机甲动作只停顿了一秒（第29章）；白色机甲的人冲那台机甲内的人厉声喊道（第29章）；但只剩下一架白色机甲（第29章）；操场上的人只看得见白色机甲护着后方指挥（第29章）；女人含着一根细长烟（第34章）；穿着黑色丝绸睡衣的中年男人靠在椅子上（第35章）；金色晶体适合用在S级重型机甲上（第35章）；她想起之前在3212星废弃大楼见到的那家银色机甲（第35章）；颜色完全不同（第39章）; 崭新的黑色机甲躲也不躲（第14章）；拖着已经残缺的机甲（第18章）；用一把磨得锋利的机甲片当刀用（第21章）；连嘴边的血迹都没有擦（第34章）；有效防止关节磨损（第35章）; 卫三打开舱门跳下来（第7章）；拿着扳手对准泰吴德：“吵死了（第7章）；机甲舱突然打开（第8章）；卫三打开机甲（第13章）；直接传递给她（第14章）；戴着银色面具（第16章）；店主问了一个藏在心中很久的问题：“你是怎么在擂台上拆他们机甲的（第21章）；打开右臂炮膛口（第36章）；起岸西已经近身用手拔出那根箭（第39章）; 细碎而耀眼的光芒让周围的人不自觉将目光投过来（第24章）; 填好后交给我（第12章）；更不用提有些顶级世家有属于自己的机甲（第12章）；开始熟悉属于自己的机甲（第12章）；这家店店主属于有技术的人（第13章）；背后的粉色猛男急忙刹住脚步（第14章）；直接传递给她（第14章）；背后都有一个专属机甲师（第17章）；在他心中卫三背后是有高人的（第19章）；但他从来没有见过这么丑的机甲：背后鼓起一坨像背了龟壳（第20章）；卫三趁机将刚才拆下的防御甲握在手中（第21章）；第二天一大早在地下二层把机甲交给起岸西（第24章）；选手便有机会被背后各种势力招揽（第28章）；似乎在护着背后两架机甲（第29章）；背后两架机甲则手忙脚乱对付着围过来的小蜘蛛（第29章）；背后两架机甲也打不过那些蜘蛛（第29章）；接连败在两个新L3级手中（第38章）",
+    "enhancedDescription": "机甲为大型人形战斗载具，机身采用冷硬金属材质，外部为厚重装甲板。外观涂装多样，可见灰绿色训练机、全黑色机体、白金色机体和白色机体；白金色装甲在训练场灯光下泛细碎耀眼的金属反光。机甲舱门可开启，内部为单人操作室，右臂设有可开合的炮膛口。机体状态从崭新到战斗后残缺破损均有，外部部件可被拆解改装，部分机体背部有鼓起结构，整体线条硬朗。",
+    "supplementDescription": ""
+  },
+  {
+    "name": "光脑",
+    "tier": "candidate",
+    "fields": {
+      "usage": "她打开光脑搜索搜公交路线（第2章）；打开光脑查3212学院的资料（第3章）；随后又打开光脑（第8章）；把光脑打开录像（第8章）；递给她一个按钮（第11章）；卫三打开光脑内的证件包（第13章）；老常打开自己光脑（第13章）；老常把人带到一台机器前：“打开光脑（第13章）；她打开光脑（第13章）；打开光脑（第14章）；金珂打开光脑：“学校论坛已经传遍了（第23章）；她打开自己光脑（第24章）；打开光脑：“卫三（第27章）；学长：“……打开光脑（第27章）；卫三低头拿着他光脑仔细看了看（第30章）；卫三示意店员把那款光脑打开（第30章）；便回房打开光脑（第33章）",
+      "material": "卫三咬牙拨通老师李皮的光脑（第5章）；李皮一接通光脑（第5章）；应成河放下硬纸壳（第33章）",
+      "condition": "",
+      "ownership": "递给她一个按钮（第11章）",
+      "colorShape": "店员拿出一款白色光脑：“这是我们最便宜的一款（第30章）",
+      "visualEffects": ""
+    },
+    "aliases": [],
+    "confidence": 0.77,
+    "entityType": "item",
+    "needsReview": true,
+    "visualFields": {
+      "usage": "可打开屏幕，显示信息、录像画面与证件界面（第8章；第13章；第30章）",
+      "material": "卫三咬牙拨通老师李皮的光脑（第5章）；李皮一接通光脑（第5章）；应成河放下硬纸壳（第33章）",
+      "condition": "白色款式外观完好，屏幕无裂痕",
+      "ownership": "递给她一个按钮（第11章）",
+      "colorShape": "白色外壳光脑（第30章）",
+      "visualEffects": "屏幕亮起时泛冷白光，界面清晰"
+    },
+    "llmSupplement": "白色外壳便携光脑，外观完好整洁；屏幕开启后泛冷白色光，可显示资料与录像界面",
+    "missingFields": [
+      "condition",
+      "visualEffects"
+    ],
+    "visualDetails": {
+      "scale": "可单手持握，屏幕尺寸接近手掌大小",
+      "usage": "可随身携带，开启后显示虚拟界面，支持录像与查看证件",
+      "effects": "屏幕点亮时呈冷白色界面光",
+      "condition": "外观完好整洁",
+      "ownership": "卫三购买并使用的便携光脑",
+      "colorShape": "便携式设备，机身轻巧，屏幕区域与白色壳体衔接",
+      "materialTexture": "白色外壳，表面带平滑硬质质感"
+    },
+    "inferredFields": [
+      "condition",
+      "visualEffects"
+    ],
+    "sourceCoverage": "strong",
+    "importanceScore": 0.119,
+    "completionStatus": "llm_completed",
+    "evidenceSnippets": [
+      {
+        "text": "或许会有交通去垃圾场那边，她打开光脑搜索搜公交路线，发现有条9号线会经过垃圾场，早上5点和下午5点各有一趟，一趟十星币。",
+        "fields": [
+          "usage"
+        ],
+        "chapterIndex": 2,
+        "chapterTitle": "第2章",
+        "matchedNames": [
+          "光脑"
+        ]
+      },
+      {
+        "text": "卫三跟着队伍走，领完校服，趁着换校服之际，打开光脑查3212学院的资料，一目十行看完所有信息后：“……”",
+        "fields": [
+          "usage"
+        ],
+        "chapterIndex": 3,
+        "chapterTitle": "第3章",
+        "matchedNames": [
+          "光脑"
+        ]
+      },
+      {
+        "text": "在脑中转了一遍，卫三咬牙拨通老师李皮的光脑。",
+        "fields": [
+          "material"
+        ],
+        "chapterIndex": 5,
+        "chapterTitle": "第5章",
+        "matchedNames": [
+          "光脑"
+        ]
+      },
+      {
+        "text": "李皮一接通光脑，就看见地上躺着一个血淋淋的人，口音都下意识冒出来了。",
+        "fields": [
+          "material"
+        ],
+        "chapterIndex": 5,
+        "chapterTitle": "第5章",
+        "matchedNames": [
+          "光脑"
+        ]
+      },
+      {
+        "text": "”李皮指了指那架灰绿色机甲，介绍外部机甲几个部位，随后又打开光脑，将机甲内部操作室投影出来。",
+        "fields": [
+          "usage"
+        ],
+        "chapterIndex": 8,
+        "chapterTitle": "第8章",
+        "matchedNames": [
+          "光脑"
+        ],
+        "otherMatchedNames": [
+          "机甲"
+        ]
+      },
+      {
+        "text": "第二天，卫三进机甲舱后，把光脑打开录像，让外面的泰吴德看清楚自己的动作，操控板复杂，各种按键组合需要自己摸索，她比其他人更了解机甲运作，所以学东西会更快。",
+        "fields": [
+          "usage"
+        ],
+        "chapterIndex": 8,
+        "chapterTitle": "第8章",
+        "matchedNames": [
+          "光脑"
+        ],
+        "otherMatchedNames": [
+          "机甲"
+        ]
+      },
+      {
+        "text": "”老师接收卫三的录取通知书，然后扭头去看光脑上跳动的数字，递给她一个按钮，“按一下。",
+        "fields": [
+          "usage",
+          "ownership"
+        ],
+        "chapterIndex": 11,
+        "chapterTitle": "第11章",
+        "matchedNames": [
+          "光脑"
+        ]
+      },
+      {
+        "text": "”卫三打开光脑内的证件包，让店主看清楚。",
+        "fields": [
+          "usage"
+        ],
+        "chapterIndex": 13,
+        "chapterTitle": "第13章",
+        "matchedNames": [
+          "光脑"
+        ]
+      },
+      {
+        "text": "老常打开自己光脑，两人面前出现一块面板，全是排名。",
+        "fields": [
+          "usage"
+        ],
+        "chapterIndex": 13,
+        "chapterTitle": "第13章",
+        "matchedNames": [
+          "光脑"
+        ]
+      },
+      {
+        "text": "老常把人带到一台机器前：“打开光脑，注册一下就行。",
+        "fields": [
+          "usage"
+        ],
+        "chapterIndex": 13,
+        "chapterTitle": "第13章",
+        "matchedNames": [
+          "光脑"
+        ]
+      },
+      {
+        "text": "所以卫三决定比赛，她打开光脑，点开参赛按钮，L0只有随机单人pk，她的比赛场次很快出来：【850擂台：向生活低头vs粉色猛男】",
+        "fields": [
+          "usage"
+        ],
+        "chapterIndex": 13,
+        "chapterTitle": "第13章",
+        "matchedNames": [
+          "光脑"
+        ]
+      },
+      {
+        "text": "打开光脑，黑卡上面的信息便弹出来：【星币余额：35000，积分：70】",
+        "fields": [
+          "usage"
+        ],
+        "chapterIndex": 14,
+        "chapterTitle": "第14章",
+        "matchedNames": [
+          "光脑"
+        ],
+        "otherMatchedNames": [
+          "黑卡"
+        ]
+      },
+      {
+        "text": "金珂打开光脑：“学校论坛已经传遍了。",
+        "fields": [
+          "usage"
+        ],
+        "chapterIndex": 23,
+        "chapterTitle": "第23章",
+        "matchedNames": [
+          "光脑"
+        ]
+      },
+      {
+        "text": "“当然值，五千万……”卫三说着说着没了声，她打开自己光脑，发现一件事。",
+        "fields": [
+          "usage"
+        ],
+        "chapterIndex": 24,
+        "chapterTitle": "第24章",
+        "matchedNames": [
+          "光脑"
+        ]
+      },
+      {
+        "text": "丁和美呵呵一笑，打开光脑：“卫三，你今天不和我实战，我就把这视频送到黎泽少校手里。",
+        "fields": [
+          "usage"
+        ],
+        "chapterIndex": 27,
+        "chapterTitle": "第27章",
+        "matchedNames": [
+          "光脑"
+        ],
+        "otherMatchedNames": [
+          "视频"
+        ]
+      },
+      {
+        "text": "学长：“……打开光脑，我转你。",
+        "fields": [
+          "usage"
+        ],
+        "chapterIndex": 27,
+        "chapterTitle": "第27章",
+        "matchedNames": [
+          "光脑"
+        ]
+      },
+      {
+        "text": "店员拿出一款白色光脑：“这是我们最便宜的一款，很经典。",
+        "fields": [
+          "colorShape"
+        ],
+        "chapterIndex": 30,
+        "chapterTitle": "第30章",
+        "matchedNames": [
+          "光脑"
+        ]
+      },
+      {
+        "text": "”卫三低头拿着他光脑仔细看了看。",
+        "fields": [
+          "usage"
+        ],
+        "chapterIndex": 30,
+        "chapterTitle": "第30章",
+        "matchedNames": [
+          "光脑"
+        ]
+      },
+      {
+        "text": "”卫三示意店员把那款光脑打开，“那就这个。",
+        "fields": [
+          "usage"
+        ],
+        "chapterIndex": 30,
+        "chapterTitle": "第30章",
+        "matchedNames": [
+          "光脑"
+        ]
+      },
+      {
+        "text": "应成河放下硬纸壳, 低头看了一眼光脑上的消息：“他们和老师们还在山谷。",
+        "fields": [
+          "material"
+        ],
+        "chapterIndex": 33,
+        "chapterTitle": "第33章",
+        "matchedNames": [
+          "光脑"
+        ]
+      },
+      {
+        "text": "突如其来的屠杀日打乱了卫三的计划，目前所有在三层的人都有比赛对象，她还要等到晚上，便回房打开光脑，用积分兑了死神近期的比赛视频看。",
+        "fields": [
+          "usage"
+        ],
+        "chapterIndex": 33,
+        "chapterTitle": "第33章",
+        "matchedNames": [
+          "光脑"
+        ],
+        "otherMatchedNames": [
+          "视频"
+        ]
+      },
+      {
+        "text": "卫三还在搭建机甲内部引擎，过了一会，她一心二用，打开光脑，花积分买起岸西的直播视频。",
+        "fields": [
+          "usage"
+        ],
+        "chapterIndex": 38,
+        "chapterTitle": "第38章",
+        "matchedNames": [
+          "光脑"
+        ],
+        "otherMatchedNames": [
+          "视频",
+          "机甲"
+        ]
+      }
+    ],
+    "finalDescription": "光脑为便携式电子设备，外观小巧，可单手持握。常见款式为白色外壳，屏幕点亮时泛冷白色界面光，可用于显示资料、录像画面与证件信息。机身外观整洁完好，卫三购买并随身携带使用。",
+    "summarizedFields": [
+      "colorShape",
+      "usage"
+    ],
+    "descriptionSource": "mixed",
+    "sourceDescription": "卫三咬牙拨通老师李皮的光脑; 李皮一接通光脑; 应成河放下硬纸壳; 店员拿出一款白色光脑：“这是我们最便宜的一款; 她打开光脑搜索搜公交路线; 打开光脑查3212学院的资料; 随后又打开光脑; 把光脑打开录像; 递给她一个按钮; 卫三打开光脑内的证件包; 老常打开自己光脑; 老常把人带到一台机器前：“打开光脑; 她打开光脑; 打开光脑; 金珂打开光脑：“学校论坛已经传遍了; 她打开自己光脑; 打开光脑：“卫三; 学长：“……打开光脑; 卫三低头拿着他光脑仔细看了看; 卫三示意店员把那款光脑打开; 便回房打开光脑; 卫三咬牙拨通老师李皮的光脑（第5章）；李皮一接通光脑（第5章）；应成河放下硬纸壳（第33章）; 店员拿出一款白色光脑：“这是我们最便宜的一款（第30章）; 她打开光脑搜索搜公交路线（第2章）；打开光脑查3212学院的资料（第3章）；随后又打开光脑（第8章）；把光脑打开录像（第8章）；递给她一个按钮（第11章）；卫三打开光脑内的证件包（第13章）；老常打开自己光脑（第13章）；老常把人带到一台机器前：“打开光脑（第13章）；她打开光脑（第13章）；打开光脑（第14章）；金珂打开光脑：“学校论坛已经传遍了（第23章）；她打开自己光脑（第24章）；打开光脑：“卫三（第27章）；学长：“……打开光脑（第27章）；卫三低头拿着他光脑仔细看了看（第30章）；卫三示意店员把那款光脑打开（第30章）；便回房打开光脑（第33章）; 递给她一个按钮（第11章）",
+    "enhancedDescription": "光脑为便携式电子设备，外观小巧，可单手持握。常见款式为白色外壳，屏幕点亮时泛冷白色界面光，可用于显示资料、录像画面与证件信息。机身外观整洁完好，卫三购买并随身携带使用。",
+    "supplementDescription": "白色外壳便携光脑，外观完好整洁；屏幕开启后泛冷白色光，可显示资料与录像界面"
+  },
+  {
+    "name": "飞行器",
+    "tier": "candidate",
+    "fields": {
+      "usage": "",
+      "material": "先带着李皮和师娘上飞行器（第36章）",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [],
+    "confidence": 0.19,
+    "entityType": "item",
+    "needsReview": true,
+    "visualFields": {
+      "usage": "可载多人，舱门开合，支持自动驾驶与垂直起降",
+      "material": "先带着李皮和师娘上飞行器（第36章）",
+      "condition": "外观完好，舱体整洁",
+      "ownership": "应成河的私人飞行器；金珂乘坐飞行器可在校门口降落",
+      "colorShape": "机身线条流畅，外壳带金属光泽",
+      "visualEffects": "起降时底部推进装置带淡蓝色光焰"
+    },
+    "llmSupplement": "流线型金属外壳，底部推进器带淡蓝光；小型载人舱体，外观整洁",
+    "missingFields": [
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "visualDetails": {
+      "scale": "可容纳数人的中小型飞行器",
+      "usage": "人员乘坐，舱门开合，可自动驾驶前往舰港",
+      "effects": "垂直起降时底部推进器亮起淡蓝光",
+      "condition": "完好，无明显损伤",
+      "ownership": "应成河私人飞行器；金珂有乘坐记录",
+      "colorShape": "流线型飞行载具，前部略尖，机身修长",
+      "materialTexture": "外壳为金属质感，表面反光"
+    },
+    "inferredFields": [
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "partial",
+    "importanceScore": 0.119,
+    "completionStatus": "llm_completed",
+    "evidenceSnippets": [
+      {
+        "text": "卫三低头看着光脑上的消息，先带着李皮和师娘上飞行器，再回复金珂：【你能控制我？",
+        "fields": [
+          "material"
+        ],
+        "chapterIndex": 36,
+        "chapterTitle": "第36章",
+        "matchedNames": [
+          "飞行器"
+        ],
+        "otherMatchedNames": [
+          "光脑"
+        ]
+      }
+    ],
+    "finalDescription": "飞行器为可载多人的中小型载具，机身修长流线，外壳带金属光泽，整体外观完好。舱门可开合，内部设座椅，支持自动驾驶与垂直起降。起降时底部推进装置泛淡蓝色光焰，可停靠于学校门口或前往舰港。",
+    "summarizedFields": [],
+    "descriptionSource": "mixed",
+    "sourceDescription": "先带着李皮和师娘上飞行器; 先带着李皮和师娘上飞行器（第36章）",
+    "enhancedDescription": "飞行器为可载多人的中小型载具，机身修长流线，外壳带金属光泽，整体外观完好。舱门可开合，内部设座椅，支持自动驾驶与垂直起降。起降时底部推进装置泛淡蓝色光焰，可停靠于学校门口或前往舰港。",
+    "supplementDescription": "流线型金属外壳，底部推进器带淡蓝光；小型载人舱体，外观整洁"
+  },
+  {
+    "name": "游金",
+    "tier": "candidate",
+    "fields": {
+      "usage": "",
+      "material": "对游金这种金属升起极大的兴趣（第2章）",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [],
+    "confidence": 0.19,
+    "entityType": "item",
+    "needsReview": true,
+    "visualFields": {
+      "usage": "用于A级、S级机甲外壳及结构部件，也向民用渠道交易",
+      "material": "对游金这种金属升起极大的兴趣（第2章）",
+      "condition": "质地致密坚硬，表面光洁",
+      "ownership": "常见于A级、S级机甲外壳；A级机甲约八成采用，S级机甲外壳全部由游金铸成",
+      "colorShape": "呈冷冽金属色，常见板材或铸件形态",
+      "visualEffects": "表面泛着冷冽金属光泽"
+    },
+    "llmSupplement": "游金为金属质感材料，表面泛着冷冽光泽，质地坚硬致密，常以板材或铸件形态出现，多出现在高级机甲外壳上",
+    "missingFields": [
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "visualDetails": {
+      "scale": "无固定尺寸，随铸造部件变化",
+      "usage": "用于高级机甲外壳与结构部件",
+      "effects": "表面泛冷冽金属光泽",
+      "condition": "表面光洁完整",
+      "ownership": "A级、S级机甲及民用交易渠道",
+      "colorShape": "冷冽金属色，常呈板材或铸件形态",
+      "materialTexture": "金属质感，致密坚硬，表面光洁"
+    },
+    "inferredFields": [
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "partial",
+    "importanceScore": 0.119,
+    "completionStatus": "llm_completed",
+    "evidenceSnippets": [
+      {
+        "text": "卫三看了解释，对游金这种金属升起极大的兴趣。",
+        "fields": [
+          "material"
+        ],
+        "chapterIndex": 2,
+        "chapterTitle": "第2章",
+        "matchedNames": [
+          "游金"
+        ]
+      }
+    ],
+    "finalDescription": "游金是一种呈冷冽金属光泽的稀有金属材料，质地致密坚硬，表面光洁，常以板材或铸件形态出现，用于A级、S级机甲外壳及结构部件。",
+    "summarizedFields": [],
+    "descriptionSource": "mixed",
+    "sourceDescription": "对游金这种金属升起极大的兴趣; 对游金这种金属升起极大的兴趣（第2章）",
+    "enhancedDescription": "游金是一种呈冷冽金属光泽的稀有金属材料，质地致密坚硬，表面光洁，常以板材或铸件形态出现，用于A级、S级机甲外壳及结构部件。",
+    "supplementDescription": "游金为金属质感材料，表面泛着冷冽光泽，质地坚硬致密，常以板材或铸件形态出现，多出现在高级机甲外壳上"
+  },
+  {
+    "name": "弯刀",
+    "tier": "candidate",
+    "fields": {
+      "usage": "卫三左臂握着弯刀把（第28章）",
+      "material": "",
+      "condition": "",
+      "ownership": "向生活低头手中的一把弯刀突然变长（第28章）",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [],
+    "confidence": 0.38,
+    "entityType": "item",
+    "needsReview": true,
+    "visualFields": {
+      "usage": "卫三左臂握着弯刀把（第28章）",
+      "material": "刀身与链条为金属质感，刃口锋利",
+      "condition": "新购品相，部件完整",
+      "ownership": "卫三购买持有；也曾出现在“向生活低头”手中（第28章）",
+      "colorShape": "刀头弯曲，中间连接细长链条，可伸缩（第28章）",
+      "visualEffects": "刀头伸缩时链条延长，刃部泛寒光"
+    },
+    "llmSupplement": "刀身与链节为金属质感，刀头弯曲，链条细长，整体新净完整，刃部泛寒光",
+    "missingFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "visualEffects"
+    ],
+    "visualDetails": {
+      "scale": "刀头适中，链条细长，便于单手操控",
+      "usage": "单手握持刀把，刀头可随链条伸缩",
+      "effects": "伸缩时链条延长，刃部泛寒光",
+      "condition": "新净完整",
+      "ownership": "卫三",
+      "colorShape": "刀头弯曲，中部连接细长链条",
+      "materialTexture": "金属刀身与链节，冷硬锋利"
+    },
+    "inferredFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "visualEffects"
+    ],
+    "sourceCoverage": "partial",
+    "importanceScore": 0.119,
+    "completionStatus": "llm_completed",
+    "evidenceSnippets": [
+      {
+        "text": "然而下一秒，向生活低头手中的一把弯刀突然变长，直接砍下对方肩膀一个炮筒。",
+        "fields": [
+          "ownership"
+        ],
+        "chapterIndex": 28,
+        "chapterTitle": "第28章",
+        "matchedNames": [
+          "弯刀"
+        ]
+      },
+      {
+        "text": "卫三左臂握着弯刀把，中间长长的链条，头部才是弯刀，她甩了甩，新武器手感不错，果然一分钱一分货，虽然比不上血滴的光刀，但用来升级已经足够了。",
+        "fields": [
+          "usage"
+        ],
+        "chapterIndex": 28,
+        "chapterTitle": "第28章",
+        "matchedNames": [
+          "弯刀"
+        ],
+        "otherMatchedNames": [
+          "光刀",
+          "血滴"
+        ]
+      }
+    ],
+    "finalDescription": "一对金属弯刀，刀头弯曲，中部以细长链条相连，刀把为单手设计。整体刀身新净，刃部锋利，链条可伸缩延长，带有冷冽金属光泽。",
+    "summarizedFields": [
+      "ownership"
+    ],
+    "descriptionSource": "mixed",
+    "sourceDescription": "卫三左臂握着弯刀把; 向生活低头手中的一把弯刀突然变长; 卫三左臂握着弯刀把（第28章）; 向生活低头手中的一把弯刀突然变长（第28章）",
+    "enhancedDescription": "一对金属弯刀，刀头弯曲，中部以细长链条相连，刀把为单手设计。整体刀身新净，刃部锋利，链条可伸缩延长，带有冷冽金属光泽。",
+    "supplementDescription": "刀身与链节为金属质感，刀头弯曲，链条细长，整体新净完整，刃部泛寒光"
+  },
+  {
+    "name": "观赏型机甲",
+    "tier": "candidate",
+    "fields": {
+      "usage": "",
+      "material": "",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "item",
+    "needsReview": true,
+    "visualFields": {
+      "usage": "静态陈列展示，后用于改造练习",
+      "material": "金属与复合材料外壳，表面覆盖展示用光泽涂装",
+      "condition": "展品级，外形完好崭新",
+      "ownership": "原为机甲店陈列，后归泰吴德家",
+      "colorShape": "人形机甲轮廓，线条流畅美观，共三架",
+      "visualEffects": "展示灯光下外壳泛光泽"
+    },
+    "llmSupplement": "观赏型机甲外壳光洁，线条流畅，造型偏向展示用途，在灯光下呈现冷色光泽，整体崭新完好",
+    "missingFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "visualDetails": {
+      "scale": "常规人形机甲大小，适合店中陈列",
+      "usage": "静态展示，后可改造为练习对抗机甲",
+      "effects": "展示灯光下泛冷色光泽",
+      "condition": "崭新完好，展品级外观",
+      "ownership": "原属机甲店，后归泰吴德",
+      "colorShape": "人形机甲，线条流畅，造型美观",
+      "materialTexture": "金属与复合材料外壳，光洁涂装"
+    },
+    "inferredFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "none",
+    "importanceScore": 0.119,
+    "completionStatus": "llm_inferred",
+    "evidenceSnippets": [],
+    "finalDescription": "三架人形观赏机甲陈列于店中，外壳由金属与复合材料构成，线条流畅、造型美观，表面涂装光洁平整，整体品相崭新。机甲以静态展示为主，缺少实战武装，在灯光下泛着冷色光泽。",
+    "summarizedFields": [],
+    "descriptionSource": "mixed",
+    "sourceDescription": "",
+    "enhancedDescription": "三架人形观赏机甲陈列于店中，外壳由金属与复合材料构成，线条流畅、造型美观，表面涂装光洁平整，整体品相崭新。机甲以静态展示为主，缺少实战武装，在灯光下泛着冷色光泽。",
+    "supplementDescription": "观赏型机甲外壳光洁，线条流畅，造型偏向展示用途，在灯光下呈现冷色光泽，整体崭新完好"
+  },
+  {
+    "name": "迷你机甲",
+    "tier": "candidate",
+    "fields": {
+      "usage": "",
+      "material": "",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "item",
+    "needsReview": true,
+    "visualFields": {
+      "usage": "具备活动结构与自制微型激光枪",
+      "material": "油金金属外壳，部件接合紧凑",
+      "condition": "自制微型装置，部件精巧完整",
+      "ownership": "卫三自制并持有",
+      "colorShape": "十几厘米高的完整人形机甲",
+      "visualEffects": "微型激光枪可射出光束"
+    },
+    "llmSupplement": "迷你机甲为微型人形结构，油金金属质感明显，部件紧凑，激光枪口可发出光束，整体小巧精悍",
+    "missingFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "visualDetails": {
+      "scale": "高约十几厘米",
+      "usage": "可活动攻击，装备微型激光枪",
+      "effects": "激光枪射出高能光束，可灼穿墙面",
+      "condition": "自制部件紧凑完整",
+      "ownership": "卫三",
+      "colorShape": "完整人形机甲，体型微型",
+      "materialTexture": "油金金属质感，带自制拼合痕迹"
+    },
+    "inferredFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "none",
+    "importanceScore": 0.119,
+    "completionStatus": "llm_inferred",
+    "evidenceSnippets": [],
+    "finalDescription": "迷你机甲高约十几厘米，由油金金属制成，外形为完整的人形机甲。整体部件紧凑，带有自制拼合痕迹，表面呈金属质感，装备一柄微型激光枪，小巧精悍。",
+    "summarizedFields": [],
+    "descriptionSource": "mixed",
+    "sourceDescription": "",
+    "enhancedDescription": "迷你机甲高约十几厘米，由油金金属制成，外形为完整的人形机甲。整体部件紧凑，带有自制拼合痕迹，表面呈金属质感，装备一柄微型激光枪，小巧精悍。",
+    "supplementDescription": "迷你机甲为微型人形结构，油金金属质感明显，部件紧凑，激光枪口可发出光束，整体小巧精悍"
+  }
+]

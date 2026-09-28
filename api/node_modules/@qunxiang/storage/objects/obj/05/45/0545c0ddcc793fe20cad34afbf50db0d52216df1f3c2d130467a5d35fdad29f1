@@ -1,0 +1,45 @@
+{
+  "bookId": "7eda3fc7-9375-4cca-a592-fedb8c6d23ab",
+  "status": "completed",
+  "officialResult": true,
+  "generatedAt": "2026-09-23T05:47:40.362Z",
+  "counts": {
+    "characters": 0,
+    "locations": 1,
+    "items": 0,
+    "worldviews": 2
+  },
+  "outputs": {
+    "finalSummary": "output/《砸锅卖铁去上学》作者：红刺北-202609230546/final/run-summary.json",
+    "prescanIntermediate": ".intermediate/《砸锅卖铁去上学》作者：红刺北-202609230546/prescan",
+    "entities": "output/《砸锅卖铁去上学》作者：红刺北-202609230546/entities"
+  },
+  "entities": {
+    "characters": [],
+    "locations": [
+      "达摩克利斯军校"
+    ],
+    "items": [],
+    "worldviews": [
+      "五大军校",
+      "机甲"
+    ]
+  },
+  "failedBatches": [
+    {
+      "batch": 0,
+      "error": "LLM 接口返回 HTTP 400：{\"error\":{\"message\":\"Invalid request: Your request exceeded model token limit: 1048576 (requested: 2264313)\",\"type\":\"invalid_request_error\"}}",
+      "chapterTo": 1,
+      "chapterFrom": 1
+    }
+  ],
+  "reviewer": {
+    "count": 0,
+    "audited": false,
+    "autoMerged": 0,
+    "suggested": 0,
+    "canonicalSwapped": 0,
+    "aliasCleaned": 0,
+    "message": "最终审核完成：无待裁决候选，正名修正 0 处、别名降噪 0 处"
+  }
+}

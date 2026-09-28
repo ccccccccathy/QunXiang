@@ -1,0 +1,108 @@
+[
+  {
+    "name": "达摩克利斯军校",
+    "tier": "candidate",
+    "fields": {
+      "time": "",
+      "layout": "",
+      "lighting": "",
+      "atmosphere": "",
+      "environment": "",
+      "actionContext": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "location",
+    "needsReview": true,
+    "visualFields": {
+      "time": "",
+      "layout": "",
+      "lighting": "",
+      "atmosphere": "",
+      "environment": "",
+      "actionContext": ""
+    },
+    "llmSupplement": "原文未提供军校的具体场景描写，以上为基于军事院校设定的保守补全：军用工业风建筑、训练场与机甲库布局、冷白色照明与严明氛围",
+    "missingFields": [
+      "environment",
+      "layout",
+      "atmosphere",
+      "lighting",
+      "time",
+      "actionContext"
+    ],
+    "visualDetails": {
+      "time": "日常教学与训练时段为主，晨间可见学员集结操练",
+      "layout": "校园内划分训练场、机甲库、教学楼与考核场等区域，布局规整严谨",
+      "lighting": "白天光线充足，室内以冷白色人工照明为主，机甲库内有高亮顶灯",
+      "atmosphere": "纪律严明的军事氛围，等级分明，充满竞争与训练气息",
+      "environment": "坐落在城市区域的大型军事院校，建筑呈冷硬的军用工业风格",
+      "actionContext": "学员在此进行机甲操控教学、考核与日常军事训练",
+      "keyVisualAnchors": "大型机甲训练场、停放机甲的高大库房、规整排列的教学楼群"
+    },
+    "inferredFields": [],
+    "sourceCoverage": "none",
+    "importanceScore": 0.231,
+    "completionStatus": "llm_inferred",
+    "evidenceSnippets": [],
+    "finalDescription": "一座规模宏大的军事院校，建筑群呈冷硬的军用工业风格，布局规整严谨。校内划分训练场、机甲库、教学楼与考核场等区域，机甲库高大宽敞，顶灯高亮。白天光线充足，室内以冷白色人工照明为主，整体氛围纪律严明、等级分明，充满训练与竞争气息。",
+    "summarizedFields": [],
+    "descriptionSource": "llm",
+    "sourceDescription": "",
+    "enhancedDescription": "一座规模宏大的军事院校，建筑群呈冷硬的军用工业风格，布局规整严谨。校内划分训练场、机甲库、教学楼与考核场等区域，机甲库高大宽敞，顶灯高亮。白天光线充足，室内以冷白色人工照明为主，整体氛围纪律严明、等级分明，充满训练与竞争气息。",
+    "supplementDescription": "原文未提供军校的具体场景描写，以上为基于军事院校设定的保守补全：军用工业风建筑、训练场与机甲库布局、冷白色照明与严明氛围"
+  },
+  {
+    "name": "垃圾星",
+    "tier": "candidate",
+    "fields": {
+      "time": "",
+      "layout": "",
+      "lighting": "",
+      "atmosphere": "",
+      "environment": "",
+      "actionContext": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "location",
+    "needsReview": true,
+    "visualFields": {
+      "time": "",
+      "layout": "",
+      "lighting": "",
+      "atmosphere": "",
+      "environment": "",
+      "actionContext": ""
+    },
+    "llmSupplement": "原文未提供垃圾星的具体场景描写，以上为基于简介的保守补全：垃圾山与废弃金属残骸的地貌、灰暗浑浊的天光、锈蚀破败的氛围与拾荒者活动",
+    "missingFields": [
+      "environment",
+      "layout",
+      "atmosphere",
+      "lighting",
+      "time",
+      "actionContext"
+    ],
+    "visualDetails": {
+      "time": "常年处于灰暗的天光下，昼夜界限不甚分明",
+      "layout": "垃圾山起伏连绵，拾荒者在废料堆之间穿行，边缘地带可见简陋棚户聚集区",
+      "lighting": "天空灰蒙浑浊，光线昏暗偏冷，金属垃圾表面反射出暗淡光泽",
+      "atmosphere": "荒凉破败的底层生存环境，杂乱无序，充满锈蚀与废弃物气息",
+      "environment": "遍布废弃金属与垃圾的荒芜星球，地表堆积着大量废弃机械残骸",
+      "actionContext": "底层拾荒者在垃圾山中翻找可回收的金属与零件以维生",
+      "keyVisualAnchors": "高耸的垃圾山、废弃金属残骸堆、锈蚀的机械零件、简陋棚户"
+    },
+    "inferredFields": [],
+    "sourceCoverage": "none",
+    "importanceScore": 0.231,
+    "completionStatus": "llm_inferred",
+    "evidenceSnippets": [],
+    "finalDescription": "一颗遍布废弃金属与垃圾的荒芜星球，地表堆积着连绵起伏的垃圾山与废弃机械残骸，边缘地带有简陋棚户聚集区。天空灰蒙浑浊，光线昏暗偏冷，锈蚀金属表面反射暗淡光泽。整体环境荒凉破败、杂乱无序，是底层拾荒者翻找废料维生的地方。",
+    "summarizedFields": [],
+    "descriptionSource": "llm",
+    "sourceDescription": "",
+    "enhancedDescription": "一颗遍布废弃金属与垃圾的荒芜星球，地表堆积着连绵起伏的垃圾山与废弃机械残骸，边缘地带有简陋棚户聚集区。天空灰蒙浑浊，光线昏暗偏冷，锈蚀金属表面反射暗淡光泽。整体环境荒凉破败、杂乱无序，是底层拾荒者翻找废料维生的地方。",
+    "supplementDescription": "原文未提供垃圾星的具体场景描写，以上为基于简介的保守补全：垃圾山与废弃金属残骸的地貌、灰暗浑浊的天光、锈蚀破败的氛围与拾荒者活动"
+  }
+]

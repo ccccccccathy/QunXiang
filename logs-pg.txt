@@ -1,0 +1,454 @@
+[PG] 启动嵌入式 PostgreSQL（127.0.0.1:5432，数据库 qunxiang）…
+[PG] 数据目录已存在，跳过初始化
+2026-09-27 16:36:08.920 CST [22752] LOG:  starting PostgreSQL 18.4 on x86_64-windows, compiled by msvc-19.44.35226, 64-bit
+
+2026-09-27 16:36:08.928 CST [22752] LOG:  listening on IPv4 address "127.0.0.1", port 5432
+
+2026-09-27 16:36:08.928 CST [22752] LOG:  listening on IPv6 address "::1", port 5432
+
+2026-09-27 16:36:09.039 CST [28696] LOG:  database system was interrupted; last known up at 2026-09-24 22:20:09 CST
+
+2026-09-27 16:36:12.906 CST [28696] LOG:  database system was not properly shut down; automatic recovery in progress
+
+2026-09-27 16:36:12.913 CST [28696] LOG:  redo starts at 0/76A64E8
+
+2026-09-27 16:36:12.913 CST [28696] LOG:  invalid record length at 0/76A65F0: expected at least 24, got 0
+2026-09-27 16:36:12.914 CST [28696] LOG:  redo done at 0/76A65B8 system usage: CPU: user: 0.00 s, system: 0.00 s, elapsed: 0.00 s
+
+2026-09-27 16:36:12.922 CST [20496] LOG:  checkpoint starting: end-of-recovery immediate wait
+
+2026-09-27 16:36:12.951 CST [20496] LOG:  checkpoint complete: wrote 0 buffers (0.0%), wrote 2 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.003 s, sync=0.010 s, total=0.031 s; sync files=3, longest=0.004 s, average=0.004 s; distance=0 kB, estimate=0 kB; lsn=0/76A65F0, redo lsn=0/76A65F0
+
+2026-09-27 16:36:12.963 CST [22752] LOG:  database system is ready to accept connections
+
+[PG] 建库检查跳过：Your cluster must be running before you can create a database
+[PG] 就绪：postgresql://qunxiang:***@127.0.0.1:5432/qunxiang
+2026-09-27 16:40:20.729 CST [29412] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-27 16:40:20.729 CST [27936] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+
+2026-09-27 16:40:20.729 CST [18852] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-27 16:40:20.729 CST [17392] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+
+2026-09-27 16:41:12.964 CST [20496] LOG:  checkpoint starting: time
+
+2026-09-27 16:41:13.728 CST [20496] LOG:  checkpoint complete: wrote 6 buffers (0.0%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.660 s, sync=0.071 s, total=0.765 s; sync files=7, longest=0.053 s, average=0.011 s; distance=24 kB, estimate=24 kB; lsn=0/76AC980, redo lsn=0/76AC928
+
+2026-09-27 16:42:25.561 CST [28480] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+
+2026-09-27 16:46:16.806 CST [20496] LOG:  checkpoint starting: time
+
+2026-09-27 16:46:52.031 CST [20496] LOG:  checkpoint complete: wrote 226 buffers (1.4%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=34.992 s, sync=0.069 s, total=35.225 s; sync files=19, longest=0.029 s, average=0.004 s; distance=1724 kB, estimate=1724 kB; lsn=0/785BA88, redo lsn=0/785B9F8
+
+2026-09-27 16:46:53.109 CST [30280] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+
+2026-09-27 16:46:53.109 CST [24556] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+
+2026-09-27 16:46:53.110 CST [8128] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+
+2026-09-27 16:46:53.110 CST [3300] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+
+2026-09-27 16:46:53.111 CST [31412] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+
+2026-09-27 20:51:36.013 CST [20496] LOG:  checkpoint starting: time
+
+2026-09-27 20:51:42.892 CST [20496] LOG:  checkpoint complete: wrote 59 buffers (0.4%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=6.581 s, sync=0.167 s, total=6.879 s; sync files=29, longest=0.045 s, average=0.006 s; distance=369 kB, estimate=1588 kB; lsn=0/78C2640, redo lsn=0/78B7F78
+
+2026-09-27 21:01:47.696 CST [20496] LOG:  checkpoint starting: time
+
+2026-09-27 21:01:51.896 CST [20496] LOG:  checkpoint complete: wrote 37 buffers (0.2%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=4.060 s, sync=0.085 s, total=4.201 s; sync files=22, longest=0.030 s, average=0.004 s; distance=191 kB, estimate=1448 kB; lsn=0/78E7D88, redo lsn=0/78E7D30
+
+2026-09-27 21:16:02.051 CST [20496] LOG:  checkpoint starting: time
+
+2026-09-27 21:16:02.806 CST [20496] LOG:  checkpoint complete: wrote 6 buffers (0.0%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.667 s, sync=0.034 s, total=0.755 s; sync files=7, longest=0.015 s, average=0.005 s; distance=12 kB, estimate=1305 kB; lsn=0/78EB098, redo lsn=0/78EB040
+
+2026-09-27 21:21:02.809 CST [20496] LOG:  checkpoint starting: time
+
+2026-09-27 21:21:05.074 CST [20496] LOG:  checkpoint complete: wrote 19 buffers (0.1%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=2.098 s, sync=0.122 s, total=2.266 s; sync files=15, longest=0.091 s, average=0.009 s; distance=48 kB, estimate=1179 kB; lsn=0/78F7350, redo lsn=0/78F72F8
+
+2026-09-27 21:29:28.152 CST [20496] LOG:  checkpoint starting: time
+
+2026-09-27 21:29:29.007 CST [20496] LOG:  checkpoint complete: wrote 7 buffers (0.0%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.771 s, sync=0.035 s, total=0.855 s; sync files=8, longest=0.016 s, average=0.005 s; distance=20 kB, estimate=1063 kB; lsn=0/78FC380, redo lsn=0/78FC328
+
+2026-09-27 21:36:03.786 CST [20496] LOG:  checkpoint starting: time
+
+2026-09-27 21:36:04.736 CST [20496] LOG:  checkpoint complete: wrote 7 buffers (0.0%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.770 s, sync=0.130 s, total=0.951 s; sync files=8, longest=0.109 s, average=0.017 s; distance=20 kB, estimate=959 kB; lsn=0/7901620, redo lsn=0/79015C8
+
+2026-09-27 21:41:03.744 CST [20496] LOG:  checkpoint starting: time
+
+2026-09-27 21:41:03.880 CST [20496] LOG:  checkpoint complete: wrote 1 buffers (0.0%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.110 s, sync=0.008 s, total=0.137 s; sync files=2, longest=0.004 s, average=0.004 s; distance=7 kB, estimate=864 kB; lsn=0/7903220, redo lsn=0/79031C8
+
+2026-09-27 21:46:03.894 CST [20496] LOG:  checkpoint starting: time
+
+2026-09-27 21:46:04.030 CST [20496] LOG:  checkpoint complete: wrote 1 buffers (0.0%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.109 s, sync=0.009 s, total=0.137 s; sync files=2, longest=0.005 s, average=0.005 s; distance=7 kB, estimate=778 kB; lsn=0/7904F48, redo lsn=0/7904EF0
+
+2026-09-27 21:51:03.039 CST [20496] LOG:  checkpoint starting: time
+
+2026-09-27 21:51:05.071 CST [20496] LOG:  checkpoint complete: wrote 18 buffers (0.1%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=1.971 s, sync=0.043 s, total=2.033 s; sync files=13, longest=0.012 s, average=0.004 s; distance=97 kB, estimate=710 kB; lsn=0/791D460, redo lsn=0/791D3D0
+
+2026-09-27 21:56:03.072 CST [20496] LOG:  checkpoint starting: time
+
+2026-09-27 21:56:17.569 CST [20496] LOG:  checkpoint complete: wrote 132 buffers (0.8%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=14.436 s, sync=0.032 s, total=14.497 s; sync files=16, longest=0.003 s, average=0.002 s; distance=1002 kB, estimate=1002 kB; lsn=0/7A17F00, redo lsn=0/7A17E70
+
+2026-09-27 22:01:03.570 CST [20496] LOG:  checkpoint starting: time
+
+2026-09-27 22:01:03.702 CST [20496] LOG:  checkpoint complete: wrote 1 buffers (0.0%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.109 s, sync=0.006 s, total=0.133 s; sync files=2, longest=0.003 s, average=0.003 s; distance=2 kB, estimate=902 kB; lsn=0/7A188F8, redo lsn=0/7A188A0
+
+2026-09-27 22:06:03.710 CST [20496] LOG:  checkpoint starting: time
+
+2026-09-27 22:06:11.449 CST [20496] LOG:  checkpoint complete: wrote 70 buffers (0.4%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=7.661 s, sync=0.052 s, total=7.739 s; sync files=19, longest=0.011 s, average=0.003 s; distance=480 kB, estimate=860 kB; lsn=0/7A90CF0, redo lsn=0/7A90C60
+
+2026-09-27 22:11:03.456 CST [20496] LOG:  checkpoint starting: time
+
+2026-09-27 22:11:03.819 CST [20496] LOG:  checkpoint complete: wrote 3 buffers (0.0%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.332 s, sync=0.013 s, total=0.363 s; sync files=4, longest=0.005 s, average=0.004 s; distance=5 kB, estimate=775 kB; lsn=0/7A92480, redo lsn=0/7A92428
+
+2026-09-27 22:16:03.834 CST [20496] LOG:  checkpoint starting: time
+
+2026-09-27 22:16:11.319 CST [20496] LOG:  checkpoint complete: wrote 68 buffers (0.4%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=7.434 s, sync=0.032 s, total=7.485 s; sync files=14, longest=0.005 s, average=0.003 s; distance=474 kB, estimate=744 kB; lsn=0/7B08FC8, redo lsn=0/7B08F38
+
+2026-09-27 22:21:03.329 CST [20496] LOG:  checkpoint starting: time
+
+2026-09-27 22:21:04.147 CST [20496] LOG:  checkpoint complete: wrote 7 buffers (0.0%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.761 s, sync=0.031 s, total=0.818 s; sync files=8, longest=0.012 s, average=0.004 s; distance=15 kB, estimate=672 kB; lsn=0/7B0CC40, redo lsn=0/7B0CBE8
+
+2026-09-27 22:26:03.156 CST [20496] LOG:  checkpoint starting: time
+
+2026-09-27 22:26:14.732 CST [20496] LOG:  checkpoint complete: wrote 105 buffers (0.6%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=11.510 s, sync=0.039 s, total=11.577 s; sync files=13, longest=0.011 s, average=0.003 s; distance=790 kB, estimate=790 kB; lsn=0/7BD2778, redo lsn=0/7BD26E8
+
+2026-09-27 22:31:03.747 CST [20496] LOG:  checkpoint starting: time
+
+2026-09-27 22:31:39.323 CST [20496] LOG:  checkpoint complete: wrote 323 buffers (2.0%), wrote 3 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=35.391 s, sync=0.164 s, total=35.577 s; sync files=73, longest=0.012 s, average=0.003 s; distance=2404 kB, estimate=2404 kB; lsn=0/7E2B970, redo lsn=0/7E2B8E0
+
+2026-09-27 22:36:03.338 CST [20496] LOG:  checkpoint starting: time
+
+2026-09-27 22:36:03.468 CST [20496] LOG:  checkpoint complete: wrote 1 buffers (0.0%), wrote 0 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.109 s, sync=0.003 s, total=0.131 s; sync files=1, longest=0.003 s, average=0.003 s; distance=8 kB, estimate=2164 kB; lsn=0/7E2DB20, redo lsn=0/7E2DAC8
+
+2026-09-28 00:09:36.238 CST [20496] LOG:  checkpoint starting: time
+
+2026-09-28 00:09:38.412 CST [20496] LOG:  checkpoint complete: wrote 18 buffers (0.1%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=1.976 s, sync=0.142 s, total=2.175 s; sync files=12, longest=0.113 s, average=0.012 s; distance=103 kB, estimate=1958 kB; lsn=0/7E47A78, redo lsn=0/7E47A20
+
+2026-09-28 00:21:11.418 CST [20496] LOG:  checkpoint starting: time
+
+2026-09-28 00:21:27.104 CST [20496] LOG:  checkpoint complete: wrote 142 buffers (0.9%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=15.542 s, sync=0.087 s, total=15.687 s; sync files=46, longest=0.005 s, average=0.002 s; distance=952 kB, estimate=1858 kB; lsn=0/7F35AC8, redo lsn=0/7F35A38
+
+2026-09-28 09:37:48.653 CST [20496] LOG:  checkpoint starting: time
+
+2026-09-28 09:37:53.994 CST [20496] LOG:  checkpoint complete: wrote 48 buffers (0.3%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=5.247 s, sync=0.070 s, total=5.341 s; sync files=28, longest=0.012 s, average=0.003 s; distance=222 kB, estimate=1694 kB; lsn=0/7F6D3C8, redo lsn=0/7F6D338
+
+2026-09-28 09:42:49.003 CST [20496] LOG:  checkpoint starting: time
+
+2026-09-28 09:42:49.274 CST [20496] LOG:  checkpoint complete: wrote 2 buffers (0.0%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.225 s, sync=0.018 s, total=0.272 s; sync files=3, longest=0.012 s, average=0.006 s; distance=2 kB, estimate=1525 kB; lsn=0/7F6DCB0, redo lsn=0/7F6DC58
+
+2026-09-28 09:47:49.286 CST [20496] LOG:  checkpoint starting: time
+
+2026-09-28 09:47:50.231 CST [20496] LOG:  checkpoint complete: wrote 8 buffers (0.0%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.883 s, sync=0.031 s, total=0.945 s; sync files=9, longest=0.012 s, average=0.004 s; distance=35 kB, estimate=1376 kB; lsn=0/7F76C68, redo lsn=0/7F76C10
+
+2026-09-28 11:37:49.388 CST [20496] LOG:  checkpoint starting: time
+
+2026-09-28 11:37:52.969 CST [20496] LOG:  checkpoint complete: wrote 32 buffers (0.2%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=3.493 s, sync=0.050 s, total=3.582 s; sync files=23, longest=0.005 s, average=0.003 s; distance=117 kB, estimate=1250 kB; lsn=0/7F972E8, redo lsn=0/7F94130
+
+2026-09-28 11:42:49.980 CST [20496] LOG:  checkpoint starting: time
+
+2026-09-28 11:42:50.135 CST [20496] LOG:  checkpoint complete: wrote 1 buffers (0.0%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.118 s, sync=0.009 s, total=0.155 s; sync files=2, longest=0.005 s, average=0.005 s; distance=12 kB, estimate=1126 kB; lsn=0/7F97470, redo lsn=0/7F97418
+
+2026-09-28 11:47:49.143 CST [20496] LOG:  checkpoint starting: time
+
+2026-09-28 11:47:49.278 CST [20496] LOG:  checkpoint complete: wrote 1 buffers (0.0%), wrote 0 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.102 s, sync=0.005 s, total=0.135 s; sync files=1, longest=0.004 s, average=0.004 s; distance=1 kB, estimate=1014 kB; lsn=0/7F97B00, redo lsn=0/7F97AA8
+
+2026-09-28 11:52:49.288 CST [20496] LOG:  checkpoint starting: time
+
+2026-09-28 11:52:50.111 CST [20496] LOG:  checkpoint complete: wrote 7 buffers (0.0%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.762 s, sync=0.022 s, total=0.823 s; sync files=8, longest=0.005 s, average=0.003 s; distance=13 kB, estimate=914 kB; lsn=0/7F9B958, redo lsn=0/7F9B0E8
+
+2026-09-28 12:02:49.123 CST [20496] LOG:  checkpoint starting: time
+
+2026-09-28 12:02:49.261 CST [20496] LOG:  checkpoint complete: wrote 1 buffers (0.0%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.110 s, sync=0.009 s, total=0.138 s; sync files=2, longest=0.005 s, average=0.005 s; distance=2 kB, estimate=822 kB; lsn=0/7F9BB18, redo lsn=0/7F9BAC0
+
+2026-09-28 12:07:49.266 CST [20496] LOG:  checkpoint starting: time
+
+2026-09-28 12:07:50.088 CST [20496] LOG:  checkpoint complete: wrote 7 buffers (0.0%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.761 s, sync=0.033 s, total=0.822 s; sync files=8, longest=0.011 s, average=0.005 s; distance=14 kB, estimate=742 kB; lsn=0/7FA0298, redo lsn=0/7F9F688
+
+2026-09-28 12:17:49.103 CST [20496] LOG:  checkpoint starting: time
+
+2026-09-28 12:17:49.255 CST [20496] LOG:  checkpoint complete: wrote 1 buffers (0.0%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.116 s, sync=0.008 s, total=0.152 s; sync files=2, longest=0.004 s, average=0.004 s; distance=3 kB, estimate=668 kB; lsn=0/7FA0458, redo lsn=0/7FA0400
+
+2026-09-28 12:22:49.262 CST [20496] LOG:  checkpoint starting: time
+
+2026-09-28 12:22:50.074 CST [20496] LOG:  checkpoint complete: wrote 7 buffers (0.0%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.765 s, sync=0.029 s, total=0.813 s; sync files=8, longest=0.012 s, average=0.004 s; distance=16 kB, estimate=603 kB; lsn=0/7FA54B0, redo lsn=0/7FA4538
+
+2026-09-28 12:32:49.079 CST [20496] LOG:  checkpoint starting: time
+
+2026-09-28 12:32:49.232 CST [20496] LOG:  checkpoint complete: wrote 1 buffers (0.0%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.118 s, sync=0.009 s, total=0.154 s; sync files=2, longest=0.005 s, average=0.005 s; distance=4 kB, estimate=543 kB; lsn=0/7FA5670, redo lsn=0/7FA5618
+
+2026-09-28 12:37:49.236 CST [20496] LOG:  checkpoint starting: time
+
+2026-09-28 12:37:50.060 CST [20496] LOG:  checkpoint complete: wrote 7 buffers (0.0%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.772 s, sync=0.025 s, total=0.825 s; sync files=8, longest=0.005 s, average=0.004 s; distance=17 kB, estimate=490 kB; lsn=0/7FAB028, redo lsn=0/7FA9CD8
+
+2026-09-28 12:47:49.078 CST [20496] LOG:  checkpoint starting: time
+
+2026-09-28 12:47:49.218 CST [20496] LOG:  checkpoint complete: wrote 1 buffers (0.0%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.102 s, sync=0.010 s, total=0.140 s; sync files=2, longest=0.006 s, average=0.005 s; distance=5 kB, estimate=442 kB; lsn=0/7FAB1E8, redo lsn=0/7FAB190
+
+2026-09-28 12:52:49.231 CST [20496] LOG:  checkpoint starting: time
+
+2026-09-28 12:52:50.060 CST [20496] LOG:  checkpoint complete: wrote 7 buffers (0.0%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.774 s, sync=0.029 s, total=0.830 s; sync files=8, longest=0.011 s, average=0.004 s; distance=19 kB, estimate=399 kB; lsn=0/7FB1458, redo lsn=0/7FAFDC0
+
+2026-09-28 13:02:49.068 CST [20496] LOG:  checkpoint starting: time
+
+2026-09-28 13:02:50.661 CST [20496] LOG:  checkpoint complete: wrote 14 buffers (0.1%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=1.538 s, sync=0.025 s, total=1.594 s; sync files=5, longest=0.011 s, average=0.005 s; distance=82 kB, estimate=368 kB; lsn=0/7FC5FA8, redo lsn=0/7FC46D0
+
+2026-09-28 13:07:49.669 CST [20496] LOG:  checkpoint starting: time
+
+2026-09-28 13:07:51.631 CST [20496] LOG:  checkpoint complete: wrote 17 buffers (0.1%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=1.892 s, sync=0.038 s, total=1.963 s; sync files=14, longest=0.007 s, average=0.003 s; distance=97 kB, estimate=341 kB; lsn=0/7FDE840, redo lsn=0/7FDCDE8
+
+2026-09-28 13:12:49.638 CST [20496] LOG:  checkpoint starting: time
+
+2026-09-28 13:12:49.999 CST [20496] LOG:  checkpoint complete: wrote 3 buffers (0.0%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.329 s, sync=0.013 s, total=0.362 s; sync files=4, longest=0.004 s, average=0.004 s; distance=17 kB, estimate=308 kB; lsn=0/7FE2F98, redo lsn=0/7FE1450
+
+2026-09-28 15:17:12.402 CST [20496] LOG:  checkpoint starting: time
+
+2026-09-28 15:18:11.844 CST [20496] LOG:  checkpoint complete: wrote 483 buffers (2.9%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 1 recycled; write=59.242 s, sync=0.088 s, total=59.443 s; sync files=25, longest=0.030 s, average=0.004 s; distance=3854 kB, estimate=3854 kB; lsn=0/83A4D18, redo lsn=0/83A4C88
+
+2026-09-28 15:22:13.067 CST [20496] LOG:  checkpoint starting: time
+
+2026-09-28 15:22:17.988 CST [20496] LOG:  checkpoint complete: wrote 1 buffers (0.0%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=3.939 s, sync=0.010 s, total=4.922 s; sync files=2, longest=0.007 s, average=0.005 s; distance=1 kB, estimate=3468 kB; lsn=0/83A52D8, redo lsn=0/83A5248
+
+2026-09-28 15:22:24.050 CST [5340] LOG:  could not receive data from client: An established connection was aborted by the software in your host machine.
+	
+
+2026-09-28 15:27:14.059 CST [20496] LOG:  checkpoint starting: time
+
+2026-09-28 15:27:17.467 CST [20496] LOG:  checkpoint complete: wrote 21 buffers (0.1%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=2.701 s, sync=0.081 s, total=3.408 s; sync files=16, longest=0.030 s, average=0.005 s; distance=61 kB, estimate=3128 kB; lsn=0/83B47D0, redo lsn=0/83B4778
+
+2026-09-28 15:32:14.484 CST [20496] LOG:  checkpoint starting: time
+
+2026-09-28 15:32:14.757 CST [20496] LOG:  checkpoint complete: wrote 1 buffers (0.0%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.114 s, sync=0.036 s, total=0.274 s; sync files=2, longest=0.030 s, average=0.018 s; distance=1 kB, estimate=2815 kB; lsn=0/83B4E80, redo lsn=0/83B4E28
+
+2026-09-28 15:37:14.758 CST [20496] LOG:  checkpoint starting: time
+
+2026-09-28 15:37:15.560 CST [20496] LOG:  checkpoint complete: wrote 7 buffers (0.0%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.760 s, sync=0.021 s, total=0.802 s; sync files=8, longest=0.004 s, average=0.003 s; distance=19 kB, estimate=2535 kB; lsn=0/83B9AD0, redo lsn=0/83B9A78
+
+2026-09-28 15:42:14.565 CST [20496] LOG:  checkpoint starting: time
+
+2026-09-28 15:42:14.833 CST [20496] LOG:  checkpoint complete: wrote 1 buffers (0.0%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.122 s, sync=0.094 s, total=0.269 s; sync files=2, longest=0.089 s, average=0.047 s; distance=1 kB, estimate=2282 kB; lsn=0/83BA2C0, redo lsn=0/83BA268
+
+2026-09-28 15:47:14.842 CST [20496] LOG:  checkpoint starting: time
+
+2026-09-28 15:47:15.061 CST [20496] LOG:  checkpoint complete: wrote 1 buffers (0.0%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.109 s, sync=0.042 s, total=0.220 s; sync files=2, longest=0.031 s, average=0.021 s; distance=2 kB, estimate=2054 kB; lsn=0/83BAB28, redo lsn=0/83BAAD0
+
+2026-09-28 15:52:14.074 CST [20496] LOG:  checkpoint starting: time
+
+2026-09-28 15:52:14.301 CST [20496] LOG:  checkpoint complete: wrote 1 buffers (0.0%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.113 s, sync=0.038 s, total=0.228 s; sync files=2, longest=0.031 s, average=0.019 s; distance=2 kB, estimate=1849 kB; lsn=0/83BB428, redo lsn=0/83BB3D0
+
+2026-09-28 15:57:14.302 CST [20496] LOG:  checkpoint starting: time
+
+2026-09-28 15:57:14.487 CST [20496] LOG:  checkpoint complete: wrote 1 buffers (0.0%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.117 s, sync=0.035 s, total=0.185 s; sync files=2, longest=0.031 s, average=0.018 s; distance=2 kB, estimate=1664 kB; lsn=0/83BBDB8, redo lsn=0/83BBD60
+
+2026-09-28 16:17:51.511 CST [24404] LOG:  could not receive data from client: An established connection was aborted by the software in your host machine.
+	
+
+2026-09-28 16:21:25.406 CST [20496] LOG:  checkpoint starting: time
+
+2026-09-28 16:21:25.825 CST [20496] LOG:  checkpoint complete: wrote 1 buffers (0.0%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.116 s, sync=0.241 s, total=0.420 s; sync files=2, longest=0.230 s, average=0.121 s; distance=2 kB, estimate=1498 kB; lsn=0/83BC7F8, redo lsn=0/83BC7A0
+
+2026-09-28 16:57:02.714 CST [20496] LOG:  checkpoint starting: time
+
+2026-09-28 16:57:04.322 CST [20496] LOG:  checkpoint complete: wrote 13 buffers (0.1%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=1.418 s, sync=0.144 s, total=1.610 s; sync files=14, longest=0.103 s, average=0.011 s; distance=36 kB, estimate=1352 kB; lsn=0/83C5970, redo lsn=0/83C5918
+
+2026-09-28 17:02:02.353 CST [20496] LOG:  checkpoint starting: time
+
+2026-09-28 17:05:09.590 CST [20496] LOG:  checkpoint complete: wrote 1646 buffers (10.0%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 1 recycled; write=187.117 s, sync=0.082 s, total=187.238 s; sync files=23, longest=0.030 s, average=0.004 s; distance=16885 kB, estimate=16885 kB; lsn=0/9447880, redo lsn=0/9442DA8
+
+2026-09-28 17:07:02.604 CST [20496] LOG:  checkpoint starting: time
+
+2026-09-28 17:07:03.912 CST [20496] LOG:  checkpoint complete: wrote 11 buffers (0.1%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=1.203 s, sync=0.061 s, total=1.309 s; sync files=12, longest=0.030 s, average=0.006 s; distance=31 kB, estimate=15199 kB; lsn=0/944AAE8, redo lsn=0/944AA90
+
+2026-09-28 17:08:10.923 CST [1952] ERROR:  syntax error at or near "ORDER" at character 76
+2026-09-28 17:08:10.923 CST [1952] STATEMENT:  SELECT status, agent_type, "createdAt" FROM extraction_task WHERE book_id= ORDER BY "createdAt" DESC LIMIT 5
+
+2026-09-28 17:08:10.924 CST [1952] ERROR:  syntax error at or near "ORDER" at character 76
+2026-09-28 17:08:10.924 CST [1952] STATEMENT:  SELECT status, agent_type, "createdAt" FROM extraction_task WHERE book_id= ORDER BY "createdAt" DESC LIMIT 5
+
+2026-09-28 17:08:10.924 CST [1952] ERROR:  syntax error at or near "ORDER" at character 76
+2026-09-28 17:08:10.924 CST [1952] STATEMENT:  SELECT status, agent_type, "createdAt" FROM extraction_task WHERE book_id= ORDER BY "createdAt" DESC LIMIT 5
+
+2026-09-28 17:08:10.925 CST [1952] ERROR:  syntax error at or near "ORDER" at character 76
+2026-09-28 17:08:10.925 CST [1952] STATEMENT:  SELECT status, agent_type, "createdAt" FROM extraction_task WHERE book_id= ORDER BY "createdAt" DESC LIMIT 5
+
+2026-09-28 17:08:45.296 CST [33664] ERROR:  relation "extraction_task" does not exist at character 72
+2026-09-28 17:08:45.296 CST [33664] STATEMENT:  SELECT status, agent_type, "createdAt", "startedAt", "finishedAt" FROM extraction_task WHERE book_id = $1 ORDER BY "createdAt" DESC LIMIT 6
+
+2026-09-28 17:08:45.301 CST [33664] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+
+2026-09-28 17:09:11.863 CST [13800] ERROR:  column "book_id" does not exist at character 28
+2026-09-28 17:09:11.863 CST [13800] HINT:  Perhaps you meant to reference the column "Task.bookId".
+2026-09-28 17:09:11.863 CST [13800] STATEMENT:  SELECT * FROM "Task" WHERE book_id=$1 ORDER BY "createdAt" DESC LIMIT 4
+
+2026-09-28 17:09:11.869 CST [13800] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+
+2026-09-28 17:10:55.405 CST [32976] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+
+2026-09-28 17:12:02.918 CST [20496] LOG:  checkpoint starting: time
+
+2026-09-28 17:12:05.414 CST [20496] LOG:  checkpoint complete: wrote 21 buffers (0.1%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=2.344 s, sync=0.092 s, total=2.496 s; sync files=20, longest=0.030 s, average=0.005 s; distance=64 kB, estimate=13686 kB; lsn=0/945ADC8, redo lsn=0/945AD70
+
+2026-09-28 17:12:36.151 CST [24392] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-28 17:12:36.154 CST [9224] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-28 17:12:36.155 CST [7980] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+
+2026-09-28 17:12:36.161 CST [18892] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+
+2026-09-28 17:12:36.163 CST [28444] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-28 17:12:36.165 CST [4104] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-28 17:12:36.165 CST [5688] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+
+2026-09-28 17:12:36.166 CST [22308] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+
+2026-09-28 17:12:36.168 CST [19672] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-28 17:12:36.172 CST [3100] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+
+2026-09-28 17:12:36.176 CST [32072] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-28 17:12:36.177 CST [17512] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-28 17:12:36.170 CST [9312] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+
+2026-09-28 17:17:02.426 CST [20496] LOG:  checkpoint starting: time
+
+2026-09-28 17:17:10.774 CST [20496] LOG:  checkpoint complete: wrote 74 buffers (0.5%), wrote 3 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=8.097 s, sync=0.200 s, total=8.349 s; sync files=52, longest=0.031 s, average=0.004 s; distance=360 kB, estimate=12353 kB; lsn=0/94B5188, redo lsn=0/94B50F8
+
+2026-09-28 17:22:02.788 CST [20496] LOG:  checkpoint starting: time
+
+2026-09-28 17:22:03.602 CST [20496] LOG:  checkpoint complete: wrote 6 buffers (0.0%), wrote 0 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.659 s, sync=0.136 s, total=0.815 s; sync files=2, longest=0.134 s, average=0.068 s; distance=15 kB, estimate=11119 kB; lsn=0/94B9040, redo lsn=0/94B8FE8
+
+2026-09-28 17:27:02.666 CST [20496] LOG:  checkpoint starting: time
+
+2026-09-28 17:30:56.033 CST [20496] LOG:  checkpoint complete: wrote 2084 buffers (12.7%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 1 recycled; write=233.200 s, sync=0.076 s, total=233.368 s; sync files=33, longest=0.005 s, average=0.003 s; distance=19767 kB, estimate=19767 kB; lsn=0/A85D4C0, redo lsn=0/A806C18
+
+2026-09-28 17:31:24.208 CST [18464] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+
+2026-09-28 17:31:24.208 CST [5652] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+
+2026-09-28 17:31:24.208 CST [13820] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-28 17:31:24.210 CST [34952] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-28 17:31:24.210 CST [35172] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-28 17:31:24.210 CST [19584] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+
+2026-09-28 17:31:24.211 CST [27672] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-28 17:31:24.211 CST [28420] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-28 17:31:24.211 CST [7372] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+
+2026-09-28 17:31:24.212 CST [4460] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-28 17:31:24.212 CST [9716] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+
+2026-09-28 17:32:02.081 CST [20496] LOG:  checkpoint starting: time
+
+2026-09-28 17:32:07.404 CST [20496] LOG:  checkpoint complete: wrote 47 buffers (0.3%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=5.203 s, sync=0.052 s, total=5.323 s; sync files=11, longest=0.030 s, average=0.005 s; distance=346 kB, estimate=17824 kB; lsn=0/A85D6B8, redo lsn=0/A85D660
+
+2026-09-28 17:37:02.417 CST [20496] LOG:  checkpoint starting: time
+
+2026-09-28 17:37:38.765 CST [20496] LOG:  checkpoint complete: wrote 330 buffers (2.0%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 1 recycled; write=36.089 s, sync=0.191 s, total=36.349 s; sync files=25, longest=0.128 s, average=0.008 s; distance=13874 kB, estimate=17429 kB; lsn=0/B5F7A38, redo lsn=0/B5EA180
+
+2026-09-28 17:42:02.781 CST [20496] LOG:  checkpoint starting: time
+
+2026-09-28 17:42:07.833 CST [20496] LOG:  checkpoint complete: wrote 28 buffers (0.2%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=4.928 s, sync=0.055 s, total=5.053 s; sync files=17, longest=0.011 s, average=0.004 s; distance=143 kB, estimate=15701 kB; lsn=0/B662FB0, redo lsn=0/B60DF50
+
+2026-09-28 17:47:02.846 CST [20496] LOG:  checkpoint starting: time
+
+2026-09-28 17:47:11.699 CST [20496] LOG:  checkpoint complete: wrote 72 buffers (0.4%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=8.677 s, sync=0.133 s, total=8.854 s; sync files=48, longest=0.029 s, average=0.003 s; distance=381 kB, estimate=14169 kB; lsn=0/B66E4C8, redo lsn=0/B66D6F0
+
+2026-09-28 17:51:08.597 CST [12876] ERROR:  column "totalChars" does not exist at character 19
+2026-09-28 17:51:08.597 CST [12876] STATEMENT:  SELECT id, title, "totalChars", "chapterCount" FROM "Book" ORDER BY "createdAt"
+
+2026-09-28 17:51:08.604 CST [12876] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+
+2026-09-28 17:52:02.709 CST [20496] LOG:  checkpoint starting: time
+
+2026-09-28 17:52:03.684 CST [20496] LOG:  checkpoint complete: wrote 8 buffers (0.0%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.875 s, sync=0.052 s, total=0.975 s; sync files=9, longest=0.030 s, average=0.006 s; distance=27 kB, estimate=12755 kB; lsn=0/B674570, redo lsn=0/B674518
+
+2026-09-28 17:57:02.699 CST [20496] LOG:  checkpoint starting: time
+
+2026-09-28 17:57:03.143 CST [20496] LOG:  checkpoint complete: wrote 2 buffers (0.0%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.221 s, sync=0.163 s, total=0.444 s; sync files=3, longest=0.156 s, average=0.055 s; distance=11 kB, estimate=11480 kB; lsn=0/B677308, redo lsn=0/B677278
+
+2026-09-28 18:02:02.157 CST [20496] LOG:  checkpoint starting: time
+
+2026-09-28 18:02:02.351 CST [20496] LOG:  checkpoint complete: wrote 1 buffers (0.0%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=0.106 s, sync=0.034 s, total=0.195 s; sync files=2, longest=0.030 s, average=0.017 s; distance=4 kB, estimate=10333 kB; lsn=0/B6783A8, redo lsn=0/B678350
+
+2026-09-28 18:07:02.377 CST [20496] LOG:  checkpoint starting: time
+
+2026-09-28 18:07:04.429 CST [20496] LOG:  checkpoint complete: wrote 14 buffers (0.1%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=1.946 s, sync=0.055 s, total=2.053 s; sync files=11, longest=0.030 s, average=0.005 s; distance=44 kB, estimate=9304 kB; lsn=0/B6833F0, redo lsn=0/B683398
+
+2026-09-28 18:11:07.374 CST [19672] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+
+2026-09-28 18:11:07.376 CST [34204] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-28 18:11:07.376 CST [35104] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-28 18:11:07.377 CST [27628] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-28 18:11:07.377 CST [9896] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-28 18:11:07.377 CST [6772] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+
+2026-09-28 18:11:07.378 CST [13916] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-28 18:11:07.379 CST [34024] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-28 18:11:07.379 CST [8676] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+
+2026-09-28 18:11:07.380 CST [14896] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+
+2026-09-28 18:12:02.445 CST [20496] LOG:  checkpoint starting: time
+
+2026-09-28 18:12:05.631 CST [20496] LOG:  checkpoint complete: wrote 28 buffers (0.2%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=3.057 s, sync=0.085 s, total=3.186 s; sync files=19, longest=0.030 s, average=0.005 s; distance=128 kB, estimate=8386 kB; lsn=0/B6A34E8, redo lsn=0/B6A3490
+
+2026-09-28 18:17:00.713 CST [29420] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-28 18:17:00.715 CST [33496] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+
+2026-09-28 18:17:00.716 CST [33520] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+2026-09-28 18:17:00.716 CST [32036] LOG:  could not receive data from client: An existing connection was forcibly closed by the remote host.
+	
+
+2026-09-28 18:17:02.644 CST [20496] LOG:  checkpoint starting: time
+
+2026-09-28 18:17:03.966 CST [20496] LOG:  checkpoint complete: wrote 11 buffers (0.1%), wrote 1 SLRU buffers; 0 WAL file(s) added, 0 removed, 0 recycled; write=1.206 s, sync=0.087 s, total=1.322 s; sync files=11, longest=0.036 s, average=0.008 s; distance=26 kB, estimate=7550 kB; lsn=0/B6A9D98, redo lsn=0/B6A9D40
+

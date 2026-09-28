@@ -1,0 +1,55 @@
+[
+  {
+    "name": "机甲",
+    "tier": "candidate",
+    "fields": {
+      "usage": "",
+      "material": "",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "item",
+    "needsReview": true,
+    "visualFields": {
+      "usage": "",
+      "material": "",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "llmSupplement": "原文未提供机甲的材质、颜色、尺寸等具体视觉描写，以上为基于星际军校背景的保守补全：类人形金属装甲结构、冷色调外观、训练磨损、驾驶舱光效与军校归属",
+    "missingFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "visualDetails": {
+      "scale": "高度数米，需要驾驶者进入驾驶舱操控",
+      "usage": "作战与作业机械，是军校教学与考核的核心装备",
+      "effects": "启动时驾驶舱内亮起操控界面光效，关节处隐约透出动力装置的辉光",
+      "condition": "军用制式装备，装甲整体完好，可见训练使用留下的磨损痕迹",
+      "ownership": "达摩克利斯军校教学用机甲，由具备相应感知等级的驾驶者操控",
+      "colorShape": "大型类人形作战机械，体型远超常人，装甲以冷色调金属色为主",
+      "materialTexture": "金属装甲外壳，表面带有工业化的接缝与铆接结构"
+    },
+    "inferredFields": [],
+    "sourceCoverage": "none",
+    "importanceScore": 0.231,
+    "completionStatus": "llm_inferred",
+    "evidenceSnippets": [],
+    "finalDescription": "大型类人形作战机械，高度数米，通体为冷色调金属装甲，表面布满工业化接缝与铆接结构，训练使用中留下明显磨损。驾驶者需进入舱内操控，启动时操控界面亮起，关节处透出动力装置的辉光。是达摩克利斯军校教学与考核的核心装备。",
+    "summarizedFields": [],
+    "descriptionSource": "llm",
+    "sourceDescription": "",
+    "enhancedDescription": "大型类人形作战机械，高度数米，通体为冷色调金属装甲，表面布满工业化接缝与铆接结构，训练使用中留下明显磨损。驾驶者需进入舱内操控，启动时操控界面亮起，关节处透出动力装置的辉光。是达摩克利斯军校教学与考核的核心装备。",
+    "supplementDescription": "原文未提供机甲的材质、颜色、尺寸等具体视觉描写，以上为基于星际军校背景的保守补全：类人形金属装甲结构、冷色调外观、训练磨损、驾驶舱光效与军校归属"
+  }
+]

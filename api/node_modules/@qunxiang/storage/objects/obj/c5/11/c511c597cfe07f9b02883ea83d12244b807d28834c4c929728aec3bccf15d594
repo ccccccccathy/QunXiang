@@ -1,0 +1,62 @@
+[
+  {
+    "name": "达摩克利斯军校",
+    "tier": "candidate",
+    "fields": {
+      "time": "",
+      "layout": "",
+      "lighting": "",
+      "atmosphere": "",
+      "environment": "",
+      "actionContext": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "location",
+    "needsReview": true,
+    "visualFields": {
+      "time": "兼具清晨晨训的朦胧光线与白天训练时的强烈日照，整体呈现常年戒备、作息规律的军事院校时间感",
+      "layout": "空间布局规整严谨，教学楼、宿舍楼与训练场地沿中轴或网格分布，道路宽阔笔直，可见列队行进的开阔场地",
+      "lighting": "以冷白或灰蓝色调的自然光为主，清晨与正午光线明亮，建筑物在硬光下投下分明的阴影",
+      "atmosphere": "纪律严明、冷峻硬朗的军营式氛围，处处透出秩序感与肃杀之气",
+      "environment": "军事院校建筑群，以灰色调的混凝土与砖石结构为主，开阔的训练场与规整的校舍构成校园主体，氛围庄严肃穆",
+      "actionContext": "校园内可见身着军装的学员列队、操练、行走于各建筑之间，操场与道路承载日常军事训练活动"
+    },
+    "llmSupplement": "军校",
+    "missingFields": [
+      "environment",
+      "layout",
+      "atmosphere",
+      "lighting",
+      "time",
+      "actionContext"
+    ],
+    "visualDetails": {
+      "time": "晨训到日间操练的作息节奏，常年戒备的军校时间感",
+      "layout": "教学楼、宿舍、训练场沿规整轴线分布，道路笔直宽阔，留有列队行进的大尺度空间",
+      "lighting": "冷白或灰蓝自然光，硬光下阴影分明，清晨偏朦胧、正午偏强烈",
+      "atmosphere": "纪律严明、冷峻肃穆的军营式基调，秩序感强",
+      "environment": "灰色调混凝土与砖石结构的军事院校建筑群，配有开阔的训练场与规整校舍",
+      "actionContext": "军装学员在操场与道路上列队操练的日常军事化场景",
+      "keyVisualAnchors": "开阔训练场、灰调校舍建筑群、笔直道路、列队学员身影"
+    },
+    "inferredFields": [
+      "environment",
+      "layout",
+      "atmosphere",
+      "lighting",
+      "time",
+      "actionContext"
+    ],
+    "sourceCoverage": "none",
+    "importanceScore": 0.231,
+    "completionStatus": "llm_inferred",
+    "evidenceSnippets": [],
+    "finalDescription": "达摩克利斯军校是一所风格冷峻的军事院校，灰色调的混凝土与砖石建筑群沿规整的轴线铺开，教学楼、宿舍与开阔的训练场之间有笔直宽阔的道路相连。清晨薄雾中可见列队行进的学员身影，正午硬光将建筑的阴影切得棱角分明。整体氛围纪律严明、肃穆硬朗，开阔的训练场与灰调校舍构成其最具辨识度的视觉锚点。",
+    "summarizedFields": [],
+    "descriptionSource": "mixed",
+    "sourceDescription": "",
+    "enhancedDescription": "达摩克利斯军校是一所风格冷峻的军事院校，灰色调的混凝土与砖石建筑群沿规整的轴线铺开，教学楼、宿舍与开阔的训练场之间有笔直宽阔的道路相连。清晨薄雾中可见列队行进的学员身影，正午硬光将建筑的阴影切得棱角分明。整体氛围纪律严明、肃穆硬朗，开阔的训练场与灰调校舍构成其最具辨识度的视觉锚点。",
+    "supplementDescription": "军校"
+  }
+]
