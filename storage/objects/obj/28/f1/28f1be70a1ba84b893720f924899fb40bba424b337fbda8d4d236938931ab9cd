@@ -1,0 +1,2426 @@
+[
+  {
+    "name": "教室",
+    "tier": "supporting",
+    "fields": {
+      "time": "",
+      "layout": "直接蹲在教室门口（第27章）；卫三便见到一群人站在门口（第27章）",
+      "lighting": "在这种阳光积极的氛围下（第23章）",
+      "atmosphere": "",
+      "environment": "",
+      "actionContext": "起身离开（第19章）；并没有老师站在上面（第23章）；卫三便见到一群人站在门口（第27章）；站在旁边小声喊卫三提醒：“丁学姐就是你之前挑衅的轻型机甲最叼（第27章）"
+    },
+    "aliases": [],
+    "confidence": 0.65,
+    "entityType": "location",
+    "needsReview": true,
+    "visualFields": {
+      "time": "日间上课时段",
+      "layout": "直接蹲在教室门口（第27章）；卫三便见到一群人站在门口（第27章）",
+      "lighting": "在这种阳光积极的氛围下（第23章）",
+      "atmosphere": "上课时学生正襟危坐，书本摊开，秩序安静（第23章）",
+      "environment": "军校教学教室，设讲台与多排学生座位",
+      "actionContext": "起身离开（第19章）；并没有老师站在上面（第23章）；卫三便见到一群人站在门口（第27章）；站在旁边小声喊卫三提醒：“丁学姐就是你之前挑衅的轻型机甲最叼（第27章）"
+    },
+    "llmSupplement": "教室为常规课堂布局，多排座位面向讲台，采光良好，白天使用；门口外为走廊，可容纳多人聚集",
+    "missingFields": [
+      "environment",
+      "atmosphere",
+      "time"
+    ],
+    "visualDetails": {
+      "time": "白天上课时段",
+      "layout": "讲台居中前方，学生座位成排，进出口连通走廊",
+      "lighting": "日间自然光，室内明亮",
+      "atmosphere": "上课时肃静端正，门口可形成围观人群",
+      "environment": "军校教学教室，多排座位面向讲台",
+      "actionContext": "讲台上无教师，学生正襟危坐，门口聚人",
+      "keyVisualAnchors": "讲台、学生书桌、门口人群"
+    },
+    "inferredFields": [
+      "environment",
+      "atmosphere",
+      "time"
+    ],
+    "sourceCoverage": "strong",
+    "importanceScore": 0.4625,
+    "completionStatus": "llm_completed",
+    "evidenceSnippets": [
+      {
+        "text": "教室内老师已经将话题拉了回来，卫三也失去了兴趣，松开应长河，起身离开。",
+        "fields": [
+          "actionContext"
+        ],
+        "chapterIndex": 19,
+        "chapterTitle": "第19章",
+        "matchedNames": [
+          "教室"
+        ]
+      },
+      {
+        "text": "在这种阳光积极的氛围下, 卫三迷茫朝教室走去。",
+        "fields": [
+          "lighting"
+        ],
+        "chapterIndex": 23,
+        "chapterTitle": "第23章",
+        "matchedNames": [
+          "教室"
+        ]
+      },
+      {
+        "text": "往常教室内一进去各种学生姿态都有，今天一进去所有人正襟危坐翻着书，卫三看了看讲台，并没有老师站在上面。",
+        "fields": [
+          "actionContext"
+        ],
+        "chapterIndex": 23,
+        "chapterTitle": "第23章",
+        "matchedNames": [
+          "教室"
+        ]
+      },
+      {
+        "text": "丁和美今天就杠上了, 既然卫三装死, 她干脆找上门, 直接蹲在教室门口，等卫三上完课。",
+        "fields": [
+          "layout"
+        ],
+        "chapterIndex": 27,
+        "chapterTitle": "第27章",
+        "matchedNames": [
+          "教室"
+        ]
+      },
+      {
+        "text": "一出教室, 卫三便见到一群人站在门口, 目光全落在她身上, 尤其打头的女生, 眼睛里都在冒火。",
+        "fields": [
+          "layout",
+          "actionContext"
+        ],
+        "chapterIndex": 27,
+        "chapterTitle": "第27章",
+        "matchedNames": [
+          "教室"
+        ]
+      },
+      {
+        "text": "教室里的学生哗啦啦挤出来看好戏，连聂昊齐都没走，站在旁边小声喊卫三提醒：“丁学姐就是你之前挑衅的轻型机甲最叼。",
+        "fields": [
+          "actionContext"
+        ],
+        "chapterIndex": 27,
+        "chapterTitle": "第27章",
+        "matchedNames": [
+          "教室"
+        ]
+      }
+    ],
+    "finalDescription": "军校教学教室设讲台与多排学生座位，进出口连通门外走廊。日间阳光透入，室内光线明亮。上课时学生正襟危坐，书本摊开，讲台有时无人，门口可聚集围观人群。",
+    "summarizedFields": [],
+    "descriptionSource": "mixed",
+    "sourceDescription": "直接蹲在教室门口; 卫三便见到一群人站在门口; 在这种阳光积极的氛围下; 起身离开; 并没有老师站在上面; 站在旁边小声喊卫三提醒：“丁学姐就是你之前挑衅的轻型机甲最叼; 直接蹲在教室门口（第27章）；卫三便见到一群人站在门口（第27章）; 在这种阳光积极的氛围下（第23章）; 起身离开（第19章）；并没有老师站在上面（第23章）；卫三便见到一群人站在门口（第27章）；站在旁边小声喊卫三提醒：“丁学姐就是你之前挑衅的轻型机甲最叼（第27章）",
+    "enhancedDescription": "军校教学教室设讲台与多排学生座位，进出口连通门外走廊。日间阳光透入，室内光线明亮。上课时学生正襟危坐，书本摊开，讲台有时无人，门口可聚集围观人群。",
+    "supplementDescription": "教室为常规课堂布局，多排座位面向讲台，采光良好，白天使用；门口外为走廊，可容纳多人聚集"
+  },
+  {
+    "name": "垃圾场",
+    "tier": "supporting",
+    "fields": {
+      "time": "",
+      "layout": "",
+      "lighting": "",
+      "atmosphere": "",
+      "environment": "",
+      "actionContext": "坐在地上歇了一会（第1章）"
+    },
+    "aliases": [],
+    "confidence": 0.19,
+    "entityType": "location",
+    "needsReview": true,
+    "visualFields": {
+      "time": "早晨日间",
+      "layout": "垃圾山起伏分布，倾倒区与捡拾区混杂，附近有道路和公交线路",
+      "lighting": "早晨自然光，露天明亮",
+      "atmosphere": "杂乱拥挤，废弃物遍布",
+      "environment": "大片露天垃圾倾倒区域，垃圾堆叠成山，废弃物品杂乱",
+      "actionContext": "坐在地上歇了一会（第1章）"
+    },
+    "llmSupplement": "垃圾场露天开阔，垃圾堆积成山，废弃物品种杂乱，早晨有自然光照，整体环境拥挤杂乱",
+    "missingFields": [
+      "environment",
+      "layout",
+      "atmosphere",
+      "lighting",
+      "time"
+    ],
+    "visualDetails": {
+      "time": "早晨",
+      "layout": "倾倒区与捡拾区交织，附近有道路和公交线路",
+      "lighting": "早晨自然光，露天明亮",
+      "atmosphere": "杂乱拥挤，废弃物遍布",
+      "environment": "露天垃圾倾倒区域，垃圾堆叠成山",
+      "actionContext": "垃圾飞车往来，人群在垃圾山间翻捡",
+      "keyVisualAnchors": "连绵垃圾山、废弃物堆、往来垃圾飞车"
+    },
+    "inferredFields": [
+      "environment",
+      "layout",
+      "atmosphere",
+      "lighting",
+      "time"
+    ],
+    "sourceCoverage": "partial",
+    "importanceScore": 0.425,
+    "completionStatus": "llm_completed",
+    "evidenceSnippets": [
+      {
+        "text": "坐在地上歇了一会，卫三决定继续去垃圾场搬营养液。",
+        "fields": [
+          "actionContext"
+        ],
+        "chapterIndex": 1,
+        "chapterTitle": "第1章",
+        "matchedNames": [
+          "垃圾场"
+        ]
+      }
+    ],
+    "finalDescription": "垃圾场为大片露天倾倒区，垃圾堆叠成连绵山体，塑料、金属碎片与杂物混杂堆积。日间光线充足，早晨可见垃圾飞车往来倾倒，捡拾人群分散在垃圾山之间，整体杂乱拥挤。",
+    "summarizedFields": [],
+    "descriptionSource": "mixed",
+    "sourceDescription": "坐在地上歇了一会; 坐在地上歇了一会（第1章）",
+    "enhancedDescription": "垃圾场为大片露天倾倒区，垃圾堆叠成连绵山体，塑料、金属碎片与杂物混杂堆积。日间光线充足，早晨可见垃圾飞车往来倾倒，捡拾人群分散在垃圾山之间，整体杂乱拥挤。",
+    "supplementDescription": "垃圾场露天开阔，垃圾堆积成山，废弃物品种杂乱，早晨有自然光照，整体环境拥挤杂乱"
+  },
+  {
+    "name": "3212星",
+    "tier": "candidate",
+    "fields": {
+      "time": "",
+      "layout": "",
+      "lighting": "",
+      "atmosphere": "",
+      "environment": "",
+      "actionContext": "姬初雨坐在椅子上（第36章）; 但如果真能改造出来一架战斗型机甲（第9章）；甚至还有各种战斗型机甲（第13章）"
+    },
+    "aliases": [
+      "3212",
+      "某无名星",
+      "无名星"
+    ],
+    "confidence": 0.27,
+    "entityType": "location",
+    "needsReview": true,
+    "visualFields": {
+      "time": "以灰白昼景为主，时间感模糊。",
+      "layout": "垃圾处理区与低矮聚居区混杂，另有一片相对规整的富人区。",
+      "lighting": "灰蒙天光，像被尘土笼罩，整体偏暗。",
+      "atmosphere": "整体萧索灰败，略显荒凉。",
+      "environment": "地表荒芜，四处可见废弃金属与垃圾堆积，建筑低矮陈旧。",
+      "actionContext": "姬初雨坐在椅子上（第36章）; 但如果真能改造出来一架战斗型机甲（第9章）；甚至还有各种战斗型机甲（第13章）"
+    },
+    "llmSupplement": "地表荒芜，废弃金属与垃圾堆积，低矮陈旧建筑分布；灰蒙天光，整体萧索，另有相对规整的富人区",
+    "missingFields": [
+      "environment",
+      "layout",
+      "atmosphere",
+      "lighting",
+      "time"
+    ],
+    "visualDetails": {
+      "time": "日景为主，昼夜变化不鲜明。",
+      "layout": "垃圾处理区、普通聚居区与富人区并置，街道狭窄杂乱。",
+      "lighting": "灰蒙天光，尘土感强，光线偏暗。",
+      "atmosphere": "萧索、灰败、荒凉。",
+      "environment": "荒芜贫瘠的垃圾星，地表堆积废弃金属与垃圾，建筑低矮陈旧。",
+      "keyVisualAnchors": "垃圾堆积场、低矮建筑群、规整富人区。"
+    },
+    "inferredFields": [
+      "environment",
+      "layout",
+      "atmosphere",
+      "lighting",
+      "time"
+    ],
+    "sourceCoverage": "partial",
+    "importanceScore": 0.231,
+    "completionStatus": "llm_completed",
+    "evidenceSnippets": [
+      {
+        "text": "姬初雨坐在椅子上，漫不经心转着食指上的机甲戒指：“据说A级机甲单兵和他是一个无名星出来的，身边还有两个普通人，一起在市中心逛。",
+        "fields": [
+          "actionContext"
+        ],
+        "chapterIndex": 36,
+        "chapterTitle": "第36章",
+        "matchedNames": [
+          "无名星"
+        ]
+      },
+      {
+        "text": "两百万星币当然多，尤其在3212星上，但如果真能改造出来一架战斗型机甲，那这些钱简直是毛毛细雨。",
+        "fields": [
+          "actionContext"
+        ],
+        "chapterIndex": 9,
+        "chapterTitle": "第9章",
+        "matchedNames": [
+          "3212星",
+          "3212"
+        ]
+      },
+      {
+        "text": "虽然星网上说沙都星地处偏僻，环境荒凉，但在卫三眼中依然非常繁华，路比3212星宽敞数十倍，半空到处是大小型飞行器，甚至还有各种战斗型机甲。",
+        "fields": [
+          "actionContext"
+        ],
+        "chapterIndex": 13,
+        "chapterTitle": "第13章",
+        "matchedNames": [
+          "3212星",
+          "3212"
+        ],
+        "otherMatchedNames": [
+          "星网",
+          "沙都星"
+        ]
+      }
+    ],
+    "finalDescription": "3212星表面荒芜贫瘠，灰蒙天光下可见大片废弃金属与垃圾堆积，低矮陈旧的建筑鳞次栉比。垃圾处理区与简陋聚居区混杂，另有一片相对规整的富人区。整体色调灰暗，街道狭窄，空间弥漫尘土感，显得萧索冷清。",
+    "summarizedFields": [],
+    "descriptionSource": "mixed",
+    "sourceDescription": "姬初雨坐在椅子上; 但如果真能改造出来一架战斗型机甲; 甚至还有各种战斗型机甲; 姬初雨坐在椅子上（第36章）; 但如果真能改造出来一架战斗型机甲（第9章）；甚至还有各种战斗型机甲（第13章）",
+    "enhancedDescription": "3212星表面荒芜贫瘠，灰蒙天光下可见大片废弃金属与垃圾堆积，低矮陈旧的建筑鳞次栉比。垃圾处理区与简陋聚居区混杂，另有一片相对规整的富人区。整体色调灰暗，街道狭窄，空间弥漫尘土感，显得萧索冷清。",
+    "supplementDescription": "地表荒芜，废弃金属与垃圾堆积，低矮陈旧建筑分布；灰蒙天光，整体萧索，另有相对规整的富人区"
+  },
+  {
+    "name": "训练场",
+    "tier": "supporting",
+    "fields": {
+      "time": "",
+      "layout": "",
+      "lighting": "",
+      "atmosphere": "",
+      "environment": "训练场和擂台来回跑（第14章）",
+      "actionContext": "卫三抬头便见到金珂站在训练场外面（第15章）；站在训练场上（第33章）；围观的都是已经进了校队的学生（第35章）；两位塞缪尔调查员最后只能压制怒气离开训练场（第40章）"
+    },
+    "aliases": [],
+    "confidence": 0.53,
+    "entityType": "location",
+    "needsReview": true,
+    "visualFields": {
+      "time": "白天训练与深夜试炼均可见。",
+      "layout": "场地开阔平坦，一侧设擂台，边缘留有围观区域。",
+      "lighting": "白天自然光照明，夜间靠场地人工灯光。",
+      "atmosphere": "选拔或训练时周围围满校队学生，气氛专注（第35章）",
+      "environment": "训练场和擂台来回跑（第14章）",
+      "actionContext": "卫三抬头便见到金珂站在训练场外面（第15章）；站在训练场上（第33章）；围观的都是已经进了校队的学生（第35章）；两位塞缪尔调查员最后只能压制怒气离开训练场（第40章）"
+    },
+    "llmSupplement": "开阔平坦的硬地训练场，一侧设擂台，边缘有围观区域；日间自然光照明，夜间靠人工灯光",
+    "missingFields": [
+      "layout",
+      "atmosphere",
+      "lighting",
+      "time"
+    ],
+    "visualDetails": {
+      "time": "白天与深夜均有使用。",
+      "layout": "平坦硬地训练区，一侧设擂台，周边有围观区域。",
+      "lighting": "日间自然光，夜间依赖人工照明。",
+      "atmosphere": "训练或选拔时人员围聚，气氛专注紧张。",
+      "environment": "开阔的军校训练场地，与擂台相邻，地面适合机甲活动。",
+      "actionContext": "金珂曾出现在训练场外（第15章）；场中曾有金发选手（第33章）；围观者多为校队学生（第35章）；学生与调查员在场边聚集（第40章）。",
+      "keyVisualAnchors": "开阔硬地、擂台、围观区域、夜间照明。"
+    },
+    "inferredFields": [
+      "layout",
+      "atmosphere",
+      "lighting",
+      "time"
+    ],
+    "sourceCoverage": "partial",
+    "importanceScore": 0.425,
+    "completionStatus": "llm_completed",
+    "evidenceSnippets": [
+      {
+        "text": "放假两天，卫三都在黑厂地下一层，训练场和擂台来回跑，由于无论实力高低都要从L0开始，加上随机匹配，她也不全都能赢，输了好几场。",
+        "fields": [
+          "environment"
+        ],
+        "chapterIndex": 14,
+        "chapterTitle": "第14章",
+        "matchedNames": [
+          "训练场"
+        ],
+        "otherMatchedNames": [
+          "黑厂",
+          "地下一层",
+          "一层"
+        ]
+      },
+      {
+        "text": "听见有人喊自己名字，卫三抬头便见到金珂站在训练场外面。",
+        "fields": [
+          "actionContext"
+        ],
+        "chapterIndex": 15,
+        "chapterTitle": "第15章",
+        "matchedNames": [
+          "训练场"
+        ]
+      },
+      {
+        "text": "照片应该是抓拍的，里面的人五官俊美，身材修长，一头金发耀目夺人，站在训练场上，单手抹去下巴的汗，扫向镜头的眼睛透着一股锐利。",
+        "fields": [
+          "actionContext"
+        ],
+        "chapterIndex": 33,
+        "chapterTitle": "第33章",
+        "matchedNames": [
+          "训练场"
+        ]
+      },
+      {
+        "text": "第二天卫三带着一身药味去训练场, 参加射击者的选拔, 报名的人有五十位，围观的都是已经进了校队的学生。",
+        "fields": [
+          "actionContext"
+        ],
+        "chapterIndex": 35,
+        "chapterTitle": "第35章",
+        "matchedNames": [
+          "训练场"
+        ]
+      },
+      {
+        "text": "周围的学生纷纷起哄，两位塞缪尔调查员最后只能压制怒气离开训练场。",
+        "fields": [
+          "actionContext"
+        ],
+        "chapterIndex": 40,
+        "chapterTitle": "第40章",
+        "matchedNames": [
+          "训练场"
+        ]
+      }
+    ],
+    "finalDescription": "训练场是达摩克利斯军校中开阔平坦的实战场地，与擂台相邻，地面坚硬，可供机甲移动、射击选拔和校队训练。场地边缘设有围观区域，白天自然光线充足，夜间靠人工照明。训练或选拔时周围常围满校队学生，气氛专注而紧凑。",
+    "summarizedFields": [],
+    "descriptionSource": "mixed",
+    "sourceDescription": "训练场和擂台来回跑; 卫三抬头便见到金珂站在训练场外面; 站在训练场上; 围观的都是已经进了校队的学生; 两位塞缪尔调查员最后只能压制怒气离开训练场; 训练场和擂台来回跑（第14章）; 卫三抬头便见到金珂站在训练场外面（第15章）；站在训练场上（第33章）；围观的都是已经进了校队的学生（第35章）；两位塞缪尔调查员最后只能压制怒气离开训练场（第40章）",
+    "enhancedDescription": "训练场是达摩克利斯军校中开阔平坦的实战场地，与擂台相邻，地面坚硬，可供机甲移动、射击选拔和校队训练。场地边缘设有围观区域，白天自然光线充足，夜间靠人工照明。训练或选拔时周围常围满校队学生，气氛专注而紧凑。",
+    "supplementDescription": "开阔平坦的硬地训练场，一侧设擂台，边缘有围观区域；日间自然光照明，夜间靠人工灯光"
+  },
+  {
+    "name": "训练室",
+    "tier": "candidate",
+    "fields": {
+      "time": "",
+      "layout": "一台机甲摆放在最中央（第7章）；却见到门口的年轻男人走了进来（第23章）",
+      "lighting": "",
+      "atmosphere": "",
+      "environment": "",
+      "actionContext": ""
+    },
+    "aliases": [],
+    "confidence": 0.27,
+    "entityType": "location",
+    "needsReview": true,
+    "visualFields": {
+      "time": "处于室内，昼夜感弱，以人工照明为主。",
+      "layout": "一台机甲摆放在最中央（第7章）；门口可见年轻男子与其同伴（第23章）",
+      "lighting": "室内由均匀人工光线照亮，光幕泛着冷光。",
+      "atmosphere": "室内安静凝滞，专注训练氛围。",
+      "environment": "封闭的室内训练空间，可供射击与机甲格斗使用，墙面或高处设有大光幕。",
+      "actionContext": ""
+    },
+    "llmSupplement": "封闭室内空间，墙面或高处设有大光幕，均匀冷色人工光照明，氛围安静专注，昼夜感弱",
+    "missingFields": [
+      "environment",
+      "atmosphere",
+      "lighting",
+      "time",
+      "actionContext"
+    ],
+    "visualDetails": {
+      "time": "无自然昼夜感，依赖室内灯光。",
+      "layout": "中央摆放机甲，门口通道可进出人员，周围留出活动空间。",
+      "lighting": "人工均匀照明，光幕散发冷色光芒。",
+      "atmosphere": "安静、专注，近乎凝滞。",
+      "environment": "封闭式训练室，兼具射击和机甲格斗功能，设置光幕录制设备。",
+      "actionContext": "门口可见年轻男子及其同伴（第23章）。",
+      "keyVisualAnchors": "中央机甲、大光幕、门口通道。"
+    },
+    "inferredFields": [
+      "environment",
+      "atmosphere",
+      "lighting",
+      "time"
+    ],
+    "sourceCoverage": "partial",
+    "importanceScore": 0.4185,
+    "completionStatus": "llm_completed",
+    "evidenceSnippets": [
+      {
+        "text": "卫三跟着泰吴德去他的训练室，一台机甲摆放在最中央。",
+        "fields": [
+          "layout"
+        ],
+        "chapterIndex": 7,
+        "chapterTitle": "第7章",
+        "matchedNames": [
+          "训练室"
+        ]
+      },
+      {
+        "text": "训练室内仿佛进入真空中，连呼吸声都听不见了，卫三皱眉抬头，却见到门口的年轻男人走了进来，身边还有几个其他人。",
+        "fields": [
+          "layout"
+        ],
+        "chapterIndex": 23,
+        "chapterTitle": "第23章",
+        "matchedNames": [
+          "训练室"
+        ]
+      }
+    ],
+    "finalDescription": "训练室是一处封闭的军校室内空间，中央常停放一台机甲，周围留出足够的活动区域。墙侧或高处连接着大光幕，可用于对战录制与回放。室内以均匀的人工光线照明，光幕泛着冷光，氛围安静而专注，昼夜感不明显。",
+    "summarizedFields": [
+      "layout"
+    ],
+    "descriptionSource": "mixed",
+    "sourceDescription": "一台机甲摆放在最中央; 却见到门口的年轻男人走了进来; 一台机甲摆放在最中央（第7章）；却见到门口的年轻男人走了进来（第23章）",
+    "enhancedDescription": "训练室是一处封闭的军校室内空间，中央常停放一台机甲，周围留出足够的活动区域。墙侧或高处连接着大光幕，可用于对战录制与回放。室内以均匀的人工光线照明，光幕泛着冷光，氛围安静而专注，昼夜感不明显。",
+    "supplementDescription": "封闭室内空间，墙面或高处设有大光幕，均匀冷色人工光照明，氛围安静专注，昼夜感弱"
+  },
+  {
+    "name": "星网",
+    "tier": "candidate",
+    "fields": {
+      "time": "",
+      "layout": "",
+      "lighting": "",
+      "atmosphere": "",
+      "environment": "",
+      "actionContext": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "location",
+    "needsReview": true,
+    "visualFields": {
+      "time": "无自然昼夜变化，时间感弱。",
+      "layout": "界面与光点入口散布在无边界空间中，呈层叠或悬浮排布。",
+      "lighting": "整体以电子冷色光为主，界面散发柔光。",
+      "atmosphere": "空灵、冷冽，信息感强。",
+      "environment": "无实体的虚拟数字空间，由悬浮界面、数据流与半透明面板构成。",
+      "actionContext": ""
+    },
+    "llmSupplement": "无实体虚拟空间，由悬浮半透明界面、数据流和光点入口构成，电子冷色柔光为主，缺乏纵深与昼夜变化",
+    "missingFields": [
+      "environment",
+      "layout",
+      "atmosphere",
+      "lighting",
+      "time",
+      "actionContext"
+    ],
+    "visualDetails": {
+      "time": "无昼夜变化。",
+      "layout": "半透明面板、光点入口层叠散布，缺乏真实空间纵深。",
+      "lighting": "电子冷色柔光为主，界面自发光。",
+      "atmosphere": "空灵、冷冽、信息密集。",
+      "environment": "虚拟数字空间，非实体环境；悬浮界面与数据流构成主视觉。",
+      "keyVisualAnchors": "悬浮界面、数据流、半透明光屏。"
+    },
+    "inferredFields": [
+      "environment",
+      "layout",
+      "atmosphere",
+      "lighting",
+      "time"
+    ],
+    "sourceCoverage": "none",
+    "importanceScore": 0.4185,
+    "completionStatus": "llm_inferred",
+    "evidenceSnippets": [],
+    "finalDescription": "星网是一片无实体的虚拟数字空间，由悬浮的半透明界面、数据流和光点入口构成。整体以电子冷色柔光为主，界面层叠散布，缺乏真实空间纵深与自然昼夜变化，呈现空灵而信息密集的视觉氛围。",
+    "summarizedFields": [],
+    "descriptionSource": "mixed",
+    "sourceDescription": "",
+    "enhancedDescription": "星网是一片无实体的虚拟数字空间，由悬浮的半透明界面、数据流和光点入口构成。整体以电子冷色柔光为主，界面层叠散布，缺乏真实空间纵深与自然昼夜变化，呈现空灵而信息密集的视觉氛围。",
+    "supplementDescription": "无实体虚拟空间，由悬浮半透明界面、数据流和光点入口构成，电子冷色柔光为主，缺乏纵深与昼夜变化"
+  },
+  {
+    "name": "魔方论坛",
+    "tier": "candidate",
+    "fields": {
+      "time": "同样的深夜（第20章）",
+      "layout": "",
+      "lighting": "",
+      "atmosphere": "",
+      "environment": "",
+      "actionContext": "里面聚集联邦各星的机甲师（第20章）；卫三坐在自己床上登魔方论坛（第27章）"
+    },
+    "aliases": [],
+    "confidence": 0.46,
+    "entityType": "location",
+    "needsReview": true,
+    "visualFields": {
+      "time": "同样的深夜（第20章）",
+      "layout": "论坛界面分布多个帖子窗口与悬赏、交易面板，层叠排布。",
+      "lighting": "屏幕冷光为主，界面散发明亮柔光。",
+      "atmosphere": "信息密集、活跃的虚拟交流氛围。",
+      "environment": "星网中的虚拟论坛界面，页面以帖子列表、交易与教学信息为主。",
+      "actionContext": "论坛页面中陈列着悬赏、交易与教学内容（第20章）。"
+    },
+    "llmSupplement": "虚拟论坛界面由帖子列表与交易悬赏面板层叠构成，冷色屏幕光为主，页面明亮活跃",
+    "missingFields": [
+      "environment",
+      "layout",
+      "atmosphere",
+      "lighting"
+    ],
+    "visualDetails": {
+      "time": "可出现在深夜（第20章）。",
+      "layout": "帖子列表与面板窗口层叠排布。",
+      "lighting": "冷色屏幕光，界面自发光。",
+      "atmosphere": "活跃、繁忙。",
+      "environment": "虚拟论坛界面，信息密集，包含悬赏、交易与教学板块。",
+      "actionContext": "页面中可见悬赏帖、交易帖和教学帖（第20章）。",
+      "keyVisualAnchors": "帖子列表、交易面板、悬赏信息、教学帖。"
+    },
+    "inferredFields": [
+      "environment",
+      "layout",
+      "atmosphere",
+      "lighting"
+    ],
+    "sourceCoverage": "partial",
+    "importanceScore": 0.4185,
+    "completionStatus": "llm_completed",
+    "evidenceSnippets": [
+      {
+        "text": "卫三昨天找到的魔方论坛，里面聚集联邦各星的机甲师，他们在上面会发布各种悬赏问题和交易帖，还有人开帖教学。",
+        "fields": [
+          "actionContext"
+        ],
+        "chapterIndex": 20,
+        "chapterTitle": "第20章",
+        "matchedNames": [
+          "魔方论坛"
+        ]
+      },
+      {
+        "text": "同样的深夜，应成河登入魔方论坛，他不是为了学习，而是放松大脑。",
+        "fields": [
+          "time"
+        ],
+        "chapterIndex": 20,
+        "chapterTitle": "第20章",
+        "matchedNames": [
+          "魔方论坛"
+        ]
+      },
+      {
+        "text": "卫三坐在自己床上登魔方论坛，过了一会突然冒出一句：“男人不能说自己累。",
+        "fields": [
+          "actionContext"
+        ],
+        "chapterIndex": 27,
+        "chapterTitle": "第27章",
+        "matchedNames": [
+          "魔方论坛"
+        ]
+      }
+    ],
+    "finalDescription": "魔方论坛呈现为星网中的虚拟界面空间，帖子列表与悬赏、交易、教学信息密集排布，窗口和面板层叠闪烁。整体以冷色屏幕光为主，界面自发光，昼夜感弱。深夜进入时，页面依然明亮活跃，悬浮信息布满视野。",
+    "summarizedFields": [
+      "actionContext"
+    ],
+    "descriptionSource": "mixed",
+    "sourceDescription": "同样的深夜; 里面聚集联邦各星的机甲师; 卫三坐在自己床上登魔方论坛; 同样的深夜（第20章）; 里面聚集联邦各星的机甲师（第20章）；卫三坐在自己床上登魔方论坛（第27章）",
+    "enhancedDescription": "魔方论坛呈现为星网中的虚拟界面空间，帖子列表与悬赏、交易、教学信息密集排布，窗口和面板层叠闪烁。整体以冷色屏幕光为主，界面自发光，昼夜感弱。深夜进入时，页面依然明亮活跃，悬浮信息布满视野。",
+    "supplementDescription": "虚拟论坛界面由帖子列表与交易悬赏面板层叠构成，冷色屏幕光为主，页面明亮活跃"
+  },
+  {
+    "name": "军校",
+    "tier": "candidate",
+    "fields": {
+      "time": "机甲师和指挥的机甲这时候暴露出来（第36章）",
+      "layout": "角落里的男同学蹲在地上哭（第29章）",
+      "lighting": "达摩克利斯之剑依旧屹立沐浴在阳光下（第36章）",
+      "atmosphere": "所有人安静仰头看着光幕上白色机甲的背影（第29章）",
+      "environment": "师娘对广场的事还心有余悸（第37章）",
+      "actionContext": "离开家乡去陌生军校（第10章）；在终点前两所军校发生了交锋（第29章）"
+    },
+    "aliases": [
+      "达摩克利斯",
+      "达摩克利斯军校"
+    ],
+    "confidence": 0.88,
+    "entityType": "location",
+    "needsReview": false,
+    "visualFields": {
+      "time": "机甲师和指挥的机甲这时候暴露出来（第36章）",
+      "layout": "角落里的男同学蹲在地上哭（第29章）",
+      "lighting": "达摩克利斯之剑依旧屹立沐浴在阳光下（第36章）",
+      "atmosphere": "光幕上白色机甲背影，四周安静肃穆（第29章）",
+      "environment": "师娘对广场的事还心有余悸（第37章）",
+      "actionContext": "离开家乡去陌生军校（第10章）；在终点前两所军校发生了交锋（第29章）"
+    },
+    "llmSupplement": "",
+    "missingFields": [],
+    "visualDetails": {
+      "time": "昼夜均有活动，夜间有照明与巡逻。",
+      "layout": "校园以广场为核心开放区域，周边散布军校建筑与训练设施；宿舍楼以橙、紫、绿分区标识，大型光幕可展示影像。",
+      "lighting": "达摩克利斯之剑在阳光下清晰可见（第36章）；夜间有校园照明。",
+      "atmosphere": "比赛或集会时众人静默注视光幕，氛围肃穆。",
+      "environment": "达摩克利斯军校校园，广场中央立有达摩克利斯之剑，四周分布训练场、模拟训练室、图书馆、食堂、宿舍楼、北望楼和操场。",
+      "actionContext": "光幕上出现过白色机甲背影（第29章）。",
+      "keyVisualAnchors": "广场中心的达摩克利斯之剑、大型光幕、训练场、分区宿舍楼。"
+    },
+    "inferredFields": [],
+    "sourceCoverage": "strong",
+    "importanceScore": 0.194,
+    "completionStatus": "llm_completed",
+    "evidenceSnippets": [
+      {
+        "text": "”卫三朝广场中心看了一眼，达摩克利斯之剑依旧屹立沐浴在阳光下。",
+        "fields": [
+          "lighting"
+        ],
+        "chapterIndex": 36,
+        "chapterTitle": "第36章",
+        "matchedNames": [
+          "达摩克利斯"
+        ],
+        "otherMatchedNames": [
+          "广场中心"
+        ]
+      },
+      {
+        "text": "”泰吴德期待道，他到底也只是一个少年，离开家乡去陌生军校，多个伴心里总有些安慰。",
+        "fields": [
+          "actionContext"
+        ],
+        "chapterIndex": 10,
+        "chapterTitle": "第10章",
+        "matchedNames": [
+          "军校"
+        ]
+      },
+      {
+        "text": "所有人安静仰头看着光幕上白色机甲的背影，这是他们军校的学长，虽败犹荣。",
+        "fields": [
+          "atmosphere"
+        ],
+        "chapterIndex": 29,
+        "chapterTitle": "第29章",
+        "matchedNames": [
+          "军校"
+        ]
+      },
+      {
+        "text": "角落里的男同学蹲在地上哭，完全控制不了自己的情绪，“四年，我从申屠坤第一次参加赫菲斯托斯大赛开始看，到现在我们军校连前三都没拿过一次。",
+        "fields": [
+          "layout"
+        ],
+        "chapterIndex": 29,
+        "chapterTitle": "第29章",
+        "matchedNames": [
+          "军校"
+        ]
+      },
+      {
+        "text": "比赛接近尾声，剩下的军校已经有两所快抵达终点，在终点前两所军校发生了交锋，基本算每年每场的看点了。",
+        "fields": [
+          "actionContext"
+        ],
+        "chapterIndex": 29,
+        "chapterTitle": "第29章",
+        "matchedNames": [
+          "军校"
+        ]
+      },
+      {
+        "text": "“一是想我们放出自己的机甲，还有三个月不到，我们要进入大赛，机甲师和指挥的机甲这时候暴露出来，恐怕四大军校立刻有方案针对我们俩。",
+        "fields": [
+          "time"
+        ],
+        "chapterIndex": 36,
+        "chapterTitle": "第36章",
+        "matchedNames": [
+          "军校"
+        ]
+      },
+      {
+        "text": "”师娘对广场的事还心有余悸，但卫三是军校生, 这种事将来只会越见越多。",
+        "fields": [
+          "environment"
+        ],
+        "chapterIndex": 37,
+        "chapterTitle": "第37章",
+        "matchedNames": [
+          "军校"
+        ]
+      }
+    ],
+    "finalDescription": "达摩克利斯军校是一所大型军校校园，核心广场中央立着标志性的达摩克利斯之剑，阳光下轮廓清晰。广场周围分布训练场、模拟训练室、图书馆、食堂、宿舍楼、北望楼和操场。大型光幕悬于视野中，集会或比赛时众人静默，整体氛围肃穆井然。",
+    "summarizedFields": [
+      "atmosphere"
+    ],
+    "descriptionSource": "llm",
+    "sourceDescription": "达摩克利斯之剑依旧屹立沐浴在阳光下; 师娘对广场的事还心有余悸; 角落里的男同学蹲在地上哭; 所有人安静仰头看着光幕上白色机甲的背影; 机甲师和指挥的机甲这时候暴露出来; 离开家乡去陌生军校; 在终点前两所军校发生了交锋; 师娘对广场的事还心有余悸（第37章）; 角落里的男同学蹲在地上哭（第29章）; 所有人安静仰头看着光幕上白色机甲的背影（第29章）; 达摩克利斯之剑依旧屹立沐浴在阳光下（第36章）; 机甲师和指挥的机甲这时候暴露出来（第36章）; 离开家乡去陌生军校（第10章）；在终点前两所军校发生了交锋（第29章）",
+    "enhancedDescription": "达摩克利斯军校是一所大型军校校园，核心广场中央立着标志性的达摩克利斯之剑，阳光下轮廓清晰。广场周围分布训练场、模拟训练室、图书馆、食堂、宿舍楼、北望楼和操场。大型光幕悬于视野中，集会或比赛时众人静默，整体氛围肃穆井然。",
+    "supplementDescription": ""
+  },
+  {
+    "name": "沙都星",
+    "tier": "candidate",
+    "fields": {
+      "time": "最后深夜卫三才抵达沙都星二号港口（第10章）",
+      "layout": "",
+      "lighting": "",
+      "atmosphere": "打破沉默：“这件事继续查下去（第37章）",
+      "environment": "擂台上就有各种类型机甲（第16章）；如果她能在擂台上把他们机甲拆了呢（第16章）",
+      "actionContext": ""
+    },
+    "aliases": [],
+    "confidence": 0.57,
+    "entityType": "location",
+    "needsReview": true,
+    "visualFields": {
+      "time": "最后深夜卫三才抵达沙都星二号港口（第10章）",
+      "layout": "市中心广场矗立剑形雕塑，军校与军区建筑沿广场分布",
+      "lighting": "凌晨五点天色仍漆黑，夜间光线昏暗",
+      "atmosphere": "打破沉默：“这件事继续查下去（第37章）",
+      "environment": "擂台区域停放着多种类型机甲（第16章）",
+      "actionContext": "风沙弥漫的沙漠与建筑交界地带，视野开阔"
+    },
+    "llmSupplement": "市中心广场矗立剑形雕塑，军校与军区建筑沿广场分布；凌晨五点天色漆黑，风沙弥漫，沙漠地面开阔，夜间光线昏暗",
+    "missingFields": [
+      "layout",
+      "lighting",
+      "actionContext"
+    ],
+    "visualDetails": {
+      "time": "深夜时分可见二号港口（第10章）",
+      "layout": "市中心广场中央矗立剑形雕塑，军校与军区建筑沿广场分布",
+      "lighting": "凌晨五点天色仍漆黑，夜晚港口光线昏暗",
+      "atmosphere": "荒凉、肃穆，风沙弥漫",
+      "environment": "沙漠覆盖广，风沙大，擂台上停放着多种类型机甲（第16章）",
+      "actionContext": "风沙弥漫的开阔地带，沙漠地表与建筑交界",
+      "keyVisualAnchors": "达摩克利斯之剑雕塑、沙漠地貌、二号港口、擂台区机甲"
+    },
+    "inferredFields": [
+      "layout",
+      "lighting",
+      "actionContext"
+    ],
+    "sourceCoverage": "strong",
+    "importanceScore": 0.381,
+    "completionStatus": "llm_completed",
+    "evidenceSnippets": [
+      {
+        "text": "沙都星虽然离3212星最近，但即便坐星舰过去，也要花一整天的时间，中途还换了一次星舰，最后深夜卫三才抵达沙都星二号港口。",
+        "fields": [
+          "time"
+        ],
+        "chapterIndex": 10,
+        "chapterTitle": "第10章",
+        "matchedNames": [
+          "沙都星"
+        ],
+        "otherMatchedNames": [
+          "3212星",
+          "3212"
+        ]
+      },
+      {
+        "text": "她来到沙都星后，对各种机甲都眼馋手痒，现在正是大好机会，擂台上就有各种类型机甲，而且不少人都会对自己的机甲进行改造，如果她能在擂台上把他们机甲拆了呢？",
+        "fields": [
+          "environment"
+        ],
+        "chapterIndex": 16,
+        "chapterTitle": "第16章",
+        "matchedNames": [
+          "沙都星"
+        ]
+      },
+      {
+        "text": "最后校方一个人咳了声，打破沉默：“这件事继续查下去，调查团也不要让他们乱走，别在沙都星埋下什么钉子。",
+        "fields": [
+          "atmosphere"
+        ],
+        "chapterIndex": 37,
+        "chapterTitle": "第37章",
+        "matchedNames": [
+          "沙都星"
+        ]
+      }
+    ],
+    "finalDescription": "沙都星是一颗荒漠星球，一半面积覆盖黄沙，风沙大，天亮得晚，凌晨五点仍漆黑。市中心广场中央矗立达摩克利斯之剑雕塑，周围分布军校与军区建筑。擂台区域陈列多种类型机甲；夜间港口光线昏暗。整体荒凉、开阔、肃穆。",
+    "summarizedFields": [
+      "environment"
+    ],
+    "descriptionSource": "mixed",
+    "sourceDescription": "擂台上就有各种类型机甲; 如果她能在擂台上把他们机甲拆了呢; 打破沉默：“这件事继续查下去; 最后深夜卫三才抵达沙都星二号港口; 擂台上就有各种类型机甲（第16章）；如果她能在擂台上把他们机甲拆了呢（第16章）; 打破沉默：“这件事继续查下去（第37章）; 最后深夜卫三才抵达沙都星二号港口（第10章）",
+    "enhancedDescription": "沙都星是一颗荒漠星球，一半面积覆盖黄沙，风沙大，天亮得晚，凌晨五点仍漆黑。市中心广场中央矗立达摩克利斯之剑雕塑，周围分布军校与军区建筑。擂台区域陈列多种类型机甲；夜间港口光线昏暗。整体荒凉、开阔、肃穆。",
+    "supplementDescription": "市中心广场矗立剑形雕塑，军校与军区建筑沿广场分布；凌晨五点天色漆黑，风沙弥漫，沙漠地面开阔，夜间光线昏暗"
+  },
+  {
+    "name": "帝国军校",
+    "tier": "candidate",
+    "fields": {
+      "time": "",
+      "layout": "",
+      "lighting": "",
+      "atmosphere": "",
+      "environment": "",
+      "actionContext": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "location",
+    "needsReview": true,
+    "visualFields": {
+      "time": "日常训练时为白昼或人工照明时段",
+      "layout": "训练场馆、比赛场地与教学建筑分区明确，中央设有高规格比赛场地",
+      "lighting": "整体光线明亮，训练与比赛区域照明充足",
+      "atmosphere": "秩序井然、肃穆且带有精英军校的冷峻感",
+      "environment": "校园规模宏大，建筑与训练设施精良，整体呈现首都星高级军校的规整与奢华感",
+      "actionContext": "校园内可进行高规格训练、比赛与列队活动，场地宽阔规整"
+    },
+    "llmSupplement": "校园规模宏大，建筑气派，训练设施精良；整体光线明亮，氛围肃穆冷峻",
+    "missingFields": [
+      "environment",
+      "layout",
+      "atmosphere",
+      "lighting",
+      "time",
+      "actionContext"
+    ],
+    "visualDetails": {
+      "time": "日常训练时的白昼或人工照明环境",
+      "layout": "教学区、训练场馆与高规格赛场分区布局规整",
+      "lighting": "整体明亮，赛场和训练区域照明充足",
+      "atmosphere": "肃穆、冷峻、精英化",
+      "environment": "首都星军校校园，建筑气派，设施奢华",
+      "actionContext": "适合列队、训练与比赛的宽阔场地",
+      "keyVisualAnchors": "高规格比赛场地、气派建筑、整齐训练场馆"
+    },
+    "inferredFields": [
+      "environment",
+      "layout",
+      "atmosphere",
+      "lighting",
+      "time",
+      "actionContext"
+    ],
+    "sourceCoverage": "none",
+    "importanceScore": 0.381,
+    "completionStatus": "llm_inferred",
+    "evidenceSnippets": [],
+    "finalDescription": "帝国军校位于首都星，校园规模宏大，建筑整齐气派，训练与比赛设施精良。整体光线明亮，氛围肃穆冷峻，呈现出精英军校的规整与奢华感。",
+    "summarizedFields": [],
+    "descriptionSource": "mixed",
+    "sourceDescription": "",
+    "enhancedDescription": "帝国军校位于首都星，校园规模宏大，建筑整齐气派，训练与比赛设施精良。整体光线明亮，氛围肃穆冷峻，呈现出精英军校的规整与奢华感。",
+    "supplementDescription": "校园规模宏大，建筑气派，训练设施精良；整体光线明亮，氛围肃穆冷峻"
+  },
+  {
+    "name": "泰吴德的训练室",
+    "tier": "candidate",
+    "fields": {
+      "time": "",
+      "layout": "",
+      "lighting": "",
+      "atmosphere": "",
+      "environment": "结果起岸西已经换了下下个擂台（第17章）",
+      "actionContext": "这才心满意足离开（第17章）"
+    },
+    "aliases": [
+      "饮食区",
+      "免费饮食区"
+    ],
+    "confidence": 0.38,
+    "entityType": "location",
+    "needsReview": true,
+    "visualFields": {
+      "time": "训练或维修时段",
+      "layout": "训练室中央摆放一台观赏型机甲，四周留出操作与测试空间",
+      "lighting": "室内照明集中在中央机甲区域，光线明亮均匀",
+      "atmosphere": "安静、整洁，以机甲展示为中心",
+      "environment": "结果起岸西已经换了下下个擂台（第17章）",
+      "actionContext": "这才心满意足离开（第17章）"
+    },
+    "llmSupplement": "训练室中央摆放观赏型机甲，四周留出维修测试空间；室内照明明亮，环境安静整洁；关联的免费饮食区设有餐台和包装点心",
+    "missingFields": [
+      "layout",
+      "atmosphere",
+      "lighting",
+      "time"
+    ],
+    "visualDetails": {
+      "time": "日常训练或维修时段",
+      "layout": "中央设观赏型机甲展示位，四周为维修和测试空间；饮食区设餐台与包装食品",
+      "lighting": "室内照明充足，重点照亮中央机甲",
+      "atmosphere": "安静整洁，偏冷色现代感",
+      "environment": "训练室内部，中央摆放观赏型机甲；关联的免费饮食区位于黑厂，有食物台与包装点心",
+      "actionContext": "用于机甲测试，也可通往饮食区取食",
+      "keyVisualAnchors": "中央观赏型机甲、维修测试区、饮食区餐台"
+    },
+    "inferredFields": [
+      "layout",
+      "atmosphere",
+      "lighting",
+      "time"
+    ],
+    "sourceCoverage": "partial",
+    "importanceScore": 0.381,
+    "completionStatus": "llm_completed",
+    "evidenceSnippets": [
+      {
+        "text": "卫三转身去饮食区打了一盘吃的, 准备边吃边看, 结果起岸西已经换了下下个擂台。",
+        "fields": [
+          "environment"
+        ],
+        "chapterIndex": 17,
+        "chapterTitle": "第17章",
+        "matchedNames": [
+          "饮食区"
+        ]
+      },
+      {
+        "text": "回学校前，卫三还去了一趟免费饮食区，在口袋里塞满各种包装点心，这才心满意足离开。",
+        "fields": [
+          "actionContext"
+        ],
+        "chapterIndex": 17,
+        "chapterTitle": "第17章",
+        "matchedNames": [
+          "免费饮食区",
+          "饮食区"
+        ],
+        "otherMatchedNames": [
+          "学校"
+        ]
+      }
+    ],
+    "finalDescription": "训练室中央摆放一台观赏型机甲，四周留出维修与测试空间。室内照明明亮，环境安静整洁。关联的免费饮食区位于黑厂内，设有餐台和包装点心。",
+    "summarizedFields": [],
+    "descriptionSource": "mixed",
+    "sourceDescription": "结果起岸西已经换了下下个擂台; 这才心满意足离开; 结果起岸西已经换了下下个擂台（第17章）; 这才心满意足离开（第17章）",
+    "enhancedDescription": "训练室中央摆放一台观赏型机甲，四周留出维修与测试空间。室内照明明亮，环境安静整洁。关联的免费饮食区位于黑厂内，设有餐台和包装点心。",
+    "supplementDescription": "训练室中央摆放观赏型机甲，四周留出维修测试空间；室内照明明亮，环境安静整洁；关联的免费饮食区设有餐台和包装点心"
+  },
+  {
+    "name": "模拟训练室",
+    "tier": "candidate",
+    "fields": {
+      "time": "",
+      "layout": "",
+      "lighting": "",
+      "atmosphere": "",
+      "environment": "待会可以建个房间（第14章）；楼主：【本来今天丁学姐和肖学长在模拟室开了房间比赛（第26章）",
+      "actionContext": "见她站在原地不动（第17章）；去围观的人很多（第26章）"
+    },
+    "aliases": [
+      "模拟室",
+      "训练模拟室"
+    ],
+    "confidence": 0.46,
+    "entityType": "location",
+    "needsReview": true,
+    "visualFields": {
+      "time": "日常训练时段",
+      "layout": "分设射击训练区、水下射击区和机甲模拟对战房间，设备排列整齐",
+      "lighting": "室内以冷白照明为主，模拟区域明亮",
+      "atmosphere": "冷白灯光，设备感强，氛围专注",
+      "environment": "待会可以建个房间（第14章）；楼主：【本来今天丁学姐和肖学长在模拟室开了房间比赛（第26章）",
+      "actionContext": "见她站在原地不动（第17章）；去围观的人很多（第26章）"
+    },
+    "llmSupplement": "分设射击训练区、水下射击区和机甲模拟对战房间，设备排列整齐；冷白照明，氛围专注",
+    "missingFields": [
+      "layout",
+      "atmosphere",
+      "lighting",
+      "time"
+    ],
+    "visualDetails": {
+      "time": "日常训练时段",
+      "layout": "射击训练区、水下射击区与机甲模拟对战房间分区明确",
+      "lighting": "冷白光为主，模拟区域明亮",
+      "atmosphere": "专注、设备感强",
+      "environment": "模拟室内可进行射击、水下射击与机甲模拟对战",
+      "actionContext": "多人围观比赛，训练人员往来",
+      "keyVisualAnchors": "独立对战房间、射击训练区、围观人群"
+    },
+    "inferredFields": [
+      "layout",
+      "atmosphere",
+      "lighting",
+      "time"
+    ],
+    "sourceCoverage": "partial",
+    "importanceScore": 0.231,
+    "completionStatus": "llm_completed",
+    "evidenceSnippets": [
+      {
+        "text": "“我在275模拟室，你先加一下我，待会可以建个房间，我们俩先来一局？",
+        "fields": [
+          "environment"
+        ],
+        "chapterIndex": 14,
+        "chapterTitle": "第14章",
+        "matchedNames": [
+          "模拟室"
+        ]
+      },
+      {
+        "text": "聂昊齐下课赶过来和卫三一起去模拟室，见她站在原地不动，喊了一声：“卫三，走了。",
+        "fields": [
+          "actionContext"
+        ],
+        "chapterIndex": 17,
+        "chapterTitle": "第17章",
+        "matchedNames": [
+          "模拟室"
+        ]
+      },
+      {
+        "text": "楼主：【本来今天丁学姐和肖学长在模拟室开了房间比赛, 去围观的人很多, 正打得要紧时刻, 丁学姐突然收到一条邀战消息, 学姐自然不应，他们还在比赛呢，结果某人连发数条消息挑衅，以下是截图，你们看看。",
+        "fields": [
+          "environment",
+          "actionContext"
+        ],
+        "chapterIndex": 26,
+        "chapterTitle": "第26章",
+        "matchedNames": [
+          "模拟室"
+        ]
+      }
+    ],
+    "finalDescription": "模拟训练室位于达摩克利斯军校内部，分设射击、水下射击和机甲模拟对战区域。室内以冷白照明为主，设备排列整齐，氛围专注。对战房间外常有大量学员围观。",
+    "summarizedFields": [],
+    "descriptionSource": "mixed",
+    "sourceDescription": "待会可以建个房间; 楼主：【本来今天丁学姐和肖学长在模拟室开了房间比赛; 见她站在原地不动; 去围观的人很多; 待会可以建个房间（第14章）；楼主：【本来今天丁学姐和肖学长在模拟室开了房间比赛（第26章）; 见她站在原地不动（第17章）；去围观的人很多（第26章）",
+    "enhancedDescription": "模拟训练室位于达摩克利斯军校内部，分设射击、水下射击和机甲模拟对战区域。室内以冷白照明为主，设备排列整齐，氛围专注。对战房间外常有大量学员围观。",
+    "supplementDescription": "分设射击训练区、水下射击区和机甲模拟对战房间，设备排列整齐；冷白照明，氛围专注"
+  },
+  {
+    "name": "塞缪尔军校",
+    "tier": "candidate",
+    "fields": {
+      "time": "",
+      "layout": "",
+      "lighting": "",
+      "atmosphere": "",
+      "environment": "",
+      "actionContext": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "location",
+    "needsReview": true,
+    "visualFields": {
+      "time": "日常训练时段",
+      "layout": "建筑群布局规整，训练区域相对简练",
+      "lighting": "白矮星环境下自然光照偏冷，校园整体亮度较低",
+      "atmosphere": "冷清、肃穆，透出偏远军校的距离感",
+      "environment": "校园建筑冷硬规整，整体环境偏萧瑟，位于白矮星",
+      "actionContext": "校园内可进行日常训练与学员活动，活动范围较开阔"
+    },
+    "llmSupplement": "校园建筑冷硬规整，环境偏萧瑟；自然光照偏冷，亮度较低，氛围冷清肃穆",
+    "missingFields": [
+      "environment",
+      "layout",
+      "atmosphere",
+      "lighting",
+      "time",
+      "actionContext"
+    ],
+    "visualDetails": {
+      "time": "日常训练时段",
+      "layout": "建筑群规整，训练区域简练",
+      "lighting": "自然光照偏冷，整体亮度较低",
+      "atmosphere": "冷清、肃穆",
+      "environment": "白矮星上的军校校园，建筑冷硬，环境偏萧瑟",
+      "actionContext": "开阔的训练与活动场地",
+      "keyVisualAnchors": "冷硬建筑、偏远校区、冷色调环境"
+    },
+    "inferredFields": [
+      "environment",
+      "layout",
+      "atmosphere",
+      "lighting",
+      "time",
+      "actionContext"
+    ],
+    "sourceCoverage": "none",
+    "importanceScore": 0.381,
+    "completionStatus": "llm_inferred",
+    "evidenceSnippets": [],
+    "finalDescription": "塞缪尔军校位于白矮星，校园建筑冷硬规整，环境偏萧瑟。整体光线偏冷、亮度较低，氛围冷清肃穆，带有偏远军校的距离感。",
+    "summarizedFields": [],
+    "descriptionSource": "mixed",
+    "sourceDescription": "",
+    "enhancedDescription": "塞缪尔军校位于白矮星，校园建筑冷硬规整，环境偏萧瑟。整体光线偏冷、亮度较低，氛围冷清肃穆，带有偏远军校的距离感。",
+    "supplementDescription": "校园建筑冷硬规整，环境偏萧瑟；自然光照偏冷，亮度较低，氛围冷清肃穆"
+  },
+  {
+    "name": "大星",
+    "tier": "candidate",
+    "fields": {
+      "time": "",
+      "layout": "",
+      "lighting": "",
+      "atmosphere": "",
+      "environment": "",
+      "actionContext": "卫三一进门便看见四个老师神情严肃站在里面（第10章）；卫三坐在自己位置上（第10章）"
+    },
+    "aliases": [
+      "平通院"
+    ],
+    "confidence": 0.27,
+    "entityType": "location",
+    "needsReview": true,
+    "visualFields": {
+      "time": "星舰航行或室内日常时段",
+      "layout": "室内设机器操作台与座位，一侧设有可观察外太空的玻璃窗",
+      "lighting": "室内以人工照明为主，窗外星光与星云可见",
+      "atmosphere": "室内氛围严肃，窗外太空幽暗深远",
+      "environment": "校园位于凡寒星，建筑规整，设有机器检测与维修区域",
+      "actionContext": "室内有四名神情严肃的教师站在机器旁（第10章）；座位区靠近玻璃窗，窗外可见太空与星云（第10章）"
+    },
+    "llmSupplement": "校园建筑规整，室内设机器操作台与座位；一侧开有面向太空的玻璃窗，窗外可见太空与星云，室内以人工照明为主",
+    "missingFields": [
+      "environment",
+      "layout",
+      "atmosphere",
+      "lighting",
+      "time"
+    ],
+    "visualDetails": {
+      "time": "星舰航行或日常时段",
+      "layout": "机器操作台与座位陈列，一侧设有大面玻璃窗可看太空",
+      "lighting": "室内人工照明，窗外可见星云微光",
+      "atmosphere": "室内严肃，窗外太空幽暗",
+      "environment": "凡寒星上的军校，建筑规整，室内设有机器设备",
+      "actionContext": "室内有教师站在机器旁，座位区可观察窗外星云",
+      "keyVisualAnchors": "机器操作台、玻璃观景窗、窗外星云"
+    },
+    "inferredFields": [
+      "environment",
+      "layout",
+      "atmosphere",
+      "lighting",
+      "time"
+    ],
+    "sourceCoverage": "partial",
+    "importanceScore": 0.381,
+    "completionStatus": "llm_completed",
+    "evidenceSnippets": [
+      {
+        "text": "走过临时通道，卫三一进门便看见四个老师神情严肃站在里面，在机器旁边的另外两个人面生的很，应该是从大星过来监测的老师。",
+        "fields": [
+          "actionContext"
+        ],
+        "chapterIndex": 10,
+        "chapterTitle": "第10章",
+        "matchedNames": [
+          "大星"
+        ]
+      },
+      {
+        "text": "卫三坐在自己位置上，还能看到外面的太空，偶尔跳跃经过某颗大星附近星云，她贴在玻璃上，眼中掩盖不了惊艳。",
+        "fields": [
+          "actionContext"
+        ],
+        "chapterIndex": 10,
+        "chapterTitle": "第10章",
+        "matchedNames": [
+          "大星"
+        ]
+      }
+    ],
+    "finalDescription": "大星（平通院）位于凡寒星，校园建筑规整。室内设有机器的操作台与座位，一侧开有面向太空的玻璃窗，窗外可见幽暗太空与星云。室内以人工照明为主，氛围严肃。",
+    "summarizedFields": [
+      "actionContext"
+    ],
+    "descriptionSource": "mixed",
+    "sourceDescription": "卫三一进门便看见四个老师神情严肃站在里面; 卫三坐在自己位置上; 卫三一进门便看见四个老师神情严肃站在里面（第10章）；卫三坐在自己位置上（第10章）",
+    "enhancedDescription": "大星（平通院）位于凡寒星，校园建筑规整。室内设有机器的操作台与座位，一侧开有面向太空的玻璃窗，窗外可见幽暗太空与星云。室内以人工照明为主，氛围严肃。",
+    "supplementDescription": "校园建筑规整，室内设机器操作台与座位；一侧开有面向太空的玻璃窗，窗外可见太空与星云，室内以人工照明为主"
+  },
+  {
+    "name": "废弃大楼",
+    "tier": "candidate",
+    "fields": {
+      "time": "",
+      "layout": "却能见到角落里躺着一个小孩（第1章）；堆在稍微干净一点的角落里（第1章）；她整整齐齐码在墙壁边（第1章）",
+      "lighting": "",
+      "atmosphere": "",
+      "environment": "",
+      "actionContext": ""
+    },
+    "aliases": [
+      "破旧建筑",
+      "破烂建筑",
+      "那栋大楼"
+    ],
+    "confidence": 0.34,
+    "entityType": "location",
+    "needsReview": true,
+    "visualFields": {
+      "time": "废弃已久的陈旧时间感，昼夜不明显",
+      "layout": "却能见到角落里躺着一个小孩（第1章）；堆在稍微干净一点的角落里（第1章）；她整整齐齐码在墙壁边（第1章）",
+      "lighting": "室内昏暗，仅破损处透入少量天光",
+      "atmosphere": "荒废冷寂，残破压抑",
+      "environment": "灰暗破败的混凝土建筑，墙面剥落、钢筋裸露，地面潮湿带霉斑",
+      "actionContext": "角落被清出作临时栖身处，墙边用于堆放物品"
+    },
+    "llmSupplement": "灰暗潮湿的废弃建筑，墙面剥落、钢筋裸露；室内昏暗，破损处透入天光，地面有霉斑，角落有栖身区域和墙边箱物",
+    "missingFields": [
+      "environment",
+      "atmosphere",
+      "lighting",
+      "time",
+      "actionContext"
+    ],
+    "visualDetails": {
+      "time": "废弃已久，昼夜感不明显",
+      "layout": "墙角一处略干净，有孩童栖身；墙边整齐堆放箱状物品",
+      "lighting": "昏暗，仅破损门窗透入少量天光",
+      "atmosphere": "荒废冷寂，残破压抑",
+      "environment": "灰暗破败的废弃混凝土建筑，墙面剥落、钢筋裸露，地面潮湿生霉",
+      "actionContext": "角落作栖身与存放区域",
+      "keyVisualAnchors": "裸露钢筋、剥落墙面、潮湿霉斑、角落被褥、墙边箱物"
+    },
+    "inferredFields": [
+      "environment",
+      "atmosphere",
+      "lighting",
+      "time",
+      "actionContext"
+    ],
+    "sourceCoverage": "partial",
+    "importanceScore": 0.306,
+    "completionStatus": "llm_completed",
+    "evidenceSnippets": [
+      {
+        "text": "灰败阴暗的破旧建筑，散发着潮湿发霉气息，时不时流窜而过的蛇鼠，仔细看，却能见到角落里躺着一个小孩。",
+        "fields": [
+          "layout"
+        ],
+        "chapterIndex": 1,
+        "chapterTitle": "第1章",
+        "matchedNames": [
+          "破旧建筑"
+        ]
+      },
+      {
+        "text": "卫三把被子卷巴卷巴，堆在稍微干净一点的角落里，这才去旁边一堆破铜烂铁中翻出一个大袋子，走出废弃大楼。",
+        "fields": [
+          "layout"
+        ],
+        "chapterIndex": 1,
+        "chapterTitle": "第1章",
+        "matchedNames": [
+          "废弃大楼"
+        ]
+      },
+      {
+        "text": "回到那栋无人住的破烂建筑，卫三慢慢把营养液搬进去，一共十二箱，她整整齐齐码在墙壁边，心中满足了。",
+        "fields": [
+          "layout"
+        ],
+        "chapterIndex": 1,
+        "chapterTitle": "第1章",
+        "matchedNames": [
+          "破烂建筑"
+        ]
+      }
+    ],
+    "finalDescription": "这是一栋灰暗破败的废弃混凝土建筑，墙面大面积剥落，钢筋裸露，地面潮湿带霉斑，整体残破冷寂。室内光线昏暗，仅从破损门窗或裂缝中透入少量天光。角落被清出小块稍显干净的栖身区域，墙边整齐码放箱状物品。",
+    "summarizedFields": [],
+    "descriptionSource": "mixed",
+    "sourceDescription": "却能见到角落里躺着一个小孩; 堆在稍微干净一点的角落里; 她整整齐齐码在墙壁边; 却能见到角落里躺着一个小孩（第1章）；堆在稍微干净一点的角落里（第1章）；她整整齐齐码在墙壁边（第1章）",
+    "enhancedDescription": "这是一栋灰暗破败的废弃混凝土建筑，墙面大面积剥落，钢筋裸露，地面潮湿带霉斑，整体残破冷寂。室内光线昏暗，仅从破损门窗或裂缝中透入少量天光。角落被清出小块稍显干净的栖身区域，墙边整齐码放箱状物品。",
+    "supplementDescription": "灰暗潮湿的废弃建筑，墙面剥落、钢筋裸露；室内昏暗，破损处透入天光，地面有霉斑，角落有栖身区域和墙边箱物"
+  },
+  {
+    "name": "学校",
+    "tier": "candidate",
+    "fields": {
+      "time": "好在夜晚天黑（第35章）",
+      "layout": "发现学院门口有两处报名桌（第2章）；学校门口没什么人（第3章）；刚到学校门口（第3章）；他往四周看了看（第23章）；金珂朝四周看了看：“还有哪个S级的人在学校（第33章）；转身看向卫三：“门口有飞行器（第37章）",
+      "lighting": "",
+      "atmosphere": "她再迟钝都察觉到学校内每个人开始紧张起来（第27章）",
+      "environment": "申屠坤在房间内洗漱完（第31章）；而是往大厅走去（第31章）",
+      "actionContext": "因为据说学校的机甲是战斗型机甲（第7章）；然后改造成一样的战斗型机甲（第9章）；泰吴德不同意：“学校哪个老师可以把观赏型机甲改造成战斗型机甲（第9章）；泰吴德那台机甲真被成功改造成和学校那架机甲差不多的战斗型机甲（第9章）；站在机器外围一位老师宽慰道：“卫三你直接站上来（第10章）；随后站在一处慢悠悠道：“期末学校将选出十位射击者（第24章）"
+    },
+    "aliases": [
+      "学院",
+      "3212学校",
+      "3212学院"
+    ],
+    "confidence": 0.88,
+    "entityType": "location",
+    "needsReview": true,
+    "visualFields": {
+      "time": "好在夜晚天黑（第35章）",
+      "layout": "学院门口设两处报名桌（第2章）；天未亮时校门冷清无人（第3章）；校门口停有飞行器（第37章）",
+      "lighting": "白天自然采光充足，夜晚校园灯光零星",
+      "atmosphere": "她再迟钝都察觉到学校内每个人开始紧张起来（第27章）",
+      "environment": "申屠坤在房间内洗漱完（第31章）；而是往大厅走去（第31章）",
+      "actionContext": "因为据说学校的机甲是战斗型机甲（第7章）; 然后改造成一样的战斗型机甲（第9章）; 泰吴德不同意：“学校哪个老师可以把观赏型机甲改造成战斗型机甲（第9章）; 泰吴德那台机甲真被成功改造成和学校那架机甲差不多的战斗型机甲（第9章）; 站在机器外围一位老师宽慰道：“卫三你直接站上来（第10章）"
+    },
+    "llmSupplement": "夜间校园天色昏暗，校门和建筑周围有零星灯光；白天自然采光；校园内分布教学楼、操场、图书馆、医务室等设施",
+    "missingFields": [
+      "lighting"
+    ],
+    "visualDetails": {
+      "time": "夜晚天色黑暗（第35章）；校园有白天训练时段",
+      "layout": "学院门口设报名桌，通道可停飞行器",
+      "lighting": "夜间天色昏暗，校园建筑窗口有零星灯光，白天自然采光",
+      "environment": "军校预备学校，分布教学楼、操场、图书馆、医务室等建筑",
+      "actionContext": "校门口用于报到与飞行器停靠",
+      "keyVisualAnchors": "校门、报名桌、飞行器停靠处"
+    },
+    "inferredFields": [
+      "lighting"
+    ],
+    "sourceCoverage": "strong",
+    "importanceScore": 0.269,
+    "completionStatus": "llm_completed",
+    "evidenceSnippets": [
+      {
+        "text": "卫三担心耽误时间，没有再进去，她打量周围环境，发现学院门口有两处报名桌，每张桌子坐着一个老师，面前都排着长队。",
+        "fields": [
+          "layout"
+        ],
+        "chapterIndex": 2,
+        "chapterTitle": "第2章",
+        "matchedNames": [
+          "学院"
+        ]
+      },
+      {
+        "text": "卫三到时，天还没亮，学校门口没什么人，一直到五点半，人才渐渐多起来。",
+        "fields": [
+          "layout"
+        ],
+        "chapterIndex": 3,
+        "chapterTitle": "第3章",
+        "matchedNames": [
+          "学校"
+        ]
+      },
+      {
+        "text": "刚到学校门口，一辆飞行器从她头顶掠过停下，金珂从里面出来，冲她挥手：“卫三。",
+        "fields": [
+          "layout"
+        ],
+        "chapterIndex": 3,
+        "chapterTitle": "第3章",
+        "matchedNames": [
+          "学校"
+        ]
+      },
+      {
+        "text": "卫三也很激动，因为据说学校的机甲是战斗型机甲。",
+        "fields": [
+          "actionContext"
+        ],
+        "chapterIndex": 7,
+        "chapterTitle": "第7章",
+        "matchedNames": [
+          "学校"
+        ]
+      },
+      {
+        "text": "后来泰吴德请他爸一起去学校，说要把家中那台机甲捐出来，但那是台观赏型机甲，所以才想要拆开学校一架机甲学习，然后改造成一样的战斗型机甲。",
+        "fields": [
+          "actionContext"
+        ],
+        "chapterIndex": 9,
+        "chapterTitle": "第9章",
+        "matchedNames": [
+          "学校"
+        ]
+      },
+      {
+        "text": "泰吴德不同意：“学校哪个老师可以把观赏型机甲改造成战斗型机甲？",
+        "fields": [
+          "actionContext"
+        ],
+        "chapterIndex": 9,
+        "chapterTitle": "第9章",
+        "matchedNames": [
+          "学校"
+        ]
+      },
+      {
+        "text": "一个月后，泰吴德那台机甲真被成功改造成和学校那架机甲差不多的战斗型机甲，又花了两天时间，把学校其他几架机甲改了改手臂关节。",
+        "fields": [
+          "actionContext"
+        ],
+        "chapterIndex": 9,
+        "chapterTitle": "第9章",
+        "matchedNames": [
+          "学校"
+        ]
+      },
+      {
+        "text": "学校大部分老师都认识卫三，站在机器外围一位老师宽慰道：“卫三你直接站上来，不用想太多。",
+        "fields": [
+          "actionContext"
+        ],
+        "chapterIndex": 10,
+        "chapterTitle": "第10章",
+        "matchedNames": [
+          "学校"
+        ]
+      },
+      {
+        "text": "聂昊齐是见识过卫三和信息脱轨的样子，他往四周看了看, 然后快速低声道：“黎泽少校回来了, 据说是来带S级的机甲单兵, 可能会在学校待一段时间，论坛都传遍了。",
+        "fields": [
+          "layout"
+        ],
+        "chapterIndex": 23,
+        "chapterTitle": "第23章",
+        "matchedNames": [
+          "学校"
+        ]
+      },
+      {
+        "text": "陈慈巡视一番学生们的成果，随后站在一处慢悠悠道：“期末学校将选出十位射击者，如果你们谁能拿到一席，我这里可以额外给三十积分。",
+        "fields": [
+          "actionContext"
+        ],
+        "chapterIndex": 24,
+        "chapterTitle": "第24章",
+        "matchedNames": [
+          "学校"
+        ]
+      },
+      {
+        "text": "”卫三正经问道，她再迟钝都察觉到学校内每个人开始紧张起来。",
+        "fields": [
+          "atmosphere"
+        ],
+        "chapterIndex": 27,
+        "chapterTitle": "第27章",
+        "matchedNames": [
+          "学校"
+        ]
+      },
+      {
+        "text": "申屠坤在房间内洗漱完，没有急着休息，而是往大厅走去，他想找个人问问学校现在的情况。",
+        "fields": [
+          "environment"
+        ],
+        "chapterIndex": 31,
+        "chapterTitle": "第31章",
+        "matchedNames": [
+          "学校"
+        ]
+      },
+      {
+        "text": "金珂朝四周看了看：“还有哪个S级的人在学校，刚才附近有S级的感知溢出来了。",
+        "fields": [
+          "layout"
+        ],
+        "chapterIndex": 33,
+        "chapterTitle": "第33章",
+        "matchedNames": [
+          "学校"
+        ]
+      },
+      {
+        "text": "卫三拖着伤回学校，好在夜晚天黑, 没人看清楚她脸上的伤。",
+        "fields": [
+          "time"
+        ],
+        "chapterIndex": 35,
+        "chapterTitle": "第35章",
+        "matchedNames": [
+          "学校"
+        ]
+      },
+      {
+        "text": "黎泽向她点了点头，转身看向卫三：“门口有飞行器，你带着他们去参观学校。",
+        "fields": [
+          "layout"
+        ],
+        "chapterIndex": 37,
+        "chapterTitle": "第37章",
+        "matchedNames": [
+          "学校"
+        ]
+      }
+    ],
+    "finalDescription": "学校校门开阔，入口处设报名桌，天未亮时门口冷清空旷，白天可见飞行器停靠。校内为培养预备机甲师的专业学院，分布教学楼、操场、图书馆、医务室等设施。夜间天色黑暗，校园内有零星灯光。",
+    "summarizedFields": [
+      "layout"
+    ],
+    "descriptionSource": "mixed",
+    "sourceDescription": "申屠坤在房间内洗漱完; 而是往大厅走去; 发现学院门口有两处报名桌; 学校门口没什么人; 刚到学校门口; 他往四周看了看; 金珂朝四周看了看：“还有哪个S级的人在学校; 转身看向卫三：“门口有飞行器; 她再迟钝都察觉到学校内每个人开始紧张起来; 好在夜晚天黑; 因为据说学校的机甲是战斗型机甲; 然后改造成一样的战斗型机甲; 泰吴德不同意：“学校哪个老师可以把观赏型机甲改造成战斗型机甲; 泰吴德那台机甲真被成功改造成和学校那架机甲差不多的战斗型机甲; 站在机器外围一位老师宽慰道：“卫三你直接站上来; 随后站在一处慢悠悠道：“期末学校将选出十位射击者; 申屠坤在房间内洗漱完（第31章）；而是往大厅走去（第31章）; 发现学院门口有两处报名桌（第2章）；学校门口没什么人（第3章）；刚到学校门口（第3章）；他往四周看了看（第23章）；金珂朝四周看了看：“还有哪个S级的人在学校（第33章）；转身看向卫三：“门口有飞行器（第37章）; 她再迟钝都察觉到学校内每个人开始紧张起来（第27章）; 好在夜晚天黑（第35章）; 因为据说学校的机甲是战斗型机甲（第7章）；然后改造成一样的战斗型机甲（第9章）；泰吴德不同意：“学校哪个老师可以把观赏型机甲改造成战斗型机甲（第9章）；泰吴德那台机甲真被成功改造成和学校那架机甲差不多的战斗型机甲（第9章）；站在机器外围一位老师宽慰道：“卫三你直接站上来（第10章）；随后站在一处慢悠悠道：“期末学校将选出十位射击者（第24章）",
+    "enhancedDescription": "学校校门开阔，入口处设报名桌，天未亮时门口冷清空旷，白天可见飞行器停靠。校内为培养预备机甲师的专业学院，分布教学楼、操场、图书馆、医务室等设施。夜间天色黑暗，校园内有零星灯光。",
+    "supplementDescription": "夜间校园天色昏暗，校门和建筑周围有零星灯光；白天自然采光；校园内分布教学楼、操场、图书馆、医务室等设施"
+  },
+  {
+    "name": "图书馆",
+    "tier": "candidate",
+    "fields": {
+      "time": "",
+      "layout": "",
+      "lighting": "",
+      "atmosphere": "",
+      "environment": "",
+      "actionContext": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "location",
+    "needsReview": true,
+    "visualFields": {
+      "time": "常规阅览时段为主，昼夜感不强",
+      "layout": "书架成排，东南角设编号35号阅读桌",
+      "lighting": "室内照明明亮均匀，阅读区光线充足",
+      "atmosphere": "安静肃穆，整洁明亮",
+      "environment": "军校图书馆内部，四周书墙高立，中部为阅读区",
+      "actionContext": "查阅书籍、翻阅资料的场所"
+    },
+    "llmSupplement": "图书馆内成排书架、明亮阅读区、长阅读桌与东南角编号35号桌；整体安静明亮",
+    "missingFields": [
+      "environment",
+      "layout",
+      "atmosphere",
+      "lighting",
+      "time",
+      "actionContext"
+    ],
+    "visualDetails": {
+      "time": "常规阅览时段，无明显昼夜变化",
+      "layout": "成排书架规则排列，东南角有编号35号阅读桌",
+      "lighting": "明亮均匀，阅读区光线充足",
+      "atmosphere": "安静、整洁、带书香气的肃穆氛围",
+      "environment": "室内空间开阔，四周书墙高立",
+      "actionContext": "查阅资料、阅读书籍",
+      "keyVisualAnchors": "成排书架、长阅读桌、编号35号桌牌"
+    },
+    "inferredFields": [
+      "environment",
+      "layout",
+      "atmosphere",
+      "lighting",
+      "time",
+      "actionContext"
+    ],
+    "sourceCoverage": "none",
+    "importanceScore": 0.269,
+    "completionStatus": "llm_inferred",
+    "evidenceSnippets": [],
+    "finalDescription": "军校图书馆内部空间开阔，四周与中部排列厚重书墙，阅读区摆放整齐长桌，靠东南角有一张编号35号的阅读桌。环境安静整洁，照明明亮均匀，适合长时间查阅与阅读。",
+    "summarizedFields": [],
+    "descriptionSource": "mixed",
+    "sourceDescription": "",
+    "enhancedDescription": "军校图书馆内部空间开阔，四周与中部排列厚重书墙，阅读区摆放整齐长桌，靠东南角有一张编号35号的阅读桌。环境安静整洁，照明明亮均匀，适合长时间查阅与阅读。",
+    "supplementDescription": "图书馆内成排书架、明亮阅读区、长阅读桌与东南角编号35号桌；整体安静明亮"
+  },
+  {
+    "name": "地下三层",
+    "tier": "candidate",
+    "fields": {
+      "time": "",
+      "layout": "",
+      "lighting": "",
+      "atmosphere": "",
+      "environment": "只路过擂台听周围的人讲他跨级成功（第25章）；感觉地下三层的擂台有些像斗兽场（第28章）；心满意足花积分租了最便宜的房间休息（第28章）；后面卫三又去看了其他擂台赛（第28章）；地下三层最大擂台观众席已经站满观众（第34章）；三个人直接约在大厅见面（第39章）",
+      "actionContext": ""
+    },
+    "aliases": [],
+    "confidence": 0.42,
+    "entityType": "location",
+    "needsReview": true,
+    "visualFields": {
+      "time": "以赛事时段为主，昼夜感不明显",
+      "layout": "中央为环形擂台，四周分层观众席，高处设包厢，大厅位于入口附近",
+      "lighting": "地下空间无自然光，依赖擂台聚光与场地照明",
+      "atmosphere": "地下赛场氛围热烈，观众密集兴奋",
+      "environment": "擂台呈环形围合，样式类似斗兽场（第28章）；最大擂台观众席满场拥挤（第34章）；设有大厅（第39章）",
+      "actionContext": "L3级擂台比赛、团体赛认证与观看区域"
+    },
+    "llmSupplement": "地下三层布局与照明：环形擂台、分层观众席、高处vip包厢、大厅，以及地下集中照明",
+    "missingFields": [
+      "layout",
+      "atmosphere",
+      "lighting",
+      "time",
+      "actionContext"
+    ],
+    "visualDetails": {
+      "time": "赛事时段为主，昼夜感弱",
+      "layout": "中央环形擂台，四周观众席满座，最高处设包厢，另设大厅",
+      "lighting": "无自然光，擂台区域集中强光照明",
+      "atmosphere": "热烈拥挤，观众亢奋",
+      "environment": "地下三层擂台区，中央环形擂台层层围合，最高处有vip包厢",
+      "actionContext": "L3级单人及团体擂台赛举行、观看与认证",
+      "keyVisualAnchors": "环形擂台、满座观众席、高处vip包厢、大厅"
+    },
+    "inferredFields": [
+      "layout",
+      "atmosphere",
+      "lighting",
+      "time",
+      "actionContext"
+    ],
+    "sourceCoverage": "partial",
+    "importanceScore": 0.2685,
+    "completionStatus": "llm_completed",
+    "evidenceSnippets": [
+      {
+        "text": "卫三照旧操控那架‘五彩缤纷’的机甲比赛, 她还在攒跨级挑战的积分，起岸西已经去了地下三层，她没来得及看, 只路过擂台听周围的人讲他跨级成功。",
+        "fields": [
+          "environment"
+        ],
+        "chapterIndex": 25,
+        "chapterTitle": "第25章",
+        "matchedNames": [
+          "地下三层"
+        ]
+      },
+      {
+        "text": "卫三上台时，环视一圈，感觉地下三层的擂台有些像斗兽场，这里的观众需要买票进来，并不是黑厂的人。",
+        "fields": [
+          "environment"
+        ],
+        "chapterIndex": 28,
+        "chapterTitle": "第28章",
+        "matchedNames": [
+          "地下三层"
+        ],
+        "otherMatchedNames": [
+          "黑厂"
+        ]
+      },
+      {
+        "text": "卫三不知道自己还有这种商业价值，她打完一场，挣了五十万，心满意足花积分租了最便宜的房间休息，第二天继续在地下三层逛。",
+        "fields": [
+          "environment"
+        ],
+        "chapterIndex": 28,
+        "chapterTitle": "第28章",
+        "matchedNames": [
+          "地下三层"
+        ]
+      },
+      {
+        "text": "后面卫三又去看了其他擂台赛，不能说每一场都有死神这种人，但L3级比赛见血受伤几乎场场都有，观众越见血越兴奋，无怪乎死神能成为地下三层热门选手，连观众打赏都超出其他选手几倍。",
+        "fields": [
+          "environment"
+        ],
+        "chapterIndex": 28,
+        "chapterTitle": "第28章",
+        "matchedNames": [
+          "地下三层"
+        ]
+      },
+      {
+        "text": "地下三层最大擂台观众席已经站满观众，最高处vip包厢内坐着几个人，有男有女。",
+        "fields": [
+          "environment"
+        ],
+        "chapterIndex": 34,
+        "chapterTitle": "第34章",
+        "matchedNames": [
+          "地下三层"
+        ]
+      },
+      {
+        "text": "周六卫三到达地下三层，三个人直接约在大厅见面。",
+        "fields": [
+          "environment"
+        ],
+        "chapterIndex": 39,
+        "chapterTitle": "第39章",
+        "matchedNames": [
+          "地下三层"
+        ]
+      }
+    ],
+    "finalDescription": "地下三层是地下黑赛更高层级的赛场，中央环形擂台被层层观众席围合，形似斗兽场。最大擂台的观众席可站满观众，高处设有vip包厢。整体依靠地下人工照明，擂台区域有集中强光，气氛热烈拥挤。大厅作为选手会合点。",
+    "summarizedFields": [
+      "environment"
+    ],
+    "descriptionSource": "mixed",
+    "sourceDescription": "只路过擂台听周围的人讲他跨级成功; 感觉地下三层的擂台有些像斗兽场; 心满意足花积分租了最便宜的房间休息; 后面卫三又去看了其他擂台赛; 地下三层最大擂台观众席已经站满观众; 三个人直接约在大厅见面; 只路过擂台听周围的人讲他跨级成功（第25章）；感觉地下三层的擂台有些像斗兽场（第28章）；心满意足花积分租了最便宜的房间休息（第28章）；后面卫三又去看了其他擂台赛（第28章）；地下三层最大擂台观众席已经站满观众（第34章）；三个人直接约在大厅见面（第39章）",
+    "enhancedDescription": "地下三层是地下黑赛更高层级的赛场，中央环形擂台被层层观众席围合，形似斗兽场。最大擂台的观众席可站满观众，高处设有vip包厢。整体依靠地下人工照明，擂台区域有集中强光，气氛热烈拥挤。大厅作为选手会合点。",
+    "supplementDescription": "地下三层布局与照明：环形擂台、分层观众席、高处vip包厢、大厅，以及地下集中照明"
+  },
+  {
+    "name": "食堂",
+    "tier": "candidate",
+    "fields": {
+      "time": "",
+      "layout": "",
+      "lighting": "",
+      "atmosphere": "",
+      "environment": "",
+      "actionContext": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "location",
+    "needsReview": true,
+    "visualFields": {
+      "time": "晚间用餐时段为主",
+      "layout": "成排长条餐桌摆放，靠墙一侧为取餐窗口",
+      "lighting": "室内灯光明亮均匀，晚间开放",
+      "atmosphere": "常规用餐时段人声嘈杂，环境整洁",
+      "environment": "军校食堂内部空间宽敞，设有用餐区与取餐区",
+      "actionContext": "供学生集中用餐与短暂休息"
+    },
+    "llmSupplement": "食堂空间宽敞，成排长条桌椅、取餐窗口，明亮顶灯照明，晚间用餐氛围",
+    "missingFields": [
+      "environment",
+      "layout",
+      "atmosphere",
+      "lighting",
+      "time",
+      "actionContext"
+    ],
+    "visualDetails": {
+      "time": "晚间用餐时段更为常见",
+      "layout": "长条餐桌成排，靠墙设取餐窗口",
+      "lighting": "室内照明明亮均匀",
+      "atmosphere": "整洁、明亮，用餐时段较喧闹",
+      "environment": "宽敞的室内用餐空间",
+      "actionContext": "集中用餐与短暂休息",
+      "keyVisualAnchors": "长条餐桌、取餐窗口、明亮顶灯"
+    },
+    "inferredFields": [
+      "environment",
+      "layout",
+      "atmosphere",
+      "lighting",
+      "time",
+      "actionContext"
+    ],
+    "sourceCoverage": "none",
+    "importanceScore": 0.2685,
+    "completionStatus": "llm_inferred",
+    "evidenceSnippets": [],
+    "finalDescription": "军校食堂内部空间宽敞，成排长条餐桌整齐摆放，靠墙一侧设有取餐窗口。环境整洁，室内照明明亮，晚间用餐时灯光均匀。整体是学生集中用餐与短暂休息的场所。",
+    "summarizedFields": [],
+    "descriptionSource": "mixed",
+    "sourceDescription": "",
+    "enhancedDescription": "军校食堂内部空间宽敞，成排长条餐桌整齐摆放，靠墙一侧设有取餐窗口。环境整洁，室内照明明亮，晚间用餐时灯光均匀。整体是学生集中用餐与短暂休息的场所。",
+    "supplementDescription": "食堂空间宽敞，成排长条桌椅、取餐窗口，明亮顶灯照明，晚间用餐氛围"
+  },
+  {
+    "name": "黑厂",
+    "tier": "candidate",
+    "fields": {
+      "time": "",
+      "layout": "老常贼眉鼠眼把卫三拉到角落里（第13章）；门口有很长一条道（第13章）；站在店门口等她（第24章）",
+      "lighting": "后来对擂台产生阴影（第39章）",
+      "atmosphere": "",
+      "environment": "热门擂台赛（第28章）；后来对擂台产生阴影（第39章）；三人依次在大厅机器上进行认证（第39章）；所以团体擂台范围更大（第39章）",
+      "actionContext": "转身离开黑厂（第14章）；离开黑厂前（第21章）；卫三站在墙外感叹（第21章）；站在店门口等她（第24章）；花点积分可以站在场内边角看（第28章）"
+    },
+    "aliases": [
+      "地下黑赛"
+    ],
+    "confidence": 0.77,
+    "entityType": "location",
+    "needsReview": true,
+    "visualFields": {
+      "time": "二十四小时开放，昼夜感模糊",
+      "layout": "老常贼眉鼠眼把卫三拉到角落里（第13章）；门口有很长一条道（第13章）；站在店门口等她（第24章）",
+      "lighting": "后来对擂台产生阴影（第39章）",
+      "atmosphere": "地下黑赛区热闹喧嚣，入口通道生活气息浓",
+      "environment": "设有热门擂台赛区域（第28章）；大厅内设认证操作机器（第39章）；团体擂台场地更为宽阔（第39章）",
+      "actionContext": "转身离开黑厂（第14章）; 离开黑厂前（第21章）; 卫三站在墙外感叹（第21章）; 站在店门口等她（第24章）; 花点积分可以站在场内边角看（第28章）"
+    },
+    "llmSupplement": "黑厂地下氛围、时间与照明：全天开放，人工照明，生活化入口与激烈赛场并置",
+    "missingFields": [
+      "atmosphere",
+      "time"
+    ],
+    "visualDetails": {
+      "time": "全天开放，昼夜不分",
+      "layout": "入口狭长通道两侧摊位林立；内部有认证大厅、擂台区、店铺与休息区域",
+      "lighting": "地下封闭空间，依赖人工照明，擂台区域光线集中",
+      "atmosphere": "生活化入口与激烈赛场区并置，整体热闹嘈杂",
+      "environment": "地下多层空间，设有擂台区、饮食区、休息室、住宿区、交易市场和机甲维修改造区",
+      "actionContext": "地下擂台赛、交易、休息与机甲改装场所",
+      "keyVisualAnchors": "狭长通道、密布摊贩、认证大厅、擂台区、店铺门面"
+    },
+    "inferredFields": [
+      "atmosphere",
+      "time"
+    ],
+    "sourceCoverage": "strong",
+    "importanceScore": 0.231,
+    "completionStatus": "llm_completed",
+    "evidenceSnippets": [
+      {
+        "text": "”老常贼眉鼠眼把卫三拉到角落里，“我先大概讲讲地下黑赛的规则，后面你再决定去不去，我老常做事向来讲究诚信。",
+        "fields": [
+          "layout"
+        ],
+        "chapterIndex": 13,
+        "chapterTitle": "第13章",
+        "matchedNames": [
+          "地下黑赛"
+        ]
+      },
+      {
+        "text": "卫三将面具戴好，跟着老常往前走，门口有很长一条道，两边摆在各种摊贩，乍一看完全不像有地下黑赛的样子，反倒生活气息很浓。",
+        "fields": [
+          "layout"
+        ],
+        "chapterIndex": 13,
+        "chapterTitle": "第13章",
+        "matchedNames": [
+          "地下黑赛"
+        ]
+      },
+      {
+        "text": "卫三瞥过一眼后，并未放在心上，转身离开黑厂。",
+        "fields": [
+          "actionContext"
+        ],
+        "chapterIndex": 14,
+        "chapterTitle": "第14章",
+        "matchedNames": [
+          "黑厂"
+        ]
+      },
+      {
+        "text": "离开黑厂前，卫三又去了一趟地下一层，找到店主，租五个晚上场地和工具，顺便加了店主联系方式。",
+        "fields": [
+          "actionContext"
+        ],
+        "chapterIndex": 21,
+        "chapterTitle": "第21章",
+        "matchedNames": [
+          "黑厂"
+        ],
+        "otherMatchedNames": [
+          "地下一层",
+          "一层"
+        ]
+      },
+      {
+        "text": "卫三站在墙外感叹，转身就往黑厂方向赶去，她只有五天晚上能把机甲改造好。",
+        "fields": [
+          "actionContext"
+        ],
+        "chapterIndex": 21,
+        "chapterTitle": "第21章",
+        "matchedNames": [
+          "黑厂"
+        ]
+      },
+      {
+        "text": "卫三将图纸放在店主能看到的地方，转身离开黑厂。",
+        "fields": [
+          "actionContext"
+        ],
+        "chapterIndex": 22,
+        "chapterTitle": "第22章",
+        "matchedNames": [
+          "黑厂"
+        ]
+      },
+      {
+        "text": "这次卫三照样绕了一大圈才去黑厂, 店主今天没吃面, 而是捧着她的图纸, 站在店门口等她。",
+        "fields": [
+          "layout",
+          "actionContext"
+        ],
+        "chapterIndex": 24,
+        "chapterTitle": "第24章",
+        "matchedNames": [
+          "黑厂"
+        ]
+      },
+      {
+        "text": "黑厂里面的选手不存在买不到票的情况，热门擂台赛，花点积分可以站在场内边角看，算是一点特权。",
+        "fields": [
+          "environment",
+          "actionContext"
+        ],
+        "chapterIndex": 28,
+        "chapterTitle": "第28章",
+        "matchedNames": [
+          "黑厂"
+        ]
+      },
+      {
+        "text": "死神偷袭不成, 反倒自己接收了一次头部分离的结果，被抬着下台，据说因为接连败, 备受打击，后来对擂台产生阴影，再没有出现在黑厂内。",
+        "fields": [
+          "environment",
+          "lighting"
+        ],
+        "chapterIndex": 39,
+        "chapterTitle": "第39章",
+        "matchedNames": [
+          "黑厂"
+        ]
+      },
+      {
+        "text": "三人依次在大厅机器上进行认证，组成‘操翻黑厂’团队，随即进入pk赛池。",
+        "fields": [
+          "environment"
+        ],
+        "chapterIndex": 39,
+        "chapterTitle": "第39章",
+        "matchedNames": [
+          "黑厂"
+        ]
+      },
+      {
+        "text": "黑厂考虑到比赛场内有六架机甲，所以团体擂台范围更大，35擂台前面没有团体比赛，三个人便直接从通道进去。",
+        "fields": [
+          "environment"
+        ],
+        "chapterIndex": 39,
+        "chapterTitle": "第39章",
+        "matchedNames": [
+          "黑厂"
+        ],
+        "otherMatchedNames": [
+          "35擂台"
+        ]
+      }
+    ],
+    "finalDescription": "黑厂是地下多层综合场所，入口为狭长通道，两侧摊贩密集，乍看生活气息浓。内部大厅设有认证机器，擂台区人气旺盛，团体擂台场地更大。整体依靠人工照明，全天开放，集擂台赛、交易、休息与机甲维修改造于一体。",
+    "summarizedFields": [
+      "environment"
+    ],
+    "descriptionSource": "mixed",
+    "sourceDescription": "热门擂台赛; 后来对擂台产生阴影; 三人依次在大厅机器上进行认证; 所以团体擂台范围更大; 老常贼眉鼠眼把卫三拉到角落里; 门口有很长一条道; 站在店门口等她; 转身离开黑厂; 离开黑厂前; 卫三站在墙外感叹; 花点积分可以站在场内边角看; 热门擂台赛（第28章）；后来对擂台产生阴影（第39章）；三人依次在大厅机器上进行认证（第39章）；所以团体擂台范围更大（第39章）; 老常贼眉鼠眼把卫三拉到角落里（第13章）；门口有很长一条道（第13章）；站在店门口等她（第24章）; 后来对擂台产生阴影（第39章）; 转身离开黑厂（第14章）；离开黑厂前（第21章）；卫三站在墙外感叹（第21章）；站在店门口等她（第24章）；花点积分可以站在场内边角看（第28章）",
+    "enhancedDescription": "黑厂是地下多层综合场所，入口为狭长通道，两侧摊贩密集，乍看生活气息浓。内部大厅设有认证机器，擂台区人气旺盛，团体擂台场地更大。整体依靠人工照明，全天开放，集擂台赛、交易、休息与机甲维修改造于一体。",
+    "supplementDescription": "黑厂地下氛围、时间与照明：全天开放，人工照明，生活化入口与激烈赛场并置"
+  },
+  {
+    "name": "地下一层",
+    "tier": "candidate",
+    "fields": {
+      "time": "当天深夜去地下一层（第21章）",
+      "layout": "",
+      "lighting": "",
+      "atmosphere": "",
+      "environment": "与此同时地下一层大厅实时排名光幕最下角也出现同样的消息（第14章）；地下一层的擂台供L0和L1比赛（第16章）；卫三这个擂台是固定的越级比赛擂台（第16章）",
+      "actionContext": ""
+    },
+    "aliases": [
+      "一层"
+    ],
+    "confidence": 0.46,
+    "entityType": "location",
+    "needsReview": true,
+    "visualFields": {
+      "time": "当天深夜去地下一层（第21章）",
+      "layout": "大厅以擂台为中心，四周为观赛空间和机甲维修改造区域。",
+      "lighting": "无自然光，主要依靠大厅光幕和人工照明，整体光线偏冷偏暗。",
+      "atmosphere": "封闭地下空间中，光幕冷光与金属材质交织，氛围紧凑冷冽。",
+      "environment": "与此同时地下一层大厅实时排名光幕最下角也出现同样的消息（第14章）；地下一层的擂台供L0和L1比赛（第16章）；卫三这个擂台是固定的越级比赛擂台（第16章）",
+      "actionContext": "场地用于观赛、比赛和租借工具改造机甲。"
+    },
+    "llmSupplement": "大厅以擂台为中心，四周为观赛空间和维修改造区域；无自然光，依靠光幕与人工照明，光线偏冷偏暗；场地用于观赛和租借工具改造机甲",
+    "missingFields": [
+      "layout",
+      "atmosphere",
+      "lighting",
+      "actionContext"
+    ],
+    "visualDetails": {
+      "time": "深夜或地下无昼夜环境。",
+      "layout": "大厅中央为擂台区，周围分布观赛空间与维修改造区。",
+      "lighting": "无自然光，以光幕和人工照明为主，整体偏冷偏暗。",
+      "atmosphere": "封闭冷冽，金属与光幕冷光交映。",
+      "environment": "地下一层为开阔的地下大厅，可见排名光幕与多座擂台。",
+      "actionContext": "用于观看实时机甲比赛，并可租借场地和工具改造机甲。",
+      "keyVisualAnchors": "实时排名光幕、比赛擂台、改装工具台。"
+    },
+    "inferredFields": [
+      "layout",
+      "atmosphere",
+      "lighting",
+      "actionContext"
+    ],
+    "sourceCoverage": "partial",
+    "importanceScore": 0.231,
+    "completionStatus": "llm_completed",
+    "evidenceSnippets": [
+      {
+        "text": "与此同时地下一层大厅实时排名光幕最下角也出现同样的消息，如同流光一般闪现后便消失。",
+        "fields": [
+          "environment"
+        ],
+        "chapterIndex": 14,
+        "chapterTitle": "第14章",
+        "matchedNames": [
+          "地下一层",
+          "一层"
+        ]
+      },
+      {
+        "text": "地下一层的擂台供L0和L1比赛，卫三这个擂台是固定的越级比赛擂台, 她看了一会光幕上的两台机甲, 比赛结果差不多能看出来, 估计会越级失败。",
+        "fields": [
+          "environment"
+        ],
+        "chapterIndex": 16,
+        "chapterTitle": "第16章",
+        "matchedNames": [
+          "地下一层",
+          "一层"
+        ]
+      },
+      {
+        "text": "卫三从中得益，零零碎碎的材料垃圾全收集好，当天深夜去地下一层，找到之前的店主，租借了场地和工具，一晚上没合眼，兴致盎然把这些破破烂烂全部堆积改造到自己机甲上。",
+        "fields": [
+          "time"
+        ],
+        "chapterIndex": 21,
+        "chapterTitle": "第21章",
+        "matchedNames": [
+          "地下一层",
+          "一层"
+        ]
+      }
+    ],
+    "finalDescription": "地下一层大厅宽阔，中央为擂台区，周围有实时排名光幕高悬。封闭空间无自然光，靠光幕与人工照明，光线偏冷偏暗。大厅内还设有维修改造区与工具台，整体氛围紧凑冷冽。",
+    "summarizedFields": [],
+    "descriptionSource": "mixed",
+    "sourceDescription": "与此同时地下一层大厅实时排名光幕最下角也出现同样的消息; 地下一层的擂台供L0和L1比赛; 卫三这个擂台是固定的越级比赛擂台; 当天深夜去地下一层; 与此同时地下一层大厅实时排名光幕最下角也出现同样的消息（第14章）；地下一层的擂台供L0和L1比赛（第16章）；卫三这个擂台是固定的越级比赛擂台（第16章）; 当天深夜去地下一层（第21章）",
+    "enhancedDescription": "地下一层大厅宽阔，中央为擂台区，周围有实时排名光幕高悬。封闭空间无自然光，靠光幕与人工照明，光线偏冷偏暗。大厅内还设有维修改造区与工具台，整体氛围紧凑冷冽。",
+    "supplementDescription": "大厅以擂台为中心，四周为观赛空间和维修改造区域；无自然光，依靠光幕与人工照明，光线偏冷偏暗；场地用于观赛和租借工具改造机甲"
+  },
+  {
+    "name": "地下二层",
+    "tier": "candidate",
+    "fields": {
+      "time": "",
+      "layout": "",
+      "lighting": "",
+      "atmosphere": "",
+      "environment": "L1跨级挑战的擂台在地下二层（第21章）；放着擂台区的实时比赛（第21章）；最便宜的房间就一张硬邦邦的床和小浴室（第21章）；这个擂台范围比二层还要大上几倍（第28章）；观众不再是站在擂台下面（第28章）",
+      "actionContext": "观众不再是站在擂台下面（第28章）"
+    },
+    "aliases": [
+      "二层"
+    ],
+    "confidence": 0.53,
+    "entityType": "location",
+    "needsReview": true,
+    "visualFields": {
+      "time": "无自然昼夜，长期处于地下人工照明环境。",
+      "layout": "地下二层空间分层设置，比赛擂台区与餐厅、住宿区域相邻。",
+      "lighting": "封闭地下，以光幕和擂台照明为主，光线冷白。",
+      "atmosphere": "空间比地下一层更显开阔，金属与光幕设备密集，氛围冷硬紧张。",
+      "environment": "地下二层设有比赛擂台，餐厅内悬空光幕播放擂台区实时比赛，最便宜的住宿房间仅有窄硬板床和小浴室（第21章）；设有范围极为宽阔的大型擂台，观众席位于擂台正上方（第28章）",
+      "actionContext": "观众不再是站在擂台下面（第28章）"
+    },
+    "llmSupplement": "地下二层擂台区、餐厅与住宿区相邻，观众席位于擂台上方；整体空间开阔，金属感强；靠冷白人工光和悬空光幕照明，无自然昼夜",
+    "missingFields": [
+      "layout",
+      "atmosphere",
+      "lighting",
+      "time"
+    ],
+    "visualDetails": {
+      "time": "地下无昼夜，以人工照明维持。",
+      "layout": "擂台区、餐饮区和住宿区相邻，观众席位于擂台上方。",
+      "lighting": "以光幕和擂台照明为主，冷白人工光。",
+      "atmosphere": "比一层更开阔冷硬，金属感强，氛围紧张。",
+      "environment": "地下二层设有比赛擂台和餐厅，餐厅内悬空光幕播放实时比赛。",
+      "actionContext": "观众席位于擂台上方，用于观看和进行比赛。",
+      "keyVisualAnchors": "悬空光幕、大型擂台、上方观众席、窄硬床板房间。"
+    },
+    "inferredFields": [
+      "layout",
+      "atmosphere",
+      "lighting",
+      "time"
+    ],
+    "sourceCoverage": "partial",
+    "importanceScore": 0.231,
+    "completionStatus": "llm_completed",
+    "evidenceSnippets": [
+      {
+        "text": "L1跨级挑战的擂台在地下二层, 卫三在光脑上选择跨级挑战后，黑卡便可以刷电梯下到地下二层。",
+        "fields": [
+          "environment"
+        ],
+        "chapterIndex": 21,
+        "chapterTitle": "第21章",
+        "matchedNames": [
+          "地下二层",
+          "二层"
+        ]
+      },
+      {
+        "text": "餐厅内有很多光幕悬空，放着擂台区的实时比赛，卫三一边填饱肚子，一边抬头看着各个光幕直播，她发现一件事：地下二层比赛的机甲基本都做了改造，各种武器加持，机甲实力得到大幅度提升。",
+        "fields": [
+          "environment"
+        ],
+        "chapterIndex": 21,
+        "chapterTitle": "第21章",
+        "matchedNames": [
+          "地下二层",
+          "二层"
+        ]
+      },
+      {
+        "text": "不得不说，黑厂老板十分奸诈，一层免费的住宿，空间大床又软，到了地下二层，不光要扣积分，最便宜的房间就一张硬邦邦的床和小浴室。",
+        "fields": [
+          "environment"
+        ],
+        "chapterIndex": 21,
+        "chapterTitle": "第21章",
+        "matchedNames": [
+          "地下二层",
+          "二层"
+        ],
+        "otherMatchedNames": [
+          "黑厂",
+          "一层"
+        ]
+      },
+      {
+        "text": "这个擂台范围比二层还要大上几倍，观众不再是站在擂台下面，而是在上面。",
+        "fields": [
+          "environment",
+          "actionContext"
+        ],
+        "chapterIndex": 28,
+        "chapterTitle": "第28章",
+        "matchedNames": [
+          "二层"
+        ]
+      }
+    ],
+    "finalDescription": "地下二层空间开阔，擂台区宽广，观众席位于擂台上方。餐厅内悬空光幕播放实时比赛，最便宜的住宿房间狭小，仅有硬板床和简易浴室。封闭地下依靠冷白人工照明，整体金属感强，氛围冷硬。",
+    "summarizedFields": [
+      "environment"
+    ],
+    "descriptionSource": "mixed",
+    "sourceDescription": "L1跨级挑战的擂台在地下二层; 放着擂台区的实时比赛; 最便宜的房间就一张硬邦邦的床和小浴室; 这个擂台范围比二层还要大上几倍; 观众不再是站在擂台下面; L1跨级挑战的擂台在地下二层（第21章）；放着擂台区的实时比赛（第21章）；最便宜的房间就一张硬邦邦的床和小浴室（第21章）；这个擂台范围比二层还要大上几倍（第28章）；观众不再是站在擂台下面（第28章）; 观众不再是站在擂台下面（第28章）",
+    "enhancedDescription": "地下二层空间开阔，擂台区宽广，观众席位于擂台上方。餐厅内悬空光幕播放实时比赛，最便宜的住宿房间狭小，仅有硬板床和简易浴室。封闭地下依靠冷白人工照明，整体金属感强，氛围冷硬。",
+    "supplementDescription": "地下二层擂台区、餐厅与住宿区相邻，观众席位于擂台上方；整体空间开阔，金属感强；靠冷白人工光和悬空光幕照明，无自然昼夜"
+  },
+  {
+    "name": "操场",
+    "tier": "candidate",
+    "fields": {
+      "time": "也已经到了傍晚（第10章）",
+      "layout": "角落的男同学焦急地又抓起了卫三的手臂（第29章）",
+      "lighting": "",
+      "atmosphere": "操场上异常安静（第29章）；此刻操场上已经陷入极度沉默中（第29章）",
+      "environment": "",
+      "actionContext": "丁和美站在操场上（第26章）；操场久久没有人离开（第29章）；卫三站在赛场（第32章）；卫三坐在操场主席台边上问金珂（第38章）"
+    },
+    "aliases": [],
+    "confidence": 0.77,
+    "entityType": "location",
+    "needsReview": true,
+    "visualFields": {
+      "time": "也已经到了傍晚（第10章）",
+      "layout": "角落的男同学焦急地又抓起了卫三的手臂（第29章）",
+      "lighting": "傍晚天色渐暗，主要依靠自然暮色和场地灯光照明。",
+      "atmosphere": "操场上人群大面积静立，场面凝滞（第29章）",
+      "environment": "开阔的军校室外操场，地面平整，适合机甲实战和训练。",
+      "actionContext": "丁和美站在操场上（第26章）；操场久久没有人离开（第29章）；卫三站在赛场（第32章）；卫三坐在操场主席台边上问金珂（第38章）"
+    },
+    "llmSupplement": "操场为开阔平整的室外场地，场边设主席台；傍晚时分以暮色和场地灯光照明，光线逐渐变暗",
+    "missingFields": [
+      "environment",
+      "lighting"
+    ],
+    "visualDetails": {
+      "time": "傍晚或比赛结束后。",
+      "layout": "场边设有主席台，赛场区域空阔，可容纳大量观众。",
+      "lighting": "傍晚暮光或夜间场地照明，光线偏暗。",
+      "atmosphere": "赛后人群静立，场面凝重沉滞。",
+      "environment": "军校室外操场，地面平整开阔，适合机甲实战。",
+      "actionContext": "用于机甲对战的赛场，常有大量学生聚集。",
+      "keyVisualAnchors": "主席台、平整操场、聚集的人群。"
+    },
+    "inferredFields": [
+      "environment",
+      "lighting"
+    ],
+    "sourceCoverage": "strong",
+    "importanceScore": 0.231,
+    "completionStatus": "llm_completed",
+    "evidenceSnippets": [
+      {
+        "text": "十个班测试完感知，也已经到了傍晚，大部分人对自己的等级心中有数，少部分人比较难以接受事实，整个操场上悲喜哭笑都有。",
+        "fields": [
+          "time"
+        ],
+        "chapterIndex": 10,
+        "chapterTitle": "第10章",
+        "matchedNames": [
+          "操场"
+        ]
+      },
+      {
+        "text": "第二天，丁和美站在操场上，背后站满了高年级的人，全是闻言来看戏的。",
+        "fields": [
+          "actionContext"
+        ],
+        "chapterIndex": 26,
+        "chapterTitle": "第26章",
+        "matchedNames": [
+          "操场"
+        ]
+      },
+      {
+        "text": "卫三从黑厂回来，一进校门便看到这样一幅场景，操场上异常安静。",
+        "fields": [
+          "atmosphere"
+        ],
+        "chapterIndex": 29,
+        "chapterTitle": "第29章",
+        "matchedNames": [
+          "操场"
+        ],
+        "otherMatchedNames": [
+          "黑厂"
+        ]
+      },
+      {
+        "text": "操场上不断有倒吸声发出，甚至已经有人忍不住站起来，角落的男同学焦急地又抓起了卫三的手臂，试图获得力量。",
+        "fields": [
+          "layout"
+        ],
+        "chapterIndex": 29,
+        "chapterTitle": "第29章",
+        "matchedNames": [
+          "操场"
+        ]
+      },
+      {
+        "text": "此刻操场上已经陷入极度沉默中，所有人脸上都带着落败之色。",
+        "fields": [
+          "atmosphere"
+        ],
+        "chapterIndex": 29,
+        "chapterTitle": "第29章",
+        "matchedNames": [
+          "操场"
+        ]
+      },
+      {
+        "text": "看着熄灭的光幕，操场久久没有人离开，其中老生最为难受。",
+        "fields": [
+          "actionContext"
+        ],
+        "chapterIndex": 29,
+        "chapterTitle": "第29章",
+        "matchedNames": [
+          "操场"
+        ]
+      },
+      {
+        "text": "卫三站在赛场，听见声音后，对操场中间两个人眨了眨眼睛，随后跳进机甲舱内，准备比赛。",
+        "fields": [
+          "actionContext"
+        ],
+        "chapterIndex": 32,
+        "chapterTitle": "第32章",
+        "matchedNames": [
+          "操场"
+        ]
+      },
+      {
+        "text": "”卫三坐在操场主席台边上问金珂。",
+        "fields": [
+          "actionContext"
+        ],
+        "chapterIndex": 38,
+        "chapterTitle": "第38章",
+        "matchedNames": [
+          "操场"
+        ]
+      }
+    ],
+    "finalDescription": "操场为军校室外开阔场地，地面平整，适合机甲对练与比赛。场边设主席台，赛场空阔可容纳大量围观人群。傍晚时分暮色笼罩，光线渐暗；比赛结束后人群久久不散，场面凝重沉滞。",
+    "summarizedFields": [
+      "atmosphere"
+    ],
+    "descriptionSource": "mixed",
+    "sourceDescription": "角落的男同学焦急地又抓起了卫三的手臂; 操场上异常安静; 此刻操场上已经陷入极度沉默中; 也已经到了傍晚; 丁和美站在操场上; 操场久久没有人离开; 卫三站在赛场; 卫三坐在操场主席台边上问金珂; 角落的男同学焦急地又抓起了卫三的手臂（第29章）; 操场上异常安静（第29章）；此刻操场上已经陷入极度沉默中（第29章）; 也已经到了傍晚（第10章）; 丁和美站在操场上（第26章）；操场久久没有人离开（第29章）；卫三站在赛场（第32章）；卫三坐在操场主席台边上问金珂（第38章）",
+    "enhancedDescription": "操场为军校室外开阔场地，地面平整，适合机甲对练与比赛。场边设主席台，赛场空阔可容纳大量围观人群。傍晚时分暮色笼罩，光线渐暗；比赛结束后人群久久不散，场面凝重沉滞。",
+    "supplementDescription": "操场为开阔平整的室外场地，场边设主席台；傍晚时分以暮色和场地灯光照明，光线逐渐变暗"
+  },
+  {
+    "name": "材料市场",
+    "tier": "candidate",
+    "fields": {
+      "time": "",
+      "layout": "",
+      "lighting": "",
+      "atmosphere": "",
+      "environment": "",
+      "actionContext": ""
+    },
+    "aliases": [
+      "材料街"
+    ],
+    "confidence": 0,
+    "entityType": "location",
+    "needsReview": true,
+    "visualFields": {
+      "time": "白天营业时段为主。",
+      "layout": "露天或半露天街道，两侧为密集店铺和货架摊位，中间为通行区域。",
+      "lighting": "自然日光或店头灯光，货架区域光线明亮。",
+      "atmosphere": "市集感强，材料种类庞杂，氛围热闹而杂乱。",
+      "environment": "街道两侧分布着出售机甲维修材料的店铺与摊位，可见矿石晶体、金属零件等材料陈列。",
+      "actionContext": "供采购机甲维修材料、工具以及观赏机甲交易。"
+    },
+    "llmSupplement": "材料街两侧店铺摊位密集，陈列矿石晶体、金属零件与焊接工具，中间为通行区域；白日自然光与店头照明交织，环境明亮热闹，并有展示观赏型机甲的店面",
+    "missingFields": [
+      "environment",
+      "layout",
+      "atmosphere",
+      "lighting",
+      "time",
+      "actionContext"
+    ],
+    "visualDetails": {
+      "time": "白天为主。",
+      "layout": "中间通行，两侧为摊位和店铺，货架堆满材料。",
+      "lighting": "日光或店招灯光，货架处明亮。",
+      "atmosphere": "热闹杂乱，市集气息浓。",
+      "environment": "材料街两侧店铺密集，陈列各种机甲维修材料。",
+      "actionContext": "采购材料、工具，购买成品机甲。",
+      "keyVisualAnchors": "矿石晶体、金属零件、焊接工具、观赏机甲。"
+    },
+    "inferredFields": [
+      "environment",
+      "layout",
+      "atmosphere",
+      "lighting",
+      "time",
+      "actionContext"
+    ],
+    "sourceCoverage": "none",
+    "importanceScore": 0.119,
+    "completionStatus": "llm_inferred",
+    "evidenceSnippets": [],
+    "finalDescription": "材料街两侧店铺与摊位密集排列，货架上摆满矿石晶体、金属零件和焊接工具。中间留出通行区域，白日里依靠自然光和店头照明，整体市集气氛热闹杂乱，还有展示观赏型机甲的店面。",
+    "summarizedFields": [],
+    "descriptionSource": "mixed",
+    "sourceDescription": "",
+    "enhancedDescription": "材料街两侧店铺与摊位密集排列，货架上摆满矿石晶体、金属零件和焊接工具。中间留出通行区域，白日里依靠自然光和店头照明，整体市集气氛热闹杂乱，还有展示观赏型机甲的店面。",
+    "supplementDescription": "材料街两侧店铺摊位密集，陈列矿石晶体、金属零件与焊接工具，中间为通行区域；白日自然光与店头照明交织，环境明亮热闹，并有展示观赏型机甲的店面"
+  }
+]

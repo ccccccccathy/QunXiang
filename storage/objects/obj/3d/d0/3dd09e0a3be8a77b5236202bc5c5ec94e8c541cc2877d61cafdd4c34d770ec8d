@@ -1,0 +1,5150 @@
+[
+  {
+    "name": "3S机甲",
+    "fields": {
+      "usage": "",
+      "material": "",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "item",
+    "needsReview": true,
+    "missingFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "破云翅改造图纸",
+    "fields": {
+      "usage": "把画满的图纸卷好递给店主（第22章）；店主把图纸递给卫三（第24章）；他那天去进货才打开卫三的图纸（第24章）",
+      "material": "把画满的图纸卷好递给店主（第22章）；卫三将图纸放在店主能看到的地方（第22章）；而是捧着她的图纸（第24章）；店主把图纸递给卫三（第24章）；他那天去进货才打开卫三的图纸（第24章）；她指着旁边堆着的好几卷图纸：“老板你也可以改（第24章）；图纸卖给你（第24章）；一手把图纸收起来（第24章）；卫三从图纸抬头：“嗯（第32章）；收拾图纸（第38章）；卫三抱着图纸起身（第38章）",
+      "condition": "",
+      "ownership": "把画满的图纸卷好递给店主（第22章）；店主把图纸递给卫三（第24章）",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [
+      "图纸"
+    ],
+    "confidence": 0.65,
+    "entityType": "item",
+    "needsReview": false,
+    "missingFields": [
+      "colorShape",
+      "condition",
+      "visualEffects"
+    ],
+    "sourceCoverage": "strong",
+    "evidenceSnippets": [
+      {
+        "text": "”凌晨四点半卫三从工作间出来，把画满的图纸卷好递给店主，“还有一些新增加的零件，也写在上面。",
+        "fields": [
+          "material",
+          "usage",
+          "ownership"
+        ],
+        "chapterIndex": 22,
+        "chapterTitle": "第22章",
+        "matchedNames": [
+          "图纸"
+        ]
+      },
+      {
+        "text": "卫三将图纸放在店主能看到的地方，转身离开黑厂。",
+        "fields": [
+          "material"
+        ],
+        "chapterIndex": 22,
+        "chapterTitle": "第22章",
+        "matchedNames": [
+          "图纸"
+        ]
+      },
+      {
+        "text": "这次卫三照样绕了一大圈才去黑厂, 店主今天没吃面, 而是捧着她的图纸, 站在店门口等她。",
+        "fields": [
+          "material"
+        ],
+        "chapterIndex": 24,
+        "chapterTitle": "第24章",
+        "matchedNames": [
+          "图纸"
+        ]
+      },
+      {
+        "text": "”店主把图纸递给卫三, 犹豫后提醒，“设计图纸这种东西不要随便给人。",
+        "fields": [
+          "material",
+          "usage",
+          "ownership"
+        ],
+        "chapterIndex": 24,
+        "chapterTitle": "第24章",
+        "matchedNames": [
+          "图纸"
+        ],
+        "otherMatchedNames": [
+          "设计图纸"
+        ]
+      },
+      {
+        "text": "他那天去进货才打开卫三的图纸，结果发现上面不光有羽片的模型大小，还有其他的设计。",
+        "fields": [
+          "material",
+          "usage"
+        ],
+        "chapterIndex": 24,
+        "chapterTitle": "第24章",
+        "matchedNames": [
+          "图纸"
+        ]
+      },
+      {
+        "text": "卫三心中安慰自己好歹过了一把改造机甲的手瘾，她指着旁边堆着的好几卷图纸：“老板你也可以改，图纸卖给你，五十万星币怎么样？",
+        "fields": [
+          "material"
+        ],
+        "chapterIndex": 24,
+        "chapterTitle": "第24章",
+        "matchedNames": [
+          "图纸"
+        ],
+        "otherMatchedNames": [
+          "改造机甲",
+          "机甲"
+        ]
+      },
+      {
+        "text": "”店主刷钱给她，一手把图纸收起来，这个人可能不愿意暴露自己的身份。",
+        "fields": [
+          "material"
+        ],
+        "chapterIndex": 24,
+        "chapterTitle": "第24章",
+        "matchedNames": [
+          "图纸"
+        ]
+      },
+      {
+        "text": "卫三从图纸抬头：“嗯。",
+        "fields": [
+          "material"
+        ],
+        "chapterIndex": 32,
+        "chapterTitle": "第32章",
+        "matchedNames": [
+          "图纸"
+        ]
+      },
+      {
+        "text": "”卫三蹲在地上，收拾图纸，“要把价钱控制在合理范围内，还不能减少机甲攻击力，我做起来一直很难。",
+        "fields": [
+          "material"
+        ],
+        "chapterIndex": 38,
+        "chapterTitle": "第38章",
+        "matchedNames": [
+          "图纸"
+        ],
+        "otherMatchedNames": [
+          "机甲"
+        ]
+      },
+      {
+        "text": "”卫三抱着图纸起身，“老板你问这个干什么？",
+        "fields": [
+          "material"
+        ],
+        "chapterIndex": 38,
+        "chapterTitle": "第38章",
+        "matchedNames": [
+          "图纸"
+        ]
+      }
+    ],
+    "sourceDescription": "把画满的图纸卷好递给店主；卫三将图纸放在店主能看到的地方；而是捧着她的图纸；店主把图纸递给卫三；他那天去进货才打开卫三的图纸；她指着旁边堆着的好几卷图纸：“老板你也可以改；图纸卖给你；一手把图纸收起来；卫三从图纸抬头：“嗯；收拾图纸；卫三抱着图纸起身；把画满的图纸卷好递给店主；店主把图纸递给卫三；他那天去进货才打开卫三的图纸；把画满的图纸卷好递给店主；店主把图纸递给卫三"
+  },
+  {
+    "name": "三轮车",
+    "fields": {
+      "usage": "",
+      "material": "这一个月卫三用收集起来的垃圾废铁做了一辆三轮车（第1章）；他一眼就看出这车是用各种零碎金属拼接出来的（第2章）",
+      "condition": "她把破旧大袋子放在后面（第1章）",
+      "ownership": "背后突然有个小孩声音响起（第2章）",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [
+      "破三轮"
+    ],
+    "confidence": 0.57,
+    "entityType": "item",
+    "needsReview": false,
+    "missingFields": [
+      "colorShape",
+      "usage",
+      "visualEffects"
+    ],
+    "sourceCoverage": "strong",
+    "evidenceSnippets": [
+      {
+        "text": "这一个月卫三用收集起来的垃圾废铁做了一辆三轮车，她把破旧大袋子放在后面，一路哐当骑过去，垃圾飞车凌晨两点准时倾倒，四点过去，是为了躲避成人。",
+        "fields": [
+          "material",
+          "condition"
+        ],
+        "chapterIndex": 1,
+        "chapterTitle": "第1章",
+        "matchedNames": [
+          "三轮车"
+        ],
+        "otherMatchedNames": [
+          "垃圾飞车"
+        ]
+      },
+      {
+        "text": "卫三慢慢溜着三轮车看广告，背后突然有个小孩声音响起，她开始以为不是和自己说话，直到一个白净小胖子挡在她车面前，仰着下巴重新问了一遍。",
+        "fields": [
+          "ownership"
+        ],
+        "chapterIndex": 2,
+        "chapterTitle": "第2章",
+        "matchedNames": [
+          "三轮车"
+        ]
+      },
+      {
+        "text": "小胖子目光落在三轮车的焊接处，他一眼就看出这车是用各种零碎金属拼接出来的，材料很烂，但手艺很好，几乎能称得上艺术。",
+        "fields": [
+          "material"
+        ],
+        "chapterIndex": 2,
+        "chapterTitle": "第2章",
+        "matchedNames": [
+          "三轮车"
+        ]
+      }
+    ],
+    "sourceDescription": "这一个月卫三用收集起来的垃圾废铁做了一辆三轮车；他一眼就看出这车是用各种零碎金属拼接出来的；她把破旧大袋子放在后面；背后突然有个小孩声音响起"
+  },
+  {
+    "name": "靶子",
+    "fields": {
+      "usage": "",
+      "material": "",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "item",
+    "needsReview": true,
+    "missingFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "干粮",
+    "fields": {
+      "usage": "",
+      "material": "",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "item",
+    "needsReview": true,
+    "missingFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "请柬",
+    "fields": {
+      "usage": "",
+      "material": "",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "item",
+    "needsReview": true,
+    "missingFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "塞缪尔调查员照片",
+    "fields": {
+      "usage": "",
+      "material": "",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [
+      "照片"
+    ],
+    "confidence": 0,
+    "entityType": "item",
+    "needsReview": true,
+    "missingFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "随机分配包",
+    "fields": {
+      "usage": "",
+      "material": "",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "item",
+    "needsReview": true,
+    "missingFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "检测分解仪",
+    "fields": {
+      "usage": "",
+      "material": "",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "item",
+    "needsReview": true,
+    "missingFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "泰吴德的机甲",
+    "fields": {
+      "usage": "",
+      "material": "",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "item",
+    "needsReview": true,
+    "missingFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "S级机甲",
+    "fields": {
+      "usage": "",
+      "material": "",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "item",
+    "needsReview": true,
+    "missingFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "A级机甲",
+    "fields": {
+      "usage": "",
+      "material": "",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "item",
+    "needsReview": true,
+    "missingFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "起岸西的轻型机甲",
+    "fields": {
+      "usage": "",
+      "material": "",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [
+      "轻型机甲"
+    ],
+    "confidence": 0,
+    "entityType": "item",
+    "needsReview": true,
+    "missingFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "卫三的黑色机甲",
+    "fields": {
+      "usage": "",
+      "material": "",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [
+      "中型机甲"
+    ],
+    "confidence": 0,
+    "entityType": "item",
+    "needsReview": true,
+    "missingFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "学校的B级战斗型机甲",
+    "fields": {
+      "usage": "",
+      "material": "",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "item",
+    "needsReview": true,
+    "missingFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "卫三的课表",
+    "fields": {
+      "usage": "项明化手里拿着卫三的课表：“给我解释解释（第17章）",
+      "material": "",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [
+      "课程表"
+    ],
+    "confidence": 0.19,
+    "entityType": "item",
+    "needsReview": true,
+    "missingFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "partial",
+    "evidenceSnippets": [
+      {
+        "text": "项明化手里拿着卫三的课表：“给我解释解释。",
+        "fields": [
+          "usage"
+        ],
+        "chapterIndex": 17,
+        "chapterTitle": "第17章",
+        "matchedNames": [
+          "卫三的课表"
+        ]
+      }
+    ],
+    "sourceDescription": "项明化手里拿着卫三的课表：“给我解释解释"
+  },
+  {
+    "name": "八棱锤",
+    "fields": {
+      "usage": "",
+      "material": "",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "item",
+    "needsReview": true,
+    "missingFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "达摩克利斯之剑",
+    "fields": {
+      "usage": "",
+      "material": "达摩克利斯之剑的金属雕塑就在广场中心（第36章）",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [
+      "巨剑"
+    ],
+    "confidence": 0.19,
+    "entityType": "item",
+    "needsReview": true,
+    "missingFields": [
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "partial",
+    "evidenceSnippets": [
+      {
+        "text": "达摩克利斯之剑的金属雕塑就在广场中心，他们一眼便能看到。",
+        "fields": [
+          "material"
+        ],
+        "chapterIndex": 36,
+        "chapterTitle": "第36章",
+        "matchedNames": [
+          "达摩克利斯之剑"
+        ]
+      }
+    ],
+    "sourceDescription": "达摩克利斯之剑的金属雕塑就在广场中心"
+  },
+  {
+    "name": "死神的机甲",
+    "fields": {
+      "usage": "",
+      "material": "",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "item",
+    "needsReview": true,
+    "missingFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "血红色机甲",
+    "fields": {
+      "usage": "",
+      "material": "",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "item",
+    "needsReview": true,
+    "missingFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "S级关节零件",
+    "fields": {
+      "usage": "",
+      "material": "",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "卫三眯眼看着淡金色关节（第34章）；你有没有见过那种淡金色关节（第35章）",
+      "visualEffects": ""
+    },
+    "aliases": [
+      "淡金色关节"
+    ],
+    "confidence": 0.27,
+    "entityType": "item",
+    "needsReview": true,
+    "missingFields": [
+      "material",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "partial",
+    "evidenceSnippets": [
+      {
+        "text": "卫三眯眼看着淡金色关节，她还没见过这种材质的关节，所以这架机甲是这里动了手脚？",
+        "fields": [
+          "colorShape"
+        ],
+        "chapterIndex": 34,
+        "chapterTitle": "第34章",
+        "matchedNames": [
+          "淡金色关节"
+        ],
+        "otherMatchedNames": [
+          "机甲"
+        ]
+      },
+      {
+        "text": "“老板，你有没有见过那种淡金色关节？",
+        "fields": [
+          "colorShape"
+        ],
+        "chapterIndex": 35,
+        "chapterTitle": "第35章",
+        "matchedNames": [
+          "淡金色关节"
+        ]
+      }
+    ],
+    "sourceDescription": "卫三眯眼看着淡金色关节；你有没有见过那种淡金色关节"
+  },
+  {
+    "name": "黑卡",
+    "fields": {
+      "usage": "老常打开那台机器上的地图（第13章）",
+      "material": "",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [],
+    "confidence": 0.19,
+    "entityType": "item",
+    "needsReview": true,
+    "missingFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "partial",
+    "evidenceSnippets": [
+      {
+        "text": "”老常打开那台机器上的地图，“地下一层是L0活动区域，你的黑卡现在只能进这里，这一层有免费休息室和饮食区，等以后你能去地下几层，那里有商城，积分可以当钱花。",
+        "fields": [
+          "usage"
+        ],
+        "chapterIndex": 13,
+        "chapterTitle": "第13章",
+        "matchedNames": [
+          "黑卡"
+        ]
+      }
+    ],
+    "sourceDescription": "老常打开那台机器上的地图"
+  },
+  {
+    "name": "军校统一制机甲",
+    "fields": {
+      "usage": "",
+      "material": "",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [
+      "军校发的机甲"
+    ],
+    "confidence": 0,
+    "entityType": "item",
+    "needsReview": true,
+    "missingFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "混合游金羽毛",
+    "fields": {
+      "usage": "",
+      "material": "",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "item",
+    "needsReview": true,
+    "missingFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "起岸西的机甲",
+    "fields": {
+      "usage": "",
+      "material": "",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "item",
+    "needsReview": true,
+    "missingFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "《材料学》",
+    "fields": {
+      "usage": "",
+      "material": "",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "item",
+    "needsReview": true,
+    "missingFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "学校发的机甲",
+    "fields": {
+      "usage": "",
+      "material": "",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "item",
+    "needsReview": true,
+    "missingFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "防护型机甲",
+    "fields": {
+      "usage": "",
+      "material": "",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [
+      "准A级防护型机甲"
+    ],
+    "confidence": 0,
+    "entityType": "item",
+    "needsReview": true,
+    "missingFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "黎泽少校的机甲",
+    "fields": {
+      "usage": "",
+      "material": "",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "item",
+    "needsReview": true,
+    "missingFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "军用飞行器",
+    "fields": {
+      "usage": "",
+      "material": "",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "item",
+    "needsReview": true,
+    "missingFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "营养液",
+    "fields": {
+      "usage": "",
+      "material": "卫三蹲在一个木盒子前（第1章）",
+      "condition": "不由倒吸一口气——全是崭新的营养液（第1章）",
+      "ownership": "每天随身带着几瓶（第11章）",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [],
+    "confidence": 0.57,
+    "entityType": "item",
+    "needsReview": false,
+    "missingFields": [
+      "colorShape",
+      "usage",
+      "visualEffects"
+    ],
+    "sourceCoverage": "strong",
+    "evidenceSnippets": [
+      {
+        "text": "卫三从口袋摸出一把自己做的手电筒，照在箱子上，伸手扯掉封条，不由倒吸一口气——全是崭新的营养液。",
+        "fields": [
+          "condition"
+        ],
+        "chapterIndex": 1,
+        "chapterTitle": "第1章",
+        "matchedNames": [
+          "营养液"
+        ]
+      },
+      {
+        "text": "回到住处，卫三蹲在一个木盒子前，手拂过一排营养液，顿时感觉自己富有至极。",
+        "fields": [
+          "material"
+        ],
+        "chapterIndex": 1,
+        "chapterTitle": "第1章",
+        "matchedNames": [
+          "营养液"
+        ]
+      },
+      {
+        "text": "报名日期间，卫三看得废寝忘食，每天饿到头晕才会想起来要吃东西，她干脆直接买了一大箱营养液，每天随身带着几瓶。",
+        "fields": [
+          "ownership"
+        ],
+        "chapterIndex": 11,
+        "chapterTitle": "第11章",
+        "matchedNames": [
+          "营养液"
+        ]
+      }
+    ],
+    "sourceDescription": "卫三蹲在一个木盒子前；不由倒吸一口气——全是崭新的营养液；每天随身带着几瓶"
+  },
+  {
+    "name": "机甲项链",
+    "fields": {
+      "usage": "",
+      "material": "",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "item",
+    "needsReview": true,
+    "missingFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "鞭子",
+    "fields": {
+      "usage": "",
+      "material": "",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "item",
+    "needsReview": true,
+    "missingFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "模拟舱",
+    "fields": {
+      "usage": "学校之所以用模拟舱是因为要选拔出来射击者（第35章）",
+      "material": "",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [],
+    "confidence": 0.19,
+    "entityType": "item",
+    "needsReview": true,
+    "missingFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "partial",
+    "evidenceSnippets": [
+      {
+        "text": "学校之所以用模拟舱是因为要选拔出来射击者，学生难免会受伤，如果成绩好，但最后受伤严重，躺治疗舱也需要一段时间才能治疗好，耽误训练时间。",
+        "fields": [
+          "usage"
+        ],
+        "chapterIndex": 35,
+        "chapterTitle": "第35章",
+        "matchedNames": [
+          "模拟舱"
+        ],
+        "otherMatchedNames": [
+          "治疗舱"
+        ]
+      }
+    ],
+    "sourceDescription": "学校之所以用模拟舱是因为要选拔出来射击者"
+  },
+  {
+    "name": "烤串",
+    "fields": {
+      "usage": "卫三转到泰吴德面前：“我看你拿着烤串半天（第6章）",
+      "material": "",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [],
+    "confidence": 0.19,
+    "entityType": "item",
+    "needsReview": true,
+    "missingFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "partial",
+    "evidenceSnippets": [
+      {
+        "text": "卫三转到泰吴德面前：“我看你拿着烤串半天，怎么不吃？",
+        "fields": [
+          "usage"
+        ],
+        "chapterIndex": 6,
+        "chapterTitle": "第6章",
+        "matchedNames": [
+          "烤串"
+        ]
+      }
+    ],
+    "sourceDescription": "卫三转到泰吴德面前：“我看你拿着烤串半天"
+  },
+  {
+    "name": "垃圾飞车",
+    "fields": {
+      "usage": "五辆垃圾飞车打开底板（第1章）",
+      "material": "",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [],
+    "confidence": 0.19,
+    "entityType": "item",
+    "needsReview": true,
+    "missingFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "partial",
+    "evidenceSnippets": [
+      {
+        "text": "下一秒，五辆垃圾飞车打开底板，无数大箱子落在垃圾场内，小型飞行器的光闪得更频繁了。",
+        "fields": [
+          "usage"
+        ],
+        "chapterIndex": 1,
+        "chapterTitle": "第1章",
+        "matchedNames": [
+          "垃圾飞车"
+        ],
+        "otherMatchedNames": [
+          "飞行器"
+        ]
+      }
+    ],
+    "sourceDescription": "五辆垃圾飞车打开底板"
+  },
+  {
+    "name": "匕首",
+    "fields": {
+      "usage": "卫三单手握着匕首（第6章）；另一只握着匕首的手在它脖子一划（第6章）",
+      "material": "",
+      "condition": "这452片锋利羽毛便如同匕首（第22章）",
+      "ownership": "每个人手中只有一把匕首（第6章）",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [],
+    "confidence": 0.65,
+    "entityType": "item",
+    "needsReview": false,
+    "missingFields": [
+      "material",
+      "colorShape",
+      "visualEffects"
+    ],
+    "sourceCoverage": "strong",
+    "evidenceSnippets": [
+      {
+        "text": "老师每学期末经过商讨之后，会划分一段距离范围，让学生狩猎，每个人手中只有一把匕首，是死是活全靠实力。",
+        "fields": [
+          "ownership"
+        ],
+        "chapterIndex": 6,
+        "chapterTitle": "第6章",
+        "matchedNames": [
+          "匕首"
+        ]
+      },
+      {
+        "text": "卫三单手握着匕首，快步穿过一片荆棘，植物上的刺不断划破训练服。",
+        "fields": [
+          "usage"
+        ],
+        "chapterIndex": 6,
+        "chapterTitle": "第6章",
+        "matchedNames": [
+          "匕首"
+        ]
+      },
+      {
+        "text": "卫三滑进花豹腹下后，直接滚出旁边，反身骑在花豹身上，一只手抓住它的头，另一只握着匕首的手在它脖子一划。",
+        "fields": [
+          "usage"
+        ],
+        "chapterIndex": 6,
+        "chapterTitle": "第6章",
+        "matchedNames": [
+          "匕首"
+        ]
+      },
+      {
+        "text": "破云翅由452片混合游金羽毛构成，表面极为锋利，厉害的人自然不会只用来飞，如果近战，只要操控者运用得当，这452片锋利羽毛便如同匕首，可攻击对手。",
+        "fields": [
+          "condition"
+        ],
+        "chapterIndex": 22,
+        "chapterTitle": "第22章",
+        "matchedNames": [
+          "匕首"
+        ],
+        "otherMatchedNames": [
+          "混合游金羽毛",
+          "破云翅",
+          "游金"
+        ]
+      }
+    ],
+    "sourceDescription": "这452片锋利羽毛便如同匕首；卫三单手握着匕首；另一只握着匕首的手在它脖子一划；每个人手中只有一把匕首"
+  },
+  {
+    "name": "闹钟",
+    "fields": {
+      "usage": "",
+      "material": "",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "item",
+    "needsReview": true,
+    "missingFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "鱼青飞机甲资料",
+    "fields": {
+      "usage": "",
+      "material": "",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [
+      "S级机甲资料",
+      "机甲资料"
+    ],
+    "confidence": 0,
+    "entityType": "item",
+    "needsReview": true,
+    "missingFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "实体本子",
+    "fields": {
+      "usage": "",
+      "material": "",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "item",
+    "needsReview": true,
+    "missingFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "应成河的飞行器",
+    "fields": {
+      "usage": "",
+      "material": "",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "item",
+    "needsReview": true,
+    "missingFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "机甲戒指",
+    "fields": {
+      "usage": "",
+      "material": "",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "item",
+    "needsReview": true,
+    "missingFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "破鞭子",
+    "fields": {
+      "usage": "",
+      "material": "",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "item",
+    "needsReview": true,
+    "missingFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "深蓝色机甲",
+    "fields": {
+      "usage": "",
+      "material": "",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "item",
+    "needsReview": true,
+    "missingFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "双链弯刀",
+    "fields": {
+      "usage": "",
+      "material": "",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "item",
+    "needsReview": true,
+    "missingFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "卫三的黑厂机甲",
+    "fields": {
+      "usage": "",
+      "material": "",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "item",
+    "needsReview": true,
+    "missingFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "高浓度营养液",
+    "fields": {
+      "usage": "",
+      "material": "",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "item",
+    "needsReview": true,
+    "missingFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "光刀",
+    "fields": {
+      "usage": "",
+      "material": "",
+      "condition": "",
+      "ownership": "卫三刚想再用手中的光刀（第25章）",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [],
+    "confidence": 0.19,
+    "entityType": "item",
+    "needsReview": true,
+    "missingFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects"
+    ],
+    "sourceCoverage": "partial",
+    "evidenceSnippets": [
+      {
+        "text": "卫三刚想再用手中的光刀，结果对方直接两发子弹打过来，目标直指光刀。",
+        "fields": [
+          "ownership"
+        ],
+        "chapterIndex": 25,
+        "chapterTitle": "第25章",
+        "matchedNames": [
+          "光刀"
+        ]
+      }
+    ],
+    "sourceDescription": "卫三刚想再用手中的光刀"
+  },
+  {
+    "name": "学校发的中型机甲",
+    "fields": {
+      "usage": "",
+      "material": "",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [
+      "中型机甲"
+    ],
+    "confidence": 0,
+    "entityType": "item",
+    "needsReview": true,
+    "missingFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "一对弯刀",
+    "fields": {
+      "usage": "",
+      "material": "",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "item",
+    "needsReview": true,
+    "missingFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "金珂的光脑",
+    "fields": {
+      "usage": "",
+      "material": "",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "item",
+    "needsReview": true,
+    "missingFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "聂昊齐的机甲",
+    "fields": {
+      "usage": "",
+      "material": "",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "item",
+    "needsReview": true,
+    "missingFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "浅金色关节",
+    "fields": {
+      "usage": "",
+      "material": "",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "浅金色关节（第35章）；浅金色关节是混合了其他东西（第35章）",
+      "visualEffects": ""
+    },
+    "aliases": [],
+    "confidence": 0.27,
+    "entityType": "item",
+    "needsReview": true,
+    "missingFields": [
+      "material",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "partial",
+    "evidenceSnippets": [
+      {
+        "text": "“浅金色关节？",
+        "fields": [
+          "colorShape"
+        ],
+        "chapterIndex": 35,
+        "chapterTitle": "第35章",
+        "matchedNames": [
+          "浅金色关节"
+        ]
+      },
+      {
+        "text": "“浅金色关节是混合了其他东西？",
+        "fields": [
+          "colorShape"
+        ],
+        "chapterIndex": 35,
+        "chapterTitle": "第35章",
+        "matchedNames": [
+          "浅金色关节"
+        ]
+      }
+    ],
+    "sourceDescription": "浅金色关节；浅金色关节是混合了其他东西"
+  },
+  {
+    "name": "橙色胸章",
+    "fields": {
+      "usage": "陈慈递给卫三一个橙色胸章（第35章）",
+      "material": "",
+      "condition": "",
+      "ownership": "陈慈递给卫三一个橙色胸章（第35章）",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [],
+    "confidence": 0.31,
+    "entityType": "item",
+    "needsReview": true,
+    "missingFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "visualEffects"
+    ],
+    "sourceCoverage": "partial",
+    "evidenceSnippets": [
+      {
+        "text": "”陈慈递给卫三一个橙色胸章，上面图案是一把枪，枪管上缠着玫瑰。",
+        "fields": [
+          "usage",
+          "ownership"
+        ],
+        "chapterIndex": 35,
+        "chapterTitle": "第35章",
+        "matchedNames": [
+          "橙色胸章"
+        ]
+      }
+    ],
+    "sourceDescription": "陈慈递给卫三一个橙色胸章；陈慈递给卫三一个橙色胸章"
+  },
+  {
+    "name": "旧光脑",
+    "fields": {
+      "usage": "",
+      "material": "",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "item",
+    "needsReview": true,
+    "missingFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "新光脑",
+    "fields": {
+      "usage": "",
+      "material": "",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "item",
+    "needsReview": true,
+    "missingFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "黑厂原始机甲",
+    "fields": {
+      "usage": "",
+      "material": "",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "item",
+    "needsReview": true,
+    "missingFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "光幕",
+    "fields": {
+      "usage": "",
+      "material": "",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "item",
+    "needsReview": true,
+    "missingFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "卫三上课开小差视频",
+    "fields": {
+      "usage": "",
+      "material": "被两位老师评价脸皮厚的卫三正在和泰吴德视频（第17章）",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [
+      "视频"
+    ],
+    "confidence": 0.19,
+    "entityType": "item",
+    "needsReview": true,
+    "missingFields": [
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "partial",
+    "evidenceSnippets": [
+      {
+        "text": "被两位老师评价脸皮厚的卫三正在和泰吴德视频。",
+        "fields": [
+          "material"
+        ],
+        "chapterIndex": 17,
+        "chapterTitle": "第17章",
+        "matchedNames": [
+          "视频"
+        ]
+      }
+    ],
+    "sourceDescription": "被两位老师评价脸皮厚的卫三正在和泰吴德视频"
+  },
+  {
+    "name": "破云翅",
+    "fields": {
+      "usage": "",
+      "material": "用来支撑骨架（第22章）；纸条卫三没看见（第22章）；对面的钢板上顿时布满细小锋利的袖箭（第24章）；试练区的起岸西已经操控破云翅甩在钢板上（第24章）",
+      "condition": "对面的钢板上顿时布满细小锋利的袖箭（第24章）",
+      "ownership": "",
+      "colorShape": "而她要的破云翅羽片是白金色（第24章）；如果你想配破云翅的白金色（第24章）",
+      "visualEffects": ""
+    },
+    "aliases": [],
+    "confidence": 0.65,
+    "entityType": "item",
+    "needsReview": false,
+    "missingFields": [
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "strong",
+    "evidenceSnippets": [
+      {
+        "text": "破云翅的452块羽片被她改成大小不等324片，羽翅底部羽片大，用来支撑骨架，越往外扩散越小，同时发射装置零散分在羽片上，在挥动翅膀时才能借机合拢，每只翅膀每次可射出五十根小箭，一共十发。",
+        "fields": [
+          "material"
+        ],
+        "chapterIndex": 22,
+        "chapterTitle": "第22章",
+        "matchedNames": [
+          "破云翅"
+        ]
+      },
+      {
+        "text": "纸条卫三没看见，她今天没再回寝室，晚上一到，直接翻墙出去，准备把破云翅的主结构搭好。",
+        "fields": [
+          "material"
+        ],
+        "chapterIndex": 22,
+        "chapterTitle": "第22章",
+        "matchedNames": [
+          "破云翅"
+        ]
+      },
+      {
+        "text": "黑厂的机甲是全黑色，而她要的破云翅羽片是白金色，搭在一起不太好看，不如把机甲涂色也改成白金色。",
+        "fields": [
+          "colorShape"
+        ],
+        "chapterIndex": 24,
+        "chapterTitle": "第24章",
+        "matchedNames": [
+          "破云翅"
+        ],
+        "otherMatchedNames": [
+          "机甲"
+        ]
+      },
+      {
+        "text": "“如果你想配破云翅的白金色，价格不菲。",
+        "fields": [
+          "colorShape"
+        ],
+        "chapterIndex": 24,
+        "chapterTitle": "第24章",
+        "matchedNames": [
+          "破云翅"
+        ]
+      },
+      {
+        "text": "机甲舱内起岸西手指在操控面板上快速移动，众人只见到破云翅轻轻一扇，对面的钢板上顿时布满细小锋利的袖箭。",
+        "fields": [
+          "material",
+          "condition"
+        ],
+        "chapterIndex": 24,
+        "chapterTitle": "第24章",
+        "matchedNames": [
+          "破云翅"
+        ],
+        "otherMatchedNames": [
+          "机甲"
+        ]
+      },
+      {
+        "text": "众人心中一跳，试练区的起岸西已经操控破云翅甩在钢板上，留下深深的痕迹。",
+        "fields": [
+          "material"
+        ],
+        "chapterIndex": 24,
+        "chapterTitle": "第24章",
+        "matchedNames": [
+          "破云翅"
+        ]
+      }
+    ],
+    "sourceDescription": "用来支撑骨架；纸条卫三没看见；对面的钢板上顿时布满细小锋利的袖箭；试练区的起岸西已经操控破云翅甩在钢板上；而她要的破云翅羽片是白金色；如果你想配破云翅的白金色；对面的钢板上顿时布满细小锋利的袖箭"
+  },
+  {
+    "name": "血滴",
+    "fields": {
+      "usage": "",
+      "material": "",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "item",
+    "needsReview": true,
+    "missingFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "机甲长鞭",
+    "fields": {
+      "usage": "",
+      "material": "",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "item",
+    "needsReview": true,
+    "missingFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "离子炮",
+    "fields": {
+      "usage": "实则打开离子炮（第16章）；并打开离子炮对准手臂（第34章）",
+      "material": "",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [],
+    "confidence": 0.27,
+    "entityType": "item",
+    "needsReview": true,
+    "missingFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "partial",
+    "evidenceSnippets": [
+      {
+        "text": "”疤痕打出了火气，手下也没了轻重，他原先是L1级的近战高手，很少用远攻，尤其擂台地方有限，这一下他假意用钢爪，实则打开离子炮，直直对准卫三。",
+        "fields": [
+          "usage"
+        ],
+        "chapterIndex": 16,
+        "chapterTitle": "第16章",
+        "matchedNames": [
+          "离子炮"
+        ],
+        "otherMatchedNames": [
+          "钢爪"
+        ]
+      },
+      {
+        "text": "死神将扯断的手臂扔在地上，疯狂吼叫，并打开离子炮对准手臂，打了个稀巴烂。",
+        "fields": [
+          "usage"
+        ],
+        "chapterIndex": 34,
+        "chapterTitle": "第34章",
+        "matchedNames": [
+          "离子炮"
+        ]
+      }
+    ],
+    "sourceDescription": "实则打开离子炮；并打开离子炮对准手臂"
+  },
+  {
+    "name": "设计图纸",
+    "fields": {
+      "usage": "把画满的图纸卷好递给店主（第22章）；店主把图纸递给卫三（第24章）；他那天去进货才打开卫三的图纸（第24章）",
+      "material": "把画满的图纸卷好递给店主（第22章）；卫三将图纸放在店主能看到的地方（第22章）；而是捧着她的图纸（第24章）；店主把图纸递给卫三（第24章）；设计图纸这种东西不要随便给人（第24章）；他那天去进货才打开卫三的图纸（第24章）；她指着旁边堆着的好几卷图纸：“老板你也可以改（第24章）；图纸卖给你（第24章）；一手把图纸收起来（第24章）；卫三靠着设计图纸赚回来一点钱（第24章）；卫三从图纸抬头：“嗯（第32章）；收拾图纸（第38章）；卫三抱着图纸起身（第38章）",
+      "condition": "",
+      "ownership": "把画满的图纸卷好递给店主（第22章）；店主把图纸递给卫三（第24章）",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [
+      "图纸"
+    ],
+    "confidence": 0.65,
+    "entityType": "item",
+    "needsReview": false,
+    "missingFields": [
+      "colorShape",
+      "condition",
+      "visualEffects"
+    ],
+    "sourceCoverage": "strong",
+    "evidenceSnippets": [
+      {
+        "text": "”凌晨四点半卫三从工作间出来，把画满的图纸卷好递给店主，“还有一些新增加的零件，也写在上面。",
+        "fields": [
+          "material",
+          "usage",
+          "ownership"
+        ],
+        "chapterIndex": 22,
+        "chapterTitle": "第22章",
+        "matchedNames": [
+          "图纸"
+        ]
+      },
+      {
+        "text": "卫三将图纸放在店主能看到的地方，转身离开黑厂。",
+        "fields": [
+          "material"
+        ],
+        "chapterIndex": 22,
+        "chapterTitle": "第22章",
+        "matchedNames": [
+          "图纸"
+        ]
+      },
+      {
+        "text": "这次卫三照样绕了一大圈才去黑厂, 店主今天没吃面, 而是捧着她的图纸, 站在店门口等她。",
+        "fields": [
+          "material"
+        ],
+        "chapterIndex": 24,
+        "chapterTitle": "第24章",
+        "matchedNames": [
+          "图纸"
+        ]
+      },
+      {
+        "text": "”店主把图纸递给卫三, 犹豫后提醒，“设计图纸这种东西不要随便给人。",
+        "fields": [
+          "material",
+          "usage",
+          "ownership"
+        ],
+        "chapterIndex": 24,
+        "chapterTitle": "第24章",
+        "matchedNames": [
+          "设计图纸",
+          "图纸"
+        ]
+      },
+      {
+        "text": "他那天去进货才打开卫三的图纸，结果发现上面不光有羽片的模型大小，还有其他的设计。",
+        "fields": [
+          "material",
+          "usage"
+        ],
+        "chapterIndex": 24,
+        "chapterTitle": "第24章",
+        "matchedNames": [
+          "图纸"
+        ]
+      },
+      {
+        "text": "卫三心中安慰自己好歹过了一把改造机甲的手瘾，她指着旁边堆着的好几卷图纸：“老板你也可以改，图纸卖给你，五十万星币怎么样？",
+        "fields": [
+          "material"
+        ],
+        "chapterIndex": 24,
+        "chapterTitle": "第24章",
+        "matchedNames": [
+          "图纸"
+        ],
+        "otherMatchedNames": [
+          "改造机甲",
+          "机甲"
+        ]
+      },
+      {
+        "text": "”店主刷钱给她，一手把图纸收起来，这个人可能不愿意暴露自己的身份。",
+        "fields": [
+          "material"
+        ],
+        "chapterIndex": 24,
+        "chapterTitle": "第24章",
+        "matchedNames": [
+          "图纸"
+        ]
+      },
+      {
+        "text": "卫三靠着设计图纸赚回来一点钱，心理总算平衡一些，晚上睡觉都香了一点。",
+        "fields": [
+          "material"
+        ],
+        "chapterIndex": 24,
+        "chapterTitle": "第24章",
+        "matchedNames": [
+          "设计图纸",
+          "图纸"
+        ]
+      },
+      {
+        "text": "卫三从图纸抬头：“嗯。",
+        "fields": [
+          "material"
+        ],
+        "chapterIndex": 32,
+        "chapterTitle": "第32章",
+        "matchedNames": [
+          "图纸"
+        ]
+      },
+      {
+        "text": "”卫三蹲在地上，收拾图纸，“要把价钱控制在合理范围内，还不能减少机甲攻击力，我做起来一直很难。",
+        "fields": [
+          "material"
+        ],
+        "chapterIndex": 38,
+        "chapterTitle": "第38章",
+        "matchedNames": [
+          "图纸"
+        ],
+        "otherMatchedNames": [
+          "机甲"
+        ]
+      },
+      {
+        "text": "”卫三抱着图纸起身，“老板你问这个干什么？",
+        "fields": [
+          "material"
+        ],
+        "chapterIndex": 38,
+        "chapterTitle": "第38章",
+        "matchedNames": [
+          "图纸"
+        ]
+      }
+    ],
+    "sourceDescription": "把画满的图纸卷好递给店主；卫三将图纸放在店主能看到的地方；而是捧着她的图纸；店主把图纸递给卫三；设计图纸这种东西不要随便给人；他那天去进货才打开卫三的图纸；她指着旁边堆着的好几卷图纸：“老板你也可以改；图纸卖给你；一手把图纸收起来；卫三靠着设计图纸赚回来一点钱；卫三从图纸抬头：“嗯；收拾图纸；卫三抱着图纸起身；把画满的图纸卷好递给店主；店主把图纸递给卫三；他那天去进货才打开卫三的图纸；把画满的图纸卷好递给店主；店主把图纸递给卫三"
+  },
+  {
+    "name": "白金机甲",
+    "fields": {
+      "usage": "",
+      "material": "",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [
+      "改造机甲"
+    ],
+    "confidence": 0,
+    "entityType": "item",
+    "needsReview": true,
+    "missingFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "弩箭",
+    "fields": {
+      "usage": "",
+      "material": "",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "item",
+    "needsReview": true,
+    "missingFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "描金弩",
+    "fields": {
+      "usage": "",
+      "material": "",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "item",
+    "needsReview": true,
+    "missingFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "治疗舱",
+    "fields": {
+      "usage": "",
+      "material": "下一秒李皮走了过来（第4章）；李皮撩起眼皮（第5章）；卫三想着都是皮外伤（第35章）",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "卫三快速进入边缘森林（第6章）",
+      "visualEffects": ""
+    },
+    "aliases": [],
+    "confidence": 0.53,
+    "entityType": "item",
+    "needsReview": true,
+    "missingFields": [
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "partial",
+    "evidenceSnippets": [
+      {
+        "text": "果然，下一秒李皮走了过来，伸出一根手指用力戳她肩膀：“隔壁班四个人被你弄到医疗室，躺治疗舱躺了半个小时，本来我很开心。",
+        "fields": [
+          "material"
+        ],
+        "chapterIndex": 4,
+        "chapterTitle": "第4章",
+        "matchedNames": [
+          "治疗舱"
+        ]
+      },
+      {
+        "text": "”李皮撩起眼皮，“你在治疗舱泡了四个小时，一共七千星币。",
+        "fields": [
+          "material"
+        ],
+        "chapterIndex": 5,
+        "chapterTitle": "第5章",
+        "matchedNames": [
+          "治疗舱"
+        ]
+      },
+      {
+        "text": "卫三快速进入边缘森林，她向来惜命，十六次期末考试，基本上靠着各种走位避免受重伤，她穷，躺不起治疗舱。",
+        "fields": [
+          "colorShape"
+        ],
+        "chapterIndex": 6,
+        "chapterTitle": "第6章",
+        "matchedNames": [
+          "治疗舱"
+        ]
+      },
+      {
+        "text": "卫三想着都是皮外伤, 便懒得去躺治疗舱, 一来要花钱, 二来她不喜欢躺在里面的感觉。",
+        "fields": [
+          "material"
+        ],
+        "chapterIndex": 35,
+        "chapterTitle": "第35章",
+        "matchedNames": [
+          "治疗舱"
+        ]
+      }
+    ],
+    "sourceDescription": "下一秒李皮走了过来；李皮撩起眼皮；卫三想着都是皮外伤；卫三快速进入边缘森林"
+  },
+  {
+    "name": "灰晶",
+    "fields": {
+      "usage": "",
+      "material": "卫三终于发现这个世界的能源是什么——灰晶（第3章）；灰晶是联邦开采出来的一种能源（第3章）；里面是处理过的灰晶（第3章）；这里可能有灰晶（第5章）；从里面掏出一块拳头大小的灰晶放进腰包中：“难怪它跑到这里（第5章）；卫三只听过灰晶（第35章）；灰晶提供能量（第35章）；整个联邦都靠着灰晶运转（第35章）",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [],
+    "confidence": 0.42,
+    "entityType": "item",
+    "needsReview": true,
+    "missingFields": [
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "partial",
+    "evidenceSnippets": [
+      {
+        "text": "几个店看下来，卫三终于发现这个世界的能源是什么——灰晶。",
+        "fields": [
+          "material"
+        ],
+        "chapterIndex": 3,
+        "chapterTitle": "第3章",
+        "matchedNames": [
+          "灰晶"
+        ]
+      },
+      {
+        "text": "灰晶是联邦开采出来的一种能源，可以直接供给机甲，普通家庭用不了，只能用一种叫晶卡的东西，里面是处理过的灰晶。",
+        "fields": [
+          "material"
+        ],
+        "chapterIndex": 3,
+        "chapterTitle": "第3章",
+        "matchedNames": [
+          "灰晶"
+        ],
+        "otherMatchedNames": [
+          "机甲",
+          "晶卡"
+        ]
+      },
+      {
+        "text": "“这里可能有灰晶。",
+        "fields": [
+          "material"
+        ],
+        "chapterIndex": 5,
+        "chapterTitle": "第5章",
+        "matchedNames": [
+          "灰晶"
+        ]
+      },
+      {
+        "text": "金发少年走到一处，砸开墙，从里面掏出一块拳头大小的灰晶放进腰包中：“难怪它跑到这里。",
+        "fields": [
+          "material"
+        ],
+        "chapterIndex": 5,
+        "chapterTitle": "第5章",
+        "matchedNames": [
+          "灰晶"
+        ]
+      },
+      {
+        "text": "卫三只听过灰晶。",
+        "fields": [
+          "material"
+        ],
+        "chapterIndex": 35,
+        "chapterTitle": "第35章",
+        "matchedNames": [
+          "灰晶"
+        ]
+      },
+      {
+        "text": "“灰晶提供能量，整个联邦都靠着灰晶运转。",
+        "fields": [
+          "material"
+        ],
+        "chapterIndex": 35,
+        "chapterTitle": "第35章",
+        "matchedNames": [
+          "灰晶"
+        ]
+      }
+    ],
+    "sourceDescription": "卫三终于发现这个世界的能源是什么——灰晶；灰晶是联邦开采出来的一种能源；里面是处理过的灰晶；这里可能有灰晶；从里面掏出一块拳头大小的灰晶放进腰包中：“难怪它跑到这里；卫三只听过灰晶；灰晶提供能量；整个联邦都靠着灰晶运转"
+  },
+  {
+    "name": "黑弩",
+    "fields": {
+      "usage": "",
+      "material": "",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "item",
+    "needsReview": true,
+    "missingFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "B级机甲",
+    "fields": {
+      "usage": "",
+      "material": "",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "item",
+    "needsReview": true,
+    "missingFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "学校机甲",
+    "fields": {
+      "usage": "",
+      "material": "",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [
+      "学校统一机甲"
+    ],
+    "confidence": 0,
+    "entityType": "item",
+    "needsReview": true,
+    "missingFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "五彩斑斓的机甲",
+    "fields": {
+      "usage": "",
+      "material": "",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "item",
+    "needsReview": true,
+    "missingFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "黑厂那台机甲",
+    "fields": {
+      "usage": "",
+      "material": "",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "item",
+    "needsReview": true,
+    "missingFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "聂昊齐定制机甲",
+    "fields": {
+      "usage": "",
+      "material": "",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "item",
+    "needsReview": true,
+    "missingFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "训练卡",
+    "fields": {
+      "usage": "",
+      "material": "",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "item",
+    "needsReview": true,
+    "missingFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "青飞教您二十一天成为机甲师",
+    "fields": {
+      "usage": "",
+      "material": "",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "item",
+    "needsReview": true,
+    "missingFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "射击枪",
+    "fields": {
+      "usage": "",
+      "material": "",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "item",
+    "needsReview": true,
+    "missingFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "移动医疗车",
+    "fields": {
+      "usage": "",
+      "material": "李皮正好拎着两个重伤的学生出来（第6章）",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [],
+    "confidence": 0.19,
+    "entityType": "item",
+    "needsReview": true,
+    "missingFields": [
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "partial",
+    "evidenceSnippets": [
+      {
+        "text": "大部分学生已经出来，统计老师面前也堆满了各种猎物，卫三过去的时候，李皮正好拎着两个重伤的学生出来，在旁边候着的医务人员立刻将学生抬进移动医疗车内治疗。",
+        "fields": [
+          "material"
+        ],
+        "chapterIndex": 6,
+        "chapterTitle": "第6章",
+        "matchedNames": [
+          "移动医疗车"
+        ]
+      }
+    ],
+    "sourceDescription": "李皮正好拎着两个重伤的学生出来"
+  },
+  {
+    "name": "枪",
+    "fields": {
+      "usage": "",
+      "material": "可以穿透普通金属和枪（第4章）",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "所有学生立刻如同潮水般涌进边缘森林（第6章）；陈慈一身黑色训练服（第19章）",
+      "visualEffects": ""
+    },
+    "aliases": [],
+    "confidence": 0.46,
+    "entityType": "item",
+    "needsReview": true,
+    "missingFields": [
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "partial",
+    "evidenceSnippets": [
+      {
+        "text": "最重要的一部分在左手上，她花了一年时间做成的激光枪，可以穿透普通金属和枪，不过对游金无效。",
+        "fields": [
+          "material"
+        ],
+        "chapterIndex": 4,
+        "chapterTitle": "第4章",
+        "matchedNames": [
+          "枪"
+        ],
+        "otherMatchedNames": [
+          "游金",
+          "激光枪"
+        ]
+      },
+      {
+        "text": "随着发令枪响，所有学生立刻如同潮水般涌进边缘森林，每个人都想早点完成任务。",
+        "fields": [
+          "colorShape"
+        ],
+        "chapterIndex": 6,
+        "chapterTitle": "第6章",
+        "matchedNames": [
+          "枪"
+        ]
+      },
+      {
+        "text": "”陈慈一身黑色训练服，慢慢走在学生周围，“上周大家胆子都很大，敢对我开枪。",
+        "fields": [
+          "colorShape"
+        ],
+        "chapterIndex": 19,
+        "chapterTitle": "第19章",
+        "matchedNames": [
+          "枪"
+        ]
+      }
+    ],
+    "sourceDescription": "可以穿透普通金属和枪；所有学生立刻如同潮水般涌进边缘森林；陈慈一身黑色训练服"
+  },
+  {
+    "name": "光鞭",
+    "fields": {
+      "usage": "",
+      "material": "",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "item",
+    "needsReview": true,
+    "missingFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "五彩缤纷机甲",
+    "fields": {
+      "usage": "",
+      "material": "",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "item",
+    "needsReview": true,
+    "missingFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "机甲",
+    "fields": {
+      "usage": "卫三打开舱门跳下来（第7章）；拿着扳手对准泰吴德：“吵死了（第7章）；机甲舱突然打开（第8章）；卫三打开机甲（第13章）；直接传递给她（第14章）；戴着银色面具（第16章）；店主问了一个藏在心中很久的问题：“你是怎么在擂台上拆他们机甲的（第21章）；打开右臂炮膛口（第36章）；起岸西已经近身用手拔出那根箭（第39章）",
+      "material": "原来这是一种机甲专用金属（第2章）；我李皮带了这么多届学生（第4章）；李皮撩起眼皮看了她一会：“确实是战斗型机甲（第7章）；李皮正色看着卫三：“假如……你能进五大军校（第7章）；李皮点头（第7章）；李皮指了指那架灰绿色机甲（第8章）；李皮介绍完后（第8章）；众人还以为李皮是在安慰（第8章）；刚才李皮说的每个按键作用都熟记在心（第8章）；回头对李皮道：“老师（第8章）；李皮和卫三回到训练场中（第8章）；李皮看着开始走动的机甲（第8章）；李皮叹气：“我看她身体一直没跟上营养（第8章）；他问的是昨天卫三控制机甲在A4纸上剪出一朵花的操作（第8章）；但要在A4纸上剪花这操作（第8章）；纸又太薄（第8章）；李皮跳上机甲舱（第9章）；一拳打在训练场中竖起的钢板上（第9章）；这钢板是特质的（第9章）；原先机甲压根不能对钢板造成这么大的伤害（第9章）；你看那块钢板（第9章）；不像我们机甲单兵皮糙肉厚的（第11章）；被无辜牵连的学生甩不掉这个牛皮糖（第15章）；应成河还举着硬纸壳（第32章）；便如同小石子入海（第33章）；穿着黑色丝绸睡衣的中年男人靠在椅子上（第35章）；但还有其他的晶体（第35章）；金色晶体适合用在S级重型机甲上（第35章）；子弹居然穿不破异狼眼皮（第36章）；似乎同样金属化了（第36章）；机甲和金属化狼头相撞（第36章）",
+      "condition": "崭新的黑色机甲躲也不躲（第14章）；拖着已经残缺的机甲（第18章）；用一把磨得锋利的机甲片当刀用（第21章）；连嘴边的血迹都没有擦（第34章）；有效防止关节磨损（第35章）",
+      "ownership": "填好后交给我（第12章）；更不用提有些顶级世家有属于自己的机甲（第12章）；开始熟悉属于自己的机甲（第12章）；这家店店主属于有技术的人（第13章）；背后的粉色猛男急忙刹住脚步（第14章）；直接传递给她（第14章）；背后都有一个专属机甲师（第17章）；在他心中卫三背后是有高人的（第19章）；但他从来没有见过这么丑的机甲：背后鼓起一坨像背了龟壳（第20章）；卫三趁机将刚才拆下的防御甲握在手中（第21章）；第二天一大早在地下二层把机甲交给起岸西（第24章）；选手便有机会被背后各种势力招揽（第28章）；似乎在护着背后两架机甲（第29章）；背后两架机甲则手忙脚乱对付着围过来的小蜘蛛（第29章）；背后两架机甲也打不过那些蜘蛛（第29章）；接连败在两个新L3级手中（第38章）",
+      "colorShape": "再做成项链形状（第12章）；相同黑色机甲互相纠打在一起（第13章）；对面也有一台黑色机甲走过来（第13章）；崭新的黑色机甲躲也不躲（第14章）；手臂用劲将同样的黑色机甲摔出擂台（第14章）；连颜色都换了一种（第16章）；台上黑色机甲里面跳出一个修长身影（第16章）；戴着银色面具（第16章）；两架同样没有进行过改造的黑色机甲站在擂台上（第17章）；什么颜色都搭在机甲身上（第21章）；黑厂的机甲是全黑色（第24章）；不如把机甲涂色也改成白金色（第24章）；训练场的灯光照在白金色机甲身上（第24章）；白色机甲径直对上巨大灰色蜘蛛（第29章）；白色机甲会输（第29章）；现在只看是白色机甲还是另外两架机甲先输了（第29章）；白色机甲动作只停顿了一秒（第29章）；白色机甲的人冲那台机甲内的人厉声喊道（第29章）；但只剩下一架白色机甲（第29章）；操场上的人只看得见白色机甲护着后方指挥（第29章）；女人含着一根细长烟（第34章）；穿着黑色丝绸睡衣的中年男人靠在椅子上（第35章）；金色晶体适合用在S级重型机甲上（第35章）；她想起之前在3212星废弃大楼见到的那家银色机甲（第35章）；颜色完全不同（第39章）",
+      "visualEffects": "细碎而耀眼的光芒让周围的人不自觉将目光投过来（第24章）"
+    },
+    "aliases": [],
+    "confidence": 1,
+    "entityType": "item",
+    "needsReview": false,
+    "missingFields": [],
+    "sourceCoverage": "strong",
+    "evidenceSnippets": [
+      {
+        "text": "第一个先查的是游金，原来这是一种机甲专用金属，延展性和抵御性极强，从发现开始便一直用于军工，后应用到机甲上，也是近百年来才向民众开放交易渠道。",
+        "fields": [
+          "material"
+        ],
+        "chapterIndex": 2,
+        "chapterTitle": "第2章",
+        "matchedNames": [
+          "机甲"
+        ],
+        "otherMatchedNames": [
+          "游金"
+        ]
+      },
+      {
+        "text": "“我李皮带了这么多届学生，你们这届绝对是最差劲的，打个群架就慌了神，以后用机甲怎么办？",
+        "fields": [
+          "material"
+        ],
+        "chapterIndex": 4,
+        "chapterTitle": "第4章",
+        "matchedNames": [
+          "机甲"
+        ]
+      },
+      {
+        "text": "感受了一遍机甲，卫三打开舱门跳下来，拿着扳手对准泰吴德：“吵死了，闭嘴。",
+        "fields": [
+          "usage"
+        ],
+        "chapterIndex": 7,
+        "chapterTitle": "第7章",
+        "matchedNames": [
+          "机甲"
+        ]
+      },
+      {
+        "text": "李皮撩起眼皮看了她一会：“确实是战斗型机甲。",
+        "fields": [
+          "material"
+        ],
+        "chapterIndex": 7,
+        "chapterTitle": "第7章",
+        "matchedNames": [
+          "机甲"
+        ]
+      },
+      {
+        "text": "李皮正色看着卫三：“假如……你能进五大军校，这个机甲对你而言，没有什么太大的帮助。",
+        "fields": [
+          "material"
+        ],
+        "chapterIndex": 7,
+        "chapterTitle": "第7章",
+        "matchedNames": [
+          "机甲"
+        ]
+      },
+      {
+        "text": "李皮点头，随后又问：“我听说你帮泰家修好了机甲？",
+        "fields": [
+          "material"
+        ],
+        "chapterIndex": 7,
+        "chapterTitle": "第7章",
+        "matchedNames": [
+          "机甲"
+        ]
+      },
+      {
+        "text": "”李皮指了指那架灰绿色机甲，介绍外部机甲几个部位，随后又打开光脑，将机甲内部操作室投影出来。",
+        "fields": [
+          "material"
+        ],
+        "chapterIndex": 8,
+        "chapterTitle": "第8章",
+        "matchedNames": [
+          "机甲"
+        ],
+        "otherMatchedNames": [
+          "光脑"
+        ]
+      },
+      {
+        "text": "”李皮介绍完后，不知道点了什么，机甲舱突然打开，“说再多不如你们自己去体会，现在按照学号一个一个来，每人十五分钟实操时间，108009号上来。",
+        "fields": [
+          "material",
+          "usage"
+        ],
+        "chapterIndex": 8,
+        "chapterTitle": "第8章",
+        "matchedNames": [
+          "机甲"
+        ]
+      },
+      {
+        "text": "众人还以为李皮是在安慰，结果学生陆陆续续上去，下来的人个个像冲刺跑了十几公里一样，满身大汗，偏偏机甲基本上没怎么动过。",
+        "fields": [
+          "material"
+        ],
+        "chapterIndex": 8,
+        "chapterTitle": "第8章",
+        "matchedNames": [
+          "机甲"
+        ]
+      },
+      {
+        "text": "卫三坐在驾驶座上，戴好头盔，两边太阳穴顿时能感受到电流穿过，她扫过面前的操控板，刚才李皮说的每个按键作用都熟记在心，她试探按了一遍，机甲偶尔会张开手臂转化成刀刺或炮弹筒。",
+        "fields": [
+          "material"
+        ],
+        "chapterIndex": 8,
+        "chapterTitle": "第8章",
+        "matchedNames": [
+          "机甲"
+        ]
+      },
+      {
+        "text": "卫三昏昏沉沉爬出来，扭头看着倒地的机甲，回头对李皮道：“老师，抱歉。",
+        "fields": [
+          "material"
+        ],
+        "chapterIndex": 8,
+        "chapterTitle": "第8章",
+        "matchedNames": [
+          "机甲"
+        ]
+      },
+      {
+        "text": "李皮和卫三回到训练场中，所有学生早已经到齐了，都想再看看卫三操控机甲。",
+        "fields": [
+          "material"
+        ],
+        "chapterIndex": 8,
+        "chapterTitle": "第8章",
+        "matchedNames": [
+          "机甲"
+        ]
+      },
+      {
+        "text": "李皮看着开始走动的机甲，面色复杂。",
+        "fields": [
+          "material"
+        ],
+        "chapterIndex": 8,
+        "chapterTitle": "第8章",
+        "matchedNames": [
+          "机甲"
+        ]
+      },
+      {
+        "text": "李皮叹气：“我看她身体一直没跟上营养，今天机甲实操，刚上去人就晕了，吃饱了饭才动得了。",
+        "fields": [
+          "material"
+        ],
+        "chapterIndex": 8,
+        "chapterTitle": "第8章",
+        "matchedNames": [
+          "机甲"
+        ]
+      },
+      {
+        "text": "他问的是昨天卫三控制机甲在A4纸上剪出一朵花的操作。",
+        "fields": [
+          "material"
+        ],
+        "chapterIndex": 8,
+        "chapterTitle": "第8章",
+        "matchedNames": [
+          "机甲"
+        ]
+      },
+      {
+        "text": "但要在A4纸上剪花这操作，泰吴德做不到，机甲手太大，纸又太薄。",
+        "fields": [
+          "material"
+        ],
+        "chapterIndex": 8,
+        "chapterTitle": "第8章",
+        "matchedNames": [
+          "机甲"
+        ]
+      },
+      {
+        "text": "李皮跳上机甲舱，进去重新试了试，一拳打在训练场中竖起的钢板上，顿时凹出一个坑。",
+        "fields": [
+          "material"
+        ],
+        "chapterIndex": 9,
+        "chapterTitle": "第9章",
+        "matchedNames": [
+          "机甲"
+        ]
+      },
+      {
+        "text": "“这……”老师们眼露惊色，这钢板是特质的，刚采购没几年，原先机甲压根不能对钢板造成这么大的伤害，最多留下浅浅的痕迹。",
+        "fields": [
+          "material"
+        ],
+        "chapterIndex": 9,
+        "chapterTitle": "第9章",
+        "matchedNames": [
+          "机甲"
+        ]
+      },
+      {
+        "text": "“这机甲攻击数据变强了，你看那块钢板。",
+        "fields": [
+          "material"
+        ],
+        "chapterIndex": 9,
+        "chapterTitle": "第9章",
+        "matchedNames": [
+          "机甲"
+        ]
+      },
+      {
+        "text": "“毕竟指挥在哪都是宝贝，不像我们机甲单兵皮糙肉厚的。",
+        "fields": [
+          "material"
+        ],
+        "chapterIndex": 11,
+        "chapterTitle": "第11章",
+        "matchedNames": [
+          "机甲"
+        ]
+      },
+      {
+        "text": "“填好后交给我，待会我们直接去机甲场，老师在那边等着我们。",
+        "fields": [
+          "ownership"
+        ],
+        "chapterIndex": 12,
+        "chapterTitle": "第12章",
+        "matchedNames": [
+          "机甲"
+        ]
+      },
+      {
+        "text": "箱子内全是项链，更准确地说是每一条项链内都有一架机甲，采用空间折叠技术，将机甲收纳进特殊材质内，变成一个硬币大小的圆珠，再做成项链形状，方便携带。",
+        "fields": [
+          "colorShape"
+        ],
+        "chapterIndex": 12,
+        "chapterTitle": "第12章",
+        "matchedNames": [
+          "机甲"
+        ]
+      },
+      {
+        "text": "军校的学生绝大多数从上学起便开始练习机甲，更不用提有些顶级世家有属于自己的机甲，自己的训练场，而众所周知无名星资源匮乏，根本没有机会接触到A级机甲，更不用提区别三种机甲类型。",
+        "fields": [
+          "ownership"
+        ],
+        "chapterIndex": 12,
+        "chapterTitle": "第12章",
+        "matchedNames": [
+          "机甲"
+        ],
+        "otherMatchedNames": [
+          "A级机甲"
+        ]
+      },
+      {
+        "text": "卫三一直练习收放机甲，认真地完成老师布置的作业，但有很多同学已经进了机甲舱，开始熟悉属于自己的机甲。",
+        "fields": [
+          "ownership"
+        ],
+        "chapterIndex": 12,
+        "chapterTitle": "第12章",
+        "matchedNames": [
+          "机甲"
+        ]
+      },
+      {
+        "text": "她被骂半天才明白过来，这家店店主属于有技术的人，有很多机甲师都想当他徒弟。",
+        "fields": [
+          "ownership"
+        ],
+        "chapterIndex": 13,
+        "chapterTitle": "第13章",
+        "matchedNames": [
+          "机甲"
+        ]
+      },
+      {
+        "text": "相同黑色机甲互相纠打在一起，轰然倒地，更靠近地面的那位单手撑地，屈膝借倒下冲力攻击对方，下一秒对方伸手挡下，却不料这只是一个幌子，地上那人趁机操控机甲，从旁边撤开，翻身压制，一个手刀劈在对方头上。",
+        "fields": [
+          "colorShape"
+        ],
+        "chapterIndex": 13,
+        "chapterTitle": "第13章",
+        "matchedNames": [
+          "机甲"
+        ]
+      },
+      {
+        "text": "卫三打开机甲，控制机甲走进比赛场区，对面也有一台黑色机甲走过来，应该就是粉色猛男。",
+        "fields": [
+          "usage",
+          "colorShape"
+        ],
+        "chapterIndex": 13,
+        "chapterTitle": "第13章",
+        "matchedNames": [
+          "机甲"
+        ]
+      },
+      {
+        "text": "卫三继续埋头跑，不断调试适应机甲，一直到感觉自己和机甲能够统一之后，她才骤然停下，背后的粉色猛男急忙刹住脚步，又是一拳挥来。",
+        "fields": [
+          "ownership"
+        ],
+        "chapterIndex": 14,
+        "chapterTitle": "第14章",
+        "matchedNames": [
+          "机甲"
+        ]
+      },
+      {
+        "text": "崭新的黑色机甲躲也不躲，抬手接住这一拳，同时腰腹发力，手臂用劲将同样的黑色机甲摔出擂台。",
+        "fields": [
+          "colorShape",
+          "condition"
+        ],
+        "chapterIndex": 14,
+        "chapterTitle": "第14章",
+        "matchedNames": [
+          "机甲"
+        ]
+      },
+      {
+        "text": "卫三环顾四周，下意识伸手感受吹过来的风，沙漠上那股热风顺着机甲的手，直接传递给她。",
+        "fields": [
+          "usage",
+          "ownership"
+        ],
+        "chapterIndex": 14,
+        "chapterTitle": "第14章",
+        "matchedNames": [
+          "机甲"
+        ]
+      },
+      {
+        "text": "一开始当然没人敢，但卫三不要脸，陈慈一把火力对准她，她就开始操控机甲蹭到其他同学身边，被无辜牵连的学生甩不掉这个牛皮糖，只能咬牙跟着动手反击。",
+        "fields": [
+          "material"
+        ],
+        "chapterIndex": 15,
+        "chapterTitle": "第15章",
+        "matchedNames": [
+          "机甲"
+        ]
+      },
+      {
+        "text": "卫三起身，进入机甲，再走向085擂台，对手也差不多这个时间走上擂台，他的机甲做过改造，连颜色都换了一种。",
+        "fields": [
+          "colorShape"
+        ],
+        "chapterIndex": 16,
+        "chapterTitle": "第16章",
+        "matchedNames": [
+          "机甲"
+        ]
+      },
+      {
+        "text": "台上黑色机甲里面跳出一个修长身影，戴着银色面具，看不清脸，他收了机甲，准备下一场比赛，路过旁边擂台时，目光在卫三身上停留了几秒。",
+        "fields": [
+          "colorShape",
+          "usage"
+        ],
+        "chapterIndex": 16,
+        "chapterTitle": "第16章",
+        "matchedNames": [
+          "机甲"
+        ]
+      },
+      {
+        "text": "两架同样没有进行过改造的黑色机甲站在擂台上，不过卫三是中型机甲，还多了一条破鞭子，起岸西是轻型机甲。",
+        "fields": [
+          "colorShape"
+        ],
+        "chapterIndex": 17,
+        "chapterTitle": "第17章",
+        "matchedNames": [
+          "机甲"
+        ],
+        "otherMatchedNames": [
+          "轻型机甲",
+          "中型机甲",
+          "鞭子",
+          "破鞭子"
+        ]
+      },
+      {
+        "text": "卫三我跟你说，他们每一架都是由无数金钱堆积出来的，背后都有一个专属机甲师。",
+        "fields": [
+          "ownership"
+        ],
+        "chapterIndex": 17,
+        "chapterTitle": "第17章",
+        "matchedNames": [
+          "机甲"
+        ]
+      },
+      {
+        "text": "卫三心中默数着击中红鱼的数量，拖着已经残缺的机甲，努力躲着大鱼攻击。",
+        "fields": [
+          "condition"
+        ],
+        "chapterIndex": 18,
+        "chapterTitle": "第18章",
+        "matchedNames": [
+          "机甲"
+        ]
+      },
+      {
+        "text": "”金珂抬头抽空说了一句，在他心中卫三背后是有高人的，会搞机甲又能打架很正常嘛。",
+        "fields": [
+          "ownership"
+        ],
+        "chapterIndex": 19,
+        "chapterTitle": "第19章",
+        "matchedNames": [
+          "机甲"
+        ]
+      },
+      {
+        "text": "设计版块以前不是没点进来过，但他从来没有见过这么丑的机甲：背后鼓起一坨像背了龟壳，且四肢过短，腹部还有奇奇怪怪的东西，感觉设计者把什么乱七八糟的东西都往上加了。",
+        "fields": [
+          "ownership"
+        ],
+        "chapterIndex": 20,
+        "chapterTitle": "第20章",
+        "matchedNames": [
+          "机甲"
+        ]
+      },
+      {
+        "text": "两人或打或退，卫三趁机将刚才拆下的防御甲握在手中，以甲为刀，近身而战，最终防御甲刺中对方引擎，导致他机甲损坏而输了比赛。",
+        "fields": [
+          "ownership"
+        ],
+        "chapterIndex": 21,
+        "chapterTitle": "第21章",
+        "matchedNames": [
+          "机甲"
+        ]
+      },
+      {
+        "text": "走之前，店主问了一个藏在心中很久的问题：“你是怎么在擂台上拆他们机甲的？",
+        "fields": [
+          "usage"
+        ],
+        "chapterIndex": 21,
+        "chapterTitle": "第21章",
+        "matchedNames": [
+          "机甲"
+        ]
+      },
+      {
+        "text": "机甲进行涂色再正常不过，但这种东一块西一块，什么颜色都搭在机甲身上，他们还从来没见过。",
+        "fields": [
+          "colorShape"
+        ],
+        "chapterIndex": 21,
+        "chapterTitle": "第21章",
+        "matchedNames": [
+          "机甲"
+        ]
+      },
+      {
+        "text": "这个叫向生活低头的人光刀不用光刀，用一把磨得锋利的机甲片当刀用，光刀用特殊材质制成，不用时完全可以收在掌心，用时只要机甲内的灰晶提供能量，而她用的那把‘刀’压根收不回去，竖嵌在机甲手臂后，看起来奇怪又笨拙。",
+        "fields": [
+          "condition"
+        ],
+        "chapterIndex": 21,
+        "chapterTitle": "第21章",
+        "matchedNames": [
+          "机甲"
+        ],
+        "otherMatchedNames": [
+          "光刀",
+          "灰晶"
+        ]
+      },
+      {
+        "text": "黑厂的机甲是全黑色，而她要的破云翅羽片是白金色，搭在一起不太好看，不如把机甲涂色也改成白金色。",
+        "fields": [
+          "colorShape"
+        ],
+        "chapterIndex": 24,
+        "chapterTitle": "第24章",
+        "matchedNames": [
+          "机甲"
+        ],
+        "otherMatchedNames": [
+          "破云翅"
+        ]
+      },
+      {
+        "text": "第二天一大早在地下二层把机甲交给起岸西，对方接过机甲没有立刻试，先礼貌说了一声感谢。",
+        "fields": [
+          "ownership"
+        ],
+        "chapterIndex": 24,
+        "chapterTitle": "第24章",
+        "matchedNames": [
+          "机甲"
+        ]
+      },
+      {
+        "text": "一架通身白金的机甲骤然放出两只破云翅，腾空飞起，训练场的灯光照在白金色机甲身上，细碎而耀眼的光芒让周围的人不自觉将目光投过来。",
+        "fields": [
+          "colorShape",
+          "visualEffects"
+        ],
+        "chapterIndex": 24,
+        "chapterTitle": "第24章",
+        "matchedNames": [
+          "机甲"
+        ],
+        "otherMatchedNames": [
+          "破云翅"
+        ]
+      },
+      {
+        "text": "只要进入积分榜前两百名，选手便有机会被背后各种势力招揽，找到靠山，以后机甲开销不用自己出。",
+        "fields": [
+          "ownership"
+        ],
+        "chapterIndex": 28,
+        "chapterTitle": "第28章",
+        "matchedNames": [
+          "机甲"
+        ]
+      },
+      {
+        "text": "巨大光幕上是三架机甲，其中一架白色中型机甲格外狼狈，似乎在护着背后两架机甲，对面是一头巨大灰色蜘蛛, 周围还有数只小型蜘蛛。",
+        "fields": [
+          "ownership"
+        ],
+        "chapterIndex": 29,
+        "chapterTitle": "第29章",
+        "matchedNames": [
+          "机甲"
+        ],
+        "otherMatchedNames": [
+          "中型机甲",
+          "光幕",
+          "白色中型机甲"
+        ]
+      },
+      {
+        "text": "白色机甲径直对上巨大灰色蜘蛛, 背后两架机甲则手忙脚乱对付着围过来的小蜘蛛。",
+        "fields": [
+          "colorShape",
+          "ownership"
+        ],
+        "chapterIndex": 29,
+        "chapterTitle": "第29章",
+        "matchedNames": [
+          "机甲"
+        ]
+      },
+      {
+        "text": "卫三下意识拧眉，在她看来，白色机甲会输，背后两架机甲也打不过那些蜘蛛，现在只看是白色机甲还是另外两架机甲先输了。",
+        "fields": [
+          "colorShape",
+          "ownership"
+        ],
+        "chapterIndex": 29,
+        "chapterTitle": "第29章",
+        "matchedNames": [
+          "机甲"
+        ]
+      },
+      {
+        "text": "出乎意料，白色机甲动作只停顿了一秒，随即抽出光刀，毫不犹豫砍断巨蛛螯肢，机甲就这么拖着断裂的螯肢，继续挥刀，从口器处往前，一直划穿巨蛛腹部才停止。",
+        "fields": [
+          "colorShape"
+        ],
+        "chapterIndex": 29,
+        "chapterTitle": "第29章",
+        "matchedNames": [
+          "机甲"
+        ],
+        "otherMatchedNames": [
+          "光刀"
+        ]
+      },
+      {
+        "text": "”白色机甲的人冲那台机甲内的人厉声喊道。",
+        "fields": [
+          "colorShape"
+        ],
+        "chapterIndex": 29,
+        "chapterTitle": "第29章",
+        "matchedNames": [
+          "机甲"
+        ]
+      },
+      {
+        "text": "周末下午这场比赛已经接近尾声，原本有三个机甲单兵，但只剩下一架白色机甲。",
+        "fields": [
+          "colorShape"
+        ],
+        "chapterIndex": 29,
+        "chapterTitle": "第29章",
+        "matchedNames": [
+          "机甲"
+        ]
+      },
+      {
+        "text": "光幕中赛场内传来一道机器女声，操场上的人只看得见白色机甲护着后方指挥，不断斩杀幼蛛，甚至连伤感的时间都没有。",
+        "fields": [
+          "colorShape"
+        ],
+        "chapterIndex": 29,
+        "chapterTitle": "第29章",
+        "matchedNames": [
+          "机甲"
+        ],
+        "otherMatchedNames": [
+          "光幕"
+        ]
+      },
+      {
+        "text": "”应成河还举着硬纸壳，他是机甲师，很容易看出机甲单兵和机甲之间的契合度。",
+        "fields": [
+          "material"
+        ],
+        "chapterIndex": 32,
+        "chapterTitle": "第32章",
+        "matchedNames": [
+          "机甲"
+        ]
+      },
+      {
+        "text": "L3打一场五十万星币，完全可供正常人生活富余一段时间，但如果用来搞机甲，便如同小石子入海，掀不起一点波澜。",
+        "fields": [
+          "material"
+        ],
+        "chapterIndex": 33,
+        "chapterTitle": "第33章",
+        "matchedNames": [
+          "机甲"
+        ]
+      },
+      {
+        "text": "女人含着一根细长烟, 随后伸出食指和中指夹烟，吐出一道烟圈：“机甲内部关节零件全部换成S级，目前积分榜以下没有人能打败我弟弟。",
+        "fields": [
+          "colorShape"
+        ],
+        "chapterIndex": 34,
+        "chapterTitle": "第34章",
+        "matchedNames": [
+          "机甲"
+        ]
+      },
+      {
+        "text": "卫三被打出了真火，连嘴边的血迹都没有擦，直接操控机甲翻身而起，飞踢他脑袋。",
+        "fields": [
+          "condition"
+        ],
+        "chapterIndex": 34,
+        "chapterTitle": "第34章",
+        "matchedNames": [
+          "机甲"
+        ]
+      },
+      {
+        "text": "”穿着黑色丝绸睡衣的中年男人靠在椅子上, 抬手示意旁边的人, “她机甲掌心有什么东西？",
+        "fields": [
+          "material",
+          "colorShape"
+        ],
+        "chapterIndex": 35,
+        "chapterTitle": "第35章",
+        "matchedNames": [
+          "机甲"
+        ]
+      },
+      {
+        "text": "”应成河解释道，“但还有其他的晶体，金色晶体适合用在S级重型机甲上，有效防止关节磨损。",
+        "fields": [
+          "material",
+          "colorShape",
+          "condition"
+        ],
+        "chapterIndex": 35,
+        "chapterTitle": "第35章",
+        "matchedNames": [
+          "机甲"
+        ]
+      },
+      {
+        "text": "只是一个关节，甚至不一定是S级用的材质，便让卫三念了这么长时间，她想起之前在3212星废弃大楼见到的那家银色机甲。",
+        "fields": [
+          "colorShape"
+        ],
+        "chapterIndex": 35,
+        "chapterTitle": "第35章",
+        "matchedNames": [
+          "机甲"
+        ]
+      },
+      {
+        "text": "机甲舱内的卫三愣了愣，随后落地，打开右臂炮膛口，对准垂尾异狼的眼睛，未料它冲过来时闭上眼睛，子弹居然穿不破异狼眼皮，似乎同样金属化了。",
+        "fields": [
+          "usage",
+          "material"
+        ],
+        "chapterIndex": 36,
+        "chapterTitle": "第36章",
+        "matchedNames": [
+          "机甲"
+        ]
+      },
+      {
+        "text": "来不及多想，垂尾异狼已然逼近，卫三躲开它一爪，没有硬来，转身踢在它脑袋上，机甲和金属化狼头相撞，发出刺耳的声音。",
+        "fields": [
+          "material"
+        ],
+        "chapterIndex": 36,
+        "chapterTitle": "第36章",
+        "matchedNames": [
+          "机甲"
+        ]
+      },
+      {
+        "text": "死神不甘心，显然无法相信自己机甲改造后，接连败在两个新L3级手中，跪在擂台上，还想偷袭起岸西。",
+        "fields": [
+          "ownership"
+        ],
+        "chapterIndex": 38,
+        "chapterTitle": "第38章",
+        "matchedNames": [
+          "机甲"
+        ]
+      },
+      {
+        "text": "这台机甲完完全全的原生态，没有经过任何涂色，加上卫三用的材料零件都是分别找店主进来的，颜色完全不同，机甲身上灰扑扑还分程度，这灰一点，那暗一点。",
+        "fields": [
+          "colorShape"
+        ],
+        "chapterIndex": 39,
+        "chapterTitle": "第39章",
+        "matchedNames": [
+          "机甲"
+        ]
+      },
+      {
+        "text": "射中喉咙的窒息感，瞬间通过机甲传到机甲舱内的人，还未清除这种感觉，起岸西已经近身用手拔出那根箭，再一次将箭送进机甲体内，直接破坏了机甲舱。",
+        "fields": [
+          "usage"
+        ],
+        "chapterIndex": 39,
+        "chapterTitle": "第39章",
+        "matchedNames": [
+          "机甲"
+        ]
+      }
+    ],
+    "sourceDescription": "原来这是一种机甲专用金属；我李皮带了这么多届学生；李皮撩起眼皮看了她一会：“确实是战斗型机甲；李皮正色看着卫三：“假如……你能进五大军校；李皮点头；李皮指了指那架灰绿色机甲；李皮介绍完后；众人还以为李皮是在安慰；刚才李皮说的每个按键作用都熟记在心；回头对李皮道：“老师；李皮和卫三回到训练场中；李皮看着开始走动的机甲；李皮叹气：“我看她身体一直没跟上营养；他问的是昨天卫三控制机甲在A4纸上剪出一朵花的操作；但要在A4纸上剪花这操作；纸又太薄；李皮跳上机甲舱；一拳打在训练场中竖起的钢板上；这钢板是特质的；原先机甲压根不能对钢板造成这么大的伤害；你看那块钢板；不像我们机甲单兵皮糙肉厚的；被无辜牵连的学生甩不掉这个牛皮糖；应成河还举着硬纸壳；便如同小石子入海；穿着黑色丝绸睡衣的中年男人靠在椅子上；但还有其他的晶体；金色晶体适合用在S级重型机甲上；子弹居然穿不破异狼眼皮；似乎同样金属化了；机甲和金属化狼头相撞；再做成项链形状；相同黑色机甲互相纠打在一起；对面也有一台黑色机甲走过来；崭新的黑色机甲躲也不躲；手臂用劲将同样的黑色机甲摔出擂台；连颜色都换了一种；台上黑色机甲里面跳出一个修长身影；戴着银色面具；两架同样没有进行过改造的黑色机甲站在擂台上；什么颜色都搭在机甲身上；黑厂的机甲是全黑色；不如把机甲涂色也改成白金色；训练场的灯光照在白金色机甲身上；白色机甲径直对上巨大灰色蜘蛛；白色机甲会输；现在只看是白色机甲还是另外两架机甲先输了；白色机甲动作只停顿了一秒；白色机甲的人冲那台机甲内的人厉声喊道；但只剩下一架白色机甲；操场上的人只看得见白色机甲护着后方指挥；女人含着一根细长烟；穿着黑色丝绸睡衣的中年男人靠在椅子上；金色晶体适合用在S级重型机甲上；她想起之前在3212星废弃大楼见到的那家银色机甲；颜色完全不同；崭新的黑色机甲躲也不躲；拖着已经残缺的机甲；用一把磨得锋利的机甲片当刀用；连嘴边的血迹都没有擦；有效防止关节磨损；卫三打开舱门跳下来；拿着扳手对准泰吴德：“吵死了；机甲舱突然打开；卫三打开机甲；直接传递给她；戴着银色面具；店主问了一个藏在心中很久的问题：“你是怎么在擂台上拆他们机甲的；打开右臂炮膛口；起岸西已经近身用手拔出那根箭；细碎而耀眼的光芒让周围的人不自觉将目光投过来；填好后交给我；更不用提有些顶级世家有属于自己的机甲；开始熟悉属于自己的机甲；这家店店主属于有技术的人；背后的粉色猛男急忙刹住脚步；直接传递给她；背后都有一个专属机甲师；在他心中卫三背后是有高人的；但他从来没有见过这么丑的机甲：背后鼓起一坨像背了龟壳；卫三趁机将刚才拆下的防御甲握在手中；第二天一大早在地下二层把机甲交给起岸西；选手便有机会被背后各种势力招揽；似乎在护着背后两架机甲；背后两架机甲则手忙脚乱对付着围过来的小蜘蛛；背后两架机甲也打不过那些蜘蛛；接连败在两个新L3级手中"
+  },
+  {
+    "name": "光脑",
+    "fields": {
+      "usage": "她打开光脑搜索搜公交路线（第2章）；打开光脑查3212学院的资料（第3章）；随后又打开光脑（第8章）；把光脑打开录像（第8章）；递给她一个按钮（第11章）；卫三打开光脑内的证件包（第13章）；老常打开自己光脑（第13章）；老常把人带到一台机器前：“打开光脑（第13章）；她打开光脑（第13章）；打开光脑（第14章）；金珂打开光脑：“学校论坛已经传遍了（第23章）；她打开自己光脑（第24章）；打开光脑：“卫三（第27章）；学长：“……打开光脑（第27章）；卫三低头拿着他光脑仔细看了看（第30章）；卫三示意店员把那款光脑打开（第30章）；便回房打开光脑（第33章）",
+      "material": "卫三咬牙拨通老师李皮的光脑（第5章）；李皮一接通光脑（第5章）；应成河放下硬纸壳（第33章）",
+      "condition": "",
+      "ownership": "递给她一个按钮（第11章）",
+      "colorShape": "店员拿出一款白色光脑：“这是我们最便宜的一款（第30章）",
+      "visualEffects": ""
+    },
+    "aliases": [],
+    "confidence": 0.77,
+    "entityType": "item",
+    "needsReview": false,
+    "missingFields": [
+      "condition",
+      "visualEffects"
+    ],
+    "sourceCoverage": "strong",
+    "evidenceSnippets": [
+      {
+        "text": "或许会有交通去垃圾场那边，她打开光脑搜索搜公交路线，发现有条9号线会经过垃圾场，早上5点和下午5点各有一趟，一趟十星币。",
+        "fields": [
+          "usage"
+        ],
+        "chapterIndex": 2,
+        "chapterTitle": "第2章",
+        "matchedNames": [
+          "光脑"
+        ]
+      },
+      {
+        "text": "卫三跟着队伍走，领完校服，趁着换校服之际，打开光脑查3212学院的资料，一目十行看完所有信息后：“……”",
+        "fields": [
+          "usage"
+        ],
+        "chapterIndex": 3,
+        "chapterTitle": "第3章",
+        "matchedNames": [
+          "光脑"
+        ]
+      },
+      {
+        "text": "在脑中转了一遍，卫三咬牙拨通老师李皮的光脑。",
+        "fields": [
+          "material"
+        ],
+        "chapterIndex": 5,
+        "chapterTitle": "第5章",
+        "matchedNames": [
+          "光脑"
+        ]
+      },
+      {
+        "text": "李皮一接通光脑，就看见地上躺着一个血淋淋的人，口音都下意识冒出来了。",
+        "fields": [
+          "material"
+        ],
+        "chapterIndex": 5,
+        "chapterTitle": "第5章",
+        "matchedNames": [
+          "光脑"
+        ]
+      },
+      {
+        "text": "”李皮指了指那架灰绿色机甲，介绍外部机甲几个部位，随后又打开光脑，将机甲内部操作室投影出来。",
+        "fields": [
+          "usage"
+        ],
+        "chapterIndex": 8,
+        "chapterTitle": "第8章",
+        "matchedNames": [
+          "光脑"
+        ],
+        "otherMatchedNames": [
+          "机甲"
+        ]
+      },
+      {
+        "text": "第二天，卫三进机甲舱后，把光脑打开录像，让外面的泰吴德看清楚自己的动作，操控板复杂，各种按键组合需要自己摸索，她比其他人更了解机甲运作，所以学东西会更快。",
+        "fields": [
+          "usage"
+        ],
+        "chapterIndex": 8,
+        "chapterTitle": "第8章",
+        "matchedNames": [
+          "光脑"
+        ],
+        "otherMatchedNames": [
+          "机甲"
+        ]
+      },
+      {
+        "text": "”老师接收卫三的录取通知书，然后扭头去看光脑上跳动的数字，递给她一个按钮，“按一下。",
+        "fields": [
+          "usage",
+          "ownership"
+        ],
+        "chapterIndex": 11,
+        "chapterTitle": "第11章",
+        "matchedNames": [
+          "光脑"
+        ]
+      },
+      {
+        "text": "”卫三打开光脑内的证件包，让店主看清楚。",
+        "fields": [
+          "usage"
+        ],
+        "chapterIndex": 13,
+        "chapterTitle": "第13章",
+        "matchedNames": [
+          "光脑"
+        ]
+      },
+      {
+        "text": "老常打开自己光脑，两人面前出现一块面板，全是排名。",
+        "fields": [
+          "usage"
+        ],
+        "chapterIndex": 13,
+        "chapterTitle": "第13章",
+        "matchedNames": [
+          "光脑"
+        ]
+      },
+      {
+        "text": "老常把人带到一台机器前：“打开光脑，注册一下就行。",
+        "fields": [
+          "usage"
+        ],
+        "chapterIndex": 13,
+        "chapterTitle": "第13章",
+        "matchedNames": [
+          "光脑"
+        ]
+      },
+      {
+        "text": "所以卫三决定比赛，她打开光脑，点开参赛按钮，L0只有随机单人pk，她的比赛场次很快出来：【850擂台：向生活低头vs粉色猛男】",
+        "fields": [
+          "usage"
+        ],
+        "chapterIndex": 13,
+        "chapterTitle": "第13章",
+        "matchedNames": [
+          "光脑"
+        ]
+      },
+      {
+        "text": "打开光脑，黑卡上面的信息便弹出来：【星币余额：35000，积分：70】",
+        "fields": [
+          "usage"
+        ],
+        "chapterIndex": 14,
+        "chapterTitle": "第14章",
+        "matchedNames": [
+          "光脑"
+        ],
+        "otherMatchedNames": [
+          "黑卡"
+        ]
+      },
+      {
+        "text": "金珂打开光脑：“学校论坛已经传遍了。",
+        "fields": [
+          "usage"
+        ],
+        "chapterIndex": 23,
+        "chapterTitle": "第23章",
+        "matchedNames": [
+          "光脑"
+        ]
+      },
+      {
+        "text": "“当然值，五千万……”卫三说着说着没了声，她打开自己光脑，发现一件事。",
+        "fields": [
+          "usage"
+        ],
+        "chapterIndex": 24,
+        "chapterTitle": "第24章",
+        "matchedNames": [
+          "光脑"
+        ]
+      },
+      {
+        "text": "丁和美呵呵一笑，打开光脑：“卫三，你今天不和我实战，我就把这视频送到黎泽少校手里。",
+        "fields": [
+          "usage"
+        ],
+        "chapterIndex": 27,
+        "chapterTitle": "第27章",
+        "matchedNames": [
+          "光脑"
+        ],
+        "otherMatchedNames": [
+          "视频"
+        ]
+      },
+      {
+        "text": "学长：“……打开光脑，我转你。",
+        "fields": [
+          "usage"
+        ],
+        "chapterIndex": 27,
+        "chapterTitle": "第27章",
+        "matchedNames": [
+          "光脑"
+        ]
+      },
+      {
+        "text": "店员拿出一款白色光脑：“这是我们最便宜的一款，很经典。",
+        "fields": [
+          "colorShape"
+        ],
+        "chapterIndex": 30,
+        "chapterTitle": "第30章",
+        "matchedNames": [
+          "光脑"
+        ]
+      },
+      {
+        "text": "”卫三低头拿着他光脑仔细看了看。",
+        "fields": [
+          "usage"
+        ],
+        "chapterIndex": 30,
+        "chapterTitle": "第30章",
+        "matchedNames": [
+          "光脑"
+        ]
+      },
+      {
+        "text": "”卫三示意店员把那款光脑打开，“那就这个。",
+        "fields": [
+          "usage"
+        ],
+        "chapterIndex": 30,
+        "chapterTitle": "第30章",
+        "matchedNames": [
+          "光脑"
+        ]
+      },
+      {
+        "text": "应成河放下硬纸壳, 低头看了一眼光脑上的消息：“他们和老师们还在山谷。",
+        "fields": [
+          "material"
+        ],
+        "chapterIndex": 33,
+        "chapterTitle": "第33章",
+        "matchedNames": [
+          "光脑"
+        ]
+      },
+      {
+        "text": "突如其来的屠杀日打乱了卫三的计划，目前所有在三层的人都有比赛对象，她还要等到晚上，便回房打开光脑，用积分兑了死神近期的比赛视频看。",
+        "fields": [
+          "usage"
+        ],
+        "chapterIndex": 33,
+        "chapterTitle": "第33章",
+        "matchedNames": [
+          "光脑"
+        ],
+        "otherMatchedNames": [
+          "视频"
+        ]
+      },
+      {
+        "text": "卫三还在搭建机甲内部引擎，过了一会，她一心二用，打开光脑，花积分买起岸西的直播视频。",
+        "fields": [
+          "usage"
+        ],
+        "chapterIndex": 38,
+        "chapterTitle": "第38章",
+        "matchedNames": [
+          "光脑"
+        ],
+        "otherMatchedNames": [
+          "视频",
+          "机甲"
+        ]
+      }
+    ],
+    "sourceDescription": "卫三咬牙拨通老师李皮的光脑；李皮一接通光脑；应成河放下硬纸壳；店员拿出一款白色光脑：“这是我们最便宜的一款；她打开光脑搜索搜公交路线；打开光脑查3212学院的资料；随后又打开光脑；把光脑打开录像；递给她一个按钮；卫三打开光脑内的证件包；老常打开自己光脑；老常把人带到一台机器前：“打开光脑；她打开光脑；打开光脑；金珂打开光脑：“学校论坛已经传遍了；她打开自己光脑；打开光脑：“卫三；学长：“……打开光脑；卫三低头拿着他光脑仔细看了看；卫三示意店员把那款光脑打开；便回房打开光脑；递给她一个按钮"
+  },
+  {
+    "name": "刀",
+    "fields": {
+      "usage": "",
+      "material": "",
+      "condition": "",
+      "ownership": "她手中的刀已经砍过来（第27章）",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [],
+    "confidence": 0.19,
+    "entityType": "item",
+    "needsReview": true,
+    "missingFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects"
+    ],
+    "sourceCoverage": "partial",
+    "evidenceSnippets": [
+      {
+        "text": "丁和美脚步骤停，抬头朝上看去，瞳孔一缩：卫三跳了起来，她手中的刀已经砍过来。",
+        "fields": [
+          "ownership"
+        ],
+        "chapterIndex": 27,
+        "chapterTitle": "第27章",
+        "matchedNames": [
+          "刀"
+        ]
+      }
+    ],
+    "sourceDescription": "她手中的刀已经砍过来"
+  },
+  {
+    "name": "飞行器",
+    "fields": {
+      "usage": "",
+      "material": "先带着李皮和师娘上飞行器（第36章）",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [],
+    "confidence": 0.19,
+    "entityType": "item",
+    "needsReview": true,
+    "missingFields": [
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "partial",
+    "evidenceSnippets": [
+      {
+        "text": "卫三低头看着光脑上的消息，先带着李皮和师娘上飞行器，再回复金珂：【你能控制我？",
+        "fields": [
+          "material"
+        ],
+        "chapterIndex": 36,
+        "chapterTitle": "第36章",
+        "matchedNames": [
+          "飞行器"
+        ],
+        "otherMatchedNames": [
+          "光脑"
+        ]
+      }
+    ],
+    "sourceDescription": "先带着李皮和师娘上飞行器"
+  },
+  {
+    "name": "游金",
+    "fields": {
+      "usage": "",
+      "material": "对游金这种金属升起极大的兴趣（第2章）",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [],
+    "confidence": 0.19,
+    "entityType": "item",
+    "needsReview": true,
+    "missingFields": [
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "partial",
+    "evidenceSnippets": [
+      {
+        "text": "卫三看了解释，对游金这种金属升起极大的兴趣。",
+        "fields": [
+          "material"
+        ],
+        "chapterIndex": 2,
+        "chapterTitle": "第2章",
+        "matchedNames": [
+          "游金"
+        ]
+      }
+    ],
+    "sourceDescription": "对游金这种金属升起极大的兴趣"
+  },
+  {
+    "name": "弯刀",
+    "fields": {
+      "usage": "卫三左臂握着弯刀把（第28章）",
+      "material": "",
+      "condition": "",
+      "ownership": "向生活低头手中的一把弯刀突然变长（第28章）",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [],
+    "confidence": 0.38,
+    "entityType": "item",
+    "needsReview": true,
+    "missingFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "visualEffects"
+    ],
+    "sourceCoverage": "partial",
+    "evidenceSnippets": [
+      {
+        "text": "然而下一秒，向生活低头手中的一把弯刀突然变长，直接砍下对方肩膀一个炮筒。",
+        "fields": [
+          "ownership"
+        ],
+        "chapterIndex": 28,
+        "chapterTitle": "第28章",
+        "matchedNames": [
+          "弯刀"
+        ]
+      },
+      {
+        "text": "卫三左臂握着弯刀把，中间长长的链条，头部才是弯刀，她甩了甩，新武器手感不错，果然一分钱一分货，虽然比不上血滴的光刀，但用来升级已经足够了。",
+        "fields": [
+          "usage"
+        ],
+        "chapterIndex": 28,
+        "chapterTitle": "第28章",
+        "matchedNames": [
+          "弯刀"
+        ],
+        "otherMatchedNames": [
+          "光刀",
+          "血滴"
+        ]
+      }
+    ],
+    "sourceDescription": "卫三左臂握着弯刀把；向生活低头手中的一把弯刀突然变长"
+  },
+  {
+    "name": "观赏型机甲",
+    "fields": {
+      "usage": "",
+      "material": "",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "item",
+    "needsReview": true,
+    "missingFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "钢爪",
+    "fields": {
+      "usage": "",
+      "material": "这一下他假意用钢爪（第16章）；下一秒卫三硬扛着划过来的钢爪（第16章）；钢爪朝卫三挥过来（第16章）；卫三自然不会再让钢爪攻击到（第16章）；弯腰把对方的钢爪拆了（第16章）",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [],
+    "confidence": 0.42,
+    "entityType": "item",
+    "needsReview": true,
+    "missingFields": [
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "partial",
+    "evidenceSnippets": [
+      {
+        "text": "”疤痕打出了火气，手下也没了轻重，他原先是L1级的近战高手，很少用远攻，尤其擂台地方有限，这一下他假意用钢爪，实则打开离子炮，直直对准卫三。",
+        "fields": [
+          "material"
+        ],
+        "chapterIndex": 16,
+        "chapterTitle": "第16章",
+        "matchedNames": [
+          "钢爪"
+        ],
+        "otherMatchedNames": [
+          "离子炮"
+        ]
+      },
+      {
+        "text": "果然，下一秒卫三硬扛着划过来的钢爪，躲过离子炮的攻击，然后……以迅雷不及掩耳的速度拆了疤痕的离子炮。",
+        "fields": [
+          "material"
+        ],
+        "chapterIndex": 16,
+        "chapterTitle": "第16章",
+        "matchedNames": [
+          "钢爪"
+        ],
+        "otherMatchedNames": [
+          "离子炮"
+        ]
+      },
+      {
+        "text": "疤痕比老子赢定了反应快很多，钢爪朝卫三挥过来，势要弄死她。",
+        "fields": [
+          "material"
+        ],
+        "chapterIndex": 16,
+        "chapterTitle": "第16章",
+        "matchedNames": [
+          "钢爪"
+        ]
+      },
+      {
+        "text": "卫三自然不会再让钢爪攻击到，她用的是黑厂原始机甲，什么武器都没有，只有一双拳头，现在多了个离子炮装置。",
+        "fields": [
+          "material"
+        ],
+        "chapterIndex": 16,
+        "chapterTitle": "第16章",
+        "matchedNames": [
+          "钢爪"
+        ],
+        "otherMatchedNames": [
+          "黑厂原始机甲",
+          "离子炮",
+          "机甲"
+        ]
+      },
+      {
+        "text": "卫三操控机甲脚踩在疤痕机甲上，弯腰把对方的钢爪拆了，疤痕还在抵抗，她一拳打在他头上。",
+        "fields": [
+          "material"
+        ],
+        "chapterIndex": 16,
+        "chapterTitle": "第16章",
+        "matchedNames": [
+          "钢爪"
+        ],
+        "otherMatchedNames": [
+          "机甲"
+        ]
+      }
+    ],
+    "sourceDescription": "这一下他假意用钢爪；下一秒卫三硬扛着划过来的钢爪；钢爪朝卫三挥过来；卫三自然不会再让钢爪攻击到；弯腰把对方的钢爪拆了"
+  },
+  {
+    "name": "简易版电动车",
+    "fields": {
+      "usage": "",
+      "material": "",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [
+      "电动车"
+    ],
+    "confidence": 0,
+    "entityType": "item",
+    "needsReview": true,
+    "missingFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "冷银色机甲",
+    "fields": {
+      "usage": "",
+      "material": "",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [
+      "战斗机甲"
+    ],
+    "confidence": 0,
+    "entityType": "item",
+    "needsReview": true,
+    "missingFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "迷你机甲",
+    "fields": {
+      "usage": "",
+      "material": "",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "item",
+    "needsReview": true,
+    "missingFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "八音盒",
+    "fields": {
+      "usage": "卫三打开开关（第4章）",
+      "material": "",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [],
+    "confidence": 0.19,
+    "entityType": "item",
+    "needsReview": true,
+    "missingFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "partial",
+    "evidenceSnippets": [
+      {
+        "text": "最后一枚螺丝安装好，卫三打开开关，八音盒立刻发出音乐。",
+        "fields": [
+          "usage"
+        ],
+        "chapterIndex": 4,
+        "chapterTitle": "第4章",
+        "matchedNames": [
+          "八音盒"
+        ]
+      }
+    ],
+    "sourceDescription": "卫三打开开关"
+  },
+  {
+    "name": "达摩克利斯军校机甲",
+    "fields": {
+      "usage": "",
+      "material": "",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "item",
+    "needsReview": true,
+    "missingFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "晶卡",
+    "fields": {
+      "usage": "",
+      "material": "只能用一种叫晶卡的东西（第3章）；晶卡内的能源用完后（第3章）；卫三花了六百星币买了一张晶卡（第3章）",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [],
+    "confidence": 0.34,
+    "entityType": "item",
+    "needsReview": true,
+    "missingFields": [
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "partial",
+    "evidenceSnippets": [
+      {
+        "text": "灰晶是联邦开采出来的一种能源，可以直接供给机甲，普通家庭用不了，只能用一种叫晶卡的东西，里面是处理过的灰晶。",
+        "fields": [
+          "material"
+        ],
+        "chapterIndex": 3,
+        "chapterTitle": "第3章",
+        "matchedNames": [
+          "晶卡"
+        ],
+        "otherMatchedNames": [
+          "灰晶",
+          "机甲"
+        ]
+      },
+      {
+        "text": "一张薄薄的卡片里面蕴含了能源，可以供给各种工具，晶卡内的能源用完后，还可以充值，这有点像卫三原先世界的电。",
+        "fields": [
+          "material"
+        ],
+        "chapterIndex": 3,
+        "chapterTitle": "第3章",
+        "matchedNames": [
+          "晶卡"
+        ]
+      },
+      {
+        "text": "卫三花了六百星币买了一张晶卡，里面余额五百块，她打算用这个给电动车提供能源。",
+        "fields": [
+          "material"
+        ],
+        "chapterIndex": 3,
+        "chapterTitle": "第3章",
+        "matchedNames": [
+          "晶卡"
+        ],
+        "otherMatchedNames": [
+          "电动车"
+        ]
+      }
+    ],
+    "sourceDescription": "只能用一种叫晶卡的东西；晶卡内的能源用完后；卫三花了六百星币买了一张晶卡"
+  },
+  {
+    "name": "死神机甲",
+    "fields": {
+      "usage": "",
+      "material": "",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "item",
+    "needsReview": true,
+    "missingFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "激光枪",
+    "fields": {
+      "usage": "",
+      "material": "可以穿透普通金属和枪（第4章）",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [],
+    "confidence": 0.19,
+    "entityType": "item",
+    "needsReview": true,
+    "missingFields": [
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "partial",
+    "evidenceSnippets": [
+      {
+        "text": "最重要的一部分在左手上，她花了一年时间做成的激光枪，可以穿透普通金属和枪，不过对游金无效。",
+        "fields": [
+          "material"
+        ],
+        "chapterIndex": 4,
+        "chapterTitle": "第4章",
+        "matchedNames": [
+          "激光枪"
+        ],
+        "otherMatchedNames": [
+          "游金"
+        ]
+      }
+    ],
+    "sourceDescription": "可以穿透普通金属和枪"
+  },
+  {
+    "name": "问题营养液",
+    "fields": {
+      "usage": "",
+      "material": "",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "item",
+    "needsReview": true,
+    "missingFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "白色中型机甲",
+    "fields": {
+      "usage": "",
+      "material": "",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "item",
+    "needsReview": true,
+    "missingFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "宝马",
+    "fields": {
+      "usage": "",
+      "material": "",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "item",
+    "needsReview": true,
+    "missingFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "初代飞跃机甲",
+    "fields": {
+      "usage": "",
+      "material": "",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "item",
+    "needsReview": true,
+    "missingFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "断鞭",
+    "fields": {
+      "usage": "",
+      "material": "",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "item",
+    "needsReview": true,
+    "missingFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "防御型机甲",
+    "fields": {
+      "usage": "",
+      "material": "",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "item",
+    "needsReview": true,
+    "missingFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "感知头盔",
+    "fields": {
+      "usage": "",
+      "material": "",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "item",
+    "needsReview": true,
+    "missingFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "黑厂新机甲",
+    "fields": {
+      "usage": "",
+      "material": "",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "item",
+    "needsReview": true,
+    "missingFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "机甲片刀",
+    "fields": {
+      "usage": "",
+      "material": "",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "item",
+    "needsReview": true,
+    "missingFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "机甲设计图",
+    "fields": {
+      "usage": "",
+      "material": "",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "item",
+    "needsReview": true,
+    "missingFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "机甲收纳项链",
+    "fields": {
+      "usage": "",
+      "material": "",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "item",
+    "needsReview": true,
+    "missingFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "基因改善剂",
+    "fields": {
+      "usage": "",
+      "material": "",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "item",
+    "needsReview": true,
+    "missingFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "全息模拟器",
+    "fields": {
+      "usage": "",
+      "material": "",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "item",
+    "needsReview": true,
+    "missingFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "天蓝色轻型机甲",
+    "fields": {
+      "usage": "",
+      "material": "",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "item",
+    "needsReview": true,
+    "missingFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "卫三的改造机甲",
+    "fields": {
+      "usage": "",
+      "material": "",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [
+      "五彩斑斓丑机甲",
+      "破烂原始机甲"
+    ],
+    "confidence": 0,
+    "entityType": "item",
+    "needsReview": true,
+    "missingFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "卫三的光脑",
+    "fields": {
+      "usage": "",
+      "material": "",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "item",
+    "needsReview": true,
+    "missingFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "油金",
+    "fields": {
+      "usage": "",
+      "material": "",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "item",
+    "needsReview": true,
+    "missingFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "自制拆卸工具",
+    "fields": {
+      "usage": "",
+      "material": "",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "item",
+    "needsReview": true,
+    "missingFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "混合游金小刀",
+    "fields": {
+      "usage": "",
+      "material": "",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "item",
+    "needsReview": true,
+    "missingFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "血滴机甲项链",
+    "fields": {
+      "usage": "",
+      "material": "",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "item",
+    "needsReview": true,
+    "missingFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "焊接枪",
+    "fields": {
+      "usage": "",
+      "material": "",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "item",
+    "needsReview": true,
+    "missingFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "聂昊齐的新机甲",
+    "fields": {
+      "usage": "",
+      "material": "",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "item",
+    "needsReview": true,
+    "missingFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  }
+]

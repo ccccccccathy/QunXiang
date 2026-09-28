@@ -1,0 +1,3557 @@
+[
+  {
+    "name": "教室",
+    "fields": {
+      "time": "",
+      "layout": "直接蹲在教室门口（第27章）；卫三便见到一群人站在门口（第27章）",
+      "lighting": "在这种阳光积极的氛围下（第23章）",
+      "atmosphere": "",
+      "environment": "",
+      "actionContext": "起身离开（第19章）；并没有老师站在上面（第23章）；卫三便见到一群人站在门口（第27章）；站在旁边小声喊卫三提醒：“丁学姐就是你之前挑衅的轻型机甲最叼（第27章）"
+    },
+    "aliases": [],
+    "confidence": 0.65,
+    "entityType": "location",
+    "needsReview": false,
+    "missingFields": [
+      "environment",
+      "atmosphere",
+      "time"
+    ],
+    "sourceCoverage": "strong",
+    "evidenceSnippets": [
+      {
+        "text": "教室内老师已经将话题拉了回来，卫三也失去了兴趣，松开应长河，起身离开。",
+        "fields": [
+          "actionContext"
+        ],
+        "chapterIndex": 19,
+        "chapterTitle": "第19章",
+        "matchedNames": [
+          "教室"
+        ]
+      },
+      {
+        "text": "在这种阳光积极的氛围下, 卫三迷茫朝教室走去。",
+        "fields": [
+          "lighting"
+        ],
+        "chapterIndex": 23,
+        "chapterTitle": "第23章",
+        "matchedNames": [
+          "教室"
+        ]
+      },
+      {
+        "text": "往常教室内一进去各种学生姿态都有，今天一进去所有人正襟危坐翻着书，卫三看了看讲台，并没有老师站在上面。",
+        "fields": [
+          "actionContext"
+        ],
+        "chapterIndex": 23,
+        "chapterTitle": "第23章",
+        "matchedNames": [
+          "教室"
+        ]
+      },
+      {
+        "text": "丁和美今天就杠上了, 既然卫三装死, 她干脆找上门, 直接蹲在教室门口，等卫三上完课。",
+        "fields": [
+          "layout"
+        ],
+        "chapterIndex": 27,
+        "chapterTitle": "第27章",
+        "matchedNames": [
+          "教室"
+        ]
+      },
+      {
+        "text": "一出教室, 卫三便见到一群人站在门口, 目光全落在她身上, 尤其打头的女生, 眼睛里都在冒火。",
+        "fields": [
+          "layout",
+          "actionContext"
+        ],
+        "chapterIndex": 27,
+        "chapterTitle": "第27章",
+        "matchedNames": [
+          "教室"
+        ]
+      },
+      {
+        "text": "教室里的学生哗啦啦挤出来看好戏，连聂昊齐都没走，站在旁边小声喊卫三提醒：“丁学姐就是你之前挑衅的轻型机甲最叼。",
+        "fields": [
+          "actionContext"
+        ],
+        "chapterIndex": 27,
+        "chapterTitle": "第27章",
+        "matchedNames": [
+          "教室"
+        ]
+      }
+    ],
+    "sourceDescription": "直接蹲在教室门口；卫三便见到一群人站在门口；在这种阳光积极的氛围下；起身离开；并没有老师站在上面；卫三便见到一群人站在门口；站在旁边小声喊卫三提醒：“丁学姐就是你之前挑衅的轻型机甲最叼"
+  },
+  {
+    "name": "达摩克利斯军校图书馆",
+    "fields": {
+      "time": "",
+      "layout": "",
+      "lighting": "",
+      "atmosphere": "",
+      "environment": "",
+      "actionContext": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "location",
+    "needsReview": true,
+    "missingFields": [
+      "environment",
+      "layout",
+      "atmosphere",
+      "lighting",
+      "time",
+      "actionContext"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "酒吧",
+    "fields": {
+      "time": "",
+      "layout": "",
+      "lighting": "",
+      "atmosphere": "",
+      "environment": "",
+      "actionContext": "才敢离开（第22章）；卫三坐在地上（第35章）"
+    },
+    "aliases": [],
+    "confidence": 0.27,
+    "entityType": "location",
+    "needsReview": true,
+    "missingFields": [
+      "environment",
+      "layout",
+      "atmosphere",
+      "lighting",
+      "time"
+    ],
+    "sourceCoverage": "partial",
+    "evidenceSnippets": [
+      {
+        "text": "卫三在酒吧晃了半个小时，确定那种被人观察的感觉消失后，才敢离开。",
+        "fields": [
+          "actionContext"
+        ],
+        "chapterIndex": 22,
+        "chapterTitle": "第22章",
+        "matchedNames": [
+          "酒吧"
+        ]
+      },
+      {
+        "text": "卫三坐在地上，单手托腮，随口胡诌：“晚上去酒吧蹦迪，放松心情。",
+        "fields": [
+          "actionContext"
+        ],
+        "chapterIndex": 35,
+        "chapterTitle": "第35章",
+        "matchedNames": [
+          "酒吧"
+        ]
+      }
+    ],
+    "sourceDescription": "才敢离开；卫三坐在地上"
+  },
+  {
+    "name": "垃圾场",
+    "fields": {
+      "time": "",
+      "layout": "",
+      "lighting": "",
+      "atmosphere": "",
+      "environment": "",
+      "actionContext": "坐在地上歇了一会（第1章）"
+    },
+    "aliases": [],
+    "confidence": 0.19,
+    "entityType": "location",
+    "needsReview": true,
+    "missingFields": [
+      "environment",
+      "layout",
+      "atmosphere",
+      "lighting",
+      "time"
+    ],
+    "sourceCoverage": "partial",
+    "evidenceSnippets": [
+      {
+        "text": "坐在地上歇了一会，卫三决定继续去垃圾场搬营养液。",
+        "fields": [
+          "actionContext"
+        ],
+        "chapterIndex": 1,
+        "chapterTitle": "第1章",
+        "matchedNames": [
+          "垃圾场"
+        ]
+      }
+    ],
+    "sourceDescription": "坐在地上歇了一会"
+  },
+  {
+    "name": "无名星",
+    "fields": {
+      "time": "",
+      "layout": "",
+      "lighting": "",
+      "atmosphere": "",
+      "environment": "",
+      "actionContext": "姬初雨坐在椅子上（第36章）"
+    },
+    "aliases": [
+      "某无名星"
+    ],
+    "confidence": 0.19,
+    "entityType": "location",
+    "needsReview": true,
+    "missingFields": [
+      "environment",
+      "layout",
+      "atmosphere",
+      "lighting",
+      "time"
+    ],
+    "sourceCoverage": "partial",
+    "evidenceSnippets": [
+      {
+        "text": "姬初雨坐在椅子上，漫不经心转着食指上的机甲戒指：“据说A级机甲单兵和他是一个无名星出来的，身边还有两个普通人，一起在市中心逛。",
+        "fields": [
+          "actionContext"
+        ],
+        "chapterIndex": 36,
+        "chapterTitle": "第36章",
+        "matchedNames": [
+          "无名星"
+        ]
+      }
+    ],
+    "sourceDescription": "姬初雨坐在椅子上"
+  },
+  {
+    "name": "训练场",
+    "fields": {
+      "time": "",
+      "layout": "",
+      "lighting": "",
+      "atmosphere": "",
+      "environment": "训练场和擂台来回跑（第14章）",
+      "actionContext": "卫三抬头便见到金珂站在训练场外面（第15章）；站在训练场上（第33章）；围观的都是已经进了校队的学生（第35章）；两位塞缪尔调查员最后只能压制怒气离开训练场（第40章）"
+    },
+    "aliases": [],
+    "confidence": 0.53,
+    "entityType": "location",
+    "needsReview": true,
+    "missingFields": [
+      "layout",
+      "atmosphere",
+      "lighting",
+      "time"
+    ],
+    "sourceCoverage": "partial",
+    "evidenceSnippets": [
+      {
+        "text": "放假两天，卫三都在黑厂地下一层，训练场和擂台来回跑，由于无论实力高低都要从L0开始，加上随机匹配，她也不全都能赢，输了好几场。",
+        "fields": [
+          "environment"
+        ],
+        "chapterIndex": 14,
+        "chapterTitle": "第14章",
+        "matchedNames": [
+          "训练场"
+        ],
+        "otherMatchedNames": [
+          "黑厂",
+          "地下一层",
+          "一层"
+        ]
+      },
+      {
+        "text": "听见有人喊自己名字，卫三抬头便见到金珂站在训练场外面。",
+        "fields": [
+          "actionContext"
+        ],
+        "chapterIndex": 15,
+        "chapterTitle": "第15章",
+        "matchedNames": [
+          "训练场"
+        ]
+      },
+      {
+        "text": "照片应该是抓拍的，里面的人五官俊美，身材修长，一头金发耀目夺人，站在训练场上，单手抹去下巴的汗，扫向镜头的眼睛透着一股锐利。",
+        "fields": [
+          "actionContext"
+        ],
+        "chapterIndex": 33,
+        "chapterTitle": "第33章",
+        "matchedNames": [
+          "训练场"
+        ]
+      },
+      {
+        "text": "第二天卫三带着一身药味去训练场, 参加射击者的选拔, 报名的人有五十位，围观的都是已经进了校队的学生。",
+        "fields": [
+          "actionContext"
+        ],
+        "chapterIndex": 35,
+        "chapterTitle": "第35章",
+        "matchedNames": [
+          "训练场"
+        ]
+      },
+      {
+        "text": "周围的学生纷纷起哄，两位塞缪尔调查员最后只能压制怒气离开训练场。",
+        "fields": [
+          "actionContext"
+        ],
+        "chapterIndex": 40,
+        "chapterTitle": "第40章",
+        "matchedNames": [
+          "训练场"
+        ]
+      }
+    ],
+    "sourceDescription": "训练场和擂台来回跑；卫三抬头便见到金珂站在训练场外面；站在训练场上；围观的都是已经进了校队的学生；两位塞缪尔调查员最后只能压制怒气离开训练场"
+  },
+  {
+    "name": "达摩克利斯军校训练场",
+    "fields": {
+      "time": "",
+      "layout": "",
+      "lighting": "",
+      "atmosphere": "",
+      "environment": "",
+      "actionContext": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "location",
+    "needsReview": true,
+    "missingFields": [
+      "environment",
+      "layout",
+      "atmosphere",
+      "lighting",
+      "time",
+      "actionContext"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "山谷最高处",
+    "fields": {
+      "time": "",
+      "layout": "",
+      "lighting": "",
+      "atmosphere": "沉默望着底下和星兽战斗的学生（第40章）",
+      "environment": "几个人站在山谷最高处（第40章）",
+      "actionContext": "几个人站在山谷最高处（第40章）；沉默望着底下和星兽战斗的学生（第40章）"
+    },
+    "aliases": [],
+    "confidence": 0.42,
+    "entityType": "location",
+    "needsReview": true,
+    "missingFields": [
+      "layout",
+      "lighting",
+      "time"
+    ],
+    "sourceCoverage": "partial",
+    "evidenceSnippets": [
+      {
+        "text": "几个人站在山谷最高处，沉默望着底下和星兽战斗的学生。",
+        "fields": [
+          "environment",
+          "actionContext",
+          "atmosphere"
+        ],
+        "chapterIndex": 40,
+        "chapterTitle": "第40章",
+        "matchedNames": [
+          "山谷最高处"
+        ]
+      }
+    ],
+    "sourceDescription": "几个人站在山谷最高处；沉默望着底下和星兽战斗的学生；几个人站在山谷最高处；沉默望着底下和星兽战斗的学生"
+  },
+  {
+    "name": "训练室",
+    "fields": {
+      "time": "",
+      "layout": "一台机甲摆放在最中央（第7章）；却见到门口的年轻男人走了进来（第23章）",
+      "lighting": "",
+      "atmosphere": "",
+      "environment": "",
+      "actionContext": ""
+    },
+    "aliases": [],
+    "confidence": 0.27,
+    "entityType": "location",
+    "needsReview": true,
+    "missingFields": [
+      "environment",
+      "atmosphere",
+      "lighting",
+      "time",
+      "actionContext"
+    ],
+    "sourceCoverage": "partial",
+    "evidenceSnippets": [
+      {
+        "text": "卫三跟着泰吴德去他的训练室，一台机甲摆放在最中央。",
+        "fields": [
+          "layout"
+        ],
+        "chapterIndex": 7,
+        "chapterTitle": "第7章",
+        "matchedNames": [
+          "训练室"
+        ]
+      },
+      {
+        "text": "训练室内仿佛进入真空中，连呼吸声都听不见了，卫三皱眉抬头，却见到门口的年轻男人走了进来，身边还有几个其他人。",
+        "fields": [
+          "layout"
+        ],
+        "chapterIndex": 23,
+        "chapterTitle": "第23章",
+        "matchedNames": [
+          "训练室"
+        ]
+      }
+    ],
+    "sourceDescription": "一台机甲摆放在最中央；却见到门口的年轻男人走了进来"
+  },
+  {
+    "name": "星网",
+    "fields": {
+      "time": "",
+      "layout": "",
+      "lighting": "",
+      "atmosphere": "",
+      "environment": "",
+      "actionContext": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "location",
+    "needsReview": true,
+    "missingFields": [
+      "environment",
+      "layout",
+      "atmosphere",
+      "lighting",
+      "time",
+      "actionContext"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "魔方论坛",
+    "fields": {
+      "time": "同样的深夜（第20章）",
+      "layout": "",
+      "lighting": "",
+      "atmosphere": "",
+      "environment": "",
+      "actionContext": "里面聚集联邦各星的机甲师（第20章）；卫三坐在自己床上登魔方论坛（第27章）"
+    },
+    "aliases": [],
+    "confidence": 0.46,
+    "entityType": "location",
+    "needsReview": true,
+    "missingFields": [
+      "environment",
+      "layout",
+      "atmosphere",
+      "lighting"
+    ],
+    "sourceCoverage": "partial",
+    "evidenceSnippets": [
+      {
+        "text": "卫三昨天找到的魔方论坛，里面聚集联邦各星的机甲师，他们在上面会发布各种悬赏问题和交易帖，还有人开帖教学。",
+        "fields": [
+          "actionContext"
+        ],
+        "chapterIndex": 20,
+        "chapterTitle": "第20章",
+        "matchedNames": [
+          "魔方论坛"
+        ]
+      },
+      {
+        "text": "同样的深夜，应成河登入魔方论坛，他不是为了学习，而是放松大脑。",
+        "fields": [
+          "time"
+        ],
+        "chapterIndex": 20,
+        "chapterTitle": "第20章",
+        "matchedNames": [
+          "魔方论坛"
+        ]
+      },
+      {
+        "text": "卫三坐在自己床上登魔方论坛，过了一会突然冒出一句：“男人不能说自己累。",
+        "fields": [
+          "actionContext"
+        ],
+        "chapterIndex": 27,
+        "chapterTitle": "第27章",
+        "matchedNames": [
+          "魔方论坛"
+        ]
+      }
+    ],
+    "sourceDescription": "同样的深夜；里面聚集联邦各星的机甲师；卫三坐在自己床上登魔方论坛"
+  },
+  {
+    "name": "达摩克利斯军校",
+    "fields": {
+      "time": "",
+      "layout": "",
+      "lighting": "达摩克利斯之剑依旧屹立沐浴在阳光下（第36章）",
+      "atmosphere": "",
+      "environment": "",
+      "actionContext": ""
+    },
+    "aliases": [
+      "达摩克利斯"
+    ],
+    "confidence": 0.19,
+    "entityType": "location",
+    "needsReview": true,
+    "missingFields": [
+      "environment",
+      "layout",
+      "atmosphere",
+      "time",
+      "actionContext"
+    ],
+    "sourceCoverage": "partial",
+    "evidenceSnippets": [
+      {
+        "text": "”卫三朝广场中心看了一眼，达摩克利斯之剑依旧屹立沐浴在阳光下。",
+        "fields": [
+          "lighting"
+        ],
+        "chapterIndex": 36,
+        "chapterTitle": "第36章",
+        "matchedNames": [
+          "达摩克利斯"
+        ],
+        "otherMatchedNames": [
+          "广场中心"
+        ]
+      }
+    ],
+    "sourceDescription": "达摩克利斯之剑依旧屹立沐浴在阳光下"
+  },
+  {
+    "name": "沙都星",
+    "fields": {
+      "time": "最后深夜卫三才抵达沙都星二号港口（第10章）",
+      "layout": "",
+      "lighting": "",
+      "atmosphere": "打破沉默：“这件事继续查下去（第37章）",
+      "environment": "擂台上就有各种类型机甲（第16章）；如果她能在擂台上把他们机甲拆了呢（第16章）",
+      "actionContext": ""
+    },
+    "aliases": [],
+    "confidence": 0.57,
+    "entityType": "location",
+    "needsReview": false,
+    "missingFields": [
+      "layout",
+      "lighting",
+      "actionContext"
+    ],
+    "sourceCoverage": "strong",
+    "evidenceSnippets": [
+      {
+        "text": "沙都星虽然离3212星最近，但即便坐星舰过去，也要花一整天的时间，中途还换了一次星舰，最后深夜卫三才抵达沙都星二号港口。",
+        "fields": [
+          "time"
+        ],
+        "chapterIndex": 10,
+        "chapterTitle": "第10章",
+        "matchedNames": [
+          "沙都星"
+        ],
+        "otherMatchedNames": [
+          "3212星",
+          "3212"
+        ]
+      },
+      {
+        "text": "她来到沙都星后，对各种机甲都眼馋手痒，现在正是大好机会，擂台上就有各种类型机甲，而且不少人都会对自己的机甲进行改造，如果她能在擂台上把他们机甲拆了呢？",
+        "fields": [
+          "environment"
+        ],
+        "chapterIndex": 16,
+        "chapterTitle": "第16章",
+        "matchedNames": [
+          "沙都星"
+        ]
+      },
+      {
+        "text": "最后校方一个人咳了声，打破沉默：“这件事继续查下去，调查团也不要让他们乱走，别在沙都星埋下什么钉子。",
+        "fields": [
+          "atmosphere"
+        ],
+        "chapterIndex": 37,
+        "chapterTitle": "第37章",
+        "matchedNames": [
+          "沙都星"
+        ]
+      }
+    ],
+    "sourceDescription": "擂台上就有各种类型机甲；如果她能在擂台上把他们机甲拆了呢；打破沉默：“这件事继续查下去；最后深夜卫三才抵达沙都星二号港口"
+  },
+  {
+    "name": "帝国军校",
+    "fields": {
+      "time": "",
+      "layout": "",
+      "lighting": "",
+      "atmosphere": "",
+      "environment": "",
+      "actionContext": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "location",
+    "needsReview": true,
+    "missingFields": [
+      "environment",
+      "layout",
+      "atmosphere",
+      "lighting",
+      "time",
+      "actionContext"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "泰吴德的训练室",
+    "fields": {
+      "time": "",
+      "layout": "",
+      "lighting": "",
+      "atmosphere": "",
+      "environment": "",
+      "actionContext": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "location",
+    "needsReview": true,
+    "missingFields": [
+      "environment",
+      "layout",
+      "atmosphere",
+      "lighting",
+      "time",
+      "actionContext"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "模拟室",
+    "fields": {
+      "time": "",
+      "layout": "",
+      "lighting": "",
+      "atmosphere": "",
+      "environment": "待会可以建个房间（第14章）；楼主：【本来今天丁学姐和肖学长在模拟室开了房间比赛（第26章）",
+      "actionContext": "见她站在原地不动（第17章）；去围观的人很多（第26章）"
+    },
+    "aliases": [],
+    "confidence": 0.46,
+    "entityType": "location",
+    "needsReview": true,
+    "missingFields": [
+      "layout",
+      "atmosphere",
+      "lighting",
+      "time"
+    ],
+    "sourceCoverage": "partial",
+    "evidenceSnippets": [
+      {
+        "text": "“我在275模拟室，你先加一下我，待会可以建个房间，我们俩先来一局？",
+        "fields": [
+          "environment"
+        ],
+        "chapterIndex": 14,
+        "chapterTitle": "第14章",
+        "matchedNames": [
+          "模拟室"
+        ]
+      },
+      {
+        "text": "聂昊齐下课赶过来和卫三一起去模拟室，见她站在原地不动，喊了一声：“卫三，走了。",
+        "fields": [
+          "actionContext"
+        ],
+        "chapterIndex": 17,
+        "chapterTitle": "第17章",
+        "matchedNames": [
+          "模拟室"
+        ]
+      },
+      {
+        "text": "楼主：【本来今天丁学姐和肖学长在模拟室开了房间比赛, 去围观的人很多, 正打得要紧时刻, 丁学姐突然收到一条邀战消息, 学姐自然不应，他们还在比赛呢，结果某人连发数条消息挑衅，以下是截图，你们看看。",
+        "fields": [
+          "environment",
+          "actionContext"
+        ],
+        "chapterIndex": 26,
+        "chapterTitle": "第26章",
+        "matchedNames": [
+          "模拟室"
+        ]
+      }
+    ],
+    "sourceDescription": "待会可以建个房间；楼主：【本来今天丁学姐和肖学长在模拟室开了房间比赛；见她站在原地不动；去围观的人很多"
+  },
+  {
+    "name": "塞缪尔军校",
+    "fields": {
+      "time": "",
+      "layout": "",
+      "lighting": "",
+      "atmosphere": "",
+      "environment": "",
+      "actionContext": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "location",
+    "needsReview": true,
+    "missingFields": [
+      "environment",
+      "layout",
+      "atmosphere",
+      "lighting",
+      "time",
+      "actionContext"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "大星",
+    "fields": {
+      "time": "",
+      "layout": "",
+      "lighting": "",
+      "atmosphere": "",
+      "environment": "",
+      "actionContext": "卫三一进门便看见四个老师神情严肃站在里面（第10章）；卫三坐在自己位置上（第10章）"
+    },
+    "aliases": [],
+    "confidence": 0.27,
+    "entityType": "location",
+    "needsReview": true,
+    "missingFields": [
+      "environment",
+      "layout",
+      "atmosphere",
+      "lighting",
+      "time"
+    ],
+    "sourceCoverage": "partial",
+    "evidenceSnippets": [
+      {
+        "text": "走过临时通道，卫三一进门便看见四个老师神情严肃站在里面，在机器旁边的另外两个人面生的很，应该是从大星过来监测的老师。",
+        "fields": [
+          "actionContext"
+        ],
+        "chapterIndex": 10,
+        "chapterTitle": "第10章",
+        "matchedNames": [
+          "大星"
+        ]
+      },
+      {
+        "text": "卫三坐在自己位置上，还能看到外面的太空，偶尔跳跃经过某颗大星附近星云，她贴在玻璃上，眼中掩盖不了惊艳。",
+        "fields": [
+          "actionContext"
+        ],
+        "chapterIndex": 10,
+        "chapterTitle": "第10章",
+        "matchedNames": [
+          "大星"
+        ]
+      }
+    ],
+    "sourceDescription": "卫三一进门便看见四个老师神情严肃站在里面；卫三坐在自己位置上"
+  },
+  {
+    "name": "平通院",
+    "fields": {
+      "time": "",
+      "layout": "",
+      "lighting": "",
+      "atmosphere": "",
+      "environment": "",
+      "actionContext": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "location",
+    "needsReview": true,
+    "missingFields": [
+      "environment",
+      "layout",
+      "atmosphere",
+      "lighting",
+      "time",
+      "actionContext"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "免费饮食区",
+    "fields": {
+      "time": "",
+      "layout": "",
+      "lighting": "",
+      "atmosphere": "",
+      "environment": "结果起岸西已经换了下下个擂台（第17章）",
+      "actionContext": "这才心满意足离开（第17章）"
+    },
+    "aliases": [
+      "饮食区"
+    ],
+    "confidence": 0.38,
+    "entityType": "location",
+    "needsReview": true,
+    "missingFields": [
+      "layout",
+      "atmosphere",
+      "lighting",
+      "time"
+    ],
+    "sourceCoverage": "partial",
+    "evidenceSnippets": [
+      {
+        "text": "卫三转身去饮食区打了一盘吃的, 准备边吃边看, 结果起岸西已经换了下下个擂台。",
+        "fields": [
+          "environment"
+        ],
+        "chapterIndex": 17,
+        "chapterTitle": "第17章",
+        "matchedNames": [
+          "饮食区"
+        ]
+      },
+      {
+        "text": "回学校前，卫三还去了一趟免费饮食区，在口袋里塞满各种包装点心，这才心满意足离开。",
+        "fields": [
+          "actionContext"
+        ],
+        "chapterIndex": 17,
+        "chapterTitle": "第17章",
+        "matchedNames": [
+          "免费饮食区",
+          "饮食区"
+        ],
+        "otherMatchedNames": [
+          "学校"
+        ]
+      }
+    ],
+    "sourceDescription": "结果起岸西已经换了下下个擂台；这才心满意足离开"
+  },
+  {
+    "name": "泰吴德家",
+    "fields": {
+      "time": "",
+      "layout": "",
+      "lighting": "",
+      "atmosphere": "",
+      "environment": "",
+      "actionContext": ""
+    },
+    "aliases": [
+      "泰家"
+    ],
+    "confidence": 0,
+    "entityType": "location",
+    "needsReview": true,
+    "missingFields": [
+      "environment",
+      "layout",
+      "atmosphere",
+      "lighting",
+      "time",
+      "actionContext"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "土马巷",
+    "fields": {
+      "time": "",
+      "layout": "",
+      "lighting": "",
+      "atmosphere": "",
+      "environment": "",
+      "actionContext": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "location",
+    "needsReview": true,
+    "missingFields": [
+      "environment",
+      "layout",
+      "atmosphere",
+      "lighting",
+      "time",
+      "actionContext"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "酒绿灯红一条街",
+    "fields": {
+      "time": "夜晚显得异常繁华（第22章）",
+      "layout": "",
+      "lighting": "",
+      "atmosphere": "",
+      "environment": "",
+      "actionContext": ""
+    },
+    "aliases": [],
+    "confidence": 0.19,
+    "entityType": "location",
+    "needsReview": true,
+    "missingFields": [
+      "environment",
+      "layout",
+      "atmosphere",
+      "lighting",
+      "actionContext"
+    ],
+    "sourceCoverage": "partial",
+    "evidenceSnippets": [
+      {
+        "text": "酒绿灯红一条街，夜晚显得异常繁华，卫三走到路口便慢了下来，双手插在口袋里，一副自在轻松的样子，径直朝一家酒吧走去。",
+        "fields": [
+          "time"
+        ],
+        "chapterIndex": 22,
+        "chapterTitle": "第22章",
+        "matchedNames": [
+          "酒绿灯红一条街"
+        ],
+        "otherMatchedNames": [
+          "酒吧"
+        ]
+      }
+    ],
+    "sourceDescription": "夜晚显得异常繁华"
+  },
+  {
+    "name": "寝室大楼",
+    "fields": {
+      "time": "",
+      "layout": "",
+      "lighting": "",
+      "atmosphere": "",
+      "environment": "",
+      "actionContext": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "location",
+    "needsReview": true,
+    "missingFields": [
+      "environment",
+      "layout",
+      "atmosphere",
+      "lighting",
+      "time",
+      "actionContext"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "达摩克利斯军校食堂",
+    "fields": {
+      "time": "",
+      "layout": "",
+      "lighting": "",
+      "atmosphere": "",
+      "environment": "",
+      "actionContext": ""
+    },
+    "aliases": [
+      "学校食堂"
+    ],
+    "confidence": 0,
+    "entityType": "location",
+    "needsReview": true,
+    "missingFields": [
+      "environment",
+      "layout",
+      "atmosphere",
+      "lighting",
+      "time",
+      "actionContext"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "实验室",
+    "fields": {
+      "time": "",
+      "layout": "",
+      "lighting": "",
+      "atmosphere": "",
+      "environment": "",
+      "actionContext": "应成河坐在实验室的椅子上（第20章）"
+    },
+    "aliases": [],
+    "confidence": 0.19,
+    "entityType": "location",
+    "needsReview": true,
+    "missingFields": [
+      "environment",
+      "layout",
+      "atmosphere",
+      "lighting",
+      "time"
+    ],
+    "sourceCoverage": "partial",
+    "evidenceSnippets": [
+      {
+        "text": "检测需要等候一段时间，应成河坐在实验室的椅子上，过了会突然反应过来，他大概疯了，居然在检测分解仪上测试这种可能A级都没有的机甲。",
+        "fields": [
+          "actionContext"
+        ],
+        "chapterIndex": 20,
+        "chapterTitle": "第20章",
+        "matchedNames": [
+          "实验室"
+        ]
+      }
+    ],
+    "sourceDescription": "应成河坐在实验室的椅子上"
+  },
+  {
+    "name": "沙都星港口",
+    "fields": {
+      "time": "",
+      "layout": "",
+      "lighting": "",
+      "atmosphere": "",
+      "environment": "",
+      "actionContext": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "location",
+    "needsReview": true,
+    "missingFields": [
+      "environment",
+      "layout",
+      "atmosphere",
+      "lighting",
+      "time",
+      "actionContext"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "废弃大楼",
+    "fields": {
+      "time": "",
+      "layout": "却能见到角落里躺着一个小孩（第1章）；堆在稍微干净一点的角落里（第1章）；她整整齐齐码在墙壁边（第1章）",
+      "lighting": "",
+      "atmosphere": "",
+      "environment": "",
+      "actionContext": ""
+    },
+    "aliases": [
+      "破旧建筑",
+      "破烂建筑",
+      "那栋大楼"
+    ],
+    "confidence": 0.34,
+    "entityType": "location",
+    "needsReview": true,
+    "missingFields": [
+      "environment",
+      "atmosphere",
+      "lighting",
+      "time",
+      "actionContext"
+    ],
+    "sourceCoverage": "partial",
+    "evidenceSnippets": [
+      {
+        "text": "灰败阴暗的破旧建筑，散发着潮湿发霉气息，时不时流窜而过的蛇鼠，仔细看，却能见到角落里躺着一个小孩。",
+        "fields": [
+          "layout"
+        ],
+        "chapterIndex": 1,
+        "chapterTitle": "第1章",
+        "matchedNames": [
+          "破旧建筑"
+        ]
+      },
+      {
+        "text": "卫三把被子卷巴卷巴，堆在稍微干净一点的角落里，这才去旁边一堆破铜烂铁中翻出一个大袋子，走出废弃大楼。",
+        "fields": [
+          "layout"
+        ],
+        "chapterIndex": 1,
+        "chapterTitle": "第1章",
+        "matchedNames": [
+          "废弃大楼"
+        ]
+      },
+      {
+        "text": "回到那栋无人住的破烂建筑，卫三慢慢把营养液搬进去，一共十二箱，她整整齐齐码在墙壁边，心中满足了。",
+        "fields": [
+          "layout"
+        ],
+        "chapterIndex": 1,
+        "chapterTitle": "第1章",
+        "matchedNames": [
+          "破烂建筑"
+        ]
+      }
+    ],
+    "sourceDescription": "却能见到角落里躺着一个小孩；堆在稍微干净一点的角落里；她整整齐齐码在墙壁边"
+  },
+  {
+    "name": "五食堂",
+    "fields": {
+      "time": "",
+      "layout": "",
+      "lighting": "",
+      "atmosphere": "",
+      "environment": "",
+      "actionContext": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "location",
+    "needsReview": true,
+    "missingFields": [
+      "environment",
+      "layout",
+      "atmosphere",
+      "lighting",
+      "time",
+      "actionContext"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "城市",
+    "fields": {
+      "time": "",
+      "layout": "",
+      "lighting": "",
+      "atmosphere": "",
+      "environment": "",
+      "actionContext": ""
+    },
+    "aliases": [
+      "城内"
+    ],
+    "confidence": 0,
+    "entityType": "location",
+    "needsReview": true,
+    "missingFields": [
+      "environment",
+      "layout",
+      "atmosphere",
+      "lighting",
+      "time",
+      "actionContext"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "机甲师班教室",
+    "fields": {
+      "time": "",
+      "layout": "",
+      "lighting": "",
+      "atmosphere": "",
+      "environment": "",
+      "actionContext": ""
+    },
+    "aliases": [
+      "A级机甲师班"
+    ],
+    "confidence": 0,
+    "entityType": "location",
+    "needsReview": true,
+    "missingFields": [
+      "environment",
+      "layout",
+      "atmosphere",
+      "lighting",
+      "time",
+      "actionContext"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "黑厂大厅",
+    "fields": {
+      "time": "",
+      "layout": "",
+      "lighting": "",
+      "atmosphere": "",
+      "environment": "",
+      "actionContext": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "location",
+    "needsReview": true,
+    "missingFields": [
+      "environment",
+      "layout",
+      "atmosphere",
+      "lighting",
+      "time",
+      "actionContext"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "学校",
+    "fields": {
+      "time": "好在夜晚天黑（第35章）",
+      "layout": "发现学院门口有两处报名桌（第2章）；学校门口没什么人（第3章）；刚到学校门口（第3章）；他往四周看了看（第23章）；金珂朝四周看了看：“还有哪个S级的人在学校（第33章）；转身看向卫三：“门口有飞行器（第37章）",
+      "lighting": "",
+      "atmosphere": "她再迟钝都察觉到学校内每个人开始紧张起来（第27章）",
+      "environment": "申屠坤在房间内洗漱完（第31章）；而是往大厅走去（第31章）",
+      "actionContext": "因为据说学校的机甲是战斗型机甲（第7章）；然后改造成一样的战斗型机甲（第9章）；泰吴德不同意：“学校哪个老师可以把观赏型机甲改造成战斗型机甲（第9章）；泰吴德那台机甲真被成功改造成和学校那架机甲差不多的战斗型机甲（第9章）；站在机器外围一位老师宽慰道：“卫三你直接站上来（第10章）；随后站在一处慢悠悠道：“期末学校将选出十位射击者（第24章）"
+    },
+    "aliases": [
+      "学院"
+    ],
+    "confidence": 0.88,
+    "entityType": "location",
+    "needsReview": false,
+    "missingFields": [
+      "lighting"
+    ],
+    "sourceCoverage": "strong",
+    "evidenceSnippets": [
+      {
+        "text": "卫三担心耽误时间，没有再进去，她打量周围环境，发现学院门口有两处报名桌，每张桌子坐着一个老师，面前都排着长队。",
+        "fields": [
+          "layout"
+        ],
+        "chapterIndex": 2,
+        "chapterTitle": "第2章",
+        "matchedNames": [
+          "学院"
+        ]
+      },
+      {
+        "text": "卫三到时，天还没亮，学校门口没什么人，一直到五点半，人才渐渐多起来。",
+        "fields": [
+          "layout"
+        ],
+        "chapterIndex": 3,
+        "chapterTitle": "第3章",
+        "matchedNames": [
+          "学校"
+        ]
+      },
+      {
+        "text": "刚到学校门口，一辆飞行器从她头顶掠过停下，金珂从里面出来，冲她挥手：“卫三。",
+        "fields": [
+          "layout"
+        ],
+        "chapterIndex": 3,
+        "chapterTitle": "第3章",
+        "matchedNames": [
+          "学校"
+        ]
+      },
+      {
+        "text": "卫三也很激动，因为据说学校的机甲是战斗型机甲。",
+        "fields": [
+          "actionContext"
+        ],
+        "chapterIndex": 7,
+        "chapterTitle": "第7章",
+        "matchedNames": [
+          "学校"
+        ]
+      },
+      {
+        "text": "后来泰吴德请他爸一起去学校，说要把家中那台机甲捐出来，但那是台观赏型机甲，所以才想要拆开学校一架机甲学习，然后改造成一样的战斗型机甲。",
+        "fields": [
+          "actionContext"
+        ],
+        "chapterIndex": 9,
+        "chapterTitle": "第9章",
+        "matchedNames": [
+          "学校"
+        ]
+      },
+      {
+        "text": "泰吴德不同意：“学校哪个老师可以把观赏型机甲改造成战斗型机甲？",
+        "fields": [
+          "actionContext"
+        ],
+        "chapterIndex": 9,
+        "chapterTitle": "第9章",
+        "matchedNames": [
+          "学校"
+        ]
+      },
+      {
+        "text": "一个月后，泰吴德那台机甲真被成功改造成和学校那架机甲差不多的战斗型机甲，又花了两天时间，把学校其他几架机甲改了改手臂关节。",
+        "fields": [
+          "actionContext"
+        ],
+        "chapterIndex": 9,
+        "chapterTitle": "第9章",
+        "matchedNames": [
+          "学校"
+        ]
+      },
+      {
+        "text": "学校大部分老师都认识卫三，站在机器外围一位老师宽慰道：“卫三你直接站上来，不用想太多。",
+        "fields": [
+          "actionContext"
+        ],
+        "chapterIndex": 10,
+        "chapterTitle": "第10章",
+        "matchedNames": [
+          "学校"
+        ]
+      },
+      {
+        "text": "聂昊齐是见识过卫三和信息脱轨的样子，他往四周看了看, 然后快速低声道：“黎泽少校回来了, 据说是来带S级的机甲单兵, 可能会在学校待一段时间，论坛都传遍了。",
+        "fields": [
+          "layout"
+        ],
+        "chapterIndex": 23,
+        "chapterTitle": "第23章",
+        "matchedNames": [
+          "学校"
+        ]
+      },
+      {
+        "text": "陈慈巡视一番学生们的成果，随后站在一处慢悠悠道：“期末学校将选出十位射击者，如果你们谁能拿到一席，我这里可以额外给三十积分。",
+        "fields": [
+          "actionContext"
+        ],
+        "chapterIndex": 24,
+        "chapterTitle": "第24章",
+        "matchedNames": [
+          "学校"
+        ]
+      },
+      {
+        "text": "”卫三正经问道，她再迟钝都察觉到学校内每个人开始紧张起来。",
+        "fields": [
+          "atmosphere"
+        ],
+        "chapterIndex": 27,
+        "chapterTitle": "第27章",
+        "matchedNames": [
+          "学校"
+        ]
+      },
+      {
+        "text": "申屠坤在房间内洗漱完，没有急着休息，而是往大厅走去，他想找个人问问学校现在的情况。",
+        "fields": [
+          "environment"
+        ],
+        "chapterIndex": 31,
+        "chapterTitle": "第31章",
+        "matchedNames": [
+          "学校"
+        ]
+      },
+      {
+        "text": "金珂朝四周看了看：“还有哪个S级的人在学校，刚才附近有S级的感知溢出来了。",
+        "fields": [
+          "layout"
+        ],
+        "chapterIndex": 33,
+        "chapterTitle": "第33章",
+        "matchedNames": [
+          "学校"
+        ]
+      },
+      {
+        "text": "卫三拖着伤回学校，好在夜晚天黑, 没人看清楚她脸上的伤。",
+        "fields": [
+          "time"
+        ],
+        "chapterIndex": 35,
+        "chapterTitle": "第35章",
+        "matchedNames": [
+          "学校"
+        ]
+      },
+      {
+        "text": "黎泽向她点了点头，转身看向卫三：“门口有飞行器，你带着他们去参观学校。",
+        "fields": [
+          "layout"
+        ],
+        "chapterIndex": 37,
+        "chapterTitle": "第37章",
+        "matchedNames": [
+          "学校"
+        ]
+      }
+    ],
+    "sourceDescription": "申屠坤在房间内洗漱完；而是往大厅走去；发现学院门口有两处报名桌；学校门口没什么人；刚到学校门口；他往四周看了看；金珂朝四周看了看：“还有哪个S级的人在学校；转身看向卫三：“门口有飞行器；她再迟钝都察觉到学校内每个人开始紧张起来；好在夜晚天黑；因为据说学校的机甲是战斗型机甲；然后改造成一样的战斗型机甲；泰吴德不同意：“学校哪个老师可以把观赏型机甲改造成战斗型机甲；泰吴德那台机甲真被成功改造成和学校那架机甲差不多的战斗型机甲；站在机器外围一位老师宽慰道：“卫三你直接站上来；随后站在一处慢悠悠道：“期末学校将选出十位射击者"
+  },
+  {
+    "name": "图书馆",
+    "fields": {
+      "time": "",
+      "layout": "",
+      "lighting": "",
+      "atmosphere": "",
+      "environment": "",
+      "actionContext": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "location",
+    "needsReview": true,
+    "missingFields": [
+      "environment",
+      "layout",
+      "atmosphere",
+      "lighting",
+      "time",
+      "actionContext"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "沙都星市中心广场",
+    "fields": {
+      "time": "",
+      "layout": "",
+      "lighting": "",
+      "atmosphere": "",
+      "environment": "一条垂尾异狼突然出现在广场中心（第36章）；此刻广场中心也是尖叫混乱一片（第36章）；卫三朝广场中心看了一眼（第36章）",
+      "actionContext": ""
+    },
+    "aliases": [
+      "广场中心",
+      "市中心广场"
+    ],
+    "confidence": 0.34,
+    "entityType": "location",
+    "needsReview": true,
+    "missingFields": [
+      "layout",
+      "atmosphere",
+      "lighting",
+      "time",
+      "actionContext"
+    ],
+    "sourceCoverage": "partial",
+    "evidenceSnippets": [
+      {
+        "text": "一条垂尾异狼突然出现在广场中心，离他们只有百米。",
+        "fields": [
+          "environment"
+        ],
+        "chapterIndex": 36,
+        "chapterTitle": "第36章",
+        "matchedNames": [
+          "广场中心"
+        ]
+      },
+      {
+        "text": "此刻广场中心也是尖叫混乱一片。",
+        "fields": [
+          "environment"
+        ],
+        "chapterIndex": 36,
+        "chapterTitle": "第36章",
+        "matchedNames": [
+          "广场中心"
+        ]
+      },
+      {
+        "text": "”卫三朝广场中心看了一眼，达摩克利斯之剑依旧屹立沐浴在阳光下。",
+        "fields": [
+          "environment"
+        ],
+        "chapterIndex": 36,
+        "chapterTitle": "第36章",
+        "matchedNames": [
+          "广场中心"
+        ],
+        "otherMatchedNames": [
+          "达摩克利斯"
+        ]
+      }
+    ],
+    "sourceDescription": "一条垂尾异狼突然出现在广场中心；此刻广场中心也是尖叫混乱一片；卫三朝广场中心看了一眼"
+  },
+  {
+    "name": "南帕西军校",
+    "fields": {
+      "time": "",
+      "layout": "",
+      "lighting": "",
+      "atmosphere": "",
+      "environment": "",
+      "actionContext": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "location",
+    "needsReview": true,
+    "missingFields": [
+      "environment",
+      "layout",
+      "atmosphere",
+      "lighting",
+      "time",
+      "actionContext"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "富人区",
+    "fields": {
+      "time": "",
+      "layout": "",
+      "lighting": "",
+      "atmosphere": "",
+      "environment": "",
+      "actionContext": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "location",
+    "needsReview": true,
+    "missingFields": [
+      "environment",
+      "layout",
+      "atmosphere",
+      "lighting",
+      "time",
+      "actionContext"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "VIP包厢",
+    "fields": {
+      "time": "",
+      "layout": "",
+      "lighting": "",
+      "atmosphere": "",
+      "environment": "",
+      "actionContext": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "location",
+    "needsReview": true,
+    "missingFields": [
+      "environment",
+      "layout",
+      "atmosphere",
+      "lighting",
+      "time",
+      "actionContext"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "训练模拟室",
+    "fields": {
+      "time": "",
+      "layout": "",
+      "lighting": "",
+      "atmosphere": "",
+      "environment": "",
+      "actionContext": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "location",
+    "needsReview": true,
+    "missingFields": [
+      "environment",
+      "layout",
+      "atmosphere",
+      "lighting",
+      "time",
+      "actionContext"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "地下三层",
+    "fields": {
+      "time": "",
+      "layout": "",
+      "lighting": "",
+      "atmosphere": "",
+      "environment": "只路过擂台听周围的人讲他跨级成功（第25章）；感觉地下三层的擂台有些像斗兽场（第28章）；心满意足花积分租了最便宜的房间休息（第28章）；后面卫三又去看了其他擂台赛（第28章）；地下三层最大擂台观众席已经站满观众（第34章）；三个人直接约在大厅见面（第39章）",
+      "actionContext": ""
+    },
+    "aliases": [],
+    "confidence": 0.42,
+    "entityType": "location",
+    "needsReview": true,
+    "missingFields": [
+      "layout",
+      "atmosphere",
+      "lighting",
+      "time",
+      "actionContext"
+    ],
+    "sourceCoverage": "partial",
+    "evidenceSnippets": [
+      {
+        "text": "卫三照旧操控那架‘五彩缤纷’的机甲比赛, 她还在攒跨级挑战的积分，起岸西已经去了地下三层，她没来得及看, 只路过擂台听周围的人讲他跨级成功。",
+        "fields": [
+          "environment"
+        ],
+        "chapterIndex": 25,
+        "chapterTitle": "第25章",
+        "matchedNames": [
+          "地下三层"
+        ]
+      },
+      {
+        "text": "卫三上台时，环视一圈，感觉地下三层的擂台有些像斗兽场，这里的观众需要买票进来，并不是黑厂的人。",
+        "fields": [
+          "environment"
+        ],
+        "chapterIndex": 28,
+        "chapterTitle": "第28章",
+        "matchedNames": [
+          "地下三层"
+        ],
+        "otherMatchedNames": [
+          "黑厂"
+        ]
+      },
+      {
+        "text": "卫三不知道自己还有这种商业价值，她打完一场，挣了五十万，心满意足花积分租了最便宜的房间休息，第二天继续在地下三层逛。",
+        "fields": [
+          "environment"
+        ],
+        "chapterIndex": 28,
+        "chapterTitle": "第28章",
+        "matchedNames": [
+          "地下三层"
+        ]
+      },
+      {
+        "text": "后面卫三又去看了其他擂台赛，不能说每一场都有死神这种人，但L3级比赛见血受伤几乎场场都有，观众越见血越兴奋，无怪乎死神能成为地下三层热门选手，连观众打赏都超出其他选手几倍。",
+        "fields": [
+          "environment"
+        ],
+        "chapterIndex": 28,
+        "chapterTitle": "第28章",
+        "matchedNames": [
+          "地下三层"
+        ]
+      },
+      {
+        "text": "地下三层最大擂台观众席已经站满观众，最高处vip包厢内坐着几个人，有男有女。",
+        "fields": [
+          "environment"
+        ],
+        "chapterIndex": 34,
+        "chapterTitle": "第34章",
+        "matchedNames": [
+          "地下三层"
+        ]
+      },
+      {
+        "text": "周六卫三到达地下三层，三个人直接约在大厅见面。",
+        "fields": [
+          "environment"
+        ],
+        "chapterIndex": 39,
+        "chapterTitle": "第39章",
+        "matchedNames": [
+          "地下三层"
+        ]
+      }
+    ],
+    "sourceDescription": "只路过擂台听周围的人讲他跨级成功；感觉地下三层的擂台有些像斗兽场；心满意足花积分租了最便宜的房间休息；后面卫三又去看了其他擂台赛；地下三层最大擂台观众席已经站满观众；三个人直接约在大厅见面"
+  },
+  {
+    "name": "食堂",
+    "fields": {
+      "time": "",
+      "layout": "",
+      "lighting": "",
+      "atmosphere": "",
+      "environment": "",
+      "actionContext": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "location",
+    "needsReview": true,
+    "missingFields": [
+      "environment",
+      "layout",
+      "atmosphere",
+      "lighting",
+      "time",
+      "actionContext"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "工作间",
+    "fields": {
+      "time": "",
+      "layout": "",
+      "lighting": "",
+      "atmosphere": "",
+      "environment": "",
+      "actionContext": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "location",
+    "needsReview": true,
+    "missingFields": [
+      "environment",
+      "layout",
+      "atmosphere",
+      "lighting",
+      "time",
+      "actionContext"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "舰港",
+    "fields": {
+      "time": "",
+      "layout": "",
+      "lighting": "",
+      "atmosphere": "",
+      "environment": "",
+      "actionContext": "最后卫三和金珂坐在应成河的飞行器上（第35章）"
+    },
+    "aliases": [],
+    "confidence": 0.19,
+    "entityType": "location",
+    "needsReview": true,
+    "missingFields": [
+      "environment",
+      "layout",
+      "atmosphere",
+      "lighting",
+      "time"
+    ],
+    "sourceCoverage": "partial",
+    "evidenceSnippets": [
+      {
+        "text": "最后卫三和金珂坐在应成河的飞行器上，往舰港飞去。",
+        "fields": [
+          "actionContext"
+        ],
+        "chapterIndex": 35,
+        "chapterTitle": "第35章",
+        "matchedNames": [
+          "舰港"
+        ]
+      }
+    ],
+    "sourceDescription": "最后卫三和金珂坐在应成河的飞行器上"
+  },
+  {
+    "name": "黑厂地下四层",
+    "fields": {
+      "time": "",
+      "layout": "",
+      "lighting": "",
+      "atmosphere": "",
+      "environment": "",
+      "actionContext": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "location",
+    "needsReview": true,
+    "missingFields": [
+      "environment",
+      "layout",
+      "atmosphere",
+      "lighting",
+      "time",
+      "actionContext"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "帝都星",
+    "fields": {
+      "time": "",
+      "layout": "",
+      "lighting": "",
+      "atmosphere": "",
+      "environment": "",
+      "actionContext": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "location",
+    "needsReview": true,
+    "missingFields": [
+      "environment",
+      "layout",
+      "atmosphere",
+      "lighting",
+      "time",
+      "actionContext"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "光脑店",
+    "fields": {
+      "time": "",
+      "layout": "",
+      "lighting": "",
+      "atmosphere": "",
+      "environment": "",
+      "actionContext": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "location",
+    "needsReview": true,
+    "missingFields": [
+      "environment",
+      "layout",
+      "atmosphere",
+      "lighting",
+      "time",
+      "actionContext"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "3212星",
+    "fields": {
+      "time": "",
+      "layout": "",
+      "lighting": "",
+      "atmosphere": "",
+      "environment": "",
+      "actionContext": "但如果真能改造出来一架战斗型机甲（第9章）；甚至还有各种战斗型机甲（第13章）"
+    },
+    "aliases": [
+      "3212"
+    ],
+    "confidence": 0.27,
+    "entityType": "location",
+    "needsReview": true,
+    "missingFields": [
+      "environment",
+      "layout",
+      "atmosphere",
+      "lighting",
+      "time"
+    ],
+    "sourceCoverage": "partial",
+    "evidenceSnippets": [
+      {
+        "text": "两百万星币当然多，尤其在3212星上，但如果真能改造出来一架战斗型机甲，那这些钱简直是毛毛细雨。",
+        "fields": [
+          "actionContext"
+        ],
+        "chapterIndex": 9,
+        "chapterTitle": "第9章",
+        "matchedNames": [
+          "3212星",
+          "3212"
+        ]
+      },
+      {
+        "text": "虽然星网上说沙都星地处偏僻，环境荒凉，但在卫三眼中依然非常繁华，路比3212星宽敞数十倍，半空到处是大小型飞行器，甚至还有各种战斗型机甲。",
+        "fields": [
+          "actionContext"
+        ],
+        "chapterIndex": 13,
+        "chapterTitle": "第13章",
+        "matchedNames": [
+          "3212星",
+          "3212"
+        ],
+        "otherMatchedNames": [
+          "星网",
+          "沙都星"
+        ]
+      }
+    ],
+    "sourceDescription": "但如果真能改造出来一架战斗型机甲；甚至还有各种战斗型机甲"
+  },
+  {
+    "name": "黑厂",
+    "fields": {
+      "time": "",
+      "layout": "老常贼眉鼠眼把卫三拉到角落里（第13章）；门口有很长一条道（第13章）；站在店门口等她（第24章）",
+      "lighting": "后来对擂台产生阴影（第39章）",
+      "atmosphere": "",
+      "environment": "热门擂台赛（第28章）；后来对擂台产生阴影（第39章）；三人依次在大厅机器上进行认证（第39章）；所以团体擂台范围更大（第39章）",
+      "actionContext": "转身离开黑厂（第14章）；离开黑厂前（第21章）；卫三站在墙外感叹（第21章）；站在店门口等她（第24章）；花点积分可以站在场内边角看（第28章）"
+    },
+    "aliases": [
+      "地下黑赛"
+    ],
+    "confidence": 0.77,
+    "entityType": "location",
+    "needsReview": false,
+    "missingFields": [
+      "atmosphere",
+      "time"
+    ],
+    "sourceCoverage": "strong",
+    "evidenceSnippets": [
+      {
+        "text": "”老常贼眉鼠眼把卫三拉到角落里，“我先大概讲讲地下黑赛的规则，后面你再决定去不去，我老常做事向来讲究诚信。",
+        "fields": [
+          "layout"
+        ],
+        "chapterIndex": 13,
+        "chapterTitle": "第13章",
+        "matchedNames": [
+          "地下黑赛"
+        ]
+      },
+      {
+        "text": "卫三将面具戴好，跟着老常往前走，门口有很长一条道，两边摆在各种摊贩，乍一看完全不像有地下黑赛的样子，反倒生活气息很浓。",
+        "fields": [
+          "layout"
+        ],
+        "chapterIndex": 13,
+        "chapterTitle": "第13章",
+        "matchedNames": [
+          "地下黑赛"
+        ]
+      },
+      {
+        "text": "卫三瞥过一眼后，并未放在心上，转身离开黑厂。",
+        "fields": [
+          "actionContext"
+        ],
+        "chapterIndex": 14,
+        "chapterTitle": "第14章",
+        "matchedNames": [
+          "黑厂"
+        ]
+      },
+      {
+        "text": "离开黑厂前，卫三又去了一趟地下一层，找到店主，租五个晚上场地和工具，顺便加了店主联系方式。",
+        "fields": [
+          "actionContext"
+        ],
+        "chapterIndex": 21,
+        "chapterTitle": "第21章",
+        "matchedNames": [
+          "黑厂"
+        ],
+        "otherMatchedNames": [
+          "地下一层",
+          "一层"
+        ]
+      },
+      {
+        "text": "卫三站在墙外感叹，转身就往黑厂方向赶去，她只有五天晚上能把机甲改造好。",
+        "fields": [
+          "actionContext"
+        ],
+        "chapterIndex": 21,
+        "chapterTitle": "第21章",
+        "matchedNames": [
+          "黑厂"
+        ]
+      },
+      {
+        "text": "卫三将图纸放在店主能看到的地方，转身离开黑厂。",
+        "fields": [
+          "actionContext"
+        ],
+        "chapterIndex": 22,
+        "chapterTitle": "第22章",
+        "matchedNames": [
+          "黑厂"
+        ]
+      },
+      {
+        "text": "这次卫三照样绕了一大圈才去黑厂, 店主今天没吃面, 而是捧着她的图纸, 站在店门口等她。",
+        "fields": [
+          "layout",
+          "actionContext"
+        ],
+        "chapterIndex": 24,
+        "chapterTitle": "第24章",
+        "matchedNames": [
+          "黑厂"
+        ]
+      },
+      {
+        "text": "黑厂里面的选手不存在买不到票的情况，热门擂台赛，花点积分可以站在场内边角看，算是一点特权。",
+        "fields": [
+          "environment",
+          "actionContext"
+        ],
+        "chapterIndex": 28,
+        "chapterTitle": "第28章",
+        "matchedNames": [
+          "黑厂"
+        ]
+      },
+      {
+        "text": "死神偷袭不成, 反倒自己接收了一次头部分离的结果，被抬着下台，据说因为接连败, 备受打击，后来对擂台产生阴影，再没有出现在黑厂内。",
+        "fields": [
+          "environment",
+          "lighting"
+        ],
+        "chapterIndex": 39,
+        "chapterTitle": "第39章",
+        "matchedNames": [
+          "黑厂"
+        ]
+      },
+      {
+        "text": "三人依次在大厅机器上进行认证，组成‘操翻黑厂’团队，随即进入pk赛池。",
+        "fields": [
+          "environment"
+        ],
+        "chapterIndex": 39,
+        "chapterTitle": "第39章",
+        "matchedNames": [
+          "黑厂"
+        ]
+      },
+      {
+        "text": "黑厂考虑到比赛场内有六架机甲，所以团体擂台范围更大，35擂台前面没有团体比赛，三个人便直接从通道进去。",
+        "fields": [
+          "environment"
+        ],
+        "chapterIndex": 39,
+        "chapterTitle": "第39章",
+        "matchedNames": [
+          "黑厂"
+        ],
+        "otherMatchedNames": [
+          "35擂台"
+        ]
+      }
+    ],
+    "sourceDescription": "热门擂台赛；后来对擂台产生阴影；三人依次在大厅机器上进行认证；所以团体擂台范围更大；老常贼眉鼠眼把卫三拉到角落里；门口有很长一条道；站在店门口等她；后来对擂台产生阴影；转身离开黑厂；离开黑厂前；卫三站在墙外感叹；站在店门口等她；花点积分可以站在场内边角看"
+  },
+  {
+    "name": "地下一层",
+    "fields": {
+      "time": "当天深夜去地下一层（第21章）",
+      "layout": "",
+      "lighting": "",
+      "atmosphere": "",
+      "environment": "与此同时地下一层大厅实时排名光幕最下角也出现同样的消息（第14章）；地下一层的擂台供L0和L1比赛（第16章）；卫三这个擂台是固定的越级比赛擂台（第16章）",
+      "actionContext": ""
+    },
+    "aliases": [
+      "一层"
+    ],
+    "confidence": 0.46,
+    "entityType": "location",
+    "needsReview": true,
+    "missingFields": [
+      "layout",
+      "atmosphere",
+      "lighting",
+      "actionContext"
+    ],
+    "sourceCoverage": "partial",
+    "evidenceSnippets": [
+      {
+        "text": "与此同时地下一层大厅实时排名光幕最下角也出现同样的消息，如同流光一般闪现后便消失。",
+        "fields": [
+          "environment"
+        ],
+        "chapterIndex": 14,
+        "chapterTitle": "第14章",
+        "matchedNames": [
+          "地下一层",
+          "一层"
+        ]
+      },
+      {
+        "text": "地下一层的擂台供L0和L1比赛，卫三这个擂台是固定的越级比赛擂台, 她看了一会光幕上的两台机甲, 比赛结果差不多能看出来, 估计会越级失败。",
+        "fields": [
+          "environment"
+        ],
+        "chapterIndex": 16,
+        "chapterTitle": "第16章",
+        "matchedNames": [
+          "地下一层",
+          "一层"
+        ]
+      },
+      {
+        "text": "卫三从中得益，零零碎碎的材料垃圾全收集好，当天深夜去地下一层，找到之前的店主，租借了场地和工具，一晚上没合眼，兴致盎然把这些破破烂烂全部堆积改造到自己机甲上。",
+        "fields": [
+          "time"
+        ],
+        "chapterIndex": 21,
+        "chapterTitle": "第21章",
+        "matchedNames": [
+          "地下一层",
+          "一层"
+        ]
+      }
+    ],
+    "sourceDescription": "与此同时地下一层大厅实时排名光幕最下角也出现同样的消息；地下一层的擂台供L0和L1比赛；卫三这个擂台是固定的越级比赛擂台；当天深夜去地下一层"
+  },
+  {
+    "name": "模拟训练室",
+    "fields": {
+      "time": "",
+      "layout": "",
+      "lighting": "",
+      "atmosphere": "",
+      "environment": "",
+      "actionContext": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "location",
+    "needsReview": true,
+    "missingFields": [
+      "environment",
+      "layout",
+      "atmosphere",
+      "lighting",
+      "time",
+      "actionContext"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "地下二层",
+    "fields": {
+      "time": "",
+      "layout": "",
+      "lighting": "",
+      "atmosphere": "",
+      "environment": "L1跨级挑战的擂台在地下二层（第21章）；放着擂台区的实时比赛（第21章）；最便宜的房间就一张硬邦邦的床和小浴室（第21章）；这个擂台范围比二层还要大上几倍（第28章）；观众不再是站在擂台下面（第28章）",
+      "actionContext": "观众不再是站在擂台下面（第28章）"
+    },
+    "aliases": [
+      "二层"
+    ],
+    "confidence": 0.53,
+    "entityType": "location",
+    "needsReview": true,
+    "missingFields": [
+      "layout",
+      "atmosphere",
+      "lighting",
+      "time"
+    ],
+    "sourceCoverage": "partial",
+    "evidenceSnippets": [
+      {
+        "text": "L1跨级挑战的擂台在地下二层, 卫三在光脑上选择跨级挑战后，黑卡便可以刷电梯下到地下二层。",
+        "fields": [
+          "environment"
+        ],
+        "chapterIndex": 21,
+        "chapterTitle": "第21章",
+        "matchedNames": [
+          "地下二层",
+          "二层"
+        ]
+      },
+      {
+        "text": "餐厅内有很多光幕悬空，放着擂台区的实时比赛，卫三一边填饱肚子，一边抬头看着各个光幕直播，她发现一件事：地下二层比赛的机甲基本都做了改造，各种武器加持，机甲实力得到大幅度提升。",
+        "fields": [
+          "environment"
+        ],
+        "chapterIndex": 21,
+        "chapterTitle": "第21章",
+        "matchedNames": [
+          "地下二层",
+          "二层"
+        ]
+      },
+      {
+        "text": "不得不说，黑厂老板十分奸诈，一层免费的住宿，空间大床又软，到了地下二层，不光要扣积分，最便宜的房间就一张硬邦邦的床和小浴室。",
+        "fields": [
+          "environment"
+        ],
+        "chapterIndex": 21,
+        "chapterTitle": "第21章",
+        "matchedNames": [
+          "地下二层",
+          "二层"
+        ],
+        "otherMatchedNames": [
+          "黑厂",
+          "一层"
+        ]
+      },
+      {
+        "text": "这个擂台范围比二层还要大上几倍，观众不再是站在擂台下面，而是在上面。",
+        "fields": [
+          "environment",
+          "actionContext"
+        ],
+        "chapterIndex": 28,
+        "chapterTitle": "第28章",
+        "matchedNames": [
+          "二层"
+        ]
+      }
+    ],
+    "sourceDescription": "L1跨级挑战的擂台在地下二层；放着擂台区的实时比赛；最便宜的房间就一张硬邦邦的床和小浴室；这个擂台范围比二层还要大上几倍；观众不再是站在擂台下面；观众不再是站在擂台下面"
+  },
+  {
+    "name": "操场",
+    "fields": {
+      "time": "也已经到了傍晚（第10章）",
+      "layout": "角落的男同学焦急地又抓起了卫三的手臂（第29章）",
+      "lighting": "",
+      "atmosphere": "操场上异常安静（第29章）；此刻操场上已经陷入极度沉默中（第29章）",
+      "environment": "",
+      "actionContext": "丁和美站在操场上（第26章）；操场久久没有人离开（第29章）；卫三站在赛场（第32章）；卫三坐在操场主席台边上问金珂（第38章）"
+    },
+    "aliases": [],
+    "confidence": 0.77,
+    "entityType": "location",
+    "needsReview": false,
+    "missingFields": [
+      "environment",
+      "lighting"
+    ],
+    "sourceCoverage": "strong",
+    "evidenceSnippets": [
+      {
+        "text": "十个班测试完感知，也已经到了傍晚，大部分人对自己的等级心中有数，少部分人比较难以接受事实，整个操场上悲喜哭笑都有。",
+        "fields": [
+          "time"
+        ],
+        "chapterIndex": 10,
+        "chapterTitle": "第10章",
+        "matchedNames": [
+          "操场"
+        ]
+      },
+      {
+        "text": "第二天，丁和美站在操场上，背后站满了高年级的人，全是闻言来看戏的。",
+        "fields": [
+          "actionContext"
+        ],
+        "chapterIndex": 26,
+        "chapterTitle": "第26章",
+        "matchedNames": [
+          "操场"
+        ]
+      },
+      {
+        "text": "卫三从黑厂回来，一进校门便看到这样一幅场景，操场上异常安静。",
+        "fields": [
+          "atmosphere"
+        ],
+        "chapterIndex": 29,
+        "chapterTitle": "第29章",
+        "matchedNames": [
+          "操场"
+        ],
+        "otherMatchedNames": [
+          "黑厂"
+        ]
+      },
+      {
+        "text": "操场上不断有倒吸声发出，甚至已经有人忍不住站起来，角落的男同学焦急地又抓起了卫三的手臂，试图获得力量。",
+        "fields": [
+          "layout"
+        ],
+        "chapterIndex": 29,
+        "chapterTitle": "第29章",
+        "matchedNames": [
+          "操场"
+        ]
+      },
+      {
+        "text": "此刻操场上已经陷入极度沉默中，所有人脸上都带着落败之色。",
+        "fields": [
+          "atmosphere"
+        ],
+        "chapterIndex": 29,
+        "chapterTitle": "第29章",
+        "matchedNames": [
+          "操场"
+        ]
+      },
+      {
+        "text": "看着熄灭的光幕，操场久久没有人离开，其中老生最为难受。",
+        "fields": [
+          "actionContext"
+        ],
+        "chapterIndex": 29,
+        "chapterTitle": "第29章",
+        "matchedNames": [
+          "操场"
+        ]
+      },
+      {
+        "text": "卫三站在赛场，听见声音后，对操场中间两个人眨了眨眼睛，随后跳进机甲舱内，准备比赛。",
+        "fields": [
+          "actionContext"
+        ],
+        "chapterIndex": 32,
+        "chapterTitle": "第32章",
+        "matchedNames": [
+          "操场"
+        ]
+      },
+      {
+        "text": "”卫三坐在操场主席台边上问金珂。",
+        "fields": [
+          "actionContext"
+        ],
+        "chapterIndex": 38,
+        "chapterTitle": "第38章",
+        "matchedNames": [
+          "操场"
+        ]
+      }
+    ],
+    "sourceDescription": "角落的男同学焦急地又抓起了卫三的手臂；操场上异常安静；此刻操场上已经陷入极度沉默中；也已经到了傍晚；丁和美站在操场上；操场久久没有人离开；卫三站在赛场；卫三坐在操场主席台边上问金珂"
+  },
+  {
+    "name": "3212学院",
+    "fields": {
+      "time": "",
+      "layout": "",
+      "lighting": "",
+      "atmosphere": "",
+      "environment": "",
+      "actionContext": ""
+    },
+    "aliases": [
+      "3212学校"
+    ],
+    "confidence": 0,
+    "entityType": "location",
+    "needsReview": true,
+    "missingFields": [
+      "environment",
+      "layout",
+      "atmosphere",
+      "lighting",
+      "time",
+      "actionContext"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "3212学校图书馆",
+    "fields": {
+      "time": "",
+      "layout": "",
+      "lighting": "",
+      "atmosphere": "",
+      "environment": "",
+      "actionContext": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "location",
+    "needsReview": true,
+    "missingFields": [
+      "environment",
+      "layout",
+      "atmosphere",
+      "lighting",
+      "time",
+      "actionContext"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "北望楼",
+    "fields": {
+      "time": "",
+      "layout": "",
+      "lighting": "",
+      "atmosphere": "",
+      "environment": "某个房间（第37章）",
+      "actionContext": ""
+    },
+    "aliases": [],
+    "confidence": 0.19,
+    "entityType": "location",
+    "needsReview": true,
+    "missingFields": [
+      "layout",
+      "atmosphere",
+      "lighting",
+      "time",
+      "actionContext"
+    ],
+    "sourceCoverage": "partial",
+    "evidenceSnippets": [
+      {
+        "text": "北望楼，某个房间。",
+        "fields": [
+          "environment"
+        ],
+        "chapterIndex": 37,
+        "chapterTitle": "第37章",
+        "matchedNames": [
+          "北望楼"
+        ]
+      }
+    ],
+    "sourceDescription": "某个房间"
+  },
+  {
+    "name": "柳极星",
+    "fields": {
+      "time": "",
+      "layout": "",
+      "lighting": "",
+      "atmosphere": "",
+      "environment": "",
+      "actionContext": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "location",
+    "needsReview": true,
+    "missingFields": [
+      "environment",
+      "layout",
+      "atmosphere",
+      "lighting",
+      "time",
+      "actionContext"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "金珂家",
+    "fields": {
+      "time": "",
+      "layout": "",
+      "lighting": "",
+      "atmosphere": "",
+      "environment": "",
+      "actionContext": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "location",
+    "needsReview": true,
+    "missingFields": [
+      "environment",
+      "layout",
+      "atmosphere",
+      "lighting",
+      "time",
+      "actionContext"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "军校",
+    "fields": {
+      "time": "机甲师和指挥的机甲这时候暴露出来（第36章）",
+      "layout": "角落里的男同学蹲在地上哭（第29章）",
+      "lighting": "",
+      "atmosphere": "所有人安静仰头看着光幕上白色机甲的背影（第29章）",
+      "environment": "师娘对广场的事还心有余悸（第37章）",
+      "actionContext": "离开家乡去陌生军校（第10章）；在终点前两所军校发生了交锋（第29章）"
+    },
+    "aliases": [],
+    "confidence": 0.88,
+    "entityType": "location",
+    "needsReview": false,
+    "missingFields": [
+      "lighting"
+    ],
+    "sourceCoverage": "strong",
+    "evidenceSnippets": [
+      {
+        "text": "”泰吴德期待道，他到底也只是一个少年，离开家乡去陌生军校，多个伴心里总有些安慰。",
+        "fields": [
+          "actionContext"
+        ],
+        "chapterIndex": 10,
+        "chapterTitle": "第10章",
+        "matchedNames": [
+          "军校"
+        ]
+      },
+      {
+        "text": "所有人安静仰头看着光幕上白色机甲的背影，这是他们军校的学长，虽败犹荣。",
+        "fields": [
+          "atmosphere"
+        ],
+        "chapterIndex": 29,
+        "chapterTitle": "第29章",
+        "matchedNames": [
+          "军校"
+        ]
+      },
+      {
+        "text": "角落里的男同学蹲在地上哭，完全控制不了自己的情绪，“四年，我从申屠坤第一次参加赫菲斯托斯大赛开始看，到现在我们军校连前三都没拿过一次。",
+        "fields": [
+          "layout"
+        ],
+        "chapterIndex": 29,
+        "chapterTitle": "第29章",
+        "matchedNames": [
+          "军校"
+        ]
+      },
+      {
+        "text": "比赛接近尾声，剩下的军校已经有两所快抵达终点，在终点前两所军校发生了交锋，基本算每年每场的看点了。",
+        "fields": [
+          "actionContext"
+        ],
+        "chapterIndex": 29,
+        "chapterTitle": "第29章",
+        "matchedNames": [
+          "军校"
+        ]
+      },
+      {
+        "text": "“一是想我们放出自己的机甲，还有三个月不到，我们要进入大赛，机甲师和指挥的机甲这时候暴露出来，恐怕四大军校立刻有方案针对我们俩。",
+        "fields": [
+          "time"
+        ],
+        "chapterIndex": 36,
+        "chapterTitle": "第36章",
+        "matchedNames": [
+          "军校"
+        ]
+      },
+      {
+        "text": "”师娘对广场的事还心有余悸，但卫三是军校生, 这种事将来只会越见越多。",
+        "fields": [
+          "environment"
+        ],
+        "chapterIndex": 37,
+        "chapterTitle": "第37章",
+        "matchedNames": [
+          "军校"
+        ]
+      }
+    ],
+    "sourceDescription": "师娘对广场的事还心有余悸；角落里的男同学蹲在地上哭；所有人安静仰头看着光幕上白色机甲的背影；机甲师和指挥的机甲这时候暴露出来；离开家乡去陌生军校；在终点前两所军校发生了交锋"
+  },
+  {
+    "name": "3212星边缘森林",
+    "fields": {
+      "time": "",
+      "layout": "",
+      "lighting": "",
+      "atmosphere": "",
+      "environment": "便带着他们去往边缘森林（第6章）；所有学生立刻如同潮水般涌进边缘森林（第6章）；卫三快速进入边缘森林（第6章）；边缘森林表面看起来一派祥和（第6章）；今天于边缘森林的野兽而言（第6章）；顺利离开边缘森林（第6章）；往边缘森林入口那边走去（第6章）",
+      "actionContext": "顺利离开边缘森林（第6章）"
+    },
+    "aliases": [
+      "边缘森林"
+    ],
+    "confidence": 0.53,
+    "entityType": "location",
+    "needsReview": true,
+    "missingFields": [
+      "layout",
+      "atmosphere",
+      "lighting",
+      "time"
+    ],
+    "sourceCoverage": "partial",
+    "evidenceSnippets": [
+      {
+        "text": "老师们各自动员完自己班级的学生后，便带着他们去往边缘森林。",
+        "fields": [
+          "environment"
+        ],
+        "chapterIndex": 6,
+        "chapterTitle": "第6章",
+        "matchedNames": [
+          "边缘森林"
+        ]
+      },
+      {
+        "text": "随着发令枪响，所有学生立刻如同潮水般涌进边缘森林，每个人都想早点完成任务。",
+        "fields": [
+          "environment"
+        ],
+        "chapterIndex": 6,
+        "chapterTitle": "第6章",
+        "matchedNames": [
+          "边缘森林"
+        ]
+      },
+      {
+        "text": "卫三快速进入边缘森林，她向来惜命，十六次期末考试，基本上靠着各种走位避免受重伤，她穷，躺不起治疗舱。",
+        "fields": [
+          "environment"
+        ],
+        "chapterIndex": 6,
+        "chapterTitle": "第6章",
+        "matchedNames": [
+          "边缘森林"
+        ]
+      },
+      {
+        "text": "边缘森林表面看起来一派祥和，连空气都比城市中要清新不少，然而自学生进来后，惨叫声没有停过。",
+        "fields": [
+          "environment"
+        ],
+        "chapterIndex": 6,
+        "chapterTitle": "第6章",
+        "matchedNames": [
+          "边缘森林"
+        ],
+        "otherMatchedNames": [
+          "城市"
+        ]
+      },
+      {
+        "text": "今天于边缘森林的野兽而言，是一次进食的好机会。",
+        "fields": [
+          "environment"
+        ],
+        "chapterIndex": 6,
+        "chapterTitle": "第6章",
+        "matchedNames": [
+          "边缘森林"
+        ]
+      },
+      {
+        "text": "卫三跑得飞快，运气也还算不错，回去的路上没碰见其他野兽，顺利离开边缘森林。",
+        "fields": [
+          "environment",
+          "actionContext"
+        ],
+        "chapterIndex": 6,
+        "chapterTitle": "第6章",
+        "matchedNames": [
+          "边缘森林"
+        ]
+      },
+      {
+        "text": "算算时间，那边差不多结束了，卫三才恋恋不舍离开安全区，往边缘森林入口那边走去。",
+        "fields": [
+          "environment"
+        ],
+        "chapterIndex": 6,
+        "chapterTitle": "第6章",
+        "matchedNames": [
+          "边缘森林"
+        ],
+        "otherMatchedNames": [
+          "安全区"
+        ]
+      }
+    ],
+    "sourceDescription": "便带着他们去往边缘森林；所有学生立刻如同潮水般涌进边缘森林；卫三快速进入边缘森林；边缘森林表面看起来一派祥和；今天于边缘森林的野兽而言；顺利离开边缘森林；往边缘森林入口那边走去；顺利离开边缘森林"
+  },
+  {
+    "name": "安全区",
+    "fields": {
+      "time": "",
+      "layout": "",
+      "lighting": "",
+      "atmosphere": "",
+      "environment": "有些小商贩会在森林不远处的安全区摆摊卖东西（第6章）",
+      "actionContext": "卫三才恋恋不舍离开安全区（第6章）"
+    },
+    "aliases": [],
+    "confidence": 0.38,
+    "entityType": "location",
+    "needsReview": true,
+    "missingFields": [
+      "layout",
+      "atmosphere",
+      "lighting",
+      "time"
+    ],
+    "sourceCoverage": "partial",
+    "evidenceSnippets": [
+      {
+        "text": "因为考试原因，有些小商贩会在森林不远处的安全区摆摊卖东西。",
+        "fields": [
+          "environment"
+        ],
+        "chapterIndex": 6,
+        "chapterTitle": "第6章",
+        "matchedNames": [
+          "安全区"
+        ]
+      },
+      {
+        "text": "算算时间，那边差不多结束了，卫三才恋恋不舍离开安全区，往边缘森林入口那边走去。",
+        "fields": [
+          "actionContext"
+        ],
+        "chapterIndex": 6,
+        "chapterTitle": "第6章",
+        "matchedNames": [
+          "安全区"
+        ],
+        "otherMatchedNames": [
+          "边缘森林"
+        ]
+      }
+    ],
+    "sourceDescription": "有些小商贩会在森林不远处的安全区摆摊卖东西；卫三才恋恋不舍离开安全区"
+  },
+  {
+    "name": "十三军区",
+    "fields": {
+      "time": "",
+      "layout": "",
+      "lighting": "",
+      "atmosphere": "",
+      "environment": "",
+      "actionContext": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "location",
+    "needsReview": true,
+    "missingFields": [
+      "environment",
+      "layout",
+      "atmosphere",
+      "lighting",
+      "time",
+      "actionContext"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "便利店",
+    "fields": {
+      "time": "",
+      "layout": "",
+      "lighting": "",
+      "atmosphere": "",
+      "environment": "",
+      "actionContext": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "location",
+    "needsReview": true,
+    "missingFields": [
+      "environment",
+      "layout",
+      "atmosphere",
+      "lighting",
+      "time",
+      "actionContext"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "黑厂地下三层最大擂台",
+    "fields": {
+      "time": "",
+      "layout": "",
+      "lighting": "",
+      "atmosphere": "",
+      "environment": "",
+      "actionContext": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "location",
+    "needsReview": true,
+    "missingFields": [
+      "environment",
+      "layout",
+      "atmosphere",
+      "lighting",
+      "time",
+      "actionContext"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "达摩克利斯军校操场",
+    "fields": {
+      "time": "",
+      "layout": "",
+      "lighting": "",
+      "atmosphere": "",
+      "environment": "",
+      "actionContext": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "location",
+    "needsReview": true,
+    "missingFields": [
+      "environment",
+      "layout",
+      "atmosphere",
+      "lighting",
+      "time",
+      "actionContext"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "垃圾场附近废弃大楼",
+    "fields": {
+      "time": "",
+      "layout": "",
+      "lighting": "",
+      "atmosphere": "",
+      "environment": "",
+      "actionContext": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "location",
+    "needsReview": true,
+    "missingFields": [
+      "environment",
+      "layout",
+      "atmosphere",
+      "lighting",
+      "time",
+      "actionContext"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "材料市场",
+    "fields": {
+      "time": "",
+      "layout": "",
+      "lighting": "",
+      "atmosphere": "",
+      "environment": "",
+      "actionContext": ""
+    },
+    "aliases": [
+      "材料街"
+    ],
+    "confidence": 0,
+    "entityType": "location",
+    "needsReview": true,
+    "missingFields": [
+      "environment",
+      "layout",
+      "atmosphere",
+      "lighting",
+      "time",
+      "actionContext"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "085擂台",
+    "fields": {
+      "time": "",
+      "layout": "",
+      "lighting": "",
+      "atmosphere": "",
+      "environment": "【085擂台：向生活低头vs老子赢定了】（第16章）；085擂台上还有人比赛（第16章）；再走向085擂台（第16章）；对手也差不多这个时间走上擂台（第16章）",
+      "actionContext": ""
+    },
+    "aliases": [],
+    "confidence": 0.34,
+    "entityType": "location",
+    "needsReview": true,
+    "missingFields": [
+      "layout",
+      "atmosphere",
+      "lighting",
+      "time",
+      "actionContext"
+    ],
+    "sourceCoverage": "partial",
+    "evidenceSnippets": [
+      {
+        "text": "【085擂台：向生活低头vs老子赢定了】",
+        "fields": [
+          "environment"
+        ],
+        "chapterIndex": 16,
+        "chapterTitle": "第16章",
+        "matchedNames": [
+          "085擂台"
+        ]
+      },
+      {
+        "text": "比赛名单很快出来, 卫三照例往等候区走, 085擂台上还有人比赛, 她靠在长椅上休息。",
+        "fields": [
+          "environment"
+        ],
+        "chapterIndex": 16,
+        "chapterTitle": "第16章",
+        "matchedNames": [
+          "085擂台"
+        ]
+      },
+      {
+        "text": "卫三起身，进入机甲，再走向085擂台，对手也差不多这个时间走上擂台，他的机甲做过改造，连颜色都换了一种。",
+        "fields": [
+          "environment"
+        ],
+        "chapterIndex": 16,
+        "chapterTitle": "第16章",
+        "matchedNames": [
+          "085擂台"
+        ]
+      }
+    ],
+    "sourceDescription": "【085擂台：向生活低头vs老子赢定了】；085擂台上还有人比赛；再走向085擂台；对手也差不多这个时间走上擂台"
+  },
+  {
+    "name": "35擂台",
+    "fields": {
+      "time": "",
+      "layout": "",
+      "lighting": "",
+      "atmosphere": "",
+      "environment": "35擂台前面没有团体比赛（第39章）",
+      "actionContext": ""
+    },
+    "aliases": [],
+    "confidence": 0.19,
+    "entityType": "location",
+    "needsReview": true,
+    "missingFields": [
+      "layout",
+      "atmosphere",
+      "lighting",
+      "time",
+      "actionContext"
+    ],
+    "sourceCoverage": "partial",
+    "evidenceSnippets": [
+      {
+        "text": "黑厂考虑到比赛场内有六架机甲，所以团体擂台范围更大，35擂台前面没有团体比赛，三个人便直接从通道进去。",
+        "fields": [
+          "environment"
+        ],
+        "chapterIndex": 39,
+        "chapterTitle": "第39章",
+        "matchedNames": [
+          "35擂台"
+        ],
+        "otherMatchedNames": [
+          "黑厂"
+        ]
+      }
+    ],
+    "sourceDescription": "35擂台前面没有团体比赛"
+  },
+  {
+    "name": "黑厂地下三层",
+    "fields": {
+      "time": "",
+      "layout": "",
+      "lighting": "",
+      "atmosphere": "",
+      "environment": "",
+      "actionContext": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "location",
+    "needsReview": true,
+    "missingFields": [
+      "environment",
+      "layout",
+      "atmosphere",
+      "lighting",
+      "time",
+      "actionContext"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "黑厂交易市场",
+    "fields": {
+      "time": "",
+      "layout": "",
+      "lighting": "",
+      "atmosphere": "",
+      "environment": "",
+      "actionContext": ""
+    },
+    "aliases": [
+      "交易市场"
+    ],
+    "confidence": 0,
+    "entityType": "location",
+    "needsReview": true,
+    "missingFields": [
+      "environment",
+      "layout",
+      "atmosphere",
+      "lighting",
+      "time",
+      "actionContext"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "救济房",
+    "fields": {
+      "time": "",
+      "layout": "",
+      "lighting": "",
+      "atmosphere": "",
+      "environment": "",
+      "actionContext": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "location",
+    "needsReview": true,
+    "missingFields": [
+      "environment",
+      "layout",
+      "atmosphere",
+      "lighting",
+      "time",
+      "actionContext"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "商场",
+    "fields": {
+      "time": "",
+      "layout": "",
+      "lighting": "",
+      "atmosphere": "",
+      "environment": "",
+      "actionContext": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "location",
+    "needsReview": true,
+    "missingFields": [
+      "environment",
+      "layout",
+      "atmosphere",
+      "lighting",
+      "time",
+      "actionContext"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "办公大楼",
+    "fields": {
+      "time": "",
+      "layout": "",
+      "lighting": "",
+      "atmosphere": "",
+      "environment": "",
+      "actionContext": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "location",
+    "needsReview": true,
+    "missingFields": [
+      "environment",
+      "layout",
+      "atmosphere",
+      "lighting",
+      "time",
+      "actionContext"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "第5军区",
+    "fields": {
+      "time": "",
+      "layout": "",
+      "lighting": "",
+      "atmosphere": "",
+      "environment": "",
+      "actionContext": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "location",
+    "needsReview": true,
+    "missingFields": [
+      "environment",
+      "layout",
+      "atmosphere",
+      "lighting",
+      "time",
+      "actionContext"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "店铺",
+    "fields": {
+      "time": "",
+      "layout": "",
+      "lighting": "",
+      "atmosphere": "",
+      "environment": "",
+      "actionContext": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "location",
+    "needsReview": true,
+    "missingFields": [
+      "environment",
+      "layout",
+      "atmosphere",
+      "lighting",
+      "time",
+      "actionContext"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "黑厂地下二层",
+    "fields": {
+      "time": "",
+      "layout": "",
+      "lighting": "",
+      "atmosphere": "",
+      "environment": "",
+      "actionContext": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "location",
+    "needsReview": true,
+    "missingFields": [
+      "environment",
+      "layout",
+      "atmosphere",
+      "lighting",
+      "time",
+      "actionContext"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "机甲店",
+    "fields": {
+      "time": "",
+      "layout": "",
+      "lighting": "",
+      "atmosphere": "",
+      "environment": "",
+      "actionContext": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "location",
+    "needsReview": true,
+    "missingFields": [
+      "environment",
+      "layout",
+      "atmosphere",
+      "lighting",
+      "time",
+      "actionContext"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "李皮家",
+    "fields": {
+      "time": "",
+      "layout": "",
+      "lighting": "",
+      "atmosphere": "",
+      "environment": "",
+      "actionContext": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "location",
+    "needsReview": true,
+    "missingFields": [
+      "environment",
+      "layout",
+      "atmosphere",
+      "lighting",
+      "time",
+      "actionContext"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "破楼",
+    "fields": {
+      "time": "",
+      "layout": "",
+      "lighting": "",
+      "atmosphere": "",
+      "environment": "",
+      "actionContext": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "location",
+    "needsReview": true,
+    "missingFields": [
+      "environment",
+      "layout",
+      "atmosphere",
+      "lighting",
+      "time",
+      "actionContext"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "十三区",
+    "fields": {
+      "time": "",
+      "layout": "",
+      "lighting": "",
+      "atmosphere": "",
+      "environment": "",
+      "actionContext": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "location",
+    "needsReview": true,
+    "missingFields": [
+      "environment",
+      "layout",
+      "atmosphere",
+      "lighting",
+      "time",
+      "actionContext"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "图书馆机甲区",
+    "fields": {
+      "time": "",
+      "layout": "",
+      "lighting": "",
+      "atmosphere": "",
+      "environment": "",
+      "actionContext": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "location",
+    "needsReview": true,
+    "missingFields": [
+      "environment",
+      "layout",
+      "atmosphere",
+      "lighting",
+      "time",
+      "actionContext"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "威拉德星",
+    "fields": {
+      "time": "",
+      "layout": "",
+      "lighting": "",
+      "atmosphere": "",
+      "environment": "",
+      "actionContext": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "location",
+    "needsReview": true,
+    "missingFields": [
+      "environment",
+      "layout",
+      "atmosphere",
+      "lighting",
+      "time",
+      "actionContext"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "西港口",
+    "fields": {
+      "time": "",
+      "layout": "",
+      "lighting": "",
+      "atmosphere": "",
+      "environment": "",
+      "actionContext": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "location",
+    "needsReview": true,
+    "missingFields": [
+      "environment",
+      "layout",
+      "atmosphere",
+      "lighting",
+      "time",
+      "actionContext"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "学校医务室",
+    "fields": {
+      "time": "",
+      "layout": "",
+      "lighting": "",
+      "atmosphere": "",
+      "environment": "",
+      "actionContext": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "location",
+    "needsReview": true,
+    "missingFields": [
+      "environment",
+      "layout",
+      "atmosphere",
+      "lighting",
+      "time",
+      "actionContext"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "医疗室",
+    "fields": {
+      "time": "",
+      "layout": "",
+      "lighting": "",
+      "atmosphere": "",
+      "environment": "",
+      "actionContext": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "location",
+    "needsReview": true,
+    "missingFields": [
+      "environment",
+      "layout",
+      "atmosphere",
+      "lighting",
+      "time",
+      "actionContext"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "学校图书馆",
+    "fields": {
+      "time": "",
+      "layout": "",
+      "lighting": "",
+      "atmosphere": "",
+      "environment": "",
+      "actionContext": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "location",
+    "needsReview": true,
+    "missingFields": [
+      "environment",
+      "layout",
+      "atmosphere",
+      "lighting",
+      "time",
+      "actionContext"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "学校操场",
+    "fields": {
+      "time": "",
+      "layout": "",
+      "lighting": "",
+      "atmosphere": "",
+      "environment": "",
+      "actionContext": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "location",
+    "needsReview": true,
+    "missingFields": [
+      "environment",
+      "layout",
+      "atmosphere",
+      "lighting",
+      "time",
+      "actionContext"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  }
+]

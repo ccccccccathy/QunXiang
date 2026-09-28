@@ -1,0 +1,172 @@
+[
+  {
+    "name": "军用机甲",
+    "fields": {
+      "usage": "",
+      "material": "",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [
+      "战机甲",
+      "战斗型机甲"
+    ],
+    "confidence": 0,
+    "entityType": "item",
+    "needsReview": true,
+    "missingFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "营养液",
+    "fields": {
+      "usage": "",
+      "material": "",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [
+      "营养剂"
+    ],
+    "confidence": 0,
+    "entityType": "item",
+    "needsReview": true,
+    "missingFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "光脑",
+    "fields": {
+      "usage": "",
+      "material": "",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [
+      "终端"
+    ],
+    "confidence": 0,
+    "entityType": "item",
+    "needsReview": true,
+    "missingFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "能源片",
+    "fields": {
+      "usage": "",
+      "material": "",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [
+      "能量片"
+    ],
+    "confidence": 0,
+    "entityType": "item",
+    "needsReview": true,
+    "missingFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "观赏型机甲",
+    "fields": {
+      "usage": "",
+      "material": "",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [
+      "观赏机甲"
+    ],
+    "confidence": 0,
+    "entityType": "item",
+    "needsReview": true,
+    "missingFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  },
+  {
+    "name": "三轮车",
+    "fields": {
+      "usage": "",
+      "material": "",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [
+      "破烂三轮车",
+      "改装三轮车"
+    ],
+    "confidence": 0,
+    "entityType": "item",
+    "needsReview": true,
+    "missingFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  }
+]

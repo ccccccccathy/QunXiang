@@ -1,0 +1,28 @@
+[
+  {
+    "name": "机甲",
+    "fields": {
+      "usage": "",
+      "material": "",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "item",
+    "needsReview": true,
+    "missingFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "none",
+    "evidenceSnippets": [],
+    "sourceDescription": ""
+  }
+]

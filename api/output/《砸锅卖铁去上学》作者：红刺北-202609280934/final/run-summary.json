@@ -1,0 +1,64 @@
+{
+  "bookId": "42053855-f3f7-4525-970e-4f573ad97c05",
+  "status": "completed",
+  "officialResult": true,
+  "generatedAt": "2026-09-28T09:42:08.046Z",
+  "counts": {
+    "characters": 0,
+    "locations": 8,
+    "items": 6,
+    "worldviews": 7
+  },
+  "outputs": {
+    "finalSummary": "output/《砸锅卖铁去上学》作者：红刺北-202609280934/final/run-summary.json",
+    "prescanIntermediate": ".intermediate/《砸锅卖铁去上学》作者：红刺北-202609280934/prescan",
+    "entities": "output/《砸锅卖铁去上学》作者：红刺北-202609280934/entities"
+  },
+  "entities": {
+    "characters": [],
+    "locations": [
+      "3212星",
+      "3212预备学校",
+      "达摩克利斯学院",
+      "垃圾场",
+      "交易市场",
+      "平海学院",
+      "地下黑场",
+      "帝国军事学院"
+    ],
+    "items": [
+      "军用机甲",
+      "营养液",
+      "光脑",
+      "能源片",
+      "观赏型机甲",
+      "三轮车"
+    ],
+    "worldviews": [
+      "感知等级",
+      "机甲三大职业",
+      "星兽",
+      "机甲分类体系",
+      "五大军事学院",
+      "星历时代",
+      "地下黑场等级规则"
+    ]
+  },
+  "failedBatches": [
+    {
+      "batch": 0,
+      "error": "LLM 接口返回 HTTP 400：{\"error\":{\"message\":\"This model's maximum context length is 1048576 tokens. However, you requested 2243625 tokens (2243625 in the messages, 0 in the completion). Please reduce the length of the messages or completion. (request_id: d5a78e74-fbd2-43ff-ab89-9c091752da18)\",\"type\":\"invalid_request_error\"",
+      "chapterTo": 1,
+      "chapterFrom": 1
+    }
+  ],
+  "reviewer": {
+    "count": 0,
+    "audited": false,
+    "autoMerged": 0,
+    "suggested": 0,
+    "canonicalSwapped": 0,
+    "aliasCleaned": 0,
+    "message": "最终审核完成：无待裁决候选，正名修正 0 处、别名降噪 0 处"
+  }
+}

@@ -1,0 +1,466 @@
+[
+  {
+    "name": "3212星",
+    "tier": "candidate",
+    "fields": {
+      "time": "",
+      "layout": "",
+      "lighting": "",
+      "atmosphere": "",
+      "environment": "",
+      "actionContext": ""
+    },
+    "aliases": [
+      "无名星"
+    ],
+    "confidence": 0,
+    "entityType": "location",
+    "needsReview": true,
+    "visualFields": {
+      "time": "白天光线昏沉，入夜后更显冷寂，昼夜分界不明显",
+      "layout": "低矮破旧的聚落沿沙石地展开，垃圾场和废弃矿区散布其间，缺乏醒目的高层建筑",
+      "lighting": "天色偏灰黄，阳光被尘雾遮得昏沉，夜间只有稀疏的旧式人工光源",
+      "atmosphere": "萧索灰暗，空气似有浮尘，建筑外立面斑驳剥落",
+      "environment": "地表荒芜，多为灰黄色沙石与坑洼硬地，植被稀少，废弃建筑和金属残骸散落",
+      "actionContext": "旧街区、垃圾场和简易市场构成主要日常背景，环境粗粝简陋"
+    },
+    "llmSupplement": "废弃机械构件和旧金属堆在路边形成随处可见的视觉锚点，街道多为硬土和碎砂，房屋外墙呈灰褐或旧金属色，远处天空长期像蒙着一层灰黄薄雾",
+    "missingFields": [
+      "environment",
+      "layout",
+      "atmosphere",
+      "lighting",
+      "time",
+      "actionContext"
+    ],
+    "visualDetails": {
+      "time": "常显冷寂，时间感偏压抑，昼夜都不明朗",
+      "layout": "低矮聚落稀疏分布，垃圾场和废弃矿区穿插其中，无明显高层地标",
+      "lighting": "昼间灰黄天光，夜间只有零星人工灯光",
+      "atmosphere": "灰暗萧索，破败感明显，建筑外立面带有剥落和补丁痕迹",
+      "environment": "荒凉星球地表，灰黄沙石和废弃建筑为主，植被极少",
+      "actionContext": "旧街区、垃圾场和简易市场为主要活动背景",
+      "keyVisualAnchors": "废弃机械构件、旧金属堆、灰黄沙石地和斑驳低矮外墙"
+    },
+    "inferredFields": [
+      "environment",
+      "layout",
+      "atmosphere",
+      "lighting",
+      "time",
+      "actionContext"
+    ],
+    "sourceCoverage": "none",
+    "importanceScore": 0.231,
+    "completionStatus": "llm_inferred",
+    "evidenceSnippets": [],
+    "finalDescription": "3212星是一颗荒凉的星球，地表多为灰黄色沙石和坑洼硬地，植被稀少。低矮破旧的聚落沿着沙石地稀疏展开，垃圾场和废弃矿区散布其间，几乎没有像样的高层建筑，建筑外立面斑驳剥落，常带补丁和锈迹。天色偏灰黄，阳光被尘雾遮得昏沉，入夜后只有零星人工光源，整体氛围萧索、冷寂。",
+    "summarizedFields": [],
+    "descriptionSource": "mixed",
+    "sourceDescription": "",
+    "enhancedDescription": "3212星是一颗荒凉的星球，地表多为灰黄色沙石和坑洼硬地，植被稀少。低矮破旧的聚落沿着沙石地稀疏展开，垃圾场和废弃矿区散布其间，几乎没有像样的高层建筑，建筑外立面斑驳剥落，常带补丁和锈迹。天色偏灰黄，阳光被尘雾遮得昏沉，入夜后只有零星人工光源，整体氛围萧索、冷寂。",
+    "supplementDescription": "废弃机械构件和旧金属堆在路边形成随处可见的视觉锚点，街道多为硬土和碎砂，房屋外墙呈灰褐或旧金属色，远处天空长期像蒙着一层灰黄薄雾"
+  },
+  {
+    "name": "3212预备学校",
+    "tier": "candidate",
+    "fields": {
+      "time": "",
+      "layout": "",
+      "lighting": "",
+      "atmosphere": "",
+      "environment": "",
+      "actionContext": ""
+    },
+    "aliases": [
+      "3212学校"
+    ],
+    "confidence": 0,
+    "entityType": "location",
+    "needsReview": true,
+    "visualFields": {
+      "time": "白天光线清冷，入夜后训练场仍有探照灯照明",
+      "layout": "校门低矮，内部为整齐但朴素的低层建筑群，训练场平坦开阔，维修区堆放着旧机甲部件",
+      "lighting": "自然光偏冷，走廊和训练馆用冷白色灯光，光线清硬",
+      "atmosphere": "纪律森严而清冷，校舍外表朴素，墙面有斑驳磨损",
+      "environment": "校园被灰旧围墙围合，地面多为硬质灰白场地，周围略显空旷荒凉",
+      "actionContext": "训练场与维修区为日常训练和实操的主要区域，设施紧凑固定"
+    },
+    "llmSupplement": "校门上方挂着简单校名标识，铁门灰旧；教学楼外廊有连续的窄窗，窗框漆面剥落；训练场边竖立着几根高杆探照灯，远处可零星看到训练用机甲的轮廓",
+    "missingFields": [
+      "environment",
+      "layout",
+      "atmosphere",
+      "lighting",
+      "time",
+      "actionContext"
+    ],
+    "visualDetails": {
+      "time": "昼夜都偏冷，白天清冷，夜间灯光明亮",
+      "layout": "低层校舍紧凑排列，训练场平坦，维修区露天堆放旧机甲和零件",
+      "lighting": "清冷自然光加冷白室内灯，夜间有探照灯",
+      "atmosphere": "清冷严肃，朴素破旧但井然有序",
+      "environment": "灰墙围合的学校，地面空旷，周边荒芜",
+      "actionContext": "训练场、教室和维修区是主要区域",
+      "keyVisualAnchors": "灰旧校门、冷白训练馆灯光、露天维修区的旧机甲零件、训练场边高杆探照灯"
+    },
+    "inferredFields": [
+      "environment",
+      "layout",
+      "atmosphere",
+      "lighting",
+      "time",
+      "actionContext"
+    ],
+    "sourceCoverage": "none",
+    "importanceScore": 0.231,
+    "completionStatus": "llm_inferred",
+    "evidenceSnippets": [],
+    "finalDescription": "3212预备学校坐落于荒芜星球上，校园被灰旧围墙围合，内部建筑多为朴素低层预制建筑，排列紧凑。训练场平坦开阔，地面灰白冷硬，维修区露天堆放着旧机甲部件和金属零件。墙面带有斑驳磨损，部分区域有修补痕迹。自然光清冷，走廊和训练馆使用冷白色灯光，入夜后训练场仍有探照灯照明，整体氛围严肃清苦。",
+    "summarizedFields": [],
+    "descriptionSource": "mixed",
+    "sourceDescription": "",
+    "enhancedDescription": "3212预备学校坐落于荒芜星球上，校园被灰旧围墙围合，内部建筑多为朴素低层预制建筑，排列紧凑。训练场平坦开阔，地面灰白冷硬，维修区露天堆放着旧机甲部件和金属零件。墙面带有斑驳磨损，部分区域有修补痕迹。自然光清冷，走廊和训练馆使用冷白色灯光，入夜后训练场仍有探照灯照明，整体氛围严肃清苦。",
+    "supplementDescription": "校门上方挂着简单校名标识，铁门灰旧；教学楼外廊有连续的窄窗，窗框漆面剥落；训练场边竖立着几根高杆探照灯，远处可零星看到训练用机甲的轮廓"
+  },
+  {
+    "name": "达摩克利斯学院",
+    "tier": "candidate",
+    "fields": {
+      "time": "",
+      "layout": "",
+      "lighting": "",
+      "atmosphere": "",
+      "environment": "",
+      "actionContext": ""
+    },
+    "aliases": [
+      "达摩克利斯军事学院"
+    ],
+    "confidence": 0,
+    "entityType": "location",
+    "needsReview": true,
+    "visualFields": {
+      "time": "白昼明亮清晰，夜间以冷白色灯光覆盖主要区域，整体昼夜视觉均偏冷。",
+      "layout": "校门入口连接主干道，两侧依次分布教学楼、训练场馆和机库；园区中央为开阔广场与训练场，宿舍区位于后部区域，整体布局规整对称。",
+      "lighting": "日间自然光照射在灰白建筑与开阔训练场上，室内多采用偏冷白色人工光源；夜间训练场和通道设有高亮度照明。",
+      "atmosphere": "冷峻肃穆的军事化校园氛围，建筑线条简洁，灰白与深灰主色带来冷硬感。",
+      "environment": "现代化军事学院园区，建筑外观方正硬朗，以灰白色金属外墙与深色玻璃幕墙为主，园区内可见训练场、机库、教学楼与宿舍区，地面多为深灰色硬质铺装。",
+      "actionContext": "园区内可见身着统一制式服装的学员和停放于训练场的教学机甲机体。"
+    },
+    "llmSupplement": "现代军事学院园区，灰白色金属建筑与深色幕墙，校园中央为开阔训练场和广场，教学楼、训练馆、机库与宿舍区沿主路排布，整体以冷白光源和硬化铺装构成冷峻规整的视觉基调",
+    "missingFields": [
+      "environment",
+      "layout",
+      "atmosphere",
+      "lighting",
+      "time",
+      "actionContext"
+    ],
+    "visualDetails": {
+      "time": "白天光线明亮，夜间冷白灯光笼罩训练区与通道。",
+      "layout": "入口主干道贯穿园区，教学楼、训练馆、机库沿两侧分布，中央设广场与训练场，宿舍区偏后。",
+      "lighting": "白天以自然直射光为主，室内和夜间以冷白高强度照明为主。",
+      "atmosphere": "冷峻规整，军事化气息明显，整体色调偏灰白冷色。",
+      "environment": "现代化军事学院园区，灰白色金属建筑与深色玻璃幕墙，搭配深灰色地面和开阔训练场地。",
+      "actionContext": "可见统一着装学员、教学机甲机体和开阔训练装置。",
+      "keyVisualAnchors": "灰白色方正主楼、开阔训练场、大型机甲机库、入口校名标识"
+    },
+    "inferredFields": [
+      "environment",
+      "layout",
+      "atmosphere",
+      "lighting",
+      "time",
+      "actionContext"
+    ],
+    "sourceCoverage": "none",
+    "importanceScore": 0.231,
+    "completionStatus": "llm_inferred",
+    "evidenceSnippets": [],
+    "finalDescription": "达摩克利斯学院是一座偏现代化的军事学院园区，建筑以灰白色金属与深色玻璃幕墙为主，线条方正硬朗。校园中央是开阔的训练场与广场，教学楼、训练馆、机库和宿舍区沿主干道整齐分布。整体光线以冷白为主，白天自然光鲜明，夜间由高亮度照明笼罩训练区域，视觉上冷峻肃穆，带有强烈的军事化规整感。",
+    "summarizedFields": [],
+    "descriptionSource": "mixed",
+    "sourceDescription": "",
+    "enhancedDescription": "达摩克利斯学院是一座偏现代化的军事学院园区，建筑以灰白色金属与深色玻璃幕墙为主，线条方正硬朗。校园中央是开阔的训练场与广场，教学楼、训练馆、机库和宿舍区沿主干道整齐分布。整体光线以冷白为主，白天自然光鲜明，夜间由高亮度照明笼罩训练区域，视觉上冷峻肃穆，带有强烈的军事化规整感。",
+    "supplementDescription": "现代军事学院园区，灰白色金属建筑与深色幕墙，校园中央为开阔训练场和广场，教学楼、训练馆、机库与宿舍区沿主路排布，整体以冷白光源和硬化铺装构成冷峻规整的视觉基调"
+  },
+  {
+    "name": "垃圾场",
+    "tier": "candidate",
+    "fields": {
+      "time": "",
+      "layout": "",
+      "lighting": "",
+      "atmosphere": "",
+      "environment": "",
+      "actionContext": ""
+    },
+    "aliases": [
+      "垃圾区"
+    ],
+    "confidence": 0,
+    "entityType": "location",
+    "needsReview": true,
+    "visualFields": {
+      "time": "日间灰暗沉闷，傍晚后光线迅速转暗，夜晚几乎没有固定照明。",
+      "layout": "废弃物形成高低不一的堆积堆，堆与堆之间留有狭窄通道；入口处有车辆进出通道，深处为更广阔的堆积区。",
+      "lighting": "白天主要依靠自然天光，但受扬尘和堆积物遮挡显得昏暗；夜间除车灯或零星临时光源外整体黑暗。",
+      "atmosphere": "荒凉、杂乱、压抑，视觉上以灰褐色与锈红色为主，尘土感强烈。",
+      "environment": "大片开阔的废弃物堆积区，地面以裸露沙土和半硬化碎料为主，四处堆满废弃机械构件、金属残骸、破损箱体与生活垃圾，灰褐色调为主，多处有锈蚀痕迹和尘土覆盖。",
+      "actionContext": "区域内可见大型垃圾车留下的车辙和倾倒点，周围散落废弃物，拾荒者活动痕迹明显。"
+    },
+    "llmSupplement": "开阔的废弃物堆积区，裸露沙土与半硬化碎料地面，灰褐色调，废弃机械构件与金属残骸高低错落，车辆车辙明显，整体光线昏暗荒凉",
+    "missingFields": [
+      "environment",
+      "layout",
+      "atmosphere",
+      "lighting",
+      "time",
+      "actionContext"
+    ],
+    "visualDetails": {
+      "time": "白天灰暗，傍晚转暗迅速，夜间黑暗。",
+      "layout": "废弃物高低错落成堆，窄道穿行其间，车辆通道和倾倒点位于入口附近。",
+      "lighting": "白天自然光被扬尘和废弃物遮挡，夜间几乎无固定照明，仅偶有车灯光源。",
+      "atmosphere": "荒凉杂乱，灰褐与锈红交织，尘土弥漫。",
+      "environment": "开阔废弃物堆积区，裸露沙土与半硬化碎料地面，遍布废弃机械构件、金属残骸和箱体碎片。",
+      "actionContext": "可见垃圾车车辙、倾倒点、散落废弃物和拾荒痕迹。",
+      "keyVisualAnchors": "成片废弃物堆积堆、锈蚀金属残骸、垃圾车车辙、灰暗尘土天空"
+    },
+    "inferredFields": [
+      "environment",
+      "layout",
+      "atmosphere",
+      "lighting",
+      "time",
+      "actionContext"
+    ],
+    "sourceCoverage": "none",
+    "importanceScore": 0.231,
+    "completionStatus": "llm_inferred",
+    "evidenceSnippets": [],
+    "finalDescription": "垃圾场是一片开阔而杂乱的废弃物堆积区，地面覆盖裸露沙土和半硬化碎料，四处堆满废弃机械构件、金属残骸、破损箱体与生活垃圾。废弃物高低错落，形成狭窄的通行缝隙，车辆通道处留有深重车辙。整体色调灰褐，锈蚀金属与尘土覆盖大片区域，白天光线昏暗，夜间更显荒凉黑暗。",
+    "summarizedFields": [],
+    "descriptionSource": "mixed",
+    "sourceDescription": "",
+    "enhancedDescription": "垃圾场是一片开阔而杂乱的废弃物堆积区，地面覆盖裸露沙土和半硬化碎料，四处堆满废弃机械构件、金属残骸、破损箱体与生活垃圾。废弃物高低错落，形成狭窄的通行缝隙，车辆通道处留有深重车辙。整体色调灰褐，锈蚀金属与尘土覆盖大片区域，白天光线昏暗，夜间更显荒凉黑暗。",
+    "supplementDescription": "开阔的废弃物堆积区，裸露沙土与半硬化碎料地面，灰褐色调，废弃机械构件与金属残骸高低错落，车辆车辙明显，整体光线昏暗荒凉"
+  },
+  {
+    "name": "交易市场",
+    "tier": "candidate",
+    "fields": {
+      "time": "",
+      "layout": "",
+      "lighting": "",
+      "atmosphere": "",
+      "environment": "",
+      "actionContext": ""
+    },
+    "aliases": [
+      "集市"
+    ],
+    "confidence": 0,
+    "entityType": "location",
+    "needsReview": true,
+    "visualFields": {
+      "time": "日间和夜间均有人流，夜晚光线更为明亮绚丽，霓虹感更强。",
+      "layout": "主通道贯穿市场，两侧摊位和店铺排列密集；入口附近为生活物资区，深处集中为机甲与改装件区域，地下黑场入口位于较隐蔽的角落或暗门处。",
+      "lighting": "日间自然光与灯箱并存，入夜后霓虹灯箱、招牌灯与电子屏幕成为主要光源，冷暖光线交织。",
+      "atmosphere": "嘈杂热闹，视觉上密集而富有生气，霓虹灯箱与电子屏交错闪烁。",
+      "environment": "大型露天及半室内交易区，沿街密集分布摊位与商铺，货架上陈列机甲零部件、改装件、管线、金属板材及生活物资，地面为深色硬质铺装，部分区域有简易雨棚和广告灯箱。",
+      "actionContext": "摊位之间可见采购者与商贩聚集，通道旁堆放货箱与零部件。"
+    },
+    "llmSupplement": "大型交易区，硬质地面与密集摊位商铺，机甲零部件和改装件陈列于货架，霓虹灯箱和电子屏提供冷暖交织的光线，地下入口设于隐蔽角落",
+    "missingFields": [
+      "environment",
+      "layout",
+      "atmosphere",
+      "lighting",
+      "time",
+      "actionContext"
+    ],
+    "visualDetails": {
+      "time": "昼夜皆有人流，夜间霓虹光线更强。",
+      "layout": "主通道贯穿，生活物资区和机甲改装件区依次分布，地下入口藏于隐蔽角落。",
+      "lighting": "日间自然光与灯箱并亮，夜间以霓虹灯箱、招牌灯和电子屏为主。",
+      "atmosphere": "热闹拥挤，霓虹光与摊位陈设交杂，略显杂乱。",
+      "environment": "大型露天及半室内交易区，硬质地面，摊位、商铺、雨棚和灯箱密集分布。",
+      "actionContext": "可见密集摊位、采购者、商贩和通道边堆放的货物箱。",
+      "keyVisualAnchors": "密集摊位与广告灯箱、机甲零部件货架、地下入口暗门、交错霓虹光"
+    },
+    "inferredFields": [
+      "environment",
+      "layout",
+      "atmosphere",
+      "lighting",
+      "time",
+      "actionContext"
+    ],
+    "sourceCoverage": "none",
+    "importanceScore": 0.231,
+    "completionStatus": "llm_inferred",
+    "evidenceSnippets": [],
+    "finalDescription": "交易市场是大型交易区，主通道贯穿其间，两侧摊位和店铺密集排列，货架上摆满机甲零部件、改装件、金属板材和生活物资。地面为深色硬质铺装，部分区域搭有简易雨棚，霓虹灯箱、招牌灯和电子屏排列交错。日间自然光与灯箱并亮，入夜后冷暖霓虹光线交叠，整体显得热闹又略显杂乱。",
+    "summarizedFields": [],
+    "descriptionSource": "mixed",
+    "sourceDescription": "",
+    "enhancedDescription": "交易市场是大型交易区，主通道贯穿其间，两侧摊位和店铺密集排列，货架上摆满机甲零部件、改装件、金属板材和生活物资。地面为深色硬质铺装，部分区域搭有简易雨棚，霓虹灯箱、招牌灯和电子屏排列交错。日间自然光与灯箱并亮，入夜后冷暖霓虹光线交叠，整体显得热闹又略显杂乱。",
+    "supplementDescription": "大型交易区，硬质地面与密集摊位商铺，机甲零部件和改装件陈列于货架，霓虹灯箱和电子屏提供冷暖交织的光线，地下入口设于隐蔽角落"
+  },
+  {
+    "name": "平海学院",
+    "tier": "candidate",
+    "fields": {
+      "time": "",
+      "layout": "",
+      "lighting": "",
+      "atmosphere": "",
+      "environment": "",
+      "actionContext": ""
+    },
+    "aliases": [],
+    "confidence": 0,
+    "entityType": "location",
+    "needsReview": true,
+    "visualFields": {
+      "time": "日间光影柔和，夜间以暖黄色庭园灯光为主。",
+      "layout": "入口处为传统式校门或牌坊，内部院落沿中轴线或园林式路径分布，教学楼和训练场馆融入庭园之间。",
+      "lighting": "日间自然光透过回廊与树影落在石板地面，夜间暖黄色灯笼或仿古灯饰照亮道路。",
+      "atmosphere": "宁静端肃，东方传统元素使园区带有古雅气质。",
+      "environment": "东方风格与现代军事学院结合的校园，建筑以青灰瓦顶、白墙和深色木构件为基调，园区内可见传统庭院、回廊、石质台阶以及少量现代训练设施。",
+      "actionContext": "园区内可见身着统一校服的学员以及回廊、庭院和露天训练场地。"
+    },
+    "llmSupplement": "青灰瓦顶、白墙与深色木构件的东方院落，配传统回廊、石阶、庭院和现代露天训练场，夜间以暖黄色仿古灯饰为主要照明",
+    "missingFields": [
+      "environment",
+      "layout",
+      "atmosphere",
+      "lighting",
+      "time",
+      "actionContext"
+    ],
+    "visualDetails": {
+      "time": "日间光影柔和，夜间暖黄庭园灯光覆盖主要通道。",
+      "layout": "传统校门或牌坊入口，院落沿中轴线或园林路径展开，教学与训练区域融于庭院之间。",
+      "lighting": "白天自然光柔和穿过回廊与树影，夜间以暖黄仿古灯饰为主。",
+      "atmosphere": "端肃古雅，东方庭园氛围与军事学院感并存。",
+      "environment": "东方院落式校园，青灰瓦顶、白墙与深色木构件为主，融合现代训练设施。",
+      "actionContext": "可见统一着装学员、回廊庭院和露天训练场地。",
+      "keyVisualAnchors": "青灰瓦檐白墙、传统庭院回廊、仿古灯饰、现代训练场"
+    },
+    "inferredFields": [
+      "environment",
+      "layout",
+      "atmosphere",
+      "lighting",
+      "time",
+      "actionContext"
+    ],
+    "sourceCoverage": "none",
+    "importanceScore": 0.231,
+    "completionStatus": "llm_inferred",
+    "evidenceSnippets": [],
+    "finalDescription": "平海学院呈现东方院落与现代军事学院结合的面貌，青灰瓦顶与白墙构成主体建筑，深色木构件点缀其间。校园内分布传统庭院、回廊、石阶和露天训练场地，教学楼与训练馆融入园林式布局。日间柔和自然光透过回廊和树影，夜间暖黄色仿古灯饰照亮道路，整体氛围端肃而古雅。",
+    "summarizedFields": [],
+    "descriptionSource": "mixed",
+    "sourceDescription": "",
+    "enhancedDescription": "平海学院呈现东方院落与现代军事学院结合的面貌，青灰瓦顶与白墙构成主体建筑，深色木构件点缀其间。校园内分布传统庭院、回廊、石阶和露天训练场地，教学楼与训练馆融入园林式布局。日间柔和自然光透过回廊和树影，夜间暖黄色仿古灯饰照亮道路，整体氛围端肃而古雅。",
+    "supplementDescription": "青灰瓦顶、白墙与深色木构件的东方院落，配传统回廊、石阶、庭院和现代露天训练场，夜间以暖黄色仿古灯饰为主要照明"
+  },
+  {
+    "name": "地下黑场",
+    "tier": "candidate",
+    "fields": {
+      "time": "",
+      "layout": "",
+      "lighting": "",
+      "atmosphere": "",
+      "environment": "",
+      "actionContext": ""
+    },
+    "aliases": [
+      "地下机甲格斗场"
+    ],
+    "confidence": 0,
+    "entityType": "location",
+    "needsReview": true,
+    "visualFields": {
+      "time": "",
+      "layout": "",
+      "lighting": "",
+      "atmosphere": "",
+      "environment": "",
+      "actionContext": ""
+    },
+    "llmSupplement": "",
+    "missingFields": [
+      "environment",
+      "layout",
+      "atmosphere",
+      "lighting",
+      "time",
+      "actionContext"
+    ],
+    "visualDetails": {},
+    "inferredFields": [],
+    "sourceCoverage": "none",
+    "importanceScore": 0.119,
+    "completionStatus": "source_only",
+    "evidenceSnippets": [],
+    "finalDescription": "位于交易市场地下的非法机甲格斗场，按等级划分竞技区，供选手驾驶机甲对战并赚取高额奖金",
+    "summarizedFields": [],
+    "descriptionSource": "source",
+    "sourceDescription": "",
+    "enhancedDescription": "位于交易市场地下的非法机甲格斗场，按等级划分竞技区，供选手驾驶机甲对战并赚取高额奖金",
+    "supplementDescription": ""
+  },
+  {
+    "name": "帝国军事学院",
+    "tier": "candidate",
+    "fields": {
+      "time": "",
+      "layout": "",
+      "lighting": "",
+      "atmosphere": "",
+      "environment": "",
+      "actionContext": ""
+    },
+    "aliases": [
+      "帝都军事学院"
+    ],
+    "confidence": 0,
+    "entityType": "location",
+    "needsReview": true,
+    "visualFields": {
+      "time": "",
+      "layout": "",
+      "lighting": "",
+      "atmosphere": "",
+      "environment": "",
+      "actionContext": ""
+    },
+    "llmSupplement": "",
+    "missingFields": [
+      "environment",
+      "layout",
+      "atmosphere",
+      "lighting",
+      "time",
+      "actionContext"
+    ],
+    "visualDetails": {},
+    "inferredFields": [],
+    "sourceCoverage": "none",
+    "importanceScore": 0.119,
+    "completionStatus": "source_only",
+    "evidenceSnippets": [],
+    "finalDescription": "联邦五大军事学院中最强的一所，位于帝都星，学费昂贵，霍风和费明选择就读的学院",
+    "summarizedFields": [],
+    "descriptionSource": "source",
+    "sourceDescription": "",
+    "enhancedDescription": "联邦五大军事学院中最强的一所，位于帝都星，学费昂贵，霍风和费明选择就读的学院",
+    "supplementDescription": ""
+  }
+]

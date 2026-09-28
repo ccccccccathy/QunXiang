@@ -1,0 +1,346 @@
+[
+  {
+    "name": "军用机甲",
+    "tier": "candidate",
+    "fields": {
+      "usage": "",
+      "material": "",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [
+      "战机甲",
+      "战斗型机甲"
+    ],
+    "confidence": 0,
+    "entityType": "item",
+    "needsReview": true,
+    "visualFields": {
+      "usage": "躯干与四肢设外挂武器接口，可搭载冷兵器或热武器，驾驶舱位于前胸或头部附近",
+      "material": "哑光深灰金属复合装甲外壳，关节处露出黑色管线与机械咬合结构",
+      "condition": "外甲边缘有细小划痕和局部补漆痕迹，整体保持可作战状态",
+      "ownership": "军用作战序列的制式战斗兵器",
+      "colorShape": "人形轮廓，整体呈低饱和深灰涂装，部分外甲带暗色磨损纹；轻、中、重机型体量依次增大",
+      "visualEffects": "关节与推进口带有冷色微光，胸口和背部有细条状能量指示灯"
+    },
+    "llmSupplement": "深灰色哑光金属外壳，装甲板边缘有黑色密封缝，手指和膝关节处为多层机械结构，脚底与腿部后方可见推进口；胸甲中央和背部装有细条形冷光能量信号灯，整体呈现重型军用装备的坚实质感",
+    "missingFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "visualDetails": {
+      "scale": "轻装机甲约数米高，中装机甲更大，重装机甲可达数层楼高度",
+      "usage": "躯干和四肢设置外挂武器接口，驾驶舱位于前胸或头部附近",
+      "effects": "关节、胸口和推进口带有冷色微光，背部或腿部有能量指示条",
+      "condition": "外甲有细微划痕、磨损与局部补漆，整体显得坚固耐用",
+      "ownership": "军用作战序列的制式装备",
+      "colorShape": "人形机甲，深灰底色为主，局部暗色磨砂涂装，轻中重机型体量依次增大",
+      "materialTexture": "哑光深灰金属复合装甲，关节处露出黑色管线，表面有防滑纹与拼接缝"
+    },
+    "inferredFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "none",
+    "importanceScore": 0.231,
+    "completionStatus": "llm_inferred",
+    "evidenceSnippets": [],
+    "finalDescription": "军用机甲为人形结构，外壳采用哑光深灰金属复合装甲，关节与缝隙间露出黑色管线和机械咬合结构。轻、中、重三种机型体量依次增大，重装机甲可达数层楼高。机身表面常带细微划痕和局部补漆，胸甲和肩背处设有冷色能量指示条，四肢与背部留出外挂武器接口，可携带冷兵器或热武器。启动时关节和推进口会亮起冷色微光。",
+    "summarizedFields": [],
+    "descriptionSource": "mixed",
+    "sourceDescription": "",
+    "enhancedDescription": "军用机甲为人形结构，外壳采用哑光深灰金属复合装甲，关节与缝隙间露出黑色管线和机械咬合结构。轻、中、重三种机型体量依次增大，重装机甲可达数层楼高。机身表面常带细微划痕和局部补漆，胸甲和肩背处设有冷色能量指示条，四肢与背部留出外挂武器接口，可携带冷兵器或热武器。启动时关节和推进口会亮起冷色微光。",
+    "supplementDescription": "深灰色哑光金属外壳，装甲板边缘有黑色密封缝，手指和膝关节处为多层机械结构，脚底与腿部后方可见推进口；胸甲中央和背部装有细条形冷光能量信号灯，整体呈现重型军用装备的坚实质感"
+  },
+  {
+    "name": "营养液",
+    "tier": "candidate",
+    "fields": {
+      "usage": "",
+      "material": "",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [
+      "营养剂"
+    ],
+    "confidence": 0,
+    "entityType": "item",
+    "needsReview": true,
+    "visualFields": {
+      "usage": "外带式补给品，瓶身或软管可单手持握，开口处为密封盖",
+      "material": "透明或半透明复合材质小瓶或软管，管口带密封旋盖",
+      "condition": "密封完好，液面清透无明显浑浊或气泡",
+      "ownership": "常见于垃圾场与预备学校训练场景，作为便携补给品存放",
+      "colorShape": "便携小瓶或软管外形，内装清亮液体，随口味不同呈淡青、浅金、淡绿等浅色",
+      "visualEffects": "液体在光照下带轻微透亮光泽，管壁有细窄刻度线或标签条"
+    },
+    "llmSupplement": "瓶体做成圆角小管或软袋，瓶盖为旋拧式；液面平静，颜色均匀通透；包装表面有简洁的色带标签和容量刻度，整体像便携式液体补给容器",
+    "missingFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "visualDetails": {
+      "scale": "约一掌长度，便携易携带",
+      "usage": "外带式密封小瓶或软管，可单手持握",
+      "effects": "液体透光，映出浅色光泽；管壁有刻度线和标签条",
+      "condition": "密封完整，液面清亮，无浑浊或气泡",
+      "ownership": "垃圾场和学校训练中常见补给品",
+      "colorShape": "小瓶或软管状，手掌可握；液体呈淡青、浅金、淡绿等清浅颜色",
+      "materialTexture": "透明复合材质外壳，表面光滑，软管略具韧性"
+    },
+    "inferredFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "none",
+    "importanceScore": 0.231,
+    "completionStatus": "llm_inferred",
+    "evidenceSnippets": [],
+    "finalDescription": "营养液为便携式小型补给品，通常装于透明或半透明复合材质小瓶或软管中，约一掌长度，管口带密封旋盖。瓶内液体清亮，因不同口味呈现淡青、浅金、淡绿等浅色，在光照下带轻微透亮光泽。管壁印有细窄刻度线和标签条，密封完好，便于随身携带和外带使用。",
+    "summarizedFields": [],
+    "descriptionSource": "mixed",
+    "sourceDescription": "",
+    "enhancedDescription": "营养液为便携式小型补给品，通常装于透明或半透明复合材质小瓶或软管中，约一掌长度，管口带密封旋盖。瓶内液体清亮，因不同口味呈现淡青、浅金、淡绿等浅色，在光照下带轻微透亮光泽。管壁印有细窄刻度线和标签条，密封完好，便于随身携带和外带使用。",
+    "supplementDescription": "瓶体做成圆角小管或软袋，瓶盖为旋拧式；液面平静，颜色均匀通透；包装表面有简洁的色带标签和容量刻度，整体像便携式液体补给容器"
+  },
+  {
+    "name": "光脑",
+    "tier": "candidate",
+    "fields": {
+      "usage": "",
+      "material": "",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [
+      "终端"
+    ],
+    "confidence": 0,
+    "entityType": "item",
+    "needsReview": true,
+    "visualFields": {
+      "usage": "随身个人终端，支持触控和投影操作，可佩戴于手腕或放置使用",
+      "material": "轻质合金或哑光复合材料外壳，正面为深色镜面触控屏，边缘圆润",
+      "condition": "外观有轻微使用痕迹，表面略见细微磨痕，整体完好",
+      "ownership": "个人随身智能终端，常见于日常通讯与学习场景",
+      "colorShape": "小型矩形薄片或腕带式终端，银灰或深黑色机身，屏幕未点亮时呈深色镜面",
+      "visualEffects": "使用时可投射淡蓝色半透明光幕，屏幕点亮后显示清晰图形界面"
+    },
+    "llmSupplement": "屏幕边缘有一圈细窄金属包边，背部有轻微的磨砂质感和散热孔；光幕从设备前端浮起，呈淡蓝色半透明矩形，内容可悬空显示，整体有简洁克制的未来设备感",
+    "missingFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "visualDetails": {
+      "scale": "可佩戴于手腕或单手持握的小型设备",
+      "usage": "可佩戴于手腕或放置使用，支持触控和投影",
+      "effects": "投影出淡蓝半透明光幕，待机时屏幕如深色镜面",
+      "condition": "日常使用痕迹，表面有细磨痕，无破损",
+      "ownership": "个人随身终端",
+      "colorShape": "薄片或腕带式，银灰或深黑色机身，边角圆润",
+      "materialTexture": "磨砂金属或哑光复合外壳，屏幕为深色光面板，边缘有细窄金属包边"
+    },
+    "inferredFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "none",
+    "importanceScore": 0.119,
+    "completionStatus": "llm_inferred",
+    "evidenceSnippets": [],
+    "finalDescription": "光脑为便携式个人终端，外形是小型矩形薄片或腕带式设备，采用磨砂金属或哑光复合材料外壳，银灰或深黑色机身，边角圆润。正面覆盖深色镜面触控屏，待机时如黑色反光面板，使用时屏幕可投射出淡蓝色半透明光幕并显示清晰界面。机身轻巧，可佩戴在手腕上，也可单手持握操作。",
+    "summarizedFields": [],
+    "descriptionSource": "mixed",
+    "sourceDescription": "",
+    "enhancedDescription": "光脑为便携式个人终端，外形是小型矩形薄片或腕带式设备，采用磨砂金属或哑光复合材料外壳，银灰或深黑色机身，边角圆润。正面覆盖深色镜面触控屏，待机时如黑色反光面板，使用时屏幕可投射出淡蓝色半透明光幕并显示清晰界面。机身轻巧，可佩戴在手腕上，也可单手持握操作。",
+    "supplementDescription": "屏幕边缘有一圈细窄金属包边，背部有轻微的磨砂质感和散热孔；光幕从设备前端浮起，呈淡蓝色半透明矩形，内容可悬空显示，整体有简洁克制的未来设备感"
+  },
+  {
+    "name": "能源片",
+    "tier": "candidate",
+    "fields": {
+      "usage": "",
+      "material": "",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [
+      "能量片"
+    ],
+    "confidence": 0,
+    "entityType": "item",
+    "needsReview": true,
+    "visualFields": {
+      "usage": "薄片状能源载体，边缘设金属触点和卡扣，适用于机甲或工具的能量槽",
+      "material": "外层为高密度复合材质薄片，边角有金属包边，中间为半透明能量层",
+      "condition": "满能时能量层明亮通透，耗尽后暗淡近透明，边缘偶有细小磨痕",
+      "ownership": "配合机甲与各类工具使用，是常见便携能源载体",
+      "colorShape": "长方形薄片，约手掌大小，中间嵌有浅蓝或淡绿色能量层，表面可见网格状纹路",
+      "visualEffects": "能量层带微弱光晕，有细线状流光沿纹路缓慢游动，满能时更明显"
+    },
+    "llmSupplement": "薄片整体像一张半透明能量卡片，深色基座托住中央发光区域，光线从中心向边缘逐渐减弱；卡槽触点处为金色或银色金属细条，满能时轻微泛光，整体有精密能源元件的质感",
+    "missingFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "visualDetails": {
+      "scale": "约手掌大小，厚度很薄",
+      "usage": "插入机甲或工具能量槽，边缘有金属触点",
+      "effects": "能量层泛微弱冷光，内部有流光状能量纹路",
+      "condition": "满能时明亮，耗尽后暗淡，插槽接触处有轻微磨痕",
+      "ownership": "给机甲和工具供能的便携能源片",
+      "colorShape": "长方形薄片，手掌大小，浅蓝或淡绿色能量区，周围为深色基座",
+      "materialTexture": "高密度复合材质薄片，表面光滑，中间嵌有半透明能量层，边缘金属包边"
+    },
+    "inferredFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "sourceCoverage": "none",
+    "importanceScore": 0.119,
+    "completionStatus": "llm_inferred",
+    "evidenceSnippets": [],
+    "finalDescription": "能源片是一张约手掌大小的长方形薄片，厚度极薄。外壳采用高密度复合材质，边角包覆金属边，中间嵌有浅蓝或淡绿色半透明能量层，表面可见细密的网格状能量纹路。满能时能量层明亮通透，内部有冷色微光流动；耗尽后能量层变得暗淡近透明。薄片边缘带有卡扣和金属触点，可插入机甲或工具的能量槽中使用。",
+    "summarizedFields": [],
+    "descriptionSource": "mixed",
+    "sourceDescription": "",
+    "enhancedDescription": "能源片是一张约手掌大小的长方形薄片，厚度极薄。外壳采用高密度复合材质，边角包覆金属边，中间嵌有浅蓝或淡绿色半透明能量层，表面可见细密的网格状能量纹路。满能时能量层明亮通透，内部有冷色微光流动；耗尽后能量层变得暗淡近透明。薄片边缘带有卡扣和金属触点，可插入机甲或工具的能量槽中使用。",
+    "supplementDescription": "薄片整体像一张半透明能量卡片，深色基座托住中央发光区域，光线从中心向边缘逐渐减弱；卡槽触点处为金色或银色金属细条，满能时轻微泛光，整体有精密能源元件的质感"
+  },
+  {
+    "name": "观赏型机甲",
+    "tier": "candidate",
+    "fields": {
+      "usage": "",
+      "material": "",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [
+      "观赏机甲"
+    ],
+    "confidence": 0,
+    "entityType": "item",
+    "needsReview": true,
+    "visualFields": {
+      "usage": "",
+      "material": "",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "llmSupplement": "",
+    "missingFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "visualDetails": {},
+    "inferredFields": [],
+    "sourceCoverage": "none",
+    "importanceScore": 0.119,
+    "completionStatus": "source_only",
+    "evidenceSnippets": [],
+    "finalDescription": "非战斗用途的机甲，外观好看但防御和战斗力很低，多数用于展示或收藏，价格相对便宜",
+    "summarizedFields": [],
+    "descriptionSource": "source",
+    "sourceDescription": "",
+    "enhancedDescription": "非战斗用途的机甲，外观好看但防御和战斗力很低，多数用于展示或收藏，价格相对便宜",
+    "supplementDescription": ""
+  },
+  {
+    "name": "三轮车",
+    "tier": "candidate",
+    "fields": {
+      "usage": "",
+      "material": "",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "aliases": [
+      "破烂三轮车",
+      "改装三轮车"
+    ],
+    "confidence": 0,
+    "entityType": "item",
+    "needsReview": true,
+    "visualFields": {
+      "usage": "",
+      "material": "",
+      "condition": "",
+      "ownership": "",
+      "colorShape": "",
+      "visualEffects": ""
+    },
+    "llmSupplement": "",
+    "missingFields": [
+      "material",
+      "colorShape",
+      "condition",
+      "usage",
+      "visualEffects",
+      "ownership"
+    ],
+    "visualDetails": {},
+    "inferredFields": [],
+    "sourceCoverage": "none",
+    "importanceScore": 0.119,
+    "completionStatus": "source_only",
+    "evidenceSnippets": [],
+    "finalDescription": "卫三利用垃圾场捡来的废料拼装改造的人力三轮车，可以在路上骑行，是卫三早期代步和运输工具，后被霍风买走",
+    "summarizedFields": [],
+    "descriptionSource": "source",
+    "sourceDescription": "",
+    "enhancedDescription": "卫三利用垃圾场捡来的废料拼装改造的人力三轮车，可以在路上骑行，是卫三早期代步和运输工具，后被霍风买走",
+    "supplementDescription": ""
+  }
+]
